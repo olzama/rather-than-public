@@ -1,0 +1,12 @@
+
+== A1: arXiv n=301, annoying 40; clause words annoying 6.3 vs legitimate 6.1 (Mann-Whitney p = 0.726)
+  Skywork/Skywork-Reward-V2-Qwen3-0.6B     annoying +0.26 (SE 0.14), p = 0.066
+  Skywork/Skywork-Reward-V2-Qwen3-1.7B     annoying +0.36 (SE 0.16), p = 0.0245
+  Skywork/Skywork-Reward-V2-Qwen3-8B       annoying +0.88 (SE 0.29), p = 0.00295
+  Skywork/Skywork-Reward-V2-Llama-3.1-8B   annoying +1.69 (SE 0.63), p = 0.00735
+
+== A2: arXiv n=290, annoying 26; clause words annoying 4.4 vs legitimate 6.4 (Mann-Whitney p = 4.81e-06)
+  Skywork/Skywork-Reward-V2-Qwen3-0.6B     annoying +0.09 (SE 0.18), p = 0.621
+  Skywork/Skywork-Reward-V2-Qwen3-1.7B     annoying +0.20 (SE 0.21), p = 0.343
+  Skywork/Skywork-Reward-V2-Qwen3-8B       annoying +0.43 (SE 0.38), p = 0.256
+  Skywork/Skywork-Reward-V2-Llama-3.1-8B   annoying +0.72 (SE 0.78), p = 0.36

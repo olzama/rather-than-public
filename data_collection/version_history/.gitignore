@@ -1,0 +1,7 @@
+# Safety net: pipeline output should be written to ../../data (outside
+# this repo), but ignore it here too in case a run's out_dir defaults in.
+repos/
+hunks/
+*.tsv
+*.jsonl
+__pycache__/

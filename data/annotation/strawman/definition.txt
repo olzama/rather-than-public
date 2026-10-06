@@ -1,0 +1,8 @@
+Straw man: the rejected alternative is something no competent author in the field would seriously adopt or defend, so rejecting it tells the reader nothing. Typical forms:
+- Absolute or overclaiming: "guaranteeing correct output on every input", "proving the method works for all languages"
+- An error, flaw or cheat: "tuning hyperparameters on the test set", "reporting only the best of many runs"
+- A naive simplification nobody currently uses: "picking answers at random", "ignoring the input altogether"
+
+Not a straw man: a real option that someone plausibly uses or that a reader might assume, such as an existing method, a common default, or a design choice ("fine-tuning all parameters", "greedy decoding", "a rule-based baseline").
+
+Judge the highlighted alternative in its sentence.

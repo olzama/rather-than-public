@@ -1,0 +1,32 @@
+
+== Skywork/Skywork-Reward-V2-Qwen3-0.6B  (424 items with a control)
+  original - deleted     n= 424  mean +0.876  median +0.641  >0: 89.2%  Wilcoxon p = 1.21e-58
+  control - deleted      n= 424  mean +0.620  median +0.435  >0: 76.4%  Wilcoxon p = 4.99e-39
+  original - control     n= 424  mean +0.256  median +0.204  >0: 70.5%  Wilcoxon p = 1.12e-19
+    ACL 2019: orig - ctl n=  90  mean +0.148  median +0.117  >0: 62.2%  Wilcoxon p = 0.0153
+    arXiv 2026: orig - ctl n= 334  mean +0.285  median +0.240  >0: 72.8%  Wilcoxon p = 2.16e-19
+  Spearman (control - deleted) vs clause length: rho = +0.35, p = 2.01e-13
+
+== Skywork/Skywork-Reward-V2-Qwen3-1.7B  (424 items with a control)
+  original - deleted     n= 424  mean +0.832  median +0.661  >0: 84.0%  Wilcoxon p = 7.26e-48
+  control - deleted      n= 424  mean +0.538  median +0.333  >0: 72.9%  Wilcoxon p = 2.37e-27
+  original - control     n= 424  mean +0.294  median +0.200  >0: 66.5%  Wilcoxon p = 5.73e-15
+    ACL 2019: orig - ctl n=  90  mean +0.068  median +0.021  >0: 51.1%  Wilcoxon p = 0.441
+    arXiv 2026: orig - ctl n= 334  mean +0.354  median +0.268  >0: 70.7%  Wilcoxon p = 3.54e-17
+  Spearman (control - deleted) vs clause length: rho = +0.25, p = 1.57e-07
+
+== Skywork/Skywork-Reward-V2-Qwen3-8B  (424 items with a control)
+  original - deleted     n= 424  mean +1.542  median +1.225  >0: 88.7%  Wilcoxon p = 6.19e-52
+  control - deleted      n= 424  mean +0.909  median +0.672  >0: 74.8%  Wilcoxon p = 5.83e-31
+  original - control     n= 424  mean +0.633  median +0.503  >0: 70.5%  Wilcoxon p = 1.6e-18
+    ACL 2019: orig - ctl n=  90  mean +0.264  median +0.158  >0: 57.8%  Wilcoxon p = 0.0709
+    arXiv 2026: orig - ctl n= 334  mean +0.732  median +0.611  >0: 74.0%  Wilcoxon p = 3.43e-19
+  Spearman (control - deleted) vs clause length: rho = +0.26, p = 5.14e-08
+
+== Skywork/Skywork-Reward-V2-Llama-3.1-8B  (424 items with a control)
+  original - deleted     n= 424  mean +2.455  median +1.703  >0: 76.2%  Wilcoxon p = 6.17e-36
+  control - deleted      n= 424  mean +1.327  median +0.918  >0: 64.4%  Wilcoxon p = 3.05e-15
+  original - control     n= 424  mean +1.128  median +0.941  >0: 69.6%  Wilcoxon p = 1.76e-16
+    ACL 2019: orig - ctl n=  90  mean +0.964  median +0.870  >0: 66.7%  Wilcoxon p = 0.000599
+    arXiv 2026: orig - ctl n= 334  mean +1.172  median +0.953  >0: 70.4%  Wilcoxon p = 6.51e-14
+  Spearman (control - deleted) vs clause length: rho = +0.21, p = 1.35e-05

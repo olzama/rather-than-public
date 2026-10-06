@@ -1,0 +1,26 @@
+Mean LLM sentiment rating (-2..+2):
+  llm: original +0.021, control +0.132, deleted +0.068
+
+== Skywork/Skywork-Reward-V2-Qwen3-0.6B  (424 items)
+  [llm] original - deleted: raw mean +0.876; sentiment diff mean -0.047; corr w/ reward diff rho = -0.05
+      OLS intercept -0.483 (SE 0.203, p = 0.0177); sentiment diff -0.062 (SE 0.098, p = 0.527); log clause length +0.785 (SE 0.115, p = 2.56e-11)
+  [llm] original - control: raw mean +0.256; sentiment diff mean -0.111; corr w/ reward diff rho = -0.04
+      OLS intercept +0.247 (SE 0.030, p = 1.7e-15); sentiment diff -0.082 (SE 0.056, p = 0.147)
+
+== Skywork/Skywork-Reward-V2-Qwen3-1.7B  (424 items)
+  [llm] original - deleted: raw mean +0.832; sentiment diff mean -0.047; corr w/ reward diff rho = -0.09
+      OLS intercept -0.179 (SE 0.227, p = 0.431); sentiment diff -0.147 (SE 0.109, p = 0.178); log clause length +0.580 (SE 0.128, p = 7.38e-06)
+  [llm] original - control: raw mean +0.294; sentiment diff mean -0.111; corr w/ reward diff rho = -0.11
+      OLS intercept +0.272 (SE 0.039, p = 1.32e-11); sentiment diff -0.191 (SE 0.074, p = 0.0101)
+
+== Skywork/Skywork-Reward-V2-Qwen3-8B  (424 items)
+  [llm] original - deleted: raw mean +1.542; sentiment diff mean -0.047; corr w/ reward diff rho = -0.01
+      OLS intercept -0.531 (SE 0.391, p = 0.175); sentiment diff +0.010 (SE 0.188, p = 0.958); log clause length +1.199 (SE 0.221, p = 9.09e-08)
+  [llm] original - control: raw mean +0.633; sentiment diff mean -0.111; corr w/ reward diff rho = +0.02
+      OLS intercept +0.634 (SE 0.072, p = 3.43e-17); sentiment diff +0.010 (SE 0.136, p = 0.94)
+
+== Skywork/Skywork-Reward-V2-Llama-3.1-8B  (424 items)
+  [llm] original - deleted: raw mean +2.455; sentiment diff mean -0.047; corr w/ reward diff rho = -0.07
+      OLS intercept -1.508 (SE 0.808, p = 0.0627); sentiment diff -0.666 (SE 0.389, p = 0.0877); log clause length +2.274 (SE 0.456, p = 8.84e-07)
+  [llm] original - control: raw mean +1.128; sentiment diff mean -0.111; corr w/ reward diff rho = -0.04
+      OLS intercept +1.098 (SE 0.148, p = 6.43e-13); sentiment diff -0.272 (SE 0.279, p = 0.33)

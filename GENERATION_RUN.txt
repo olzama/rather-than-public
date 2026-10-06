@@ -1,0 +1,125 @@
+LLM-written papers, batch 2: instructions for running on a server
+=================================================================
+
+What it does: each model writes an ACL-style paper from the title and abstract
+of 100 real papers (50 ACL 2019, 50 arXiv 2026, drawn at random), a reviewer
+model (gpt-4o, config key evaluation.model_name) reviews each paper, and the
+same model revises its paper in response to the review. Three models, same
+100 papers: gpt-4o, gpt-5.6-sol, gpt-6-sol. Every paper ever drawn is recorded
+in paper_pipeline/used_papers.tsv, and a new batch never draws them again; the
+documents in data/excluded_documents.tsv are never drawn either.
+
+Needs: Python 3.10 or newer, internet access, an OpenAI API key. No GPU (all
+models are called through the OpenAI API). The script prints the estimated
+cost of each run.
+
+
+1. Get the code
+---------------
+Clone the repository:
+
+    git clone https://github.com/olzama/rather-than-public.git
+    cd rather-than-public
+
+If the repo is already there:  cd rather-than-public && git pull
+
+All commands below run from the repository root (rather-than-public/).
+
+
+2. Set up Python (once)
+-----------------------
+    python3 -m venv ~/gen-env
+    source ~/gen-env/bin/activate
+    pip install --upgrade pip
+    pip install "openai>=1.108.2,<2" "python-dotenv>=1.1.1,<2" "pyyaml>=6,<7" "tqdm>=4.67.1,<5"
+
+(paper_pipeline/requirements.txt also lists torch and transformers; they are
+only needed for local models and can be skipped here.)
+
+In later sessions, only run:  source ~/gen-env/bin/activate
+
+
+3. API key
+----------
+Create a file named .env in the repository root containing one line:
+
+    OPENAI_API_KEY=sk-...
+
+.env is in .gitignore. Never commit the key or paste it into any file that
+is tracked by git.
+
+
+4. Configs
+----------
+One config per model is in the repo: paper_pipeline/config/gpt-4o.yaml,
+gpt-5.6-sol.yaml and gpt-6-sol.yaml (model name, output limit 16384 tokens,
+reviewer gpt-4o at temperature 0.8). Outputs go to a folder named after the
+model (gpt-4o/, gpt-5.6-sol/, gpt-6-sol/) in the repository root, with a
+pipeline.log and the sample_ids.tsv of the papers drawn.
+
+
+5. Quick test (2 papers, a few cents)
+-------------------------------------
+The test draws 2 papers without recording them in the registry:
+
+    PYTHONPATH=paper_pipeline/src python3 -m paper_pipeline.sample_ids \
+        --n 2 --seed 1 --out /tmp/test_ids.tsv
+    PYTHONPATH=paper_pipeline/src python3 -m paper_pipeline.main \
+        --config paper_pipeline/config/gpt-4o.yaml --ids-file /tmp/test_ids.tsv
+    ls gpt-4o/*
+
+You should see two .md files in each paper folder, gpt-4o/pipeline.log and
+gpt-4o/sample_ids.tsv. Then delete gpt-4o/.
+
+
+6. Full run
+-----------
+First run "git pull", so the registry of used papers is current. Choose a new
+batch name (batch3, batch4, ...) and any number of papers. The first model's
+run draws the papers and appends them to paper_pipeline/used_papers.tsv; the
+other models of the batch reuse exactly those papers.
+
+    B=batch3
+    for M in gpt-5.6-sol gpt-6-sol gpt-4o; do
+      PYTHONPATH=paper_pipeline/src python3 -m paper_pipeline.main \
+          --config paper_pipeline/config/$M.yaml --batch $B --num-papers 100
+    done
+
+(Wrap the loop in nohup bash -c '...' > $B.log 2>&1 & to keep it running
+after logout.) Then commit the registry right away, so no other batch reuses
+these papers:
+
+    git add paper_pipeline/used_papers.tsv
+    git commit -m "Record $B papers"
+    git push
+
+To rerun one model of a batch later, use the same --batch name; it reuses the
+batch's papers (--num-papers must match or be left out).
+
+A response cut off at the output limit is logged as a failure in
+<model>/pipeline.log. If a run stops during generation, rerun that model with
+the same --batch (generation starts over). If it stops during review or
+revision, finish those stages without redoing the rest (M = the model, e.g.
+gpt-4o, which names both its config and its output folder):
+
+    PYTHONPATH=paper_pipeline/src python3 -m paper_pipeline.main --config paper_pipeline/config/$M.yaml \
+        --stage review --papers-dir $M/generated_papers --skip-existing
+    PYTHONPATH=paper_pipeline/src python3 -m paper_pipeline.main --config paper_pipeline/config/$M.yaml \
+        --stage revise --papers-dir $M/generated_papers --reviews-dir $M/evaluated_papers --skip-existing
+
+
+7. Check and send the results
+-----------------------------
+Each model should have one file per paper in each of its three folders:
+
+    for M in gpt-5.6-sol gpt-6-sol gpt-4o; do
+      echo $M; for d in generated_papers evaluated_papers revised_papers; do ls $M/$d | grep -c "\.md$"; done
+    done
+    grep -i -h "error\|failed\|truncated" */pipeline.log | tail -20
+
+Then pack everything and send the file to the authors:
+
+    tar czf ${B}_generation.tar.gz gpt-5.6-sol gpt-6-sol gpt-4o
+
+Do not commit the model folders to git. The finished batches used in the paper
+are archived in data/generated/gpt_papers/ (see its README).

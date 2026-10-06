@@ -1,0 +1,254 @@
+<title>Who Wrote This</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f3f2ee;
+    --surface: #ffffff;
+    --surface-2: #ebe9e3;
+    --ink: #1d1c19;
+    --ink-secondary: #57544c;
+    --ink-muted: #8b877d;
+    --border: #dddad2;
+    --accent: #3d5a80;
+    --accent-ink: #ffffff;
+    --human: #2f7a4f;
+    --human-wash: #e4f1e8;
+    --llm: #8a4b9e;
+    --llm-wash: #f1e7f4;
+    --warn: #ab4f2d;
+    --warn-wash: #f5e9e2;
+    --shadow: 0 1px 2px rgba(29, 28, 25, 0.06), 0 8px 24px -12px rgba(29, 28, 25, 0.18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #161614; --surface: #1e1e1b; --surface-2: #272723; --ink: #eeede8; --ink-secondary: #b9b6ad;
+      --ink-muted: #807d74; --border: #34332e; --accent: #7fa3d1; --accent-ink: #0d1117;
+      --human: #5cb37d; --human-wash: #1c2a20; --llm: #c08ad2; --llm-wash: #2a1f2e; --warn: #d98a63; --warn-wash: #2e2119;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #161614; --surface: #1e1e1b; --surface-2: #272723; --ink: #eeede8; --ink-secondary: #b9b6ad;
+    --ink-muted: #807d74; --border: #34332e; --accent: #7fa3d1; --accent-ink: #0d1117;
+    --human: #5cb37d; --human-wash: #1c2a20; --llm: #c08ad2; --llm-wash: #2a1f2e; --warn: #d98a63; --warn-wash: #2e2119;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; padding: 0 20px; padding-block: 28px 64px; }
+  .wrap { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+  .masthead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .masthead h1 { font-family: "Source Serif 4", Georgia, serif; font-size: 22px; font-weight: 600; margin: 0; }
+  .who { font-size: 13px; color: var(--ink-muted); }
+  .who button { font: inherit; color: var(--ink-muted); background: none; border: none; text-decoration: underline; cursor: pointer; padding: 0; }
+  .progress-label { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px; color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); padding: 28px 28px 24px; display: flex; flex-direction: column; gap: 16px; }
+  .passage { font-family: "Source Serif 4", Georgia, serif; font-size: 18px; line-height: 1.65; text-wrap: pretty; margin: 0; }
+  .question { font-size: 14px; font-weight: 600; color: var(--ink-secondary); margin: 0; }
+  .choices { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  @media (max-width: 560px) { .choices { grid-template-columns: 1fr 1fr; } }
+  .choice { font: inherit; font-size: 13.5px; font-weight: 600; cursor: pointer; border-radius: 10px; padding: 12px 8px; border: 1.5px solid var(--border); background: var(--surface); color: var(--ink-secondary); }
+  .choice kbd { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--ink-muted); margin-left: 5px; }
+  .choice:focus-visible, .nav button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .choice.h.sel { background: var(--human-wash); border-color: var(--human); color: var(--human); }
+  .choice.l.sel { background: var(--llm-wash); border-color: var(--llm); color: var(--llm); }
+  .choice:disabled { opacity: 0.45; cursor: progress; }
+  .nav { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+  .nav button { font: inherit; font-size: 13.5px; font-weight: 600; color: var(--ink-secondary); background: none; border: none; cursor: pointer; padding: 6px 4px; }
+  .nav button:disabled { opacity: 0.4; cursor: default; }
+  .save-note { font-size: 12px; color: var(--ink-muted); }
+  .meta { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11.5px; color: var(--ink-muted); }
+  .gate { min-height: 60vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 16px; }
+  .gate h1 { font-family: "Source Serif 4", Georgia, serif; font-size: 28px; margin: 0; }
+  .gate p { color: var(--ink-secondary); max-width: 48ch; line-height: 1.55; margin: 0; font-size: 15px; }
+  .gate input { font: inherit; font-size: 16px; padding: 12px 14px; border-radius: 9px; border: 1.5px solid var(--border); background: var(--surface); color: var(--ink); width: 260px; max-width: 100%; text-align: center; }
+  .gate button { font: inherit; font-size: 15px; font-weight: 700; padding: 12px 26px; border-radius: 9px; border: none; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+  .gate button:disabled { opacity: 0.45; cursor: default; }
+  .done { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 28px; text-align: center; }
+  .done h2 { font-family: "Source Serif 4", Georgia, serif; font-size: 22px; margin: 0 0 8px; }
+  .done p { color: var(--ink-secondary); margin: 0; }
+  .sheet-warning { background: var(--warn-wash); color: var(--warn); border: 1px solid var(--warn); border-radius: 10px; padding: 12px 16px; font-size: 14px; line-height: 1.5; }
+  @media (prefers-reduced-motion: no-preference) { .choice { transition: border-color 0.12s ease, background 0.12s ease; } }
+  [hidden] { display: none !important; }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<div class="wrap">
+  <div id="gate" class="gate">
+    <h1>Who Wrote This?</h1>
+    <p>Each passage is a few sentences from a research paper. Guess whether a person wrote it or it was generated by an LLM. Go with your impression.</p>
+    <input id="name-input" type="text" placeholder="Your name" autocomplete="off">
+    <button id="start-btn" disabled>Begin</button>
+  </div>
+
+  <div id="app" hidden>
+    <div class="masthead">
+      <h1>Who Wrote This?</h1>
+      <div class="who">as <strong id="who-name"></strong> &middot; <button id="switch-btn">switch</button></div>
+    </div>
+    <span class="progress-label" id="progress"></span>
+    <div class="sheet-warning" id="sheet-warning" role="alert" hidden>Some answers could not reach the server yet. They are kept in this browser and will be sent automatically; keep going, or reload later.</div>
+
+    <div id="item-view">
+      <div class="card">
+        <p class="passage" id="passage"></p>
+        <p class="question">Who wrote this passage?</p>
+        <div class="choices">
+          <button class="choice h" data-code="human">Human<kbd>1</kbd></button>
+          <button class="choice h" data-code="probably_human">Probably human<kbd>2</kbd></button>
+          <button class="choice l" data-code="probably_llm">Probably LLM<kbd>3</kbd></button>
+          <button class="choice l" data-code="llm">LLM<kbd>4</kbd></button>
+        </div>
+      </div>
+      <div class="nav">
+        <button id="prev-btn">&larr; previous</button>
+        <span class="save-note" id="save-note"></span>
+        <button id="next-btn">next &rarr;</button>
+      </div>
+      <div class="meta" id="meta"></div>
+    </div>
+
+    <div id="done" class="done" hidden>
+      <h2>All passages done</h2>
+      <p id="done-sub"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const PASSAGES = PASSAGES_PLACEHOLDER;
+SHEET_PLACEHOLDER
+  var CODES = ["human", "probably_human", "probably_llm", "llm"];
+  var state = { name: null, order: [], idx: 0, codes: {}, history: [], loading: false };
+  var $ = function (id) { return document.getElementById(id); };
+  function slug(s) { return (s || "").trim().toLowerCase().replace(/[^a-z0-9_\-.~:@+]+/g, "-").replace(/^-+|-+$/g, "") || "anon"; }
+  function seedFromString(str) {
+    var h = 1779033703 ^ str.length;
+    for (var i = 0; i < str.length; i++) { h = Math.imul(h ^ str.charCodeAt(i), 3432918353); h = (h << 13) | (h >>> 19); }
+    return function () {
+      h = Math.imul(h ^ (h >>> 16), 2246822507); h = Math.imul(h ^ (h >>> 13), 3266489909); h ^= h >>> 16;
+      return (h >>> 0) / 4294967296;
+    };
+  }
+  // a stable per-annotator order: each passage keeps its position if the set changes
+  function orderFor(items, seed) {
+    return items.map(function (it) { return { it: it, k: seedFromString(seed + "|" + it.pid)() }; })
+      .sort(function (a, b) { return a.k - b.k; }).map(function (x) { return x.it; });
+  }
+  function answered() { return state.order.filter(function (it) { return state.codes[it.pid]; }).length; }
+
+  function render() {
+    var list = state.order, n = answered();
+    $("progress").textContent = n + " / " + list.length + " done";
+    if (n >= list.length) {
+      $("item-view").hidden = true; $("done").hidden = false;
+      $("done-sub").textContent = "All " + list.length + " passages done. Thank you. You can go back with ← previous.";
+      return;
+    }
+    $("done").hidden = true; $("item-view").hidden = false;
+    var it = list[state.idx];
+    $("passage").textContent = it.text;
+    var code = state.codes[it.pid];
+    document.querySelectorAll(".choice").forEach(function (b) { b.classList.toggle("sel", b.dataset.code === code); });
+    $("prev-btn").disabled = state.history.length === 0 && state.idx === 0;
+    $("next-btn").disabled = state.idx >= list.length - 1;
+    $("meta").textContent = "";
+    $("save-note").textContent = "";
+  }
+
+  // Answers go to the Google Sheet as "auth:<pid>" (set "authorship"); unsent
+  // rows are kept in this browser and resent on the next save or load.
+  function pendingKey() { return "auth_pending_" + slug(state.name); }
+  function readPending() { try { return JSON.parse(localStorage.getItem(pendingKey()) || "[]"); } catch (e) { return []; } }
+  function writePending(q) { try { localStorage.setItem(pendingKey(), JSON.stringify(q)); } catch (e) {} }
+  function flushPending() {
+    var q = readPending();
+    if (!q.length) return Promise.resolve();
+    return fetch(SHEET_URL, {
+      method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify({ token: SHEET_TOKEN, action: "import", rows: q })
+    }).then(function (r) { return r.json(); }).then(function (j) {
+      if (!j || !j.ok) throw new Error("save failed");
+      writePending([]);
+    });
+  }
+  function setLoading(on) {
+    state.loading = on;
+    document.querySelectorAll(".choice").forEach(function (b) { b.disabled = on; });
+    if (on) $("save-note").textContent = "loading your saved answers…";
+  }
+
+  function save(code) {
+    if (state.loading) return;
+    var it = state.order[state.idx];
+    state.codes[it.pid] = code;
+    $("save-note").textContent = "saving…";
+    var q = readPending();
+    q.push({ annotator: state.name, item_id: "auth:" + it.pid, label: code, ts: Date.now(), set: "authorship" });
+    writePending(q);
+    flushPending().then(function () { $("save-note").textContent = "saved"; $("sheet-warning").hidden = true; },
+                        function () { $("save-note").textContent = "queued, will retry"; $("sheet-warning").hidden = false; });
+    setTimeout(function () {
+      var list = state.order, i = state.idx;
+      for (var step = 1; step <= list.length; step++) {
+        var cand = (i + step) % list.length;
+        if (!state.codes[list[cand].pid]) { state.history.push(i); state.idx = cand; break; }
+      }
+      render();
+    }, 200);
+  }
+
+  function firstOpen() {
+    for (var i = 0; i < state.order.length; i++) if (!state.codes[state.order[i].pid]) return i;
+    return 0;
+  }
+
+  function begin(name) {
+    state.name = name;
+    try { localStorage.setItem("auth_coder_name", name); } catch (e) {}
+    $("who-name").textContent = name;
+    state.order = orderFor(PASSAGES, name);
+    $("gate").hidden = true; $("app").hidden = false;
+    render();
+    setLoading(true);
+    fetch(SHEET_URL + "?token=" + encodeURIComponent(SHEET_TOKEN) + "&annotator=" + encodeURIComponent(name))
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (!j || !j.answers) throw new Error("load failed");
+        Object.keys(j.answers).forEach(function (id) {
+          var m = /^auth:(.+)$/.exec(id);
+          if (m) state.codes[m[1]] = j.answers[id];
+        });
+        return flushPending().then(function () { $("sheet-warning").hidden = true; },
+                                   function () { $("sheet-warning").hidden = false; });
+      })
+      .catch(function () { $("sheet-warning").hidden = false; })
+      .then(function () { setLoading(false); state.idx = firstOpen(); render(); });
+  }
+
+  $("name-input").addEventListener("input", function () { $("start-btn").disabled = !this.value.trim(); });
+  $("name-input").addEventListener("keydown", function (e) { if (e.key === "Enter" && this.value.trim()) begin(this.value.trim()); });
+  $("start-btn").addEventListener("click", function () { begin($("name-input").value.trim()); });
+  $("switch-btn").addEventListener("click", function () { try { localStorage.removeItem("auth_coder_name"); } catch (e) {} location.reload(); });
+  document.querySelectorAll(".choice").forEach(function (b) { b.addEventListener("click", function () { save(b.dataset.code); }); });
+  $("prev-btn").addEventListener("click", function () {
+    if (state.history.length) state.idx = state.history.pop();
+    else if (state.idx > 0) state.idx--;
+    render();
+  });
+  $("next-btn").addEventListener("click", function () {
+    if (state.idx < state.order.length - 1) { state.history.push(state.idx); state.idx++; render(); }
+  });
+  document.addEventListener("keydown", function (e) {
+    if ($("app").hidden || state.loading) return;
+    var k = parseInt(e.key, 10);
+    if (k >= 1 && k <= 4) save(CODES[k - 1]);
+  });
+
+  var saved = null;
+  try { saved = localStorage.getItem("auth_coder_name"); } catch (e) {}
+  if (saved) begin(saved);
+})();
+</script>

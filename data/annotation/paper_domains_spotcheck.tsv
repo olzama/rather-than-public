@@ -1,0 +1,31 @@
+doc_id	llm_domain	llm_field	title	correct (y/n)	your_domain_if_n
+2605.09043	linguistics	computational pragmatics	Phase Transitions in Affective Meaning Divergence: The Hidden Drift Before the Break		
+2603.02082	linguistics	language acquisition	What Exactly do Children Receive in Language Acquisition? A Case Study on CHILDES with Automated Detection of Filler-Gap Dependencies		
+2604.16845	core_nlp	LLM safety training	DART: Mitigating Harm Drift in Difference-Aware LLMs via Distill-Audit-Repair Training		
+2609.03215	applied_domain	educational NLP	SWIM: Student Writing Simulation via Proficiency-Conditioned Generation		
+2609.00242	applied_domain	autonomous driving affordance prediction	CoLT-Drive: Counterfactual Long-Tail Benchmarking and Knowledge-Preserving Adaptation for Driving Affordance Prediction		
+2609.06438	core_nlp	LLM prompting for data visualization	InsightChain: Optimized Chain-of-Insight Analytics for LLM-driven Data Visualization		
+2608.01708	core_nlp	personalized dialogue agent memory	PGMem: Tightly Coupled Persona-Memory Graph for Lifelong Personalized Agents		
+2609.03330	applied_domain	computational social science	Less Is Moral: A CHARMing Framework for Moral Foundations Detection in Endorsement Behaviour		
+2601.13262	applied_domain	multilingual medical NLP	CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning		
+2604.18293	linguistics	psycholinguistics	An Existence Proof for Neural Language Models That Can Explain Garden-Path Effects via Surprisal		
+2609.01111	applied_domain	clinical NLP and EHR reasoning	ClinTraceBench: Source-Verifiable Longitudinal Clinical Reasoning over EHR-Derived Dialogues		
+2604.14651	applied_domain	clinical risk prediction	CURA: Clinical Uncertainty Risk Alignment for Language Model-Based Risk Prediction		
+2604.24444	core_nlp	human–LLM writing and style evaluation	Can You Make It Sound Like You? Post-Editing LLM-Generated Text for Personal Style		
+2603.22608	core_nlp	LLM evaluation	Understanding LLM Performance Degradation in Multi-Instance Processing: The Roles of Instance Count and Context Length		
+2609.00760	core_nlp	LLM refusal mechanisms	A Unified Mechanistic Analysis of Knowledge- and Safety-Based Refusals		
+2609.01356	core_nlp	multilingual LLM interpretability	Separating Syntax from Language: A Mechanistic Account of Translation in Multilingual LLMs		
+2609.11758	core_nlp	RAG safety evaluation	RAG-Safety-Bench: Reliable Evaluation of Retrieval-Augmented LLM Safety		
+2608.26118	core_nlp	long-form factuality evaluation	ElementCheck: Complexity-Aware Long-Form Text Factuality Evaluation via Sentence Elements		
+2609.03366	applied_domain	clinical NLP	Accountable AI with Grounded, Faithful, Consistent, Actionable Rationales: A Case Study in Clinical Trial Matching with VERDICT		
+2604.10452	applied_domain	computational olfaction	NOSE: Neural Olfactory-Semantic Embedding with Tri-Modal Orthogonal Contrastive Learning		
+2609.00823	core_nlp	LLM agent behavior and control	Polished but Unresolved: Identifying Late-Stage Pressure States in Long-Horizon Tool-Use Agents		
+2601.14007	core_nlp	LLM interpretability and alignment	BACH-V: Bridging Abstract and Concrete Human-Values in Large Language Models		
+2609.03597	applied_domain	legal document understanding	KhatianDoc: A Human-Verified Benchmark Diagnosing Multimodal LLM Failure on Bengali Legal Land Records		
+2604.05158	core_nlp	zero-shot named entity recognition	Just Pass Twice: Efficient Token Classification with LLMs for Zero-Shot NER		
+2605.30947	applied_domain	computational humanities scholarship	Extending AI for Research to the Humanities: A Multi-Agent Framework for Evidence-Grounded Scholarship		
+2601.05062	core_nlp	LLM controllability and steering	Compositional Steering of Large Language Models with Steering Tokens		
+2605.05818	core_nlp	RAG security evaluation	LeakDojo: Decoding the Leakage Threats of RAG Systems		
+2606.02907	core_nlp	LLM mechanistic interpretability	Linear Probes Detect Task Format, Not Reasoning Mode in Language Model Hidden States		
+2601.10085	applied_domain	mental health dialogue generation	CALM-IT: Generating Realistic Long-Form Motivational Interviewing Dialogues with Dual-Actor Conversational Dynamics Tracking		
+2608.23095	applied_domain	media bias analysis	Definitional Sensitivity in Media Bias Detection: A Multi-Definition Dataset and Benchmark		

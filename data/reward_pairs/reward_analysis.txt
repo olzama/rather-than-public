@@ -1,0 +1,56 @@
+
+== Skywork/Skywork-Reward-V2-Qwen3-0.6B
+  ACL 2019                           n=  90  mean +0.998  median +0.777  prefers original 87.8%  Wilcoxon p = 9.78e-14
+  arXiv 2026                         n= 334  mean +0.844  median +0.632  prefers original 89.5%  Wilcoxon p = 6.43e-47
+  ACL 2019 vs arXiv 2026: Mann-Whitney p = 0.335
+  arXiv, A1 annoying               n=  40  mean +1.089  median +0.961  prefers original 90.0%  Wilcoxon p = 2.49e-10
+  arXiv, A1 legitimate             n= 261  mean +0.812  median +0.578  prefers original 89.7%  Wilcoxon p = 5.09e-36
+  annoying vs legitimate (A1): Mann-Whitney p = 0.0444
+  arXiv, A2 annoying             n=  26  mean +0.584  median +0.441  prefers original 88.5%  Wilcoxon p = 2.34e-05
+  arXiv, A2 legitimate           n= 264  mean +0.895  median +0.641  prefers original 90.9%  Wilcoxon p = 4.13e-38
+  annoying vs legitimate (A2): Mann-Whitney p = 0.109
+  OLS intercept          -0.366 (SE 0.217), p = 0.0916
+  OLS log clause length  +0.802 (SE 0.114), p = 2.23e-12
+  OLS arXiv 2026         -0.187 (SE 0.109), p = 0.0875
+
+== Skywork/Skywork-Reward-V2-Qwen3-1.7B
+  ACL 2019                           n=  90  mean +0.931  median +0.780  prefers original 82.2%  Wilcoxon p = 4.68e-11
+  arXiv 2026                         n= 334  mean +0.805  median +0.612  prefers original 84.4%  Wilcoxon p = 2.02e-38
+  ACL 2019 vs arXiv 2026: Mann-Whitney p = 0.28
+  arXiv, A1 annoying               n=  40  mean +1.119  median +0.816  prefers original 95.0%  Wilcoxon p = 7.04e-08
+  arXiv, A1 legitimate             n= 261  mean +0.747  median +0.570  prefers original 82.8%  Wilcoxon p = 1.38e-28
+  annoying vs legitimate (A1): Mann-Whitney p = 0.0364
+  arXiv, A2 annoying             n=  26  mean +0.715  median +0.543  prefers original 84.6%  Wilcoxon p = 0.00031
+  arXiv, A2 legitimate           n= 264  mean +0.844  median +0.656  prefers original 84.8%  Wilcoxon p = 1.76e-31
+  annoying vs legitimate (A2): Mann-Whitney p = 0.372
+  OLS intercept          -0.067 (SE 0.244), p = 0.783
+  OLS log clause length  +0.587 (SE 0.128), p = 4.66e-06
+  OLS arXiv 2026         -0.150 (SE 0.123), p = 0.221
+
+== Skywork/Skywork-Reward-V2-Qwen3-8B
+  ACL 2019                           n=  90  mean +1.400  median +1.371  prefers original 84.4%  Wilcoxon p = 3.87e-11
+  arXiv 2026                         n= 334  mean +1.580  median +1.131  prefers original 89.8%  Wilcoxon p = 2.03e-42
+  ACL 2019 vs arXiv 2026: Mann-Whitney p = 0.74
+  arXiv, A1 annoying               n=  40  mean +2.330  median +1.602  prefers original 100.0%  Wilcoxon p = 1.82e-12
+  arXiv, A1 legitimate             n= 261  mean +1.430  median +1.025  prefers original 87.7%  Wilcoxon p = 2.94e-31
+  annoying vs legitimate (A1): Mann-Whitney p = 0.0253
+  arXiv, A2 annoying             n=  26  mean +1.499  median +1.077  prefers original 92.3%  Wilcoxon p = 1.28e-06
+  arXiv, A2 legitimate           n= 264  mean +1.643  median +1.225  prefers original 90.2%  Wilcoxon p = 3.87e-34
+  annoying vs legitimate (A2): Mann-Whitney p = 0.538
+  OLS intercept          -0.644 (SE 0.419), p = 0.124
+  OLS log clause length  +1.202 (SE 0.221), p = 5.13e-08
+  OLS arXiv 2026         +0.131 (SE 0.211), p = 0.535
+
+== Skywork/Skywork-Reward-V2-Llama-3.1-8B
+  ACL 2019                           n=  90  mean +2.856  median +2.304  prefers original 81.1%  Wilcoxon p = 2.05e-10
+  arXiv 2026                         n= 334  mean +2.347  median +1.488  prefers original 74.9%  Wilcoxon p = 6.66e-27
+  ACL 2019 vs arXiv 2026: Mann-Whitney p = 0.0609
+  arXiv, A1 annoying               n=  40  mean +3.867  median +1.805  prefers original 85.0%  Wilcoxon p = 2.28e-07
+  arXiv, A1 legitimate             n= 261  mean +2.137  median +1.484  prefers original 72.8%  Wilcoxon p = 2.77e-19
+  annoying vs legitimate (A1): Mann-Whitney p = 0.0902
+  arXiv, A2 annoying             n=  26  mean +2.089  median +1.049  prefers original 69.2%  Wilcoxon p = 0.00266
+  arXiv, A2 legitimate           n= 264  mean +2.516  median +1.703  prefers original 76.1%  Wilcoxon p = 7.78e-23
+  annoying vs legitimate (A2): Mann-Whitney p = 0.321
+  OLS intercept          -1.154 (SE 0.868), p = 0.183
+  OLS log clause length  +2.358 (SE 0.457), p = 2.4e-07
+  OLS arXiv 2026         -0.606 (SE 0.437), p = 0.165

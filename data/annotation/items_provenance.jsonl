@@ -1,0 +1,1041 @@
+{"item_id": "item_1213", "corpus": "acl2019", "doc_id": "S19-2174", "pattern_id": "rather_than", "char_start": 9053, "char_end": 9064, "match_text": "rather than"}
+{"item_id": "item_1214", "corpus": "acl2019", "doc_id": "R19-1058", "pattern_id": "rather_than", "char_start": 20355, "char_end": 20366, "match_text": "rather than"}
+{"item_id": "item_1215", "corpus": "acl2019", "doc_id": "N19-1406", "pattern_id": "rather_than", "char_start": 7606, "char_end": 7617, "match_text": "Rather than"}
+{"item_id": "item_1216", "corpus": "acl2019", "doc_id": "W19-2916", "pattern_id": "rather_than", "char_start": 9289, "char_end": 9300, "match_text": "rather than"}
+{"item_id": "item_1217", "corpus": "acl2019", "doc_id": "W19-5045", "pattern_id": "rather_than", "char_start": 350, "char_end": 361, "match_text": "rather than"}
+{"item_id": "item_1218", "corpus": "acl2019", "doc_id": "W19-4406", "pattern_id": "rather_than", "char_start": 54276, "char_end": 54287, "match_text": "rather than"}
+{"item_id": "item_1219", "corpus": "acl2019", "doc_id": "N19-1284", "pattern_id": "rather_than", "char_start": 3396, "char_end": 3407, "match_text": "rather than"}
+{"item_id": "item_1220", "corpus": "acl2019", "doc_id": "W19-8902", "pattern_id": "rather_than", "char_start": 273, "char_end": 284, "match_text": "rather than"}
+{"item_id": "item_1221", "corpus": "acl2019", "doc_id": "D19-5728", "pattern_id": "rather_than", "char_start": 836, "char_end": 847, "match_text": "rather than"}
+{"item_id": "item_1222", "corpus": "acl2019", "doc_id": "D19-5521", "pattern_id": "rather_than", "char_start": 5370, "char_end": 5381, "match_text": "rather than"}
+{"item_id": "item_1223", "corpus": "acl2019", "doc_id": "P19-1083", "pattern_id": "rather_than", "char_start": 5855, "char_end": 5866, "match_text": "rather than"}
+{"item_id": "item_1224", "corpus": "acl2019", "doc_id": "W19-6308", "pattern_id": "rather_than", "char_start": 25865, "char_end": 25876, "match_text": "rather than"}
+{"item_id": "item_1225", "corpus": "acl2019", "doc_id": "W19-3306", "pattern_id": "rather_than", "char_start": 25561, "char_end": 25572, "match_text": "rather than"}
+{"item_id": "item_1226", "corpus": "acl2019", "doc_id": "2019.gwc-1.34", "pattern_id": "rather_than", "char_start": 10742, "char_end": 10753, "match_text": "rather than"}
+{"item_id": "item_1227", "corpus": "acl2019", "doc_id": "P19-1278", "pattern_id": "rather_than", "char_start": 4143, "char_end": 4154, "match_text": "rather than"}
+{"item_id": "item_1228", "corpus": "acl2019", "doc_id": "P19-1253", "pattern_id": "rather_than", "char_start": 17460, "char_end": 17471, "match_text": "rather than"}
+{"item_id": "item_1229", "corpus": "acl2019", "doc_id": "2019.gwc-1.6", "pattern_id": "rather_than", "char_start": 7871, "char_end": 7882, "match_text": "rather than"}
+{"item_id": "item_1230", "corpus": "acl2019", "doc_id": "W19-4215", "pattern_id": "rather_than", "char_start": 21771, "char_end": 21782, "match_text": "rather than"}
+{"item_id": "item_1231", "corpus": "acl2019", "doc_id": "N19-1159", "pattern_id": "rather_than", "char_start": 26816, "char_end": 26827, "match_text": "rather than"}
+{"item_id": "item_1232", "corpus": "acl2019", "doc_id": "D19-1091", "pattern_id": "rather_than", "char_start": 12688, "char_end": 12699, "match_text": "rather than"}
+{"item_id": "item_1233", "corpus": "acl2019", "doc_id": "W19-1905", "pattern_id": "rather_than", "char_start": 28298, "char_end": 28309, "match_text": "rather than"}
+{"item_id": "item_1234", "corpus": "acl2019", "doc_id": "R19-1006", "pattern_id": "rather_than", "char_start": 10965, "char_end": 10976, "match_text": "rather than"}
+{"item_id": "item_1235", "corpus": "acl2019", "doc_id": "W19-1805", "pattern_id": "rather_than", "char_start": 8224, "char_end": 8235, "match_text": "rather than"}
+{"item_id": "item_1236", "corpus": "acl2019", "doc_id": "D19-6105", "pattern_id": "rather_than", "char_start": 12081, "char_end": 12092, "match_text": "rather than"}
+{"item_id": "item_1237", "corpus": "acl2019", "doc_id": "W19-4209", "pattern_id": "rather_than", "char_start": 25196, "char_end": 25207, "match_text": "rather than"}
+{"item_id": "item_1238", "corpus": "acl2019", "doc_id": "R19-1060", "pattern_id": "rather_than", "char_start": 30373, "char_end": 30384, "match_text": "rather than"}
+{"item_id": "item_1239", "corpus": "acl2019", "doc_id": "P19-1514", "pattern_id": "rather_than", "char_start": 6694, "char_end": 6705, "match_text": "rather than"}
+{"item_id": "item_1240", "corpus": "acl2019", "doc_id": "D19-1445", "pattern_id": "rather_than", "char_start": 4865, "char_end": 4876, "match_text": "rather than"}
+{"item_id": "item_1241", "corpus": "acl2019", "doc_id": "D19-1544", "pattern_id": "rather_than", "char_start": 4445, "char_end": 4456, "match_text": "rather than"}
+{"item_id": "item_1242", "corpus": "acl2019", "doc_id": "Q19-1043", "pattern_id": "rather_than", "char_start": 41928, "char_end": 41939, "match_text": "rather than"}
+{"item_id": "item_1243", "corpus": "acl2019", "doc_id": "Q19-1033", "pattern_id": "rather_than", "char_start": 54325, "char_end": 54336, "match_text": "rather than"}
+{"item_id": "item_1244", "corpus": "acl2019", "doc_id": "W19-2802", "pattern_id": "rather_than", "char_start": 5424, "char_end": 5435, "match_text": "rather than"}
+{"item_id": "item_1245", "corpus": "acl2019", "doc_id": "N19-1069", "pattern_id": "rather_than", "char_start": 17425, "char_end": 17436, "match_text": "rather than"}
+{"item_id": "item_1246", "corpus": "acl2019", "doc_id": "W19-4001", "pattern_id": "rather_than", "char_start": 5687, "char_end": 5698, "match_text": "rather than"}
+{"item_id": "item_1247", "corpus": "acl2019", "doc_id": "D19-1110", "pattern_id": "rather_than", "char_start": 17581, "char_end": 17592, "match_text": "rather than"}
+{"item_id": "item_1248", "corpus": "acl2019", "doc_id": "W19-4809", "pattern_id": "rather_than", "char_start": 6515, "char_end": 6526, "match_text": "rather than"}
+{"item_id": "item_1249", "corpus": "acl2019", "doc_id": "W19-6008", "pattern_id": "rather_than", "char_start": 19362, "char_end": 19373, "match_text": "rather than"}
+{"item_id": "item_1250", "corpus": "acl2019", "doc_id": "J19-3004", "pattern_id": "rather_than", "char_start": 9370, "char_end": 9381, "match_text": "rather than"}
+{"item_id": "item_1251", "corpus": "acl2019", "doc_id": "W19-4226", "pattern_id": "rather_than", "char_start": 5987, "char_end": 5998, "match_text": "Rather than"}
+{"item_id": "item_1252", "corpus": "acl2019", "doc_id": "P19-1271", "pattern_id": "rather_than", "char_start": 4954, "char_end": 4965, "match_text": "rather than"}
+{"item_id": "item_1253", "corpus": "acl2019", "doc_id": "W19-4801", "pattern_id": "rather_than", "char_start": 516, "char_end": 527, "match_text": "rather than"}
+{"item_id": "item_1254", "corpus": "acl2019", "doc_id": "D19-1170", "pattern_id": "rather_than", "char_start": 2148, "char_end": 2159, "match_text": "rather than"}
+{"item_id": "item_1255", "corpus": "acl2019", "doc_id": "2019.gwc-1.30", "pattern_id": "rather_than", "char_start": 6006, "char_end": 6017, "match_text": "rather than"}
+{"item_id": "item_1256", "corpus": "acl2019", "doc_id": "N19-1090", "pattern_id": "rather_than", "char_start": 32347, "char_end": 32358, "match_text": "rather than"}
+{"item_id": "item_1257", "corpus": "acl2019", "doc_id": "P19-1243", "pattern_id": "rather_than", "char_start": 18333, "char_end": 18344, "match_text": "rather than"}
+{"item_id": "item_1258", "corpus": "acl2019", "doc_id": "W19-3216", "pattern_id": "rather_than", "char_start": 12779, "char_end": 12790, "match_text": "rather than"}
+{"item_id": "item_1259", "corpus": "acl2019", "doc_id": "W19-3824", "pattern_id": "rather_than", "char_start": 23265, "char_end": 23276, "match_text": "rather than"}
+{"item_id": "item_1260", "corpus": "acl2019", "doc_id": "N19-1159", "pattern_id": "rather_than", "char_start": 22196, "char_end": 22207, "match_text": "rather than"}
+{"item_id": "item_1261", "corpus": "acl2019", "doc_id": "K19-1038", "pattern_id": "rather_than", "char_start": 15029, "char_end": 15040, "match_text": "rather than"}
+{"item_id": "item_1262", "corpus": "acl2019", "doc_id": "P19-1467", "pattern_id": "rather_than", "char_start": 32002, "char_end": 32013, "match_text": "rather than"}
+{"item_id": "item_1263", "corpus": "acl2019", "doc_id": "N19-1159", "pattern_id": "rather_than", "char_start": 24349, "char_end": 24360, "match_text": "rather than"}
+{"item_id": "item_1264", "corpus": "acl2019", "doc_id": "W19-6124", "pattern_id": "rather_than", "char_start": 3247, "char_end": 3258, "match_text": "rather than"}
+{"item_id": "item_1265", "corpus": "acl2019", "doc_id": "D19-1099", "pattern_id": "rather_than", "char_start": 30738, "char_end": 30749, "match_text": "rather than"}
+{"item_id": "item_1266", "corpus": "acl2019", "doc_id": "W19-4516", "pattern_id": "rather_than", "char_start": 13625, "char_end": 13636, "match_text": "rather than"}
+{"item_id": "item_1267", "corpus": "acl2019", "doc_id": "K19-1002", "pattern_id": "rather_than", "char_start": 12135, "char_end": 12146, "match_text": "Rather than"}
+{"item_id": "item_1268", "corpus": "acl2019", "doc_id": "K19-2001", "pattern_id": "rather_than", "char_start": 45455, "char_end": 45466, "match_text": "rather than"}
+{"item_id": "item_1269", "corpus": "acl2019", "doc_id": "W19-3114", "pattern_id": "rather_than", "char_start": 9088, "char_end": 9099, "match_text": "rather than"}
+{"item_id": "item_1270", "corpus": "acl2019", "doc_id": "2019.lilt-18.6", "pattern_id": "rather_than", "char_start": 49764, "char_end": 49775, "match_text": "rather than"}
+{"item_id": "item_1271", "corpus": "acl2019", "doc_id": "D19-5556", "pattern_id": "rather_than", "char_start": 23209, "char_end": 23220, "match_text": "rather than"}
+{"item_id": "item_1272", "corpus": "acl2019", "doc_id": "D19-6219", "pattern_id": "rather_than", "char_start": 34703, "char_end": 34714, "match_text": "rather than"}
+{"item_id": "item_1273", "corpus": "acl2019", "doc_id": "D19-1071", "pattern_id": "rather_than", "char_start": 26059, "char_end": 26070, "match_text": "rather than"}
+{"item_id": "item_1274", "corpus": "acl2019", "doc_id": "S19-2046", "pattern_id": "rather_than", "char_start": 4923, "char_end": 4934, "match_text": "rather than"}
+{"item_id": "item_1275", "corpus": "acl2019", "doc_id": "D19-1666", "pattern_id": "rather_than", "char_start": 5728, "char_end": 5739, "match_text": "rather than"}
+{"item_id": "item_1276", "corpus": "acl2019", "doc_id": "D19-1448", "pattern_id": "rather_than", "char_start": 24779, "char_end": 24790, "match_text": "rather than"}
+{"item_id": "item_1277", "corpus": "acl2019", "doc_id": "N19-1081", "pattern_id": "rather_than", "char_start": 13308, "char_end": 13319, "match_text": "rather than"}
+{"item_id": "item_1278", "corpus": "acl2019", "doc_id": "N19-1173", "pattern_id": "rather_than", "char_start": 18024, "char_end": 18035, "match_text": "rather than"}
+{"item_id": "item_1279", "corpus": "acl2019", "doc_id": "W19-5208", "pattern_id": "rather_than", "char_start": 181, "char_end": 192, "match_text": "rather than"}
+{"item_id": "item_1280", "corpus": "acl2019", "doc_id": "D19-1273", "pattern_id": "rather_than", "char_start": 29694, "char_end": 29705, "match_text": "rather than"}
+{"item_id": "item_1281", "corpus": "acl2019", "doc_id": "D19-1270", "pattern_id": "rather_than", "char_start": 3114, "char_end": 3125, "match_text": "rather than"}
+{"item_id": "item_1282", "corpus": "acl2019", "doc_id": "K19-1003", "pattern_id": "rather_than", "char_start": 26781, "char_end": 26792, "match_text": "rather than"}
+{"item_id": "item_1283", "corpus": "acl2019", "doc_id": "2019.lilt-18.3", "pattern_id": "rather_than", "char_start": 19252, "char_end": 19263, "match_text": "rather than"}
+{"item_id": "item_1284", "corpus": "acl2019", "doc_id": "W19-6704", "pattern_id": "rather_than", "char_start": 17432, "char_end": 17443, "match_text": "rather than"}
+{"item_id": "item_1285", "corpus": "acl2019", "doc_id": "2019.clicit-1.12", "pattern_id": "rather_than", "char_start": 9294, "char_end": 9305, "match_text": "rather than"}
+{"item_id": "item_1286", "corpus": "acl2019", "doc_id": "W19-3802", "pattern_id": "rather_than", "char_start": 1905, "char_end": 1916, "match_text": "rather than"}
+{"item_id": "item_1722", "corpus": "arxiv2026", "doc_id": "2609.00921", "pattern_id": "rather_than", "char_start": 65490, "char_end": 65501, "match_text": "rather than"}
+{"item_id": "item_1723", "corpus": "arxiv2026", "doc_id": "2608.22559", "pattern_id": "rather_than", "char_start": 40828, "char_end": 40839, "match_text": "rather than"}
+{"item_id": "item_1724", "corpus": "arxiv2026", "doc_id": "2608.21750", "pattern_id": "rather_than", "char_start": 40969, "char_end": 40980, "match_text": "rather than"}
+{"item_id": "item_1725", "corpus": "arxiv2026", "doc_id": "2604.16845", "pattern_id": "rather_than", "char_start": 103163, "char_end": 103174, "match_text": "rather than"}
+{"item_id": "item_1726", "corpus": "arxiv2026", "doc_id": "2603.29093", "pattern_id": "rather_than", "char_start": 58083, "char_end": 58094, "match_text": "rather than"}
+{"item_id": "item_1727", "corpus": "arxiv2026", "doc_id": "2609.10745", "pattern_id": "rather_than", "char_start": 51026, "char_end": 51037, "match_text": "rather than"}
+{"item_id": "item_1728", "corpus": "arxiv2026", "doc_id": "2605.20529", "pattern_id": "rather_than", "char_start": 10707, "char_end": 10718, "match_text": "rather than"}
+{"item_id": "item_1729", "corpus": "arxiv2026", "doc_id": "2604.15140", "pattern_id": "rather_than", "char_start": 11526, "char_end": 11537, "match_text": "rather than"}
+{"item_id": "item_1730", "corpus": "arxiv2026", "doc_id": "2602.11162", "pattern_id": "rather_than", "char_start": 44107, "char_end": 44118, "match_text": "rather than"}
+{"item_id": "item_1731", "corpus": "arxiv2026", "doc_id": "2608.18084", "pattern_id": "rather_than", "char_start": 25207, "char_end": 25218, "match_text": "rather than"}
+{"item_id": "item_1732", "corpus": "arxiv2026", "doc_id": "2604.02194", "pattern_id": "rather_than", "char_start": 41161, "char_end": 41172, "match_text": "rather than"}
+{"item_id": "item_1733", "corpus": "arxiv2026", "doc_id": "2604.05158", "pattern_id": "rather_than", "char_start": 18522, "char_end": 18533, "match_text": "Rather than"}
+{"item_id": "item_1734", "corpus": "arxiv2026", "doc_id": "2604.11133", "pattern_id": "rather_than", "char_start": 4340, "char_end": 4351, "match_text": "rather than"}
+{"item_id": "item_1735", "corpus": "arxiv2026", "doc_id": "2609.02089", "pattern_id": "rather_than", "char_start": 38959, "char_end": 38970, "match_text": "rather than"}
+{"item_id": "item_1736", "corpus": "arxiv2026", "doc_id": "2609.04061", "pattern_id": "rather_than", "char_start": 3622, "char_end": 3633, "match_text": "rather than"}
+{"item_id": "item_1737", "corpus": "arxiv2026", "doc_id": "2603.03677", "pattern_id": "rather_than", "char_start": 75511, "char_end": 75522, "match_text": "rather than"}
+{"item_id": "item_1738", "corpus": "arxiv2026", "doc_id": "2606.16206", "pattern_id": "rather_than", "char_start": 5804, "char_end": 5815, "match_text": "rather than"}
+{"item_id": "item_1739", "corpus": "arxiv2026", "doc_id": "2609.00760", "pattern_id": "rather_than", "char_start": 29310, "char_end": 29321, "match_text": "rather than"}
+{"item_id": "item_1740", "corpus": "arxiv2026", "doc_id": "2601.14007", "pattern_id": "rather_than", "char_start": 53577, "char_end": 53588, "match_text": "rather than"}
+{"item_id": "item_1741", "corpus": "arxiv2026", "doc_id": "2609.04484", "pattern_id": "rather_than", "char_start": 23234, "char_end": 23245, "match_text": "rather than"}
+{"item_id": "item_1742", "corpus": "arxiv2026", "doc_id": "2605.30790", "pattern_id": "rather_than", "char_start": 32840, "char_end": 32851, "match_text": "rather than"}
+{"item_id": "item_1743", "corpus": "arxiv2026", "doc_id": "2608.29847", "pattern_id": "rather_than", "char_start": 4516, "char_end": 4527, "match_text": "rather than"}
+{"item_id": "item_1744", "corpus": "arxiv2026", "doc_id": "2609.03597", "pattern_id": "rather_than", "char_start": 16319, "char_end": 16330, "match_text": "rather than"}
+{"item_id": "item_1745", "corpus": "arxiv2026", "doc_id": "2609.02947", "pattern_id": "rather_than", "char_start": 31803, "char_end": 31814, "match_text": "rather than"}
+{"item_id": "item_1746", "corpus": "arxiv2026", "doc_id": "2604.19071", "pattern_id": "rather_than", "char_start": 70071, "char_end": 70082, "match_text": "rather than"}
+{"item_id": "item_1747", "corpus": "arxiv2026", "doc_id": "2608.30738", "pattern_id": "rather_than", "char_start": 5194, "char_end": 5205, "match_text": "Rather than"}
+{"item_id": "item_1748", "corpus": "arxiv2026", "doc_id": "2608.28405", "pattern_id": "rather_than", "char_start": 51649, "char_end": 51660, "match_text": "rather than"}
+{"item_id": "item_1749", "corpus": "arxiv2026", "doc_id": "2608.20804", "pattern_id": "rather_than", "char_start": 47502, "char_end": 47513, "match_text": "rather than"}
+{"item_id": "item_1750", "corpus": "arxiv2026", "doc_id": "2607.07895", "pattern_id": "rather_than", "char_start": 25681, "char_end": 25692, "match_text": "rather than"}
+{"item_id": "item_1751", "corpus": "arxiv2026", "doc_id": "2604.20443", "pattern_id": "rather_than", "char_start": 44691, "char_end": 44702, "match_text": "rather than"}
+{"item_id": "item_1752", "corpus": "arxiv2026", "doc_id": "2604.11424", "pattern_id": "rather_than", "char_start": 41962, "char_end": 41973, "match_text": "rather than"}
+{"item_id": "item_1753", "corpus": "arxiv2026", "doc_id": "2601.04778", "pattern_id": "rather_than", "char_start": 7507, "char_end": 7518, "match_text": "rather than"}
+{"item_id": "item_1754", "corpus": "arxiv2026", "doc_id": "2604.10520", "pattern_id": "rather_than", "char_start": 48197, "char_end": 48208, "match_text": "rather than"}
+{"item_id": "item_1755", "corpus": "arxiv2026", "doc_id": "2604.09265", "pattern_id": "rather_than", "char_start": 29776, "char_end": 29787, "match_text": "rather than"}
+{"item_id": "item_1756", "corpus": "arxiv2026", "doc_id": "2605.05090", "pattern_id": "rather_than", "char_start": 37618, "char_end": 37629, "match_text": "rather than"}
+{"item_id": "item_1757", "corpus": "arxiv2026", "doc_id": "2606.22565", "pattern_id": "rather_than", "char_start": 28444, "char_end": 28455, "match_text": "rather than"}
+{"item_id": "item_1758", "corpus": "arxiv2026", "doc_id": "2603.29093", "pattern_id": "rather_than", "char_start": 40175, "char_end": 40186, "match_text": "rather than"}
+{"item_id": "item_1759", "corpus": "arxiv2026", "doc_id": "2608.15129", "pattern_id": "rather_than", "char_start": 31766, "char_end": 31777, "match_text": "rather than"}
+{"item_id": "item_1760", "corpus": "arxiv2026", "doc_id": "2601.05752", "pattern_id": "rather_than", "char_start": 27244, "char_end": 27255, "match_text": "rather than"}
+{"item_id": "item_1761", "corpus": "arxiv2026", "doc_id": "2603.22608", "pattern_id": "rather_than", "char_start": 34251, "char_end": 34262, "match_text": "rather than"}
+{"item_id": "item_1762", "corpus": "arxiv2026", "doc_id": "2601.11047", "pattern_id": "rather_than", "char_start": 43225, "char_end": 43236, "match_text": "rather than"}
+{"item_id": "item_1763", "corpus": "arxiv2026", "doc_id": "2608.30541", "pattern_id": "rather_than", "char_start": 22860, "char_end": 22871, "match_text": "rather than"}
+{"item_id": "item_1764", "corpus": "arxiv2026", "doc_id": "2603.00696", "pattern_id": "rather_than", "char_start": 35660, "char_end": 35671, "match_text": "rather than"}
+{"item_id": "item_1765", "corpus": "arxiv2026", "doc_id": "2601.13099", "pattern_id": "rather_than", "char_start": 34543, "char_end": 34554, "match_text": "rather than"}
+{"item_id": "item_1766", "corpus": "arxiv2026", "doc_id": "2608.21832", "pattern_id": "rather_than", "char_start": 23282, "char_end": 23293, "match_text": "rather than"}
+{"item_id": "item_1767", "corpus": "arxiv2026", "doc_id": "2608.22557", "pattern_id": "rather_than", "char_start": 13399, "char_end": 13410, "match_text": "Rather than"}
+{"item_id": "item_1768", "corpus": "arxiv2026", "doc_id": "2604.04815", "pattern_id": "rather_than", "char_start": 22702, "char_end": 22713, "match_text": "rather than"}
+{"item_id": "item_1769", "corpus": "arxiv2026", "doc_id": "2605.26678", "pattern_id": "rather_than", "char_start": 33070, "char_end": 33081, "match_text": "rather than"}
+{"item_id": "item_1770", "corpus": "arxiv2026", "doc_id": "2604.21235", "pattern_id": "rather_than", "char_start": 51305, "char_end": 51316, "match_text": "rather than"}
+{"item_id": "item_1771", "corpus": "arxiv2026", "doc_id": "2609.05993", "pattern_id": "rather_than", "char_start": 34225, "char_end": 34236, "match_text": "rather than"}
+{"item_id": "item_1772", "corpus": "arxiv2026", "doc_id": "2606.24889", "pattern_id": "rather_than", "char_start": 705, "char_end": 716, "match_text": "rather than"}
+{"item_id": "item_1773", "corpus": "arxiv2026", "doc_id": "2605.22641", "pattern_id": "rather_than", "char_start": 42908, "char_end": 42919, "match_text": "rather than"}
+{"item_id": "item_1774", "corpus": "arxiv2026", "doc_id": "2604.16909", "pattern_id": "rather_than", "char_start": 43799, "char_end": 43810, "match_text": "rather than"}
+{"item_id": "item_1775", "corpus": "arxiv2026", "doc_id": "2609.08029", "pattern_id": "rather_than", "char_start": 28878, "char_end": 28889, "match_text": "rather than"}
+{"item_id": "item_1776", "corpus": "arxiv2026", "doc_id": "2608.23095", "pattern_id": "rather_than", "char_start": 43545, "char_end": 43556, "match_text": "rather than"}
+{"item_id": "item_1777", "corpus": "arxiv2026", "doc_id": "2605.13841", "pattern_id": "rather_than", "char_start": 63608, "char_end": 63619, "match_text": "rather than"}
+{"item_id": "item_1778", "corpus": "arxiv2026", "doc_id": "2608.23390", "pattern_id": "rather_than", "char_start": 50515, "char_end": 50526, "match_text": "rather than"}
+{"item_id": "item_1779", "corpus": "arxiv2026", "doc_id": "2603.20562", "pattern_id": "rather_than", "char_start": 23245, "char_end": 23256, "match_text": "rather than"}
+{"item_id": "item_1780", "corpus": "arxiv2026", "doc_id": "2601.05062", "pattern_id": "rather_than", "char_start": 44419, "char_end": 44430, "match_text": "rather than"}
+{"item_id": "item_1781", "corpus": "arxiv2026", "doc_id": "2606.06715", "pattern_id": "rather_than", "char_start": 15690, "char_end": 15701, "match_text": "rather than"}
+{"item_id": "item_1782", "corpus": "arxiv2026", "doc_id": "2601.06347", "pattern_id": "rather_than", "char_start": 19619, "char_end": 19630, "match_text": "rather than"}
+{"item_id": "item_1783", "corpus": "arxiv2026", "doc_id": "2601.04778", "pattern_id": "rather_than", "char_start": 3957, "char_end": 3968, "match_text": "rather than"}
+{"item_id": "item_1784", "corpus": "arxiv2026", "doc_id": "2608.23391", "pattern_id": "rather_than", "char_start": 34534, "char_end": 34545, "match_text": "rather than"}
+{"item_id": "item_1785", "corpus": "arxiv2026", "doc_id": "2604.18563", "pattern_id": "rather_than", "char_start": 30012, "char_end": 30023, "match_text": "Rather than"}
+{"item_id": "item_1786", "corpus": "arxiv2026", "doc_id": "2606.12854", "pattern_id": "rather_than", "char_start": 2954, "char_end": 2965, "match_text": "rather than"}
+{"item_id": "item_1787", "corpus": "arxiv2026", "doc_id": "2604.17771", "pattern_id": "rather_than", "char_start": 26907, "char_end": 26918, "match_text": "rather than"}
+{"item_id": "item_1788", "corpus": "arxiv2026", "doc_id": "2609.01316", "pattern_id": "rather_than", "char_start": 10091, "char_end": 10102, "match_text": "rather than"}
+{"item_id": "item_1789", "corpus": "arxiv2026", "doc_id": "2604.22282", "pattern_id": "rather_than", "char_start": 34767, "char_end": 34778, "match_text": "rather than"}
+{"item_id": "item_1790", "corpus": "arxiv2026", "doc_id": "2609.00051", "pattern_id": "rather_than", "char_start": 29880, "char_end": 29891, "match_text": "rather than"}
+{"item_id": "item_1791", "corpus": "arxiv2026", "doc_id": "2609.10810", "pattern_id": "rather_than", "char_start": 9708, "char_end": 9719, "match_text": "Rather than"}
+{"item_id": "item_1792", "corpus": "arxiv2026", "doc_id": "2604.18423", "pattern_id": "rather_than", "char_start": 40697, "char_end": 40708, "match_text": "rather than"}
+{"item_id": "item_1793", "corpus": "arxiv2026", "doc_id": "2604.17769", "pattern_id": "rather_than", "char_start": 55903, "char_end": 55914, "match_text": "Rather than"}
+{"item_id": "item_1794", "corpus": "arxiv2026", "doc_id": "2608.30319", "pattern_id": "rather_than", "char_start": 41643, "char_end": 41654, "match_text": "rather than"}
+{"item_id": "item_1795", "corpus": "arxiv2026", "doc_id": "2608.22872", "pattern_id": "rather_than", "char_start": 32375, "char_end": 32386, "match_text": "rather than"}
+{"item_id": "item_1796", "corpus": "arxiv2026", "doc_id": "2605.31351", "pattern_id": "rather_than", "char_start": 20207, "char_end": 20218, "match_text": "rather than"}
+{"item_id": "item_1797", "corpus": "high_count_arxiv2026", "doc_id": "2606.04095", "pattern_id": "rather_than", "char_start": 99945, "char_end": 99956, "match_text": "rather than", "paper_total_count": 36}
+{"item_id": "item_1798", "corpus": "high_count_arxiv2026", "doc_id": "2609.02133", "pattern_id": "rather_than", "char_start": 35015, "char_end": 35026, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1799", "corpus": "high_count_arxiv2026", "doc_id": "2608.29278", "pattern_id": "rather_than", "char_start": 9755, "char_end": 9766, "match_text": "rather than", "paper_total_count": 36}
+{"item_id": "item_1800", "corpus": "high_count_arxiv2026", "doc_id": "2609.06147", "pattern_id": "rather_than", "char_start": 45633, "char_end": 45644, "match_text": "rather than", "paper_total_count": 37}
+{"item_id": "item_1801", "corpus": "high_count_arxiv2026", "doc_id": "2605.28802", "pattern_id": "rather_than", "char_start": 20486, "char_end": 20497, "match_text": "rather than", "paper_total_count": 42}
+{"item_id": "item_1802", "corpus": "high_count_arxiv2026", "doc_id": "2607.14252", "pattern_id": "rather_than", "char_start": 44232, "char_end": 44243, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1803", "corpus": "high_count_arxiv2026", "doc_id": "2603.19167", "pattern_id": "rather_than", "char_start": 41554, "char_end": 41565, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1804", "corpus": "high_count_arxiv2026", "doc_id": "2608.06171", "pattern_id": "rather_than", "char_start": 24051, "char_end": 24062, "match_text": "rather than", "paper_total_count": 63}
+{"item_id": "item_1805", "corpus": "high_count_arxiv2026", "doc_id": "2605.29668", "pattern_id": "rather_than", "char_start": 32537, "char_end": 32548, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1806", "corpus": "high_count_arxiv2026", "doc_id": "2605.28802", "pattern_id": "rather_than", "char_start": 109711, "char_end": 109722, "match_text": "rather than", "paper_total_count": 42}
+{"item_id": "item_1807", "corpus": "high_count_arxiv2026", "doc_id": "2608.29995", "pattern_id": "rather_than", "char_start": 133264, "char_end": 133275, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1808", "corpus": "high_count_arxiv2026", "doc_id": "2605.13841", "pattern_id": "rather_than", "char_start": 165200, "char_end": 165211, "match_text": "rather than", "paper_total_count": 44}
+{"item_id": "item_1809", "corpus": "high_count_arxiv2026", "doc_id": "2608.06171", "pattern_id": "rather_than", "char_start": 42059, "char_end": 42070, "match_text": "rather than", "paper_total_count": 63}
+{"item_id": "item_1810", "corpus": "high_count_arxiv2026", "doc_id": "2605.28006", "pattern_id": "rather_than", "char_start": 75138, "char_end": 75149, "match_text": "rather than", "paper_total_count": 45}
+{"item_id": "item_1811", "corpus": "high_count_arxiv2026", "doc_id": "2605.13841", "pattern_id": "rather_than", "char_start": 47440, "char_end": 47451, "match_text": "rather than", "paper_total_count": 44}
+{"item_id": "item_1812", "corpus": "high_count_arxiv2026", "doc_id": "2603.03677", "pattern_id": "rather_than", "char_start": 93993, "char_end": 94004, "match_text": "rather than", "paper_total_count": 42}
+{"item_id": "item_1813", "corpus": "high_count_arxiv2026", "doc_id": "2608.30319", "pattern_id": "rather_than", "char_start": 39914, "char_end": 39925, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1814", "corpus": "high_count_arxiv2026", "doc_id": "2608.29278", "pattern_id": "rather_than", "char_start": 7066, "char_end": 7077, "match_text": "rather than", "paper_total_count": 36}
+{"item_id": "item_1815", "corpus": "high_count_arxiv2026", "doc_id": "2605.13841", "pattern_id": "rather_than", "char_start": 67449, "char_end": 67460, "match_text": "rather than", "paper_total_count": 44}
+{"item_id": "item_1816", "corpus": "high_count_arxiv2026", "doc_id": "2607.14252", "pattern_id": "rather_than", "char_start": 26011, "char_end": 26022, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1817", "corpus": "high_count_arxiv2026", "doc_id": "2605.13841", "pattern_id": "rather_than", "char_start": 42749, "char_end": 42760, "match_text": "rather than", "paper_total_count": 44}
+{"item_id": "item_1818", "corpus": "high_count_arxiv2026", "doc_id": "2609.06147", "pattern_id": "rather_than", "char_start": 4911, "char_end": 4922, "match_text": "rather than", "paper_total_count": 37}
+{"item_id": "item_1819", "corpus": "high_count_arxiv2026", "doc_id": "2608.29278", "pattern_id": "rather_than", "char_start": 97927, "char_end": 97938, "match_text": "rather than", "paper_total_count": 36}
+{"item_id": "item_1820", "corpus": "high_count_arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 10919, "char_end": 10930, "match_text": "rather than", "paper_total_count": 69}
+{"item_id": "item_1821", "corpus": "high_count_arxiv2026", "doc_id": "2606.04095", "pattern_id": "rather_than", "char_start": 41085, "char_end": 41096, "match_text": "rather than", "paper_total_count": 36}
+{"item_id": "item_1822", "corpus": "high_count_arxiv2026", "doc_id": "2607.14252", "pattern_id": "rather_than", "char_start": 147801, "char_end": 147812, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1823", "corpus": "high_count_arxiv2026", "doc_id": "2606.04095", "pattern_id": "rather_than", "char_start": 17116, "char_end": 17127, "match_text": "rather than", "paper_total_count": 36}
+{"item_id": "item_1824", "corpus": "high_count_arxiv2026", "doc_id": "2609.02133", "pattern_id": "rather_than", "char_start": 25858, "char_end": 25869, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1825", "corpus": "high_count_arxiv2026", "doc_id": "2603.19167", "pattern_id": "rather_than", "char_start": 93330, "char_end": 93341, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1826", "corpus": "high_count_arxiv2026", "doc_id": "2606.05743", "pattern_id": "rather_than", "char_start": 60823, "char_end": 60834, "match_text": "rather than", "paper_total_count": 54}
+{"item_id": "item_1827", "corpus": "high_count_arxiv2026", "doc_id": "2606.05553", "pattern_id": "rather_than", "char_start": 9913, "char_end": 9924, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1828", "corpus": "high_count_arxiv2026", "doc_id": "2605.28802", "pattern_id": "rather_than", "char_start": 2858, "char_end": 2869, "match_text": "rather than", "paper_total_count": 42}
+{"item_id": "item_1829", "corpus": "high_count_arxiv2026", "doc_id": "2608.06171", "pattern_id": "rather_than", "char_start": 18261, "char_end": 18272, "match_text": "rather than", "paper_total_count": 63}
+{"item_id": "item_1830", "corpus": "high_count_arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 64133, "char_end": 64144, "match_text": "rather than", "paper_total_count": 69}
+{"item_id": "item_1831", "corpus": "high_count_arxiv2026", "doc_id": "2606.05553", "pattern_id": "rather_than", "char_start": 54513, "char_end": 54524, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1832", "corpus": "high_count_arxiv2026", "doc_id": "2608.06171", "pattern_id": "rather_than", "char_start": 28302, "char_end": 28313, "match_text": "rather than", "paper_total_count": 63}
+{"item_id": "item_1833", "corpus": "high_count_arxiv2026", "doc_id": "2609.03366", "pattern_id": "rather_than", "char_start": 175820, "char_end": 175831, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1834", "corpus": "high_count_arxiv2026", "doc_id": "2607.14252", "pattern_id": "rather_than", "char_start": 15049, "char_end": 15060, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1835", "corpus": "high_count_arxiv2026", "doc_id": "2609.02133", "pattern_id": "rather_than", "char_start": 52068, "char_end": 52079, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1836", "corpus": "high_count_arxiv2026", "doc_id": "2603.19167", "pattern_id": "rather_than", "char_start": 56444, "char_end": 56455, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1837", "corpus": "high_count_arxiv2026", "doc_id": "2605.28006", "pattern_id": "rather_than", "char_start": 91109, "char_end": 91120, "match_text": "rather than", "paper_total_count": 45}
+{"item_id": "item_1838", "corpus": "high_count_arxiv2026", "doc_id": "2608.29995", "pattern_id": "rather_than", "char_start": 91024, "char_end": 91035, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1839", "corpus": "high_count_arxiv2026", "doc_id": "2607.14252", "pattern_id": "rather_than", "char_start": 78677, "char_end": 78688, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1840", "corpus": "high_count_arxiv2026", "doc_id": "2607.14252", "pattern_id": "rather_than", "char_start": 129002, "char_end": 129013, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1841", "corpus": "high_count_arxiv2026", "doc_id": "2609.06147", "pattern_id": "rather_than", "char_start": 6780, "char_end": 6791, "match_text": "rather than", "paper_total_count": 37}
+{"item_id": "item_1842", "corpus": "high_count_arxiv2026", "doc_id": "2609.06147", "pattern_id": "rather_than", "char_start": 43174, "char_end": 43185, "match_text": "rather than", "paper_total_count": 37}
+{"item_id": "item_1843", "corpus": "high_count_arxiv2026", "doc_id": "2608.06171", "pattern_id": "rather_than", "char_start": 2104, "char_end": 2115, "match_text": "rather than", "paper_total_count": 63}
+{"item_id": "item_1844", "corpus": "high_count_arxiv2026", "doc_id": "2605.27878", "pattern_id": "rather_than", "char_start": 35969, "char_end": 35980, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1845", "corpus": "high_count_arxiv2026", "doc_id": "2608.21832", "pattern_id": "rather_than", "char_start": 17834, "char_end": 17845, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1846", "corpus": "high_count_arxiv2026", "doc_id": "2606.05743", "pattern_id": "rather_than", "char_start": 29663, "char_end": 29674, "match_text": "rather than", "paper_total_count": 54}
+{"item_id": "item_1847", "corpus": "high_count_arxiv2026", "doc_id": "2605.28006", "pattern_id": "rather_than", "char_start": 68805, "char_end": 68816, "match_text": "rather than", "paper_total_count": 45}
+{"item_id": "item_1848", "corpus": "high_count_arxiv2026", "doc_id": "2608.30319", "pattern_id": "rather_than", "char_start": 81480, "char_end": 81491, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1849", "corpus": "high_count_arxiv2026", "doc_id": "2605.29668", "pattern_id": "rather_than", "char_start": 64761, "char_end": 64772, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1850", "corpus": "high_count_arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 67605, "char_end": 67616, "match_text": "rather than", "paper_total_count": 69}
+{"item_id": "item_1851", "corpus": "high_count_arxiv2026", "doc_id": "2609.03366", "pattern_id": "rather_than", "char_start": 114029, "char_end": 114040, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1852", "corpus": "high_count_arxiv2026", "doc_id": "2606.04095", "pattern_id": "rather_than", "char_start": 17494, "char_end": 17505, "match_text": "rather than", "paper_total_count": 36}
+{"item_id": "item_1853", "corpus": "high_count_arxiv2026", "doc_id": "2609.02133", "pattern_id": "rather_than", "char_start": 23828, "char_end": 23839, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1854", "corpus": "high_count_arxiv2026", "doc_id": "2608.29278", "pattern_id": "rather_than", "char_start": 64375, "char_end": 64386, "match_text": "rather than", "paper_total_count": 36}
+{"item_id": "item_1855", "corpus": "high_count_arxiv2026", "doc_id": "2606.05743", "pattern_id": "rather_than", "char_start": 69814, "char_end": 69825, "match_text": "rather than", "paper_total_count": 54}
+{"item_id": "item_1856", "corpus": "high_count_arxiv2026", "doc_id": "2609.06147", "pattern_id": "rather_than", "char_start": 45182, "char_end": 45193, "match_text": "rather than", "paper_total_count": 37}
+{"item_id": "item_1857", "corpus": "high_count_arxiv2026", "doc_id": "2608.30319", "pattern_id": "rather_than", "char_start": 47632, "char_end": 47643, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1858", "corpus": "high_count_arxiv2026", "doc_id": "2605.29668", "pattern_id": "rather_than", "char_start": 34519, "char_end": 34530, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1859", "corpus": "high_count_arxiv2026", "doc_id": "2606.05553", "pattern_id": "rather_than", "char_start": 119634, "char_end": 119645, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1860", "corpus": "high_count_arxiv2026", "doc_id": "2606.05743", "pattern_id": "rather_than", "char_start": 50258, "char_end": 50269, "match_text": "rather than", "paper_total_count": 54}
+{"item_id": "item_1861", "corpus": "high_count_arxiv2026", "doc_id": "2608.06171", "pattern_id": "rather_than", "char_start": 15305, "char_end": 15316, "match_text": "rather than", "paper_total_count": 63}
+{"item_id": "item_1862", "corpus": "high_count_arxiv2026", "doc_id": "2609.06147", "pattern_id": "rather_than", "char_start": 50192, "char_end": 50203, "match_text": "rather than", "paper_total_count": 37}
+{"item_id": "item_1863", "corpus": "high_count_arxiv2026", "doc_id": "2605.27878", "pattern_id": "rather_than", "char_start": 79602, "char_end": 79613, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1864", "corpus": "high_count_arxiv2026", "doc_id": "2603.19167", "pattern_id": "rather_than", "char_start": 6859, "char_end": 6870, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1865", "corpus": "high_count_arxiv2026", "doc_id": "2609.06147", "pattern_id": "rather_than", "char_start": 46736, "char_end": 46747, "match_text": "rather than", "paper_total_count": 37}
+{"item_id": "item_1866", "corpus": "high_count_arxiv2026", "doc_id": "2606.05743", "pattern_id": "rather_than", "char_start": 84410, "char_end": 84421, "match_text": "rather than", "paper_total_count": 54}
+{"item_id": "item_1867", "corpus": "high_count_arxiv2026", "doc_id": "2608.29616", "pattern_id": "rather_than", "char_start": 73008, "char_end": 73019, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1868", "corpus": "high_count_arxiv2026", "doc_id": "2609.03366", "pattern_id": "rather_than", "char_start": 88887, "char_end": 88898, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1869", "corpus": "high_count_arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 62661, "char_end": 62672, "match_text": "rather than", "paper_total_count": 69}
+{"item_id": "item_1870", "corpus": "high_count_arxiv2026", "doc_id": "2605.27878", "pattern_id": "rather_than", "char_start": 59450, "char_end": 59461, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1871", "corpus": "high_count_arxiv2026", "doc_id": "2608.06171", "pattern_id": "rather_than", "char_start": 30588, "char_end": 30599, "match_text": "rather than", "paper_total_count": 63}
+{"item_id": "item_1872", "corpus": "high_count_arxiv2026", "doc_id": "2609.02133", "pattern_id": "rather_than", "char_start": 6385, "char_end": 6396, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1873", "corpus": "high_count_arxiv2026", "doc_id": "2605.29668", "pattern_id": "rather_than", "char_start": 62075, "char_end": 62086, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1874", "corpus": "high_count_arxiv2026", "doc_id": "2609.02133", "pattern_id": "rather_than", "char_start": 86154, "char_end": 86165, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1875", "corpus": "high_count_arxiv2026", "doc_id": "2606.05743", "pattern_id": "rather_than", "char_start": 84700, "char_end": 84711, "match_text": "rather than", "paper_total_count": 54}
+{"item_id": "item_1876", "corpus": "high_count_arxiv2026", "doc_id": "2608.29995", "pattern_id": "rather_than", "char_start": 146909, "char_end": 146920, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1877", "corpus": "high_count_arxiv2026", "doc_id": "2604.17022", "pattern_id": "rather_than", "char_start": 85639, "char_end": 85650, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1878", "corpus": "high_count_arxiv2026", "doc_id": "2605.28006", "pattern_id": "rather_than", "char_start": 87416, "char_end": 87427, "match_text": "rather than", "paper_total_count": 45}
+{"item_id": "item_1879", "corpus": "high_count_arxiv2026", "doc_id": "2603.03677", "pattern_id": "rather_than", "char_start": 59176, "char_end": 59187, "match_text": "rather than", "paper_total_count": 42}
+{"item_id": "item_1880", "corpus": "high_count_arxiv2026", "doc_id": "2608.29616", "pattern_id": "rather_than", "char_start": 49221, "char_end": 49232, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1881", "corpus": "high_count_arxiv2026", "doc_id": "2605.13841", "pattern_id": "rather_than", "char_start": 79465, "char_end": 79476, "match_text": "rather than", "paper_total_count": 44}
+{"item_id": "item_1882", "corpus": "high_count_arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 18255, "char_end": 18266, "match_text": "rather than", "paper_total_count": 69}
+{"item_id": "item_1883", "corpus": "high_count_arxiv2026", "doc_id": "2603.03677", "pattern_id": "rather_than", "char_start": 69454, "char_end": 69465, "match_text": "rather than", "paper_total_count": 42}
+{"item_id": "item_1884", "corpus": "high_count_arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 31080, "char_end": 31091, "match_text": "rather than", "paper_total_count": 69}
+{"item_id": "item_1885", "corpus": "high_count_arxiv2026", "doc_id": "2608.21832", "pattern_id": "rather_than", "char_start": 85614, "char_end": 85625, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1886", "corpus": "high_count_arxiv2026", "doc_id": "2606.05553", "pattern_id": "rather_than", "char_start": 80840, "char_end": 80851, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1887", "corpus": "high_count_arxiv2026", "doc_id": "2609.03366", "pattern_id": "rather_than", "char_start": 34032, "char_end": 34043, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1888", "corpus": "high_count_arxiv2026", "doc_id": "2608.29995", "pattern_id": "rather_than", "char_start": 75740, "char_end": 75751, "match_text": "rather than", "paper_total_count": 46}
+{"item_id": "item_1889", "corpus": "high_count_arxiv2026", "doc_id": "2609.02133", "pattern_id": "rather_than", "char_start": 85895, "char_end": 85906, "match_text": "rather than", "paper_total_count": 41}
+{"item_id": "item_1890", "corpus": "high_count_arxiv2026", "doc_id": "2605.27878", "pattern_id": "rather_than", "char_start": 25530, "char_end": 25541, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1891", "corpus": "high_count_arxiv2026", "doc_id": "2605.27878", "pattern_id": "rather_than", "char_start": 64757, "char_end": 64768, "match_text": "rather than", "paper_total_count": 35}
+{"item_id": "item_1892", "corpus": "high_count_arxiv2026", "doc_id": "2605.28006", "pattern_id": "rather_than", "char_start": 72504, "char_end": 72515, "match_text": "rather than", "paper_total_count": 45}
+{"item_id": "item_1893", "corpus": "high_count_arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 21290, "char_end": 21301, "match_text": "rather than", "paper_total_count": 69}
+{"item_id": "item_1894", "corpus": "high_count_arxiv2026", "doc_id": "2606.05553", "pattern_id": "rather_than", "char_start": 12664, "char_end": 12675, "match_text": "rather than", "paper_total_count": 39}
+{"item_id": "item_1895", "corpus": "high_count_arxiv2026", "doc_id": "2608.06171", "pattern_id": "rather_than", "char_start": 66792, "char_end": 66803, "match_text": "rather than", "paper_total_count": 63}
+{"item_id": "item_1896", "corpus": "high_count_arxiv2026", "doc_id": "2606.05743", "pattern_id": "rather_than", "char_start": 36511, "char_end": 36522, "match_text": "rather than", "paper_total_count": 54}
+{"item_id": "item_1897", "corpus": "arxiv_v1", "doc_id": "2606.28715_v1", "pattern_id": "rather_than", "char_start": 10273, "char_end": 10284, "match_text": "rather than"}
+{"item_id": "item_1898", "corpus": "arxiv_v1", "doc_id": "2602.21054_v1", "pattern_id": "rather_than", "char_start": 42144, "char_end": 42155, "match_text": "rather than"}
+{"item_id": "item_1899", "corpus": "arxiv_v1", "doc_id": "2605.28700_v1", "pattern_id": "rather_than", "char_start": 18230, "char_end": 18241, "match_text": "rather than"}
+{"item_id": "item_1900", "corpus": "arxiv_v1", "doc_id": "2601.04029_v1", "pattern_id": "rather_than", "char_start": 11844, "char_end": 11855, "match_text": "rather than"}
+{"item_id": "item_1901", "corpus": "arxiv_v1", "doc_id": "2602.09642_v1", "pattern_id": "rather_than", "char_start": 56581, "char_end": 56592, "match_text": "rather than"}
+{"item_id": "item_1902", "corpus": "arxiv_v1", "doc_id": "2605.03299_v1", "pattern_id": "rather_than", "char_start": 39898, "char_end": 39909, "match_text": "rather than"}
+{"item_id": "item_1903", "corpus": "arxiv_v1", "doc_id": "2605.31556_v1", "pattern_id": "rather_than", "char_start": 22270, "char_end": 22281, "match_text": "rather than"}
+{"item_id": "item_1904", "corpus": "arxiv_v1", "doc_id": "2601.03087_v1", "pattern_id": "rather_than", "char_start": 21075, "char_end": 21086, "match_text": "rather than"}
+{"item_id": "item_1905", "corpus": "arxiv_v1", "doc_id": "2606.19706_v1", "pattern_id": "rather_than", "char_start": 44918, "char_end": 44929, "match_text": "rather than"}
+{"item_id": "item_1906", "corpus": "arxiv_v1", "doc_id": "2603.19044_v1", "pattern_id": "rather_than", "char_start": 17064, "char_end": 17075, "match_text": "rather than"}
+{"item_id": "item_1907", "corpus": "arxiv_v1", "doc_id": "2604.10159_v1", "pattern_id": "rather_than", "char_start": 45120, "char_end": 45131, "match_text": "rather than"}
+{"item_id": "item_1908", "corpus": "arxiv_v1", "doc_id": "2605.28543_v1", "pattern_id": "rather_than", "char_start": 27743, "char_end": 27754, "match_text": "rather than"}
+{"item_id": "item_1909", "corpus": "arxiv_v1", "doc_id": "2601.15224_v1", "pattern_id": "rather_than", "char_start": 30240, "char_end": 30251, "match_text": "rather than"}
+{"item_id": "item_1910", "corpus": "arxiv_v1", "doc_id": "2606.02911_v1", "pattern_id": "rather_than", "char_start": 40793, "char_end": 40804, "match_text": "rather than"}
+{"item_id": "item_1911", "corpus": "arxiv_v1", "doc_id": "2603.27518_v1", "pattern_id": "rather_than", "char_start": 14079, "char_end": 14090, "match_text": "rather than"}
+{"item_id": "item_1912", "corpus": "arxiv_v1", "doc_id": "2603.02482_v1", "pattern_id": "rather_than", "char_start": 12427, "char_end": 12438, "match_text": "rather than"}
+{"item_id": "item_1913", "corpus": "arxiv_v1", "doc_id": "2608.13706_v1", "pattern_id": "rather_than", "char_start": 47837, "char_end": 47848, "match_text": "rather than"}
+{"item_id": "item_1914", "corpus": "arxiv_v1", "doc_id": "2604.05090_v1", "pattern_id": "rather_than", "char_start": 51743, "char_end": 51754, "match_text": "rather than"}
+{"item_id": "item_1915", "corpus": "arxiv_v1", "doc_id": "2601.18006_v1", "pattern_id": "rather_than", "char_start": 26567, "char_end": 26578, "match_text": "rather than"}
+{"item_id": "item_1916", "corpus": "arxiv_v1", "doc_id": "2604.18164_v1", "pattern_id": "rather_than", "char_start": 64229, "char_end": 64240, "match_text": "rather than"}
+{"item_id": "item_1917", "corpus": "arxiv_v1", "doc_id": "2602.09992_v1", "pattern_id": "rather_than", "char_start": 41075, "char_end": 41086, "match_text": "rather than"}
+{"item_id": "item_1918", "corpus": "arxiv_v1", "doc_id": "2606.19264_v1", "pattern_id": "rather_than", "char_start": 31149, "char_end": 31160, "match_text": "rather than"}
+{"item_id": "item_1919", "corpus": "arxiv_v1", "doc_id": "2608.25089_v1", "pattern_id": "rather_than", "char_start": 16329, "char_end": 16340, "match_text": "rather than"}
+{"item_id": "item_1920", "corpus": "arxiv_v1", "doc_id": "2609.03261_v1", "pattern_id": "rather_than", "char_start": 138517, "char_end": 138528, "match_text": "rather than"}
+{"item_id": "item_1921", "corpus": "arxiv_v1", "doc_id": "2604.16593_v1", "pattern_id": "rather_than", "char_start": 17822, "char_end": 17833, "match_text": "rather than"}
+{"item_id": "item_1922", "corpus": "arxiv_v1", "doc_id": "2606.29920_v1", "pattern_id": "rather_than", "char_start": 12865, "char_end": 12876, "match_text": "rather than"}
+{"item_id": "item_1923", "corpus": "arxiv_v1", "doc_id": "2606.00566_v1", "pattern_id": "rather_than", "char_start": 17604, "char_end": 17615, "match_text": "rather than"}
+{"item_id": "item_1924", "corpus": "arxiv_v1", "doc_id": "2609.05637_v1", "pattern_id": "rather_than", "char_start": 16076, "char_end": 16087, "match_text": "rather than"}
+{"item_id": "item_1925", "corpus": "arxiv_latest", "doc_id": "2601.22139_v2", "pattern_id": "rather_than", "char_start": 9806, "char_end": 9817, "match_text": "rather than"}
+{"item_id": "item_1926", "corpus": "arxiv_latest", "doc_id": "2606.05616_v2", "pattern_id": "rather_than", "char_start": 3249, "char_end": 3260, "match_text": "rather than"}
+{"item_id": "item_1927", "corpus": "arxiv_latest", "doc_id": "2601.12061_v2", "pattern_id": "rather_than", "char_start": 32923, "char_end": 32934, "match_text": "rather than"}
+{"item_id": "item_1928", "corpus": "arxiv_latest", "doc_id": "2606.04483_v2", "pattern_id": "rather_than", "char_start": 4733, "char_end": 4744, "match_text": "rather than"}
+{"item_id": "item_1929", "corpus": "arxiv_latest", "doc_id": "2601.06633_v2", "pattern_id": "rather_than", "char_start": 34121, "char_end": 34132, "match_text": "rather than"}
+{"item_id": "item_1930", "corpus": "arxiv_latest", "doc_id": "2604.10079_v4", "pattern_id": "rather_than", "char_start": 26239, "char_end": 26250, "match_text": "rather than"}
+{"item_id": "item_1931", "corpus": "arxiv_latest", "doc_id": "2606.02252_v2", "pattern_id": "rather_than", "char_start": 43483, "char_end": 43494, "match_text": "rather than"}
+{"item_id": "item_1932", "corpus": "arxiv_latest", "doc_id": "2606.09389_v2", "pattern_id": "rather_than", "char_start": 28413, "char_end": 28424, "match_text": "rather than"}
+{"item_id": "item_1933", "corpus": "arxiv_latest", "doc_id": "2609.00844_v2", "pattern_id": "rather_than", "char_start": 18647, "char_end": 18658, "match_text": "rather than"}
+{"item_id": "item_1934", "corpus": "arxiv_latest", "doc_id": "2605.12015_v3", "pattern_id": "rather_than", "char_start": 66102, "char_end": 66113, "match_text": "rather than"}
+{"item_id": "item_1935", "corpus": "arxiv_latest", "doc_id": "2604.27924_v2", "pattern_id": "rather_than", "char_start": 62844, "char_end": 62855, "match_text": "rather than"}
+{"item_id": "item_1936", "corpus": "arxiv_latest", "doc_id": "2605.07409_v2", "pattern_id": "rather_than", "char_start": 9838, "char_end": 9849, "match_text": "rather than"}
+{"item_id": "item_1937", "corpus": "arxiv_latest", "doc_id": "2603.22341_v2", "pattern_id": "rather_than", "char_start": 37720, "char_end": 37731, "match_text": "rather than"}
+{"item_id": "item_1938", "corpus": "arxiv_latest", "doc_id": "2601.14289_v2", "pattern_id": "rather_than", "char_start": 107107, "char_end": 107118, "match_text": "rather than"}
+{"item_id": "item_1939", "corpus": "arxiv_latest", "doc_id": "2601.03542_v2", "pattern_id": "rather_than", "char_start": 7131, "char_end": 7142, "match_text": "rather than"}
+{"item_id": "item_1940", "corpus": "arxiv_latest", "doc_id": "2605.22641_v4", "pattern_id": "rather_than", "char_start": 49343, "char_end": 49354, "match_text": "rather than"}
+{"item_id": "item_1941", "corpus": "arxiv_latest", "doc_id": "2608.21969_v3", "pattern_id": "rather_than", "char_start": 8742, "char_end": 8753, "match_text": "Rather than"}
+{"item_id": "item_1942", "corpus": "arxiv_latest", "doc_id": "2604.20789_v2", "pattern_id": "rather_than", "char_start": 47678, "char_end": 47689, "match_text": "rather than"}
+{"item_id": "item_1943", "corpus": "arxiv_latest", "doc_id": "2608.20920_v2", "pattern_id": "rather_than", "char_start": 48101, "char_end": 48112, "match_text": "rather than"}
+{"item_id": "item_1944", "corpus": "arxiv_latest", "doc_id": "2607.24772_v2", "pattern_id": "rather_than", "char_start": 21017, "char_end": 21028, "match_text": "rather than"}
+{"item_id": "item_1945", "corpus": "arxiv_latest", "doc_id": "2605.13989_v3", "pattern_id": "rather_than", "char_start": 118552, "char_end": 118563, "match_text": "rather than"}
+{"item_id": "item_1946", "corpus": "arxiv_latest", "doc_id": "2604.05876_v3", "pattern_id": "rather_than", "char_start": 28435, "char_end": 28446, "match_text": "rather than"}
+{"item_id": "item_1947", "corpus": "arxiv_latest", "doc_id": "2604.14572_v4", "pattern_id": "rather_than", "char_start": 22219, "char_end": 22230, "match_text": "rather than"}
+{"item_id": "item_2130", "corpus": "arxiv_latest", "doc_id": "2608.12750_v2", "pattern_id": "rather_than", "char_start": 7615, "char_end": 7626, "match_text": "rather than"}
+{"item_id": "item_2138", "corpus": "arxiv_latest", "doc_id": "2606.08501_v2", "pattern_id": "rather_than", "char_start": 23991, "char_end": 24002, "match_text": "rather than"}
+{"item_id": "item_2069", "corpus": "arxiv2026", "doc_id": "2603.03677", "pattern_id": "rather_than", "char_start": 87155, "char_end": 87166, "match_text": "rather than"}
+{"item_id": "item_2074", "corpus": "arxiv2026", "doc_id": "2609.07662", "pattern_id": "rather_than", "char_start": 16404, "char_end": 16415, "match_text": "rather than"}
+{"item_id": "item_2030", "corpus": "arxiv2026", "doc_id": "2604.09624", "pattern_id": "rather_than", "char_start": 32541, "char_end": 32552, "match_text": "rather than"}
+{"item_id": "item_2034", "corpus": "arxiv2026", "doc_id": "2609.09964", "pattern_id": "rather_than", "char_start": 63528, "char_end": 63539, "match_text": "rather than"}
+{"item_id": "item_2045", "corpus": "arxiv2026", "doc_id": "2608.21409", "pattern_id": "rather_than", "char_start": 23360, "char_end": 23371, "match_text": "rather than"}
+{"item_id": "item_2111", "corpus": "arxiv_v1", "doc_id": "2601.04126_v1", "pattern_id": "rather_than", "char_start": 25633, "char_end": 25644, "match_text": "rather than"}
+{"item_id": "item_2071", "corpus": "arxiv2026", "doc_id": "2604.05995", "pattern_id": "rather_than", "char_start": 32556, "char_end": 32567, "match_text": "rather than"}
+{"item_id": "item_1983", "corpus": "acl2019", "doc_id": "D19-1637", "pattern_id": "rather_than", "char_start": 11344, "char_end": 11355, "match_text": "rather than"}
+{"item_id": "item_2143", "corpus": "arxiv_latest", "doc_id": "2602.03412_v2", "pattern_id": "rather_than", "char_start": 27521, "char_end": 27532, "match_text": "rather than"}
+{"item_id": "item_2048", "corpus": "arxiv2026", "doc_id": "2604.22166", "pattern_id": "rather_than", "char_start": 3620, "char_end": 3631, "match_text": "rather than"}
+{"item_id": "item_1993", "corpus": "acl2019", "doc_id": "D19-1220", "pattern_id": "rather_than", "char_start": 18521, "char_end": 18532, "match_text": "rather than"}
+{"item_id": "item_2006", "corpus": "acl2019", "doc_id": "N19-1150", "pattern_id": "rather_than", "char_start": 4888, "char_end": 4899, "match_text": "rather than"}
+{"item_id": "item_2093", "corpus": "arxiv2026", "doc_id": "2608.29239", "pattern_id": "rather_than", "char_start": 25556, "char_end": 25567, "match_text": "rather than"}
+{"item_id": "item_2097", "corpus": "arxiv_v1", "doc_id": "2601.13111_v1", "pattern_id": "rather_than", "char_start": 63817, "char_end": 63828, "match_text": "rather than"}
+{"item_id": "item_2144", "corpus": "arxiv_latest", "doc_id": "2605.31328_v2", "pattern_id": "rather_than", "char_start": 40366, "char_end": 40377, "match_text": "Rather than"}
+{"item_id": "item_2054", "corpus": "arxiv2026", "doc_id": "2608.27855", "pattern_id": "rather_than", "char_start": 34259, "char_end": 34270, "match_text": "rather than"}
+{"item_id": "item_2124", "corpus": "arxiv_v1", "doc_id": "2608.21946_v1", "pattern_id": "rather_than", "char_start": 4709, "char_end": 4720, "match_text": "rather than"}
+{"item_id": "item_2055", "corpus": "arxiv2026", "doc_id": "2605.30912", "pattern_id": "rather_than", "char_start": 44930, "char_end": 44941, "match_text": "rather than"}
+{"item_id": "item_2022", "corpus": "arxiv2026", "doc_id": "2609.07662", "pattern_id": "rather_than", "char_start": 27872, "char_end": 27883, "match_text": "rather than"}
+{"item_id": "item_2085", "corpus": "arxiv2026", "doc_id": "2608.23627", "pattern_id": "rather_than", "char_start": 43245, "char_end": 43256, "match_text": "rather than"}
+{"item_id": "item_2038", "corpus": "arxiv2026", "doc_id": "2601.09696", "pattern_id": "rather_than", "char_start": 36102, "char_end": 36113, "match_text": "rather than"}
+{"item_id": "item_1997", "corpus": "acl2019", "doc_id": "N19-1022", "pattern_id": "rather_than", "char_start": 13937, "char_end": 13948, "match_text": "Rather than"}
+{"item_id": "item_2020", "corpus": "acl2019", "doc_id": "N19-3003", "pattern_id": "rather_than", "char_start": 1998, "char_end": 2009, "match_text": "rather than"}
+{"item_id": "item_2002", "corpus": "acl2019", "doc_id": "N19-1412", "pattern_id": "rather_than", "char_start": 8420, "char_end": 8431, "match_text": "rather than"}
+{"item_id": "item_1949", "corpus": "acl2019", "doc_id": "P19-1505", "pattern_id": "rather_than", "char_start": 3888, "char_end": 3899, "match_text": "rather than"}
+{"item_id": "item_1961", "corpus": "acl2019", "doc_id": "N19-1004", "pattern_id": "rather_than", "char_start": 28698, "char_end": 28709, "match_text": "rather than"}
+{"item_id": "item_2108", "corpus": "arxiv_v1", "doc_id": "2602.20743_v1", "pattern_id": "rather_than", "char_start": 12720, "char_end": 12731, "match_text": "Rather than"}
+{"item_id": "item_2128", "corpus": "arxiv_latest", "doc_id": "2601.07794_v2", "pattern_id": "rather_than", "char_start": 14156, "char_end": 14167, "match_text": "rather than"}
+{"item_id": "item_2039", "corpus": "arxiv2026", "doc_id": "2605.23039", "pattern_id": "rather_than", "char_start": 9193, "char_end": 9204, "match_text": "Rather than"}
+{"item_id": "item_1968", "corpus": "acl2019", "doc_id": "P19-1591", "pattern_id": "rather_than", "char_start": 4914, "char_end": 4925, "match_text": "rather than"}
+{"item_id": "item_2061", "corpus": "arxiv2026", "doc_id": "2605.10171", "pattern_id": "rather_than", "char_start": 79773, "char_end": 79784, "match_text": "rather than"}
+{"item_id": "item_1959", "corpus": "acl2019", "doc_id": "W19-4618", "pattern_id": "rather_than", "char_start": 16289, "char_end": 16300, "match_text": "rather than"}
+{"item_id": "item_1948", "corpus": "acl2019", "doc_id": "W19-4446", "pattern_id": "rather_than", "char_start": 20810, "char_end": 20821, "match_text": "rather than"}
+{"item_id": "item_1973", "corpus": "acl2019", "doc_id": "W19-0416", "pattern_id": "rather_than", "char_start": 22014, "char_end": 22025, "match_text": "rather than"}
+{"item_id": "item_1950", "corpus": "acl2019", "doc_id": "W19-0414", "pattern_id": "rather_than", "char_start": 14281, "char_end": 14292, "match_text": "rather than"}
+{"item_id": "item_2115", "corpus": "arxiv_v1", "doc_id": "2601.11042_v1", "pattern_id": "rather_than", "char_start": 35126, "char_end": 35137, "match_text": "rather than"}
+{"item_id": "item_2057", "corpus": "arxiv2026", "doc_id": "2606.00566", "pattern_id": "rather_than", "char_start": 42644, "char_end": 42655, "match_text": "rather than"}
+{"item_id": "item_1977", "corpus": "acl2019", "doc_id": "W19-5606", "pattern_id": "rather_than", "char_start": 26542, "char_end": 26553, "match_text": "rather than"}
+{"item_id": "item_2019", "corpus": "acl2019", "doc_id": "D19-1159", "pattern_id": "rather_than", "char_start": 15918, "char_end": 15929, "match_text": "rather than"}
+{"item_id": "item_2035", "corpus": "arxiv2026", "doc_id": "2604.03592", "pattern_id": "rather_than", "char_start": 45473, "char_end": 45484, "match_text": "rather than"}
+{"item_id": "item_2062", "corpus": "arxiv2026", "doc_id": "2604.14602", "pattern_id": "rather_than", "char_start": 58552, "char_end": 58563, "match_text": "rather than"}
+{"item_id": "item_2125", "corpus": "arxiv_latest", "doc_id": "2606.19706_v2", "pattern_id": "rather_than", "char_start": 6726, "char_end": 6737, "match_text": "rather than"}
+{"item_id": "item_2058", "corpus": "arxiv2026", "doc_id": "2605.14366", "pattern_id": "rather_than", "char_start": 12535, "char_end": 12546, "match_text": "rather than"}
+{"item_id": "item_2078", "corpus": "arxiv2026", "doc_id": "2601.13503", "pattern_id": "rather_than", "char_start": 48616, "char_end": 48627, "match_text": "Rather than"}
+{"item_id": "item_2117", "corpus": "arxiv_v1", "doc_id": "2608.25089_v1", "pattern_id": "rather_than", "char_start": 17032, "char_end": 17043, "match_text": "rather than"}
+{"item_id": "item_2132", "corpus": "arxiv_latest", "doc_id": "2602.06268_v2", "pattern_id": "rather_than", "char_start": 30054, "char_end": 30065, "match_text": "rather than"}
+{"item_id": "item_2107", "corpus": "arxiv_v1", "doc_id": "2601.08955_v1", "pattern_id": "rather_than", "char_start": 25603, "char_end": 25614, "match_text": "rather than"}
+{"item_id": "item_2040", "corpus": "arxiv2026", "doc_id": "2608.06171", "pattern_id": "rather_than", "char_start": 84914, "char_end": 84925, "match_text": "rather than"}
+{"item_id": "item_1982", "corpus": "acl2019", "doc_id": "S19-2170", "pattern_id": "rather_than", "char_start": 3062, "char_end": 3073, "match_text": "rather than"}
+{"item_id": "item_2129", "corpus": "arxiv_latest", "doc_id": "2603.16783_v2", "pattern_id": "rather_than", "char_start": 23027, "char_end": 23038, "match_text": "rather than"}
+{"item_id": "item_1955", "corpus": "acl2019", "doc_id": "W19-4213", "pattern_id": "rather_than", "char_start": 18433, "char_end": 18444, "match_text": "rather than"}
+{"item_id": "item_2059", "corpus": "arxiv2026", "doc_id": "2608.15129", "pattern_id": "rather_than", "char_start": 26872, "char_end": 26883, "match_text": "rather than"}
+{"item_id": "item_2089", "corpus": "arxiv2026", "doc_id": "2606.03924", "pattern_id": "rather_than", "char_start": 66820, "char_end": 66831, "match_text": "rather than"}
+{"item_id": "item_1960", "corpus": "acl2019", "doc_id": "N19-1415", "pattern_id": "rather_than", "char_start": 3067, "char_end": 3078, "match_text": "rather than"}
+{"item_id": "item_2023", "corpus": "arxiv2026", "doc_id": "2609.01422", "pattern_id": "rather_than", "char_start": 24304, "char_end": 24315, "match_text": "rather than"}
+{"item_id": "item_2004", "corpus": "acl2019", "doc_id": "P19-1037", "pattern_id": "rather_than", "char_start": 17190, "char_end": 17201, "match_text": "rather than"}
+{"item_id": "item_2013", "corpus": "acl2019", "doc_id": "W19-1415", "pattern_id": "rather_than", "char_start": 20625, "char_end": 20636, "match_text": "rather than"}
+{"item_id": "item_2053", "corpus": "arxiv2026", "doc_id": "2604.16845", "pattern_id": "rather_than", "char_start": 72612, "char_end": 72623, "match_text": "rather than"}
+{"item_id": "item_1953", "corpus": "acl2019", "doc_id": "D19-1203", "pattern_id": "rather_than", "char_start": 367, "char_end": 378, "match_text": "rather than"}
+{"item_id": "item_2081", "corpus": "arxiv2026", "doc_id": "2601.12868", "pattern_id": "rather_than", "char_start": 4560, "char_end": 4571, "match_text": "rather than"}
+{"item_id": "item_1974", "corpus": "acl2019", "doc_id": "D19-3027", "pattern_id": "rather_than", "char_start": 3090, "char_end": 3101, "match_text": "rather than"}
+{"item_id": "item_2103", "corpus": "arxiv_v1", "doc_id": "2603.16138_v1", "pattern_id": "rather_than", "char_start": 2869, "char_end": 2880, "match_text": "rather than"}
+{"item_id": "item_2122", "corpus": "arxiv_v1", "doc_id": "2604.17022_v1", "pattern_id": "rather_than", "char_start": 47096, "char_end": 47107, "match_text": "Rather than"}
+{"item_id": "item_2077", "corpus": "arxiv2026", "doc_id": "2601.10918", "pattern_id": "rather_than", "char_start": 32243, "char_end": 32254, "match_text": "Rather than"}
+{"item_id": "item_2000", "corpus": "acl2019", "doc_id": "D19-1498", "pattern_id": "rather_than", "char_start": 7733, "char_end": 7744, "match_text": "rather than"}
+{"item_id": "item_2016", "corpus": "acl2019", "doc_id": "W19-2302", "pattern_id": "rather_than", "char_start": 19585, "char_end": 19596, "match_text": "rather than"}
+{"item_id": "item_1978", "corpus": "acl2019", "doc_id": "N19-1105", "pattern_id": "rather_than", "char_start": 11567, "char_end": 11578, "match_text": "rather than"}
+{"item_id": "item_2133", "corpus": "arxiv_latest", "doc_id": "2606.03924_v2", "pattern_id": "rather_than", "char_start": 64205, "char_end": 64216, "match_text": "rather than"}
+{"item_id": "item_2121", "corpus": "arxiv_v1", "doc_id": "2602.02824_v1", "pattern_id": "rather_than", "char_start": 13411, "char_end": 13422, "match_text": "rather than"}
+{"item_id": "item_2105", "corpus": "arxiv_v1", "doc_id": "2601.07986_v1", "pattern_id": "rather_than", "char_start": 24543, "char_end": 24554, "match_text": "rather than"}
+{"item_id": "item_2120", "corpus": "arxiv_v1", "doc_id": "2604.19005_v1", "pattern_id": "rather_than", "char_start": 12907, "char_end": 12918, "match_text": "rather than"}
+{"item_id": "item_2100", "corpus": "arxiv_v1", "doc_id": "2604.01113_v1", "pattern_id": "rather_than", "char_start": 22790, "char_end": 22801, "match_text": "Rather than"}
+{"item_id": "item_2025", "corpus": "arxiv2026", "doc_id": "2604.08118", "pattern_id": "rather_than", "char_start": 8410, "char_end": 8421, "match_text": "rather than"}
+{"item_id": "item_2131", "corpus": "arxiv_latest", "doc_id": "2605.27878_v2", "pattern_id": "rather_than", "char_start": 36069, "char_end": 36080, "match_text": "rather than"}
+{"item_id": "item_1976", "corpus": "acl2019", "doc_id": "K19-1090", "pattern_id": "rather_than", "char_start": 8264, "char_end": 8275, "match_text": "Rather than"}
+{"item_id": "item_2021", "corpus": "acl2019", "doc_id": "D19-5905", "pattern_id": "rather_than", "char_start": 9911, "char_end": 9922, "match_text": "rather than"}
+{"item_id": "item_1972", "corpus": "acl2019", "doc_id": "Q19-1023", "pattern_id": "rather_than", "char_start": 31499, "char_end": 31510, "match_text": "rather than"}
+{"item_id": "item_2068", "corpus": "arxiv2026", "doc_id": "2609.03597", "pattern_id": "rather_than", "char_start": 28529, "char_end": 28540, "match_text": "rather than"}
+{"item_id": "item_2036", "corpus": "arxiv2026", "doc_id": "2609.10142", "pattern_id": "rather_than", "char_start": 20874, "char_end": 20885, "match_text": "rather than"}
+{"item_id": "item_2011", "corpus": "acl2019", "doc_id": "P19-1010", "pattern_id": "rather_than", "char_start": 25394, "char_end": 25405, "match_text": "rather than"}
+{"item_id": "item_1987", "corpus": "acl2019", "doc_id": "W19-7402", "pattern_id": "rather_than", "char_start": 18870, "char_end": 18881, "match_text": "rather than"}
+{"item_id": "item_2082", "corpus": "arxiv2026", "doc_id": "2604.18293", "pattern_id": "rather_than", "char_start": 5272, "char_end": 5283, "match_text": "rather than"}
+{"item_id": "item_2012", "corpus": "acl2019", "doc_id": "P19-1333", "pattern_id": "rather_than", "char_start": 53501, "char_end": 53512, "match_text": "rather than"}
+{"item_id": "item_2090", "corpus": "arxiv2026", "doc_id": "2604.10923", "pattern_id": "rather_than", "char_start": 38114, "char_end": 38125, "match_text": "rather than"}
+{"item_id": "item_2086", "corpus": "arxiv2026", "doc_id": "2609.00565", "pattern_id": "rather_than", "char_start": 40025, "char_end": 40036, "match_text": "rather than"}
+{"item_id": "item_2026", "corpus": "arxiv2026", "doc_id": "2603.19167", "pattern_id": "rather_than", "char_start": 106146, "char_end": 106157, "match_text": "rather than"}
+{"item_id": "item_2024", "corpus": "arxiv2026", "doc_id": "2604.05546", "pattern_id": "rather_than", "char_start": 27492, "char_end": 27503, "match_text": "rather than"}
+{"item_id": "item_2098", "corpus": "arxiv_v1", "doc_id": "2601.16690_v1", "pattern_id": "rather_than", "char_start": 9320, "char_end": 9331, "match_text": "rather than"}
+{"item_id": "item_2135", "corpus": "arxiv_latest", "doc_id": "2601.08654_v3", "pattern_id": "rather_than", "char_start": 41747, "char_end": 41758, "match_text": "rather than"}
+{"item_id": "item_2037", "corpus": "arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 1723, "char_end": 1734, "match_text": "rather than"}
+{"item_id": "item_2091", "corpus": "arxiv2026", "doc_id": "2601.04885", "pattern_id": "rather_than", "char_start": 20594, "char_end": 20605, "match_text": "rather than"}
+{"item_id": "item_2094", "corpus": "arxiv2026", "doc_id": "2608.26118", "pattern_id": "rather_than", "char_start": 59026, "char_end": 59037, "match_text": "rather than"}
+{"item_id": "item_2141", "corpus": "arxiv_latest", "doc_id": "2606.01060_v2", "pattern_id": "rather_than", "char_start": 8861, "char_end": 8872, "match_text": "rather than"}
+{"item_id": "item_2056", "corpus": "arxiv2026", "doc_id": "2609.04197", "pattern_id": "rather_than", "char_start": 48386, "char_end": 48397, "match_text": "rather than"}
+{"item_id": "item_1991", "corpus": "acl2019", "doc_id": "D19-1361", "pattern_id": "rather_than", "char_start": 12833, "char_end": 12844, "match_text": "rather than"}
+{"item_id": "item_1992", "corpus": "acl2019", "doc_id": "W19-3806", "pattern_id": "rather_than", "char_start": 2871, "char_end": 2882, "match_text": "rather than"}
+{"item_id": "item_2134", "corpus": "arxiv_latest", "doc_id": "2601.08654_v3", "pattern_id": "rather_than", "char_start": 34231, "char_end": 34242, "match_text": "rather than"}
+{"item_id": "item_1988", "corpus": "acl2019", "doc_id": "2019.icon-1.15", "pattern_id": "rather_than", "char_start": 2184, "char_end": 2195, "match_text": "rather than"}
+{"item_id": "item_2114", "corpus": "arxiv_v1", "doc_id": "2603.14975_v1", "pattern_id": "rather_than", "char_start": 46718, "char_end": 46729, "match_text": "rather than"}
+{"item_id": "item_2043", "corpus": "arxiv2026", "doc_id": "2601.16690", "pattern_id": "rather_than", "char_start": 51292, "char_end": 51303, "match_text": "rather than"}
+{"item_id": "item_2075", "corpus": "arxiv2026", "doc_id": "2603.19167", "pattern_id": "rather_than", "char_start": 39205, "char_end": 39216, "match_text": "rather than"}
+{"item_id": "item_2079", "corpus": "arxiv2026", "doc_id": "2601.03851", "pattern_id": "rather_than", "char_start": 39859, "char_end": 39870, "match_text": "rather than"}
+{"item_id": "item_1999", "corpus": "acl2019", "doc_id": "K19-1033", "pattern_id": "rather_than", "char_start": 32131, "char_end": 32142, "match_text": "rather than"}
+{"item_id": "item_1958", "corpus": "acl2019", "doc_id": "D19-6116", "pattern_id": "rather_than", "char_start": 19533, "char_end": 19544, "match_text": "rather than"}
+{"item_id": "item_2146", "corpus": "arxiv_latest", "doc_id": "2604.11121_v2", "pattern_id": "rather_than", "char_start": 10244, "char_end": 10255, "match_text": "rather than"}
+{"item_id": "item_1963", "corpus": "acl2019", "doc_id": "D19-1565", "pattern_id": "rather_than", "char_start": 28499, "char_end": 28510, "match_text": "rather than"}
+{"item_id": "item_2047", "corpus": "arxiv2026", "doc_id": "2601.15224", "pattern_id": "rather_than", "char_start": 19043, "char_end": 19054, "match_text": "rather than"}
+{"item_id": "item_2137", "corpus": "arxiv_latest", "doc_id": "2604.11662_v2", "pattern_id": "rather_than", "char_start": 35456, "char_end": 35467, "match_text": "rather than"}
+{"item_id": "item_2106", "corpus": "arxiv_v1", "doc_id": "2605.30947_v1", "pattern_id": "rather_than", "char_start": 27920, "char_end": 27931, "match_text": "rather than"}
+{"item_id": "item_2092", "corpus": "arxiv2026", "doc_id": "2601.05300", "pattern_id": "rather_than", "char_start": 34243, "char_end": 34254, "match_text": "rather than"}
+{"item_id": "item_2010", "corpus": "acl2019", "doc_id": "P19-1181", "pattern_id": "rather_than", "char_start": 14073, "char_end": 14084, "match_text": "rather than"}
+{"item_id": "item_1966", "corpus": "acl2019", "doc_id": "P19-1080", "pattern_id": "rather_than", "char_start": 36522, "char_end": 36533, "match_text": "rather than"}
+{"item_id": "item_2041", "corpus": "arxiv2026", "doc_id": "2606.19706", "pattern_id": "rather_than", "char_start": 52820, "char_end": 52831, "match_text": "rather than"}
+{"item_id": "item_2008", "corpus": "acl2019", "doc_id": "2019.lilt-18.4", "pattern_id": "rather_than", "char_start": 19307, "char_end": 19318, "match_text": "rather than"}
+{"item_id": "item_2001", "corpus": "acl2019", "doc_id": "D19-1436", "pattern_id": "rather_than", "char_start": 4550, "char_end": 4561, "match_text": "rather than"}
+{"item_id": "item_2063", "corpus": "arxiv2026", "doc_id": "2609.07153", "pattern_id": "rather_than", "char_start": 38691, "char_end": 38702, "match_text": "rather than"}
+{"item_id": "item_1989", "corpus": "acl2019", "doc_id": "N19-1285", "pattern_id": "rather_than", "char_start": 5493, "char_end": 5504, "match_text": "Rather than"}
+{"item_id": "item_2110", "corpus": "arxiv_v1", "doc_id": "2603.17070_v1", "pattern_id": "rather_than", "char_start": 2264, "char_end": 2275, "match_text": "rather than"}
+{"item_id": "item_2109", "corpus": "arxiv_v1", "doc_id": "2606.16151_v1", "pattern_id": "rather_than", "char_start": 6812, "char_end": 6823, "match_text": "rather than"}
+{"item_id": "item_2018", "corpus": "acl2019", "doc_id": "D19-1481", "pattern_id": "rather_than", "char_start": 16842, "char_end": 16853, "match_text": "rather than"}
+{"item_id": "item_2084", "corpus": "arxiv2026", "doc_id": "2608.22132", "pattern_id": "rather_than", "char_start": 25696, "char_end": 25707, "match_text": "rather than"}
+{"item_id": "item_2123", "corpus": "arxiv_v1", "doc_id": "2601.05752_v1", "pattern_id": "rather_than", "char_start": 28856, "char_end": 28867, "match_text": "rather than"}
+{"item_id": "item_1967", "corpus": "acl2019", "doc_id": "W19-3003", "pattern_id": "rather_than", "char_start": 8617, "char_end": 8628, "match_text": "rather than"}
+{"item_id": "item_1995", "corpus": "acl2019", "doc_id": "W19-5943", "pattern_id": "rather_than", "char_start": 11025, "char_end": 11036, "match_text": "rather than"}
+{"item_id": "item_1956", "corpus": "acl2019", "doc_id": "P19-1069", "pattern_id": "rather_than", "char_start": 13807, "char_end": 13818, "match_text": "rather than"}
+{"item_id": "item_2033", "corpus": "arxiv2026", "doc_id": "2604.17648", "pattern_id": "rather_than", "char_start": 10080, "char_end": 10091, "match_text": "rather than"}
+{"item_id": "item_1985", "corpus": "acl2019", "doc_id": "W19-4633", "pattern_id": "rather_than", "char_start": 9443, "char_end": 9454, "match_text": "rather than"}
+{"item_id": "item_2118", "corpus": "arxiv_v1", "doc_id": "2605.30051_v1", "pattern_id": "rather_than", "char_start": 26292, "char_end": 26303, "match_text": "rather than"}
+{"item_id": "item_2101", "corpus": "arxiv_v1", "doc_id": "2605.29668_v1", "pattern_id": "rather_than", "char_start": 32704, "char_end": 32715, "match_text": "rather than"}
+{"item_id": "item_2042", "corpus": "arxiv2026", "doc_id": "2605.26362", "pattern_id": "rather_than", "char_start": 9282, "char_end": 9293, "match_text": "rather than"}
+{"item_id": "item_2003", "corpus": "acl2019", "doc_id": "Q19-1018", "pattern_id": "rather_than", "char_start": 45007, "char_end": 45018, "match_text": "rather than"}
+{"item_id": "item_2127", "corpus": "arxiv_latest", "doc_id": "2608.12750_v2", "pattern_id": "rather_than", "char_start": 74732, "char_end": 74743, "match_text": "rather than"}
+{"item_id": "item_2099", "corpus": "arxiv_v1", "doc_id": "2606.03965_v1", "pattern_id": "rather_than", "char_start": 5315, "char_end": 5326, "match_text": "rather than"}
+{"item_id": "item_2080", "corpus": "arxiv2026", "doc_id": "2601.05300", "pattern_id": "rather_than", "char_start": 19552, "char_end": 19563, "match_text": "rather than"}
+{"item_id": "item_2017", "corpus": "acl2019", "doc_id": "W19-2108", "pattern_id": "rather_than", "char_start": 28367, "char_end": 28378, "match_text": "rather than"}
+{"item_id": "item_1975", "corpus": "acl2019", "doc_id": "J19-1003", "pattern_id": "rather_than", "char_start": 712, "char_end": 723, "match_text": "rather than"}
+{"item_id": "item_2065", "corpus": "arxiv2026", "doc_id": "2609.00921", "pattern_id": "rather_than", "char_start": 42425, "char_end": 42436, "match_text": "rather than"}
+{"item_id": "item_2139", "corpus": "arxiv_latest", "doc_id": "2601.08626_v4", "pattern_id": "rather_than", "char_start": 9630, "char_end": 9641, "match_text": "rather than"}
+{"item_id": "item_2050", "corpus": "arxiv2026", "doc_id": "2605.10714", "pattern_id": "rather_than", "char_start": 16040, "char_end": 16051, "match_text": "rather than"}
+{"item_id": "item_1954", "corpus": "acl2019", "doc_id": "W19-5707", "pattern_id": "rather_than", "char_start": 46260, "char_end": 46271, "match_text": "rather than"}
+{"item_id": "item_2051", "corpus": "arxiv2026", "doc_id": "2603.12165", "pattern_id": "rather_than", "char_start": 10693, "char_end": 10704, "match_text": "rather than"}
+{"item_id": "item_1971", "corpus": "acl2019", "doc_id": "W19-3311", "pattern_id": "rather_than", "char_start": 5953, "char_end": 5964, "match_text": "rather than"}
+{"item_id": "item_2044", "corpus": "arxiv2026", "doc_id": "2604.24374", "pattern_id": "rather_than", "char_start": 4958, "char_end": 4969, "match_text": "Rather than"}
+{"item_id": "item_1969", "corpus": "acl2019", "doc_id": "2019.gwc-1.12", "pattern_id": "rather_than", "char_start": 38392, "char_end": 38403, "match_text": "Rather than"}
+{"item_id": "item_2119", "corpus": "arxiv_v1", "doc_id": "2605.28346_v1", "pattern_id": "rather_than", "char_start": 39931, "char_end": 39942, "match_text": "rather than"}
+{"item_id": "item_1986", "corpus": "acl2019", "doc_id": "D19-1003", "pattern_id": "rather_than", "char_start": 481, "char_end": 492, "match_text": "rather than"}
+{"item_id": "item_2116", "corpus": "arxiv_v1", "doc_id": "2606.17016_v1", "pattern_id": "rather_than", "char_start": 11045, "char_end": 11056, "match_text": "rather than"}
+{"item_id": "item_2073", "corpus": "arxiv2026", "doc_id": "2601.05905", "pattern_id": "rather_than", "char_start": 39757, "char_end": 39768, "match_text": "rather than"}
+{"item_id": "item_1952", "corpus": "acl2019", "doc_id": "W19-6112", "pattern_id": "rather_than", "char_start": 8509, "char_end": 8520, "match_text": "rather than"}
+{"item_id": "item_2052", "corpus": "arxiv2026", "doc_id": "2609.03215", "pattern_id": "rather_than", "char_start": 19702, "char_end": 19713, "match_text": "rather than"}
+{"item_id": "item_2070", "corpus": "arxiv2026", "doc_id": "2609.06065", "pattern_id": "rather_than", "char_start": 44480, "char_end": 44491, "match_text": "rather than"}
+{"item_id": "item_2005", "corpus": "acl2019", "doc_id": "K19-1008", "pattern_id": "rather_than", "char_start": 18283, "char_end": 18294, "match_text": "rather than"}
+{"item_id": "item_1980", "corpus": "acl2019", "doc_id": "W19-0402", "pattern_id": "rather_than", "char_start": 37937, "char_end": 37948, "match_text": "rather than"}
+{"item_id": "item_2145", "corpus": "arxiv_latest", "doc_id": "2601.05201_v2", "pattern_id": "rather_than", "char_start": 12466, "char_end": 12477, "match_text": "rather than"}
+{"item_id": "item_2096", "corpus": "arxiv2026", "doc_id": "2608.20777", "pattern_id": "rather_than", "char_start": 25047, "char_end": 25058, "match_text": "rather than"}
+{"item_id": "item_2049", "corpus": "arxiv2026", "doc_id": "2608.28009", "pattern_id": "rather_than", "char_start": 11245, "char_end": 11256, "match_text": "rather than"}
+{"item_id": "item_2142", "corpus": "arxiv_latest", "doc_id": "2603.18272_v2", "pattern_id": "rather_than", "char_start": 16717, "char_end": 16728, "match_text": "rather than"}
+{"item_id": "item_2066", "corpus": "arxiv2026", "doc_id": "2603.20884", "pattern_id": "rather_than", "char_start": 49286, "char_end": 49297, "match_text": "rather than"}
+{"item_id": "item_1990", "corpus": "acl2019", "doc_id": "D19-5309", "pattern_id": "rather_than", "char_start": 10360, "char_end": 10371, "match_text": "rather than"}
+{"item_id": "item_2076", "corpus": "arxiv2026", "doc_id": "2609.04720", "pattern_id": "rather_than", "char_start": 32712, "char_end": 32723, "match_text": "rather than"}
+{"item_id": "item_1962", "corpus": "acl2019", "doc_id": "Q19-1043", "pattern_id": "rather_than", "char_start": 35324, "char_end": 35335, "match_text": "rather than"}
+{"item_id": "item_2072", "corpus": "arxiv2026", "doc_id": "2605.13841", "pattern_id": "rather_than", "char_start": 94731, "char_end": 94742, "match_text": "rather than"}
+{"item_id": "item_1981", "corpus": "acl2019", "doc_id": "K19-1020", "pattern_id": "rather_than", "char_start": 7222, "char_end": 7233, "match_text": "rather than"}
+{"item_id": "item_2095", "corpus": "arxiv2026", "doc_id": "2605.29475", "pattern_id": "rather_than", "char_start": 20879, "char_end": 20890, "match_text": "rather than"}
+{"item_id": "item_1965", "corpus": "acl2019", "doc_id": "K19-1075", "pattern_id": "rather_than", "char_start": 3017, "char_end": 3028, "match_text": "rather than"}
+{"item_id": "item_2147", "corpus": "arxiv_latest", "doc_id": "2608.20920_v2", "pattern_id": "rather_than", "char_start": 50241, "char_end": 50252, "match_text": "rather than"}
+{"item_id": "item_2136", "corpus": "arxiv_latest", "doc_id": "2601.09624_v2", "pattern_id": "rather_than", "char_start": 36266, "char_end": 36277, "match_text": "Rather than"}
+{"item_id": "item_2088", "corpus": "arxiv2026", "doc_id": "2605.05818", "pattern_id": "rather_than", "char_start": 36322, "char_end": 36333, "match_text": "rather than"}
+{"item_id": "item_2009", "corpus": "acl2019", "doc_id": "N19-1398", "pattern_id": "rather_than", "char_start": 35437, "char_end": 35448, "match_text": "rather than"}
+{"item_id": "item_1951", "corpus": "acl2019", "doc_id": "P19-1599", "pattern_id": "rather_than", "char_start": 8356, "char_end": 8367, "match_text": "rather than"}
+{"item_id": "item_2027", "corpus": "arxiv2026", "doc_id": "2609.00470", "pattern_id": "rather_than", "char_start": 34073, "char_end": 34084, "match_text": "rather than"}
+{"item_id": "item_2015", "corpus": "acl2019", "doc_id": "W19-8513", "pattern_id": "rather_than", "char_start": 13079, "char_end": 13090, "match_text": "rather than"}
+{"item_id": "item_2102", "corpus": "arxiv_v1", "doc_id": "2603.03297_v1", "pattern_id": "rather_than", "char_start": 14884, "char_end": 14895, "match_text": "Rather than"}
+{"item_id": "item_2083", "corpus": "arxiv2026", "doc_id": "2605.15589", "pattern_id": "rather_than", "char_start": 18707, "char_end": 18718, "match_text": "rather than"}
+{"item_id": "item_1984", "corpus": "acl2019", "doc_id": "W19-6730", "pattern_id": "rather_than", "char_start": 10286, "char_end": 10297, "match_text": "rather than"}
+{"item_id": "item_2104", "corpus": "arxiv_v1", "doc_id": "2608.22872_v1", "pattern_id": "rather_than", "char_start": 18100, "char_end": 18111, "match_text": "rather than"}
+{"item_id": "item_1994", "corpus": "acl2019", "doc_id": "N19-1056", "pattern_id": "rather_than", "char_start": 4281, "char_end": 4292, "match_text": "rather than"}
+{"item_id": "item_1957", "corpus": "acl2019", "doc_id": "W19-0408", "pattern_id": "rather_than", "char_start": 18710, "char_end": 18721, "match_text": "rather than"}
+{"item_id": "item_2031", "corpus": "arxiv2026", "doc_id": "2606.00294", "pattern_id": "rather_than", "char_start": 45593, "char_end": 45604, "match_text": "rather than"}
+{"item_id": "item_2060", "corpus": "arxiv2026", "doc_id": "2609.10901", "pattern_id": "rather_than", "char_start": 89343, "char_end": 89354, "match_text": "rather than"}
+{"item_id": "item_2067", "corpus": "arxiv2026", "doc_id": "2609.00823", "pattern_id": "rather_than", "char_start": 52641, "char_end": 52652, "match_text": "rather than"}
+{"item_id": "item_2029", "corpus": "arxiv2026", "doc_id": "2604.24645", "pattern_id": "rather_than", "char_start": 8401, "char_end": 8412, "match_text": "rather than"}
+{"item_id": "item_2112", "corpus": "arxiv_v1", "doc_id": "2605.09043_v1", "pattern_id": "rather_than", "char_start": 18625, "char_end": 18636, "match_text": "rather than"}
+{"item_id": "item_2032", "corpus": "arxiv2026", "doc_id": "2605.30947", "pattern_id": "rather_than", "char_start": 46784, "char_end": 46795, "match_text": "rather than"}
+{"item_id": "item_1979", "corpus": "acl2019", "doc_id": "W19-7009", "pattern_id": "rather_than", "char_start": 2270, "char_end": 2281, "match_text": "rather than"}
+{"item_id": "item_2046", "corpus": "arxiv2026", "doc_id": "2608.29588", "pattern_id": "rather_than", "char_start": 50791, "char_end": 50802, "match_text": "rather than"}
+{"item_id": "item_1970", "corpus": "acl2019", "doc_id": "W19-4105", "pattern_id": "rather_than", "char_start": 32381, "char_end": 32392, "match_text": "rather than"}
+{"item_id": "item_2007", "corpus": "acl2019", "doc_id": "N19-2018", "pattern_id": "rather_than", "char_start": 8114, "char_end": 8125, "match_text": "rather than"}
+{"item_id": "item_2087", "corpus": "arxiv2026", "doc_id": "2609.06880", "pattern_id": "rather_than", "char_start": 22166, "char_end": 22177, "match_text": "rather than"}
+{"item_id": "item_1998", "corpus": "acl2019", "doc_id": "W19-6729", "pattern_id": "rather_than", "char_start": 11326, "char_end": 11337, "match_text": "rather than"}
+{"item_id": "item_2064", "corpus": "arxiv2026", "doc_id": "2609.06065", "pattern_id": "rather_than", "char_start": 34401, "char_end": 34412, "match_text": "rather than"}
+{"item_id": "item_2014", "corpus": "acl2019", "doc_id": "D19-5530", "pattern_id": "rather_than", "char_start": 12223, "char_end": 12234, "match_text": "rather than"}
+{"item_id": "item_1964", "corpus": "acl2019", "doc_id": "K19-1036", "pattern_id": "rather_than", "char_start": 21767, "char_end": 21778, "match_text": "rather than"}
+{"item_id": "item_2140", "corpus": "arxiv_latest", "doc_id": "2605.26678_v2", "pattern_id": "rather_than", "char_start": 41413, "char_end": 41424, "match_text": "rather than"}
+{"item_id": "item_1996", "corpus": "acl2019", "doc_id": "W19-8639", "pattern_id": "rather_than", "char_start": 35325, "char_end": 35336, "match_text": "rather than"}
+{"item_id": "item_2126", "corpus": "arxiv_latest", "doc_id": "2601.02956_v3", "pattern_id": "rather_than", "char_start": 4867, "char_end": 4878, "match_text": "rather than"}
+{"item_id": "item_2113", "corpus": "arxiv_v1", "doc_id": "2606.27499_v1", "pattern_id": "rather_than", "char_start": 40201, "char_end": 40212, "match_text": "rather than"}
+{"item_id": "item_2028", "corpus": "arxiv2026", "doc_id": "2609.07823", "pattern_id": "rather_than", "char_start": 46327, "char_end": 46338, "match_text": "rather than"}
+{"item_id": "item_2148", "corpus": "high_count_arxiv2026", "doc_id": "2604.17022", "pattern_id": "rather_than", "char_start": 85639, "char_end": 85650, "match_text": "rather than", "paper_total_count": 46, "repeat_of": "item_1877"}
+{"item_id": "item_2149", "corpus": "arxiv2026", "doc_id": "2603.00696", "pattern_id": "rather_than", "char_start": 35660, "char_end": 35671, "match_text": "rather than", "repeat_of": "item_1764"}
+{"item_id": "item_2150", "corpus": "acl2019", "doc_id": "N19-1285", "pattern_id": "rather_than", "char_start": 5493, "char_end": 5504, "match_text": "Rather than", "repeat_of": "item_1989"}
+{"item_id": "item_2151", "corpus": "arxiv2026", "doc_id": "2603.03677", "pattern_id": "rather_than", "char_start": 75511, "char_end": 75522, "match_text": "rather than", "repeat_of": "item_1737"}
+{"item_id": "item_2152", "corpus": "high_count_arxiv2026", "doc_id": "2605.28006", "pattern_id": "rather_than", "char_start": 72504, "char_end": 72515, "match_text": "rather than", "paper_total_count": 45, "repeat_of": "item_1892"}
+{"item_id": "item_2153", "corpus": "acl2019", "doc_id": "W19-4215", "pattern_id": "rather_than", "char_start": 21771, "char_end": 21782, "match_text": "rather than", "repeat_of": "item_1230"}
+{"item_id": "item_2154", "corpus": "acl2019", "doc_id": "W19-7009", "pattern_id": "rather_than", "char_start": 2270, "char_end": 2281, "match_text": "rather than", "repeat_of": "item_1979"}
+{"item_id": "item_2155", "corpus": "arxiv_v1", "doc_id": "2601.16690_v1", "pattern_id": "rather_than", "char_start": 9320, "char_end": 9331, "match_text": "rather than", "repeat_of": "item_2098"}
+{"item_id": "item_2156", "corpus": "high_count_arxiv2026", "doc_id": "2608.21832", "pattern_id": "rather_than", "char_start": 85614, "char_end": 85625, "match_text": "rather than", "paper_total_count": 41, "repeat_of": "item_1885"}
+{"item_id": "item_2157", "corpus": "acl2019", "doc_id": "N19-1398", "pattern_id": "rather_than", "char_start": 35437, "char_end": 35448, "match_text": "rather than", "repeat_of": "item_2009"}
+{"item_id": "item_2158", "corpus": "arxiv2026", "doc_id": "2609.02089", "pattern_id": "rather_than", "char_start": 38959, "char_end": 38970, "match_text": "rather than", "repeat_of": "item_1735"}
+{"item_id": "item_2159", "corpus": "arxiv2026", "doc_id": "2608.15129", "pattern_id": "rather_than", "char_start": 26872, "char_end": 26883, "match_text": "rather than", "repeat_of": "item_2059"}
+{"item_id": "item_2160", "corpus": "arxiv_v1", "doc_id": "2604.10159_v1", "pattern_id": "rather_than", "char_start": 45120, "char_end": 45131, "match_text": "rather than", "repeat_of": "item_1907"}
+{"item_id": "item_2161", "corpus": "arxiv2026", "doc_id": "2604.15140", "pattern_id": "rather_than", "char_start": 11526, "char_end": 11537, "match_text": "rather than", "repeat_of": "item_1729"}
+{"item_id": "item_2162", "corpus": "arxiv_latest", "doc_id": "2601.14289_v2", "pattern_id": "rather_than", "char_start": 107107, "char_end": 107118, "match_text": "rather than", "repeat_of": "item_1938"}
+{"item_id": "item_2163", "corpus": "arxiv_latest", "doc_id": "2606.03924_v2", "pattern_id": "rather_than", "char_start": 64205, "char_end": 64216, "match_text": "rather than", "repeat_of": "item_2133"}
+{"item_id": "item_2164", "corpus": "acl2019", "doc_id": "D19-1273", "pattern_id": "rather_than", "char_start": 29694, "char_end": 29705, "match_text": "rather than", "repeat_of": "item_1280"}
+{"item_id": "item_2165", "corpus": "acl2019", "doc_id": "W19-3306", "pattern_id": "rather_than", "char_start": 25561, "char_end": 25572, "match_text": "rather than", "repeat_of": "item_1225"}
+{"item_id": "item_2166", "corpus": "high_count_arxiv2026", "doc_id": "2605.29668", "pattern_id": "rather_than", "char_start": 34519, "char_end": 34530, "match_text": "rather than", "paper_total_count": 39, "repeat_of": "item_1858"}
+{"item_id": "item_2167", "corpus": "arxiv_v1", "doc_id": "2606.02911_v1", "pattern_id": "rather_than", "char_start": 40793, "char_end": 40804, "match_text": "rather than", "repeat_of": "item_1910"}
+{"item_id": "item_2168", "corpus": "arxiv2026", "doc_id": "2604.17771", "pattern_id": "rather_than", "char_start": 26907, "char_end": 26918, "match_text": "rather than", "repeat_of": "item_1787"}
+{"item_id": "item_2169", "corpus": "arxiv_v1", "doc_id": "2604.18164_v1", "pattern_id": "rather_than", "char_start": 64229, "char_end": 64240, "match_text": "rather than", "repeat_of": "item_1916"}
+{"item_id": "item_2170", "corpus": "arxiv_v1", "doc_id": "2606.17016_v1", "pattern_id": "rather_than", "char_start": 11045, "char_end": 11056, "match_text": "rather than", "repeat_of": "item_2116"}
+{"item_id": "item_2171", "corpus": "arxiv_latest", "doc_id": "2608.20920_v2", "pattern_id": "rather_than", "char_start": 50241, "char_end": 50252, "match_text": "rather than", "repeat_of": "item_2147"}
+{"item_id": "item_2172", "corpus": "high_count_arxiv2026", "doc_id": "2605.28802", "pattern_id": "rather_than", "char_start": 2858, "char_end": 2869, "match_text": "rather than", "paper_total_count": 42, "repeat_of": "item_1828"}
+{"item_id": "item_2173", "corpus": "arxiv_latest", "doc_id": "2605.13989_v3", "pattern_id": "rather_than", "char_start": 118552, "char_end": 118563, "match_text": "rather than", "repeat_of": "item_1945"}
+{"item_id": "item_2174", "corpus": "acl2019", "doc_id": "W19-3824", "pattern_id": "rather_than", "char_start": 23265, "char_end": 23276, "match_text": "rather than", "repeat_of": "item_1259"}
+{"item_id": "item_2175", "corpus": "arxiv2026", "doc_id": "2605.22641", "pattern_id": "rather_than", "char_start": 42908, "char_end": 42919, "match_text": "rather than", "repeat_of": "item_1773"}
+{"item_id": "item_2176", "corpus": "acl2019", "doc_id": "P19-1253", "pattern_id": "rather_than", "char_start": 17460, "char_end": 17471, "match_text": "rather than", "repeat_of": "item_1228"}
+{"item_id": "item_2177", "corpus": "arxiv2026", "doc_id": "2608.20804", "pattern_id": "rather_than", "char_start": 47502, "char_end": 47513, "match_text": "rather than", "repeat_of": "item_1749"}
+{"item_id": "item_2178", "corpus": "high_count_arxiv2026", "doc_id": "2607.14252", "pattern_id": "rather_than", "char_start": 129002, "char_end": 129013, "match_text": "rather than", "paper_total_count": 46, "repeat_of": "item_1840"}
+{"item_id": "item_2179", "corpus": "arxiv_v1", "doc_id": "2608.25089_v1", "pattern_id": "rather_than", "char_start": 16329, "char_end": 16340, "match_text": "rather than", "repeat_of": "item_1919"}
+{"item_id": "item_2180", "corpus": "acl2019", "doc_id": "W19-2916", "pattern_id": "rather_than", "char_start": 9289, "char_end": 9300, "match_text": "rather than", "repeat_of": "item_1216"}
+{"item_id": "item_2181", "corpus": "acl2019", "doc_id": "N19-1415", "pattern_id": "rather_than", "char_start": 3067, "char_end": 3078, "match_text": "rather than", "repeat_of": "item_1960"}
+{"item_id": "item_2182", "corpus": "acl2019", "doc_id": "N19-1159", "pattern_id": "rather_than", "char_start": 22196, "char_end": 22207, "match_text": "rather than", "repeat_of": "item_1260"}
+{"item_id": "item_2183", "corpus": "arxiv2026", "doc_id": "2604.02194", "pattern_id": "rather_than", "char_start": 41161, "char_end": 41172, "match_text": "rather than", "repeat_of": "item_1732"}
+{"item_id": "item_2184", "corpus": "acl2019", "doc_id": "W19-3216", "pattern_id": "rather_than", "char_start": 12779, "char_end": 12790, "match_text": "rather than", "repeat_of": "item_1258"}
+{"item_id": "item_2185", "corpus": "acl2019", "doc_id": "P19-1278", "pattern_id": "rather_than", "char_start": 4143, "char_end": 4154, "match_text": "rather than", "repeat_of": "item_1227"}
+{"item_id": "item_2186", "corpus": "acl2019", "doc_id": "D19-1436", "pattern_id": "rather_than", "char_start": 4550, "char_end": 4561, "match_text": "rather than", "repeat_of": "item_2001"}
+{"item_id": "item_2187", "corpus": "arxiv2026", "doc_id": "2604.04815", "pattern_id": "rather_than", "char_start": 22702, "char_end": 22713, "match_text": "rather than", "repeat_of": "item_1768"}
+{"item_id": "item_2338", "corpus": "arxiv2026", "doc_id": "2601.02956", "pattern_id": "rather_than", "char_start": 34024, "char_end": 34035, "match_text": "rather than"}
+{"item_id": "item_2298", "corpus": "arxiv2026", "doc_id": "2604.11749", "pattern_id": "rather_than", "char_start": 39167, "char_end": 39178, "match_text": "rather than"}
+{"item_id": "item_2660", "corpus": "arxiv_latest", "doc_id": "2601.04029_v2", "pattern_id": "rather_than", "char_start": 11996, "char_end": 12007, "match_text": "rather than"}
+{"item_id": "item_2537", "corpus": "arxiv_v1", "doc_id": "2604.14651_v1", "pattern_id": "rather_than", "char_start": 37914, "char_end": 37925, "match_text": "rather than"}
+{"item_id": "item_2669", "corpus": "arxiv_latest", "doc_id": "2604.10452_v2", "pattern_id": "rather_than", "char_start": 9408, "char_end": 9419, "match_text": "rather than"}
+{"item_id": "item_2500", "corpus": "arxiv2026", "doc_id": "2601.06347", "pattern_id": "rather_than", "char_start": 38546, "char_end": 38557, "match_text": "rather than"}
+{"item_id": "item_2349", "corpus": "arxiv2026", "doc_id": "2606.22511", "pattern_id": "rather_than", "char_start": 47166, "char_end": 47177, "match_text": "rather than"}
+{"item_id": "item_2534", "corpus": "arxiv_v1", "doc_id": "2606.02907_v1", "pattern_id": "rather_than", "char_start": 8991, "char_end": 9002, "match_text": "rather than"}
+{"item_id": "item_2406", "corpus": "arxiv2026", "doc_id": "2601.15755", "pattern_id": "rather_than", "char_start": 40411, "char_end": 40422, "match_text": "rather than"}
+{"item_id": "item_2569", "corpus": "arxiv_v1", "doc_id": "2607.28648_v1", "pattern_id": "rather_than", "char_start": 34842, "char_end": 34853, "match_text": "rather than"}
+{"item_id": "item_2606", "corpus": "arxiv_v1", "doc_id": "2601.12979_v1", "pattern_id": "rather_than", "char_start": 17373, "char_end": 17384, "match_text": "rather than"}
+{"item_id": "item_2471", "corpus": "arxiv2026", "doc_id": "2606.02907", "pattern_id": "rather_than", "char_start": 6838, "char_end": 6849, "match_text": "rather than"}
+{"item_id": "item_2671", "corpus": "arxiv_latest", "doc_id": "2603.15421_v2", "pattern_id": "rather_than", "char_start": 4813, "char_end": 4824, "match_text": "rather than"}
+{"item_id": "item_2233", "corpus": "acl2019", "doc_id": "W19-5921", "pattern_id": "rather_than", "char_start": 16778, "char_end": 16789, "match_text": "Rather than"}
+{"item_id": "item_2481", "corpus": "arxiv2026", "doc_id": "2609.09835", "pattern_id": "rather_than", "char_start": 39861, "char_end": 39872, "match_text": "rather than"}
+{"item_id": "item_2410", "corpus": "arxiv2026", "doc_id": "2604.05090", "pattern_id": "rather_than", "char_start": 38158, "char_end": 38169, "match_text": "rather than"}
+{"item_id": "item_2317", "corpus": "arxiv2026", "doc_id": "2606.05054", "pattern_id": "rather_than", "char_start": 31656, "char_end": 31667, "match_text": "rather than"}
+{"item_id": "item_2327", "corpus": "arxiv2026", "doc_id": "2604.05818", "pattern_id": "rather_than", "char_start": 1188, "char_end": 1199, "match_text": "Rather than"}
+{"item_id": "item_2518", "corpus": "arxiv2026", "doc_id": "2608.26689", "pattern_id": "rather_than", "char_start": 31928, "char_end": 31939, "match_text": "rather than"}
+{"item_id": "item_2516", "corpus": "arxiv2026", "doc_id": "2609.01111", "pattern_id": "rather_than", "char_start": 35364, "char_end": 35375, "match_text": "rather than"}
+{"item_id": "item_2457", "corpus": "arxiv2026", "doc_id": "2608.21832", "pattern_id": "rather_than", "char_start": 51360, "char_end": 51371, "match_text": "rather than"}
+{"item_id": "item_2296", "corpus": "arxiv2026", "doc_id": "2608.26587", "pattern_id": "rather_than", "char_start": 1907, "char_end": 1918, "match_text": "rather than"}
+{"item_id": "item_2452", "corpus": "arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 45273, "char_end": 45284, "match_text": "rather than"}
+{"item_id": "item_2551", "corpus": "arxiv_v1", "doc_id": "2605.31105_v1", "pattern_id": "rather_than", "char_start": 9733, "char_end": 9744, "match_text": "rather than"}
+{"item_id": "item_2633", "corpus": "arxiv_latest", "doc_id": "2608.02087_v2", "pattern_id": "rather_than", "char_start": 34765, "char_end": 34776, "match_text": "rather than"}
+{"item_id": "item_2578", "corpus": "arxiv_v1", "doc_id": "2605.26958_v1", "pattern_id": "rather_than", "char_start": 26000, "char_end": 26011, "match_text": "rather than"}
+{"item_id": "item_2675", "corpus": "arxiv_latest", "doc_id": "2601.02902_v2", "pattern_id": "rather_than", "char_start": 1037, "char_end": 1048, "match_text": "rather than"}
+{"item_id": "item_2685", "corpus": "arxiv_latest", "doc_id": "2603.14975_v2", "pattern_id": "rather_than", "char_start": 15165, "char_end": 15176, "match_text": "rather than"}
+{"item_id": "item_2529", "corpus": "arxiv_v1", "doc_id": "2605.07409_v1", "pattern_id": "rather_than", "char_start": 37794, "char_end": 37805, "match_text": "rather than"}
+{"item_id": "item_2208", "corpus": "acl2019", "doc_id": "S19-2111", "pattern_id": "rather_than", "char_start": 14449, "char_end": 14460, "match_text": "rather than"}
+{"item_id": "item_2283", "corpus": "acl2019", "doc_id": "W19-3322", "pattern_id": "rather_than", "char_start": 15518, "char_end": 15529, "match_text": "rather than"}
+{"item_id": "item_2451", "corpus": "arxiv2026", "doc_id": "2609.07307", "pattern_id": "rather_than", "char_start": 11651, "char_end": 11662, "match_text": "rather than"}
+{"item_id": "item_2285", "corpus": "acl2019", "doc_id": "D19-1050", "pattern_id": "rather_than", "char_start": 12077, "char_end": 12088, "match_text": "rather than"}
+{"item_id": "item_2365", "corpus": "arxiv2026", "doc_id": "2601.08097", "pattern_id": "rather_than", "char_start": 26754, "char_end": 26765, "match_text": "rather than"}
+{"item_id": "item_2664", "corpus": "arxiv_latest", "doc_id": "2607.23545_v2", "pattern_id": "rather_than", "char_start": 48624, "char_end": 48635, "match_text": "rather than"}
+{"item_id": "item_2237", "corpus": "acl2019", "doc_id": "R19-1044", "pattern_id": "rather_than", "char_start": 6364, "char_end": 6375, "match_text": "rather than"}
+{"item_id": "item_2598", "corpus": "arxiv_v1", "doc_id": "2603.00029_v1", "pattern_id": "rather_than", "char_start": 3340, "char_end": 3351, "match_text": "rather than"}
+{"item_id": "item_2255", "corpus": "acl2019", "doc_id": "W19-8659", "pattern_id": "rather_than", "char_start": 21335, "char_end": 21346, "match_text": "rather than"}
+{"item_id": "item_2635", "corpus": "arxiv_latest", "doc_id": "2606.14580_v2", "pattern_id": "rather_than", "char_start": 67075, "char_end": 67086, "match_text": "rather than"}
+{"item_id": "item_2360", "corpus": "arxiv2026", "doc_id": "2601.10702", "pattern_id": "rather_than", "char_start": 62451, "char_end": 62462, "match_text": "rather than"}
+{"item_id": "item_2399", "corpus": "arxiv2026", "doc_id": "2608.05169", "pattern_id": "rather_than", "char_start": 8782, "char_end": 8793, "match_text": "rather than"}
+{"item_id": "item_2577", "corpus": "arxiv_v1", "doc_id": "2606.03782_v1", "pattern_id": "rather_than", "char_start": 2389, "char_end": 2400, "match_text": "rather than"}
+{"item_id": "item_2504", "corpus": "arxiv2026", "doc_id": "2605.18352", "pattern_id": "rather_than", "char_start": 7645, "char_end": 7656, "match_text": "rather than"}
+{"item_id": "item_2362", "corpus": "arxiv2026", "doc_id": "2604.05655", "pattern_id": "rather_than", "char_start": 47610, "char_end": 47621, "match_text": "rather than"}
+{"item_id": "item_2244", "corpus": "acl2019", "doc_id": "N19-1269", "pattern_id": "rather_than", "char_start": 33685, "char_end": 33696, "match_text": "rather than"}
+{"item_id": "item_2314", "corpus": "arxiv2026", "doc_id": "2609.03293", "pattern_id": "rather_than", "char_start": 124072, "char_end": 124083, "match_text": "rather than"}
+{"item_id": "item_2215", "corpus": "acl2019", "doc_id": "W19-5204", "pattern_id": "rather_than", "char_start": 22456, "char_end": 22467, "match_text": "rather than"}
+{"item_id": "item_2625", "corpus": "arxiv_latest", "doc_id": "2608.21832_v2", "pattern_id": "rather_than", "char_start": 31068, "char_end": 31079, "match_text": "rather than"}
+{"item_id": "item_2492", "corpus": "arxiv2026", "doc_id": "2608.30856", "pattern_id": "rather_than", "char_start": 41257, "char_end": 41268, "match_text": "rather than"}
+{"item_id": "item_2379", "corpus": "arxiv2026", "doc_id": "2605.28006", "pattern_id": "rather_than", "char_start": 54124, "char_end": 54135, "match_text": "rather than"}
+{"item_id": "item_2617", "corpus": "arxiv_latest", "doc_id": "2601.08146_v4", "pattern_id": "rather_than", "char_start": 42009, "char_end": 42020, "match_text": "rather than"}
+{"item_id": "item_2493", "corpus": "arxiv2026", "doc_id": "2605.03858", "pattern_id": "rather_than", "char_start": 28194, "char_end": 28205, "match_text": "rather than"}
+{"item_id": "item_2678", "corpus": "arxiv_latest", "doc_id": "2605.07409_v2", "pattern_id": "rather_than", "char_start": 48792, "char_end": 48803, "match_text": "rather than"}
+{"item_id": "item_2305", "corpus": "arxiv2026", "doc_id": "2608.29995", "pattern_id": "rather_than", "char_start": 87874, "char_end": 87885, "match_text": "rather than"}
+{"item_id": "item_2653", "corpus": "arxiv_latest", "doc_id": "2605.29224_v2", "pattern_id": "rather_than", "char_start": 4328, "char_end": 4339, "match_text": "rather than"}
+{"item_id": "item_2269", "corpus": "acl2019", "doc_id": "P19-1288", "pattern_id": "rather_than", "char_start": 4766, "char_end": 4777, "match_text": "rather than"}
+{"item_id": "item_2448", "corpus": "arxiv2026", "doc_id": "2606.06037", "pattern_id": "rather_than", "char_start": 34099, "char_end": 34110, "match_text": "rather than"}
+{"item_id": "item_2636", "corpus": "arxiv_latest", "doc_id": "2601.18552_v2", "pattern_id": "rather_than", "char_start": 34629, "char_end": 34640, "match_text": "rather than"}
+{"item_id": "item_2243", "corpus": "acl2019", "doc_id": "W19-5111", "pattern_id": "rather_than", "char_start": 26586, "char_end": 26597, "match_text": "rather than"}
+{"item_id": "item_2353", "corpus": "arxiv2026", "doc_id": "2608.26950", "pattern_id": "rather_than", "char_start": 23163, "char_end": 23174, "match_text": "rather than"}
+{"item_id": "item_2595", "corpus": "arxiv_v1", "doc_id": "2608.23271_v1", "pattern_id": "rather_than", "char_start": 9852, "char_end": 9863, "match_text": "rather than"}
+{"item_id": "item_2272", "corpus": "acl2019", "doc_id": "W19-8643", "pattern_id": "rather_than", "char_start": 34405, "char_end": 34416, "match_text": "rather than"}
+{"item_id": "item_2326", "corpus": "arxiv2026", "doc_id": "2601.07794", "pattern_id": "rather_than", "char_start": 54417, "char_end": 54428, "match_text": "rather than"}
+{"item_id": "item_2477", "corpus": "arxiv2026", "doc_id": "2608.28930", "pattern_id": "rather_than", "char_start": 9294, "char_end": 9305, "match_text": "rather than"}
+{"item_id": "item_2499", "corpus": "arxiv2026", "doc_id": "2609.03366", "pattern_id": "rather_than", "char_start": 151020, "char_end": 151031, "match_text": "rather than"}
+{"item_id": "item_2659", "corpus": "arxiv_latest", "doc_id": "2607.17219_v2", "pattern_id": "rather_than", "char_start": 31651, "char_end": 31662, "match_text": "rather than"}
+{"item_id": "item_2525", "corpus": "arxiv2026", "doc_id": "2601.05062", "pattern_id": "rather_than", "char_start": 49726, "char_end": 49737, "match_text": "rather than"}
+{"item_id": "item_2535", "corpus": "arxiv_v1", "doc_id": "2606.02502_v1", "pattern_id": "rather_than", "char_start": 21637, "char_end": 21648, "match_text": "rather than"}
+{"item_id": "item_2486", "corpus": "arxiv2026", "doc_id": "2609.08029", "pattern_id": "rather_than", "char_start": 3680, "char_end": 3691, "match_text": "rather than"}
+{"item_id": "item_2679", "corpus": "arxiv_latest", "doc_id": "2606.14580_v2", "pattern_id": "rather_than", "char_start": 25309, "char_end": 25320, "match_text": "Rather than"}
+{"item_id": "item_2472", "corpus": "arxiv2026", "doc_id": "2605.00607", "pattern_id": "rather_than", "char_start": 9515, "char_end": 9526, "match_text": "rather than"}
+{"item_id": "item_2449", "corpus": "arxiv2026", "doc_id": "2605.14057", "pattern_id": "rather_than", "char_start": 15273, "char_end": 15284, "match_text": "rather than"}
+{"item_id": "item_2462", "corpus": "arxiv2026", "doc_id": "2609.04452", "pattern_id": "rather_than", "char_start": 1143, "char_end": 1154, "match_text": "rather than"}
+{"item_id": "item_2226", "corpus": "acl2019", "doc_id": "N19-1370", "pattern_id": "rather_than", "char_start": 34539, "char_end": 34550, "match_text": "rather than"}
+{"item_id": "item_2599", "corpus": "arxiv_v1", "doc_id": "2602.08979_v1", "pattern_id": "rather_than", "char_start": 46245, "char_end": 46256, "match_text": "rather than"}
+{"item_id": "item_2200", "corpus": "acl2019", "doc_id": "P19-1625", "pattern_id": "rather_than", "char_start": 17156, "char_end": 17167, "match_text": "rather than"}
+{"item_id": "item_2209", "corpus": "acl2019", "doc_id": "2019.jeptalnrecital-recital.11", "pattern_id": "rather_than", "char_start": 29112, "char_end": 29123, "match_text": "rather than", "excluded": "non-English paper (data/excluded_documents.tsv)"}
+{"item_id": "item_2391", "corpus": "arxiv2026", "doc_id": "2604.12559", "pattern_id": "rather_than", "char_start": 25949, "char_end": 25960, "match_text": "rather than"}
+{"item_id": "item_2279", "corpus": "acl2019", "doc_id": "D19-3044", "pattern_id": "rather_than", "char_start": 5522, "char_end": 5533, "match_text": "rather than"}
+{"item_id": "item_2378", "corpus": "arxiv2026", "doc_id": "2609.00242", "pattern_id": "rather_than", "char_start": 12653, "char_end": 12664, "match_text": "rather than"}
+{"item_id": "item_2443", "corpus": "arxiv2026", "doc_id": "2601.12263", "pattern_id": "rather_than", "char_start": 4309, "char_end": 4320, "match_text": "rather than"}
+{"item_id": "item_2223", "corpus": "acl2019", "doc_id": "D19-1318", "pattern_id": "rather_than", "char_start": 4200, "char_end": 4211, "match_text": "rather than"}
+{"item_id": "item_2555", "corpus": "arxiv_v1", "doc_id": "2607.00890_v1", "pattern_id": "rather_than", "char_start": 8098, "char_end": 8109, "match_text": "rather than"}
+{"item_id": "item_2630", "corpus": "arxiv_latest", "doc_id": "2603.16654_v3", "pattern_id": "rather_than", "char_start": 7121, "char_end": 7132, "match_text": "rather than"}
+{"item_id": "item_2641", "corpus": "arxiv_latest", "doc_id": "2604.16593_v2", "pattern_id": "rather_than", "char_start": 4897, "char_end": 4908, "match_text": "Rather than"}
+{"item_id": "item_2310", "corpus": "arxiv2026", "doc_id": "2609.01386", "pattern_id": "rather_than", "char_start": 26044, "char_end": 26055, "match_text": "rather than"}
+{"item_id": "item_2603", "corpus": "arxiv_v1", "doc_id": "2601.03851_v1", "pattern_id": "rather_than", "char_start": 23914, "char_end": 23925, "match_text": "rather than"}
+{"item_id": "item_2252", "corpus": "acl2019", "doc_id": "2019.gwc-1.18", "pattern_id": "rather_than", "char_start": 17460, "char_end": 17471, "match_text": "rather than"}
+{"item_id": "item_2316", "corpus": "arxiv2026", "doc_id": "2604.22520", "pattern_id": "rather_than", "char_start": 8622, "char_end": 8633, "match_text": "Rather than"}
+{"item_id": "item_2532", "corpus": "arxiv_v1", "doc_id": "2604.18360_v1", "pattern_id": "rather_than", "char_start": 41715, "char_end": 41726, "match_text": "rather than"}
+{"item_id": "item_2194", "corpus": "acl2019", "doc_id": "N19-1264", "pattern_id": "rather_than", "char_start": 25337, "char_end": 25348, "match_text": "rather than"}
+{"item_id": "item_2330", "corpus": "arxiv2026", "doc_id": "2604.14970", "pattern_id": "rather_than", "char_start": 20557, "char_end": 20568, "match_text": "rather than"}
+{"item_id": "item_2465", "corpus": "arxiv2026", "doc_id": "2604.18759", "pattern_id": "rather_than", "char_start": 20918, "char_end": 20929, "match_text": "rather than"}
+{"item_id": "item_2368", "corpus": "arxiv2026", "doc_id": "2609.02772", "pattern_id": "rather_than", "char_start": 39975, "char_end": 39986, "match_text": "rather than"}
+{"item_id": "item_2304", "corpus": "arxiv2026", "doc_id": "2605.04500", "pattern_id": "rather_than", "char_start": 11028, "char_end": 11039, "match_text": "rather than"}
+{"item_id": "item_2553", "corpus": "arxiv_v1", "doc_id": "2608.17223_v1", "pattern_id": "rather_than", "char_start": 99652, "char_end": 99663, "match_text": "rather than"}
+{"item_id": "item_2494", "corpus": "arxiv2026", "doc_id": "2604.22520", "pattern_id": "rather_than", "char_start": 20857, "char_end": 20868, "match_text": "rather than"}
+{"item_id": "item_2576", "corpus": "arxiv_v1", "doc_id": "2603.16138_v1", "pattern_id": "rather_than", "char_start": 18293, "char_end": 18304, "match_text": "rather than"}
+{"item_id": "item_2668", "corpus": "arxiv_latest", "doc_id": "2601.07698_v2", "pattern_id": "rather_than", "char_start": 50565, "char_end": 50576, "match_text": "rather than"}
+{"item_id": "item_2644", "corpus": "arxiv_latest", "doc_id": "2609.00065_v2", "pattern_id": "rather_than", "char_start": 42658, "char_end": 42669, "match_text": "rather than"}
+{"item_id": "item_2424", "corpus": "arxiv2026", "doc_id": "2607.12383", "pattern_id": "rather_than", "char_start": 48732, "char_end": 48743, "match_text": "rather than"}
+{"item_id": "item_2547", "corpus": "arxiv_v1", "doc_id": "2603.25269_v1", "pattern_id": "rather_than", "char_start": 20064, "char_end": 20075, "match_text": "rather than"}
+{"item_id": "item_2257", "corpus": "acl2019", "doc_id": "W19-4315", "pattern_id": "rather_than", "char_start": 9758, "char_end": 9769, "match_text": "rather than"}
+{"item_id": "item_2440", "corpus": "arxiv2026", "doc_id": "2607.12383", "pattern_id": "rather_than", "char_start": 11942, "char_end": 11953, "match_text": "Rather than"}
+{"item_id": "item_2392", "corpus": "arxiv2026", "doc_id": "2609.04714", "pattern_id": "rather_than", "char_start": 7068, "char_end": 7079, "match_text": "rather than"}
+{"item_id": "item_2217", "corpus": "acl2019", "doc_id": "D19-1534", "pattern_id": "rather_than", "char_start": 16253, "char_end": 16264, "match_text": "rather than"}
+{"item_id": "item_2246", "corpus": "acl2019", "doc_id": "W19-4007", "pattern_id": "rather_than", "char_start": 25896, "char_end": 25907, "match_text": "rather than"}
+{"item_id": "item_2268", "corpus": "acl2019", "doc_id": "J19-2004", "pattern_id": "rather_than", "char_start": 96818, "char_end": 96829, "match_text": "rather than"}
+{"item_id": "item_2463", "corpus": "arxiv2026", "doc_id": "2609.01356", "pattern_id": "rather_than", "char_start": 30408, "char_end": 30419, "match_text": "rather than"}
+{"item_id": "item_2560", "corpus": "arxiv_v1", "doc_id": "2603.16105_v1", "pattern_id": "rather_than", "char_start": 1201, "char_end": 1212, "match_text": "rather than"}
+{"item_id": "item_2563", "corpus": "arxiv_v1", "doc_id": "2604.13071_v1", "pattern_id": "rather_than", "char_start": 40029, "char_end": 40040, "match_text": "rather than"}
+{"item_id": "item_2584", "corpus": "arxiv_v1", "doc_id": "2608.03446_v1", "pattern_id": "rather_than", "char_start": 9292, "char_end": 9303, "match_text": "rather than"}
+{"item_id": "item_2191", "corpus": "acl2019", "doc_id": "K19-1042", "pattern_id": "rather_than", "char_start": 28357, "char_end": 28368, "match_text": "rather than"}
+{"item_id": "item_2564", "corpus": "arxiv_v1", "doc_id": "2603.20562_v1", "pattern_id": "rather_than", "char_start": 4836, "char_end": 4847, "match_text": "rather than"}
+{"item_id": "item_2570", "corpus": "arxiv_v1", "doc_id": "2606.04095_v1", "pattern_id": "rather_than", "char_start": 16298, "char_end": 16309, "match_text": "rather than"}
+{"item_id": "item_2506", "corpus": "arxiv2026", "doc_id": "2606.16151", "pattern_id": "rather_than", "char_start": 14800, "char_end": 14811, "match_text": "rather than"}
+{"item_id": "item_2619", "corpus": "arxiv_latest", "doc_id": "2602.04853_v2", "pattern_id": "rather_than", "char_start": 30634, "char_end": 30645, "match_text": "rather than"}
+{"item_id": "item_2521", "corpus": "arxiv2026", "doc_id": "2601.17036", "pattern_id": "rather_than", "char_start": 29539, "char_end": 29550, "match_text": "rather than"}
+{"item_id": "item_2404", "corpus": "arxiv2026", "doc_id": "2603.19167", "pattern_id": "rather_than", "char_start": 3493, "char_end": 3504, "match_text": "rather than"}
+{"item_id": "item_2497", "corpus": "arxiv2026", "doc_id": "2609.02316", "pattern_id": "rather_than", "char_start": 28942, "char_end": 28953, "match_text": "rather than"}
+{"item_id": "item_2634", "corpus": "arxiv_latest", "doc_id": "2609.03261_v2", "pattern_id": "rather_than", "char_start": 89688, "char_end": 89699, "match_text": "rather than"}
+{"item_id": "item_2192", "corpus": "acl2019", "doc_id": "P19-1124", "pattern_id": "rather_than", "char_start": 19990, "char_end": 20001, "match_text": "rather than"}
+{"item_id": "item_2467", "corpus": "arxiv2026", "doc_id": "2608.18084", "pattern_id": "rather_than", "char_start": 28924, "char_end": 28935, "match_text": "Rather than"}
+{"item_id": "item_2346", "corpus": "arxiv2026", "doc_id": "2609.01004", "pattern_id": "rather_than", "char_start": 54378, "char_end": 54389, "match_text": "rather than"}
+{"item_id": "item_2574", "corpus": "arxiv_v1", "doc_id": "2605.17873_v1", "pattern_id": "rather_than", "char_start": 25088, "char_end": 25099, "match_text": "rather than"}
+{"item_id": "item_2450", "corpus": "arxiv2026", "doc_id": "2608.29239", "pattern_id": "rather_than", "char_start": 26751, "char_end": 26762, "match_text": "rather than"}
+{"item_id": "item_2236", "corpus": "acl2019", "doc_id": "N19-1275", "pattern_id": "rather_than", "char_start": 13368, "char_end": 13379, "match_text": "rather than"}
+{"item_id": "item_2190", "corpus": "acl2019", "doc_id": "P19-1318", "pattern_id": "rather_than", "char_start": 8375, "char_end": 8386, "match_text": "rather than"}
+{"item_id": "item_2354", "corpus": "arxiv2026", "doc_id": "2609.01386", "pattern_id": "rather_than", "char_start": 35641, "char_end": 35652, "match_text": "rather than"}
+{"item_id": "item_2340", "corpus": "arxiv2026", "doc_id": "2607.09600", "pattern_id": "rather_than", "char_start": 22386, "char_end": 22397, "match_text": "rather than"}
+{"item_id": "item_2461", "corpus": "arxiv2026", "doc_id": "2608.23474", "pattern_id": "rather_than", "char_start": 18821, "char_end": 18832, "match_text": "Rather than"}
+{"item_id": "item_2488", "corpus": "arxiv2026", "doc_id": "2604.15866", "pattern_id": "rather_than", "char_start": 1651, "char_end": 1662, "match_text": "rather than"}
+{"item_id": "item_2539", "corpus": "arxiv_v1", "doc_id": "2604.13946_v1", "pattern_id": "rather_than", "char_start": 25889, "char_end": 25900, "match_text": "rather than"}
+{"item_id": "item_2381", "corpus": "arxiv2026", "doc_id": "2608.29109", "pattern_id": "rather_than", "char_start": 42639, "char_end": 42650, "match_text": "rather than"}
+{"item_id": "item_2672", "corpus": "arxiv_latest", "doc_id": "2605.07409_v2", "pattern_id": "rather_than", "char_start": 18222, "char_end": 18233, "match_text": "rather than"}
+{"item_id": "item_2609", "corpus": "arxiv_v1", "doc_id": "2603.21350_v1", "pattern_id": "rather_than", "char_start": 9254, "char_end": 9265, "match_text": "rather than"}
+{"item_id": "item_2490", "corpus": "arxiv2026", "doc_id": "2609.01081", "pattern_id": "rather_than", "char_start": 42753, "char_end": 42764, "match_text": "rather than"}
+{"item_id": "item_2643", "corpus": "arxiv_latest", "doc_id": "2604.05318_v2", "pattern_id": "rather_than", "char_start": 4210, "char_end": 4221, "match_text": "rather than"}
+{"item_id": "item_2436", "corpus": "arxiv2026", "doc_id": "2608.30319", "pattern_id": "rather_than", "char_start": 52093, "char_end": 52104, "match_text": "rather than"}
+{"item_id": "item_2552", "corpus": "arxiv_v1", "doc_id": "2601.04377_v1", "pattern_id": "rather_than", "char_start": 4772, "char_end": 4783, "match_text": "rather than"}
+{"item_id": "item_2286", "corpus": "acl2019", "doc_id": "W19-3306", "pattern_id": "rather_than", "char_start": 6663, "char_end": 6674, "match_text": "rather than"}
+{"item_id": "item_2459", "corpus": "arxiv2026", "doc_id": "2609.00834", "pattern_id": "rather_than", "char_start": 23372, "char_end": 23383, "match_text": "rather than"}
+{"item_id": "item_2287", "corpus": "acl2019", "doc_id": "P19-1176", "pattern_id": "rather_than", "char_start": 14248, "char_end": 14259, "match_text": "rather than"}
+{"item_id": "item_2369", "corpus": "arxiv2026", "doc_id": "2609.02131", "pattern_id": "rather_than", "char_start": 59589, "char_end": 59600, "match_text": "rather than"}
+{"item_id": "item_2682", "corpus": "arxiv_latest", "doc_id": "2607.17219_v2", "pattern_id": "rather_than", "char_start": 43653, "char_end": 43664, "match_text": "rather than"}
+{"item_id": "item_2505", "corpus": "arxiv2026", "doc_id": "2603.03677", "pattern_id": "rather_than", "char_start": 23223, "char_end": 23234, "match_text": "rather than"}
+{"item_id": "item_2273", "corpus": "acl2019", "doc_id": "P19-1320", "pattern_id": "rather_than", "char_start": 2534, "char_end": 2545, "match_text": "rather than"}
+{"item_id": "item_2374", "corpus": "arxiv2026", "doc_id": "2605.26678", "pattern_id": "rather_than", "char_start": 45650, "char_end": 45661, "match_text": "rather than"}
+{"item_id": "item_2605", "corpus": "arxiv_v1", "doc_id": "2606.03603_v1", "pattern_id": "rather_than", "char_start": 18539, "char_end": 18550, "match_text": "rather than"}
+{"item_id": "item_2347", "corpus": "arxiv2026", "doc_id": "2604.12776", "pattern_id": "rather_than", "char_start": 8340, "char_end": 8351, "match_text": "rather than"}
+{"item_id": "item_2474", "corpus": "arxiv2026", "doc_id": "2604.11543", "pattern_id": "rather_than", "char_start": 36457, "char_end": 36468, "match_text": "rather than"}
+{"item_id": "item_2289", "corpus": "arxiv2026", "doc_id": "2606.03968", "pattern_id": "rather_than", "char_start": 23094, "char_end": 23105, "match_text": "rather than"}
+{"item_id": "item_2352", "corpus": "arxiv2026", "doc_id": "2608.06171", "pattern_id": "rather_than", "char_start": 79693, "char_end": 79704, "match_text": "rather than"}
+{"item_id": "item_2329", "corpus": "arxiv2026", "doc_id": "2608.29995", "pattern_id": "rather_than", "char_start": 49843, "char_end": 49854, "match_text": "rather than"}
+{"item_id": "item_2401", "corpus": "arxiv2026", "doc_id": "2608.23719", "pattern_id": "rather_than", "char_start": 32866, "char_end": 32877, "match_text": "rather than"}
+{"item_id": "item_2559", "corpus": "arxiv_v1", "doc_id": "2603.15949_v1", "pattern_id": "rather_than", "char_start": 16198, "char_end": 16209, "match_text": "rather than"}
+{"item_id": "item_2343", "corpus": "arxiv2026", "doc_id": "2606.14580", "pattern_id": "rather_than", "char_start": 65842, "char_end": 65853, "match_text": "rather than"}
+{"item_id": "item_2197", "corpus": "acl2019", "doc_id": "P19-1512", "pattern_id": "rather_than", "char_start": 21050, "char_end": 21061, "match_text": "rather than"}
+{"item_id": "item_2648", "corpus": "arxiv_latest", "doc_id": "2604.06784_v2", "pattern_id": "rather_than", "char_start": 53138, "char_end": 53149, "match_text": "rather than"}
+{"item_id": "item_2437", "corpus": "arxiv2026", "doc_id": "2608.02609", "pattern_id": "rather_than", "char_start": 5541, "char_end": 5552, "match_text": "rather than"}
+{"item_id": "item_2413", "corpus": "arxiv2026", "doc_id": "2605.07990", "pattern_id": "rather_than", "char_start": 25435, "char_end": 25446, "match_text": "rather than"}
+{"item_id": "item_2328", "corpus": "arxiv2026", "doc_id": "2608.29209", "pattern_id": "rather_than", "char_start": 17488, "char_end": 17499, "match_text": "rather than"}
+{"item_id": "item_2313", "corpus": "arxiv2026", "doc_id": "2604.13592", "pattern_id": "rather_than", "char_start": 7276, "char_end": 7287, "match_text": "rather than"}
+{"item_id": "item_2568", "corpus": "arxiv_v1", "doc_id": "2606.10537_v1", "pattern_id": "rather_than", "char_start": 26256, "char_end": 26267, "match_text": "rather than"}
+{"item_id": "item_2397", "corpus": "arxiv2026", "doc_id": "2608.29588", "pattern_id": "rather_than", "char_start": 28188, "char_end": 28199, "match_text": "rather than"}
+{"item_id": "item_2435", "corpus": "arxiv2026", "doc_id": "2609.01103", "pattern_id": "rather_than", "char_start": 34479, "char_end": 34490, "match_text": "rather than"}
+{"item_id": "item_2262", "corpus": "acl2019", "doc_id": "W19-4330", "pattern_id": "rather_than", "char_start": 17600, "char_end": 17611, "match_text": "rather than"}
+{"item_id": "item_2222", "corpus": "acl2019", "doc_id": "W19-8621", "pattern_id": "rather_than", "char_start": 1985, "char_end": 1996, "match_text": "rather than"}
+{"item_id": "item_2458", "corpus": "arxiv2026", "doc_id": "2609.06147", "pattern_id": "rather_than", "char_start": 26604, "char_end": 26615, "match_text": "rather than"}
+{"item_id": "item_2484", "corpus": "arxiv2026", "doc_id": "2607.23991", "pattern_id": "rather_than", "char_start": 4074, "char_end": 4085, "match_text": "rather than"}
+{"item_id": "item_2382", "corpus": "arxiv2026", "doc_id": "2609.03293", "pattern_id": "rather_than", "char_start": 31745, "char_end": 31756, "match_text": "rather than"}
+{"item_id": "item_2548", "corpus": "arxiv_v1", "doc_id": "2605.28183_v1", "pattern_id": "rather_than", "char_start": 91473, "char_end": 91484, "match_text": "rather than"}
+{"item_id": "item_2536", "corpus": "arxiv_v1", "doc_id": "2605.27878_v1", "pattern_id": "rather_than", "char_start": 65803, "char_end": 65814, "match_text": "rather than"}
+{"item_id": "item_2288", "corpus": "arxiv2026", "doc_id": "2606.23181", "pattern_id": "rather_than", "char_start": 32527, "char_end": 32538, "match_text": "rather than"}
+{"item_id": "item_2591", "corpus": "arxiv_v1", "doc_id": "2605.14712_v1", "pattern_id": "rather_than", "char_start": 12058, "char_end": 12069, "match_text": "rather than"}
+{"item_id": "item_2342", "corpus": "arxiv2026", "doc_id": "2609.00237", "pattern_id": "rather_than", "char_start": 32561, "char_end": 32572, "match_text": "rather than"}
+{"item_id": "item_2482", "corpus": "arxiv2026", "doc_id": "2606.05922", "pattern_id": "rather_than", "char_start": 34068, "char_end": 34079, "match_text": "rather than"}
+{"item_id": "item_2324", "corpus": "arxiv2026", "doc_id": "2608.20350", "pattern_id": "rather_than", "char_start": 17735, "char_end": 17746, "match_text": "rather than"}
+{"item_id": "item_2266", "corpus": "acl2019", "doc_id": "D19-1073", "pattern_id": "rather_than", "char_start": 15187, "char_end": 15198, "match_text": "rather than"}
+{"item_id": "item_2408", "corpus": "arxiv2026", "doc_id": "2609.02131", "pattern_id": "rather_than", "char_start": 41936, "char_end": 41947, "match_text": "rather than"}
+{"item_id": "item_2198", "corpus": "acl2019", "doc_id": "Q19-1030", "pattern_id": "rather_than", "char_start": 9549, "char_end": 9560, "match_text": "rather than"}
+{"item_id": "item_2250", "corpus": "acl2019", "doc_id": "S19-2203", "pattern_id": "rather_than", "char_start": 1011, "char_end": 1022, "match_text": "rather than"}
+{"item_id": "item_2339", "corpus": "arxiv2026", "doc_id": "2608.29109", "pattern_id": "rather_than", "char_start": 72283, "char_end": 72294, "match_text": "rather than"}
+{"item_id": "item_2420", "corpus": "arxiv2026", "doc_id": "2606.21704", "pattern_id": "rather_than", "char_start": 44695, "char_end": 44706, "match_text": "rather than"}
+{"item_id": "item_2628", "corpus": "arxiv_latest", "doc_id": "2601.14152_v2", "pattern_id": "rather_than", "char_start": 4107, "char_end": 4118, "match_text": "rather than"}
+{"item_id": "item_2380", "corpus": "arxiv2026", "doc_id": "2604.06746", "pattern_id": "rather_than", "char_start": 5475, "char_end": 5486, "match_text": "Rather than"}
+{"item_id": "item_2583", "corpus": "arxiv_v1", "doc_id": "2607.00890_v1", "pattern_id": "rather_than", "char_start": 49010, "char_end": 49021, "match_text": "rather than"}
+{"item_id": "item_2515", "corpus": "arxiv2026", "doc_id": "2608.22479", "pattern_id": "rather_than", "char_start": 25416, "char_end": 25427, "match_text": "rather than"}
+{"item_id": "item_2281", "corpus": "acl2019", "doc_id": "P19-1176", "pattern_id": "rather_than", "char_start": 20766, "char_end": 20777, "match_text": "rather than"}
+{"item_id": "item_2351", "corpus": "arxiv2026", "doc_id": "2609.03366", "pattern_id": "rather_than", "char_start": 168476, "char_end": 168487, "match_text": "rather than"}
+{"item_id": "item_2610", "corpus": "arxiv_v1", "doc_id": "2608.13706_v1", "pattern_id": "rather_than", "char_start": 50672, "char_end": 50683, "match_text": "rather than"}
+{"item_id": "item_2572", "corpus": "arxiv_v1", "doc_id": "2603.14968_v1", "pattern_id": "rather_than", "char_start": 48189, "char_end": 48200, "match_text": "rather than"}
+{"item_id": "item_2629", "corpus": "arxiv_latest", "doc_id": "2602.18446_v2", "pattern_id": "rather_than", "char_start": 12867, "char_end": 12878, "match_text": "rather than"}
+{"item_id": "item_2655", "corpus": "arxiv_latest", "doc_id": "2603.11863_v2", "pattern_id": "rather_than", "char_start": 6755, "char_end": 6766, "match_text": "rather than"}
+{"item_id": "item_2657", "corpus": "arxiv_latest", "doc_id": "2601.20209_v2", "pattern_id": "rather_than", "char_start": 4382, "char_end": 4393, "match_text": "Rather than"}
+{"item_id": "item_2295", "corpus": "arxiv2026", "doc_id": "2609.02133", "pattern_id": "rather_than", "char_start": 54849, "char_end": 54860, "match_text": "rather than"}
+{"item_id": "item_2334", "corpus": "arxiv2026", "doc_id": "2604.22209", "pattern_id": "rather_than", "char_start": 31931, "char_end": 31942, "match_text": "rather than"}
+{"item_id": "item_2218", "corpus": "acl2019", "doc_id": "P19-1207", "pattern_id": "rather_than", "char_start": 19740, "char_end": 19751, "match_text": "rather than"}
+{"item_id": "item_2565", "corpus": "arxiv_v1", "doc_id": "2608.13706_v1", "pattern_id": "rather_than", "char_start": 40327, "char_end": 40338, "match_text": "rather than"}
+{"item_id": "item_2476", "corpus": "arxiv2026", "doc_id": "2601.08626", "pattern_id": "rather_than", "char_start": 29359, "char_end": 29370, "match_text": "rather than"}
+{"item_id": "item_2344", "corpus": "arxiv2026", "doc_id": "2609.01103", "pattern_id": "rather_than", "char_start": 5094, "char_end": 5105, "match_text": "rather than"}
+{"item_id": "item_2240", "corpus": "acl2019", "doc_id": "N19-1356", "pattern_id": "rather_than", "char_start": 19003, "char_end": 19014, "match_text": "rather than"}
+{"item_id": "item_2271", "corpus": "acl2019", "doc_id": "W19-0409", "pattern_id": "rather_than", "char_start": 36644, "char_end": 36655, "match_text": "rather than"}
+{"item_id": "item_2523", "corpus": "arxiv2026", "doc_id": "2609.06438", "pattern_id": "rather_than", "char_start": 5764, "char_end": 5775, "match_text": "rather than"}
+{"item_id": "item_2585", "corpus": "arxiv_v1", "doc_id": "2603.16622_v1", "pattern_id": "rather_than", "char_start": 30476, "char_end": 30487, "match_text": "rather than"}
+{"item_id": "item_2331", "corpus": "arxiv2026", "doc_id": "2608.30716", "pattern_id": "rather_than", "char_start": 29147, "char_end": 29158, "match_text": "rather than"}
+{"item_id": "item_2475", "corpus": "arxiv2026", "doc_id": "2605.29224", "pattern_id": "rather_than", "char_start": 80781, "char_end": 80792, "match_text": "rather than"}
+{"item_id": "item_2274", "corpus": "acl2019", "doc_id": "P19-1470", "pattern_id": "rather_than", "char_start": 45222, "char_end": 45233, "match_text": "rather than"}
+{"item_id": "item_2540", "corpus": "arxiv_v1", "doc_id": "2606.05122_v1", "pattern_id": "rather_than", "char_start": 7498, "char_end": 7509, "match_text": "rather than"}
+{"item_id": "item_2686", "corpus": "arxiv_latest", "doc_id": "2605.13989_v3", "pattern_id": "rather_than", "char_start": 56718, "char_end": 56729, "match_text": "rather than"}
+{"item_id": "item_2590", "corpus": "arxiv_v1", "doc_id": "2606.24820_v1", "pattern_id": "rather_than", "char_start": 46091, "char_end": 46102, "match_text": "rather than"}
+{"item_id": "item_2615", "corpus": "arxiv_latest", "doc_id": "2603.22341_v2", "pattern_id": "rather_than", "char_start": 3510, "char_end": 3521, "match_text": "rather than"}
+{"item_id": "item_2263", "corpus": "acl2019", "doc_id": "W19-5102", "pattern_id": "rather_than", "char_start": 19348, "char_end": 19359, "match_text": "rather than"}
+{"item_id": "item_2460", "corpus": "arxiv2026", "doc_id": "2604.17022", "pattern_id": "rather_than", "char_start": 49532, "char_end": 49543, "match_text": "rather than"}
+{"item_id": "item_2620", "corpus": "arxiv_latest", "doc_id": "2609.00065_v2", "pattern_id": "rather_than", "char_start": 40503, "char_end": 40514, "match_text": "rather than"}
+{"item_id": "item_2224", "corpus": "acl2019", "doc_id": "W19-6112", "pattern_id": "rather_than", "char_start": 12495, "char_end": 12506, "match_text": "rather than"}
+{"item_id": "item_2433", "corpus": "arxiv2026", "doc_id": "2608.21832", "pattern_id": "rather_than", "char_start": 28715, "char_end": 28726, "match_text": "rather than"}
+{"item_id": "item_2541", "corpus": "arxiv_v1", "doc_id": "2608.13706_v1", "pattern_id": "rather_than", "char_start": 40668, "char_end": 40679, "match_text": "rather than"}
+{"item_id": "item_2512", "corpus": "arxiv2026", "doc_id": "2604.05461", "pattern_id": "rather_than", "char_start": 7933, "char_end": 7944, "match_text": "Rather than"}
+{"item_id": "item_2418", "corpus": "arxiv2026", "doc_id": "2605.20729", "pattern_id": "rather_than", "char_start": 7939, "char_end": 7950, "match_text": "rather than"}
+{"item_id": "item_2249", "corpus": "acl2019", "doc_id": "K19-1088", "pattern_id": "rather_than", "char_start": 15915, "char_end": 15926, "match_text": "rather than"}
+{"item_id": "item_2260", "corpus": "acl2019", "doc_id": "2019.gwc-1.37", "pattern_id": "rather_than", "char_start": 7944, "char_end": 7955, "match_text": "rather than"}
+{"item_id": "item_2587", "corpus": "arxiv_v1", "doc_id": "2608.20839_v1", "pattern_id": "rather_than", "char_start": 24772, "char_end": 24783, "match_text": "rather than"}
+{"item_id": "item_2299", "corpus": "arxiv2026", "doc_id": "2601.07375", "pattern_id": "rather_than", "char_start": 49501, "char_end": 49512, "match_text": "rather than"}
+{"item_id": "item_2212", "corpus": "acl2019", "doc_id": "W19-0402", "pattern_id": "rather_than", "char_start": 16174, "char_end": 16185, "match_text": "rather than"}
+{"item_id": "item_2618", "corpus": "arxiv_latest", "doc_id": "2601.08146_v4", "pattern_id": "rather_than", "char_start": 38594, "char_end": 38605, "match_text": "rather than"}
+{"item_id": "item_2544", "corpus": "arxiv_v1", "doc_id": "2608.22266_v1", "pattern_id": "rather_than", "char_start": 45008, "char_end": 45019, "match_text": "rather than"}
+{"item_id": "item_2612", "corpus": "arxiv_v1", "doc_id": "2601.22139_v1", "pattern_id": "rather_than", "char_start": 30693, "char_end": 30704, "match_text": "rather than"}
+{"item_id": "item_2439", "corpus": "arxiv2026", "doc_id": "2602.06533", "pattern_id": "rather_than", "char_start": 25033, "char_end": 25044, "match_text": "rather than"}
+{"item_id": "item_2491", "corpus": "arxiv2026", "doc_id": "2606.25656", "pattern_id": "rather_than", "char_start": 43066, "char_end": 43077, "match_text": "rather than"}
+{"item_id": "item_2566", "corpus": "arxiv_v1", "doc_id": "2606.05743_v1", "pattern_id": "rather_than", "char_start": 11990, "char_end": 12001, "match_text": "rather than"}
+{"item_id": "item_2495", "corpus": "arxiv2026", "doc_id": "2606.07520", "pattern_id": "rather_than", "char_start": 4625, "char_end": 4636, "match_text": "rather than"}
+{"item_id": "item_2251", "corpus": "acl2019", "doc_id": "W19-5118", "pattern_id": "rather_than", "char_start": 2943, "char_end": 2954, "match_text": "rather than"}
+{"item_id": "item_2278", "corpus": "acl2019", "doc_id": "D19-1099", "pattern_id": "rather_than", "char_start": 16980, "char_end": 16991, "match_text": "rather than"}
+{"item_id": "item_2309", "corpus": "arxiv2026", "doc_id": "2601.15236", "pattern_id": "rather_than", "char_start": 71583, "char_end": 71594, "match_text": "rather than"}
+{"item_id": "item_2528", "corpus": "arxiv_v1", "doc_id": "2608.22704_v1", "pattern_id": "rather_than", "char_start": 5680, "char_end": 5691, "match_text": "rather than"}
+{"item_id": "item_2473", "corpus": "arxiv2026", "doc_id": "2609.01279", "pattern_id": "rather_than", "char_start": 25444, "char_end": 25455, "match_text": "rather than"}
+{"item_id": "item_2398", "corpus": "arxiv2026", "doc_id": "2606.01600", "pattern_id": "rather_than", "char_start": 53931, "char_end": 53942, "match_text": "rather than"}
+{"item_id": "item_2517", "corpus": "arxiv2026", "doc_id": "2601.13262", "pattern_id": "rather_than", "char_start": 47166, "char_end": 47177, "match_text": "rather than"}
+{"item_id": "item_2195", "corpus": "acl2019", "doc_id": "W19-2108", "pattern_id": "rather_than", "char_start": 12746, "char_end": 12757, "match_text": "Rather than"}
+{"item_id": "item_2446", "corpus": "arxiv2026", "doc_id": "2604.24444", "pattern_id": "rather_than", "char_start": 5826, "char_end": 5837, "match_text": "rather than"}
+{"item_id": "item_2363", "corpus": "arxiv2026", "doc_id": "2606.19706", "pattern_id": "rather_than", "char_start": 40859, "char_end": 40870, "match_text": "rather than"}
+{"item_id": "item_2307", "corpus": "arxiv2026", "doc_id": "2608.29483", "pattern_id": "rather_than", "char_start": 50753, "char_end": 50764, "match_text": "rather than"}
+{"item_id": "item_2409", "corpus": "arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 66288, "char_end": 66299, "match_text": "rather than"}
+{"item_id": "item_2526", "corpus": "arxiv_v1", "doc_id": "2604.07562_v1", "pattern_id": "rather_than", "char_start": 4367, "char_end": 4378, "match_text": "Rather than"}
+{"item_id": "item_2638", "corpus": "arxiv_latest", "doc_id": "2606.09435_v2", "pattern_id": "rather_than", "char_start": 41853, "char_end": 41864, "match_text": "rather than"}
+{"item_id": "item_2207", "corpus": "acl2019", "doc_id": "N19-1254", "pattern_id": "rather_than", "char_start": 10969, "char_end": 10980, "match_text": "rather than"}
+{"item_id": "item_2188", "corpus": "acl2019", "doc_id": "S19-1027", "pattern_id": "rather_than", "char_start": 17494, "char_end": 17505, "match_text": "rather than"}
+{"item_id": "item_2637", "corpus": "arxiv_latest", "doc_id": "2603.02873_v5", "pattern_id": "rather_than", "char_start": 85737, "char_end": 85748, "match_text": "rather than"}
+{"item_id": "item_2479", "corpus": "arxiv2026", "doc_id": "2601.12983", "pattern_id": "rather_than", "char_start": 57526, "char_end": 57537, "match_text": "rather than"}
+{"item_id": "item_2385", "corpus": "arxiv2026", "doc_id": "2601.04424", "pattern_id": "rather_than", "char_start": 5166, "char_end": 5177, "match_text": "rather than"}
+{"item_id": "item_2676", "corpus": "arxiv_latest", "doc_id": "2606.17016_v2", "pattern_id": "rather_than", "char_start": 4334, "char_end": 4345, "match_text": "rather than"}
+{"item_id": "item_2510", "corpus": "arxiv2026", "doc_id": "2601.14758", "pattern_id": "rather_than", "char_start": 32728, "char_end": 32739, "match_text": "rather than"}
+{"item_id": "item_2332", "corpus": "arxiv2026", "doc_id": "2609.00550", "pattern_id": "rather_than", "char_start": 5214, "char_end": 5225, "match_text": "rather than"}
+{"item_id": "item_2651", "corpus": "arxiv_latest", "doc_id": "2604.21725_v2", "pattern_id": "rather_than", "char_start": 24708, "char_end": 24719, "match_text": "rather than"}
+{"item_id": "item_2469", "corpus": "arxiv2026", "doc_id": "2606.11762", "pattern_id": "rather_than", "char_start": 14990, "char_end": 15001, "match_text": "rather than"}
+{"item_id": "item_2453", "corpus": "arxiv2026", "doc_id": "2605.28120", "pattern_id": "rather_than", "char_start": 32638, "char_end": 32649, "match_text": "rather than"}
+{"item_id": "item_2300", "corpus": "arxiv2026", "doc_id": "2608.30716", "pattern_id": "rather_than", "char_start": 66376, "char_end": 66387, "match_text": "rather than"}
+{"item_id": "item_2542", "corpus": "arxiv_v1", "doc_id": "2605.28500_v1", "pattern_id": "rather_than", "char_start": 35378, "char_end": 35389, "match_text": "rather than"}
+{"item_id": "item_2293", "corpus": "arxiv2026", "doc_id": "2608.29884", "pattern_id": "rather_than", "char_start": 34336, "char_end": 34347, "match_text": "rather than"}
+{"item_id": "item_2376", "corpus": "arxiv2026", "doc_id": "2604.18169", "pattern_id": "rather_than", "char_start": 71138, "char_end": 71149, "match_text": "rather than"}
+{"item_id": "item_2596", "corpus": "arxiv_v1", "doc_id": "2606.00660_v1", "pattern_id": "rather_than", "char_start": 8124, "char_end": 8135, "match_text": "rather than"}
+{"item_id": "item_2308", "corpus": "arxiv2026", "doc_id": "2606.10400", "pattern_id": "rather_than", "char_start": 5758, "char_end": 5769, "match_text": "rather than"}
+{"item_id": "item_2687", "corpus": "arxiv_latest", "doc_id": "2601.05930_v2", "pattern_id": "rather_than", "char_start": 45677, "char_end": 45688, "match_text": "rather than"}
+{"item_id": "item_2533", "corpus": "arxiv_v1", "doc_id": "2603.19167_v1", "pattern_id": "rather_than", "char_start": 50367, "char_end": 50378, "match_text": "rather than"}
+{"item_id": "item_2196", "corpus": "acl2019", "doc_id": "W19-6730", "pattern_id": "rather_than", "char_start": 18521, "char_end": 18532, "match_text": "rather than"}
+{"item_id": "item_2602", "corpus": "arxiv_v1", "doc_id": "2606.15517_v1", "pattern_id": "rather_than", "char_start": 64206, "char_end": 64217, "match_text": "rather than"}
+{"item_id": "item_2214", "corpus": "acl2019", "doc_id": "W19-1007", "pattern_id": "rather_than", "char_start": 20063, "char_end": 20074, "match_text": "rather than"}
+{"item_id": "item_2315", "corpus": "arxiv2026", "doc_id": "2601.03248", "pattern_id": "rather_than", "char_start": 53996, "char_end": 54007, "match_text": "rather than"}
+{"item_id": "item_2321", "corpus": "arxiv2026", "doc_id": "2601.07312", "pattern_id": "rather_than", "char_start": 117396, "char_end": 117407, "match_text": "rather than"}
+{"item_id": "item_2416", "corpus": "arxiv2026", "doc_id": "2605.31556", "pattern_id": "rather_than", "char_start": 40546, "char_end": 40557, "match_text": "rather than"}
+{"item_id": "item_2345", "corpus": "arxiv2026", "doc_id": "2603.22341", "pattern_id": "rather_than", "char_start": 23790, "char_end": 23801, "match_text": "rather than"}
+{"item_id": "item_2371", "corpus": "arxiv2026", "doc_id": "2603.03297", "pattern_id": "rather_than", "char_start": 23465, "char_end": 23476, "match_text": "rather than"}
+{"item_id": "item_2608", "corpus": "arxiv_v1", "doc_id": "2604.16909_v1", "pattern_id": "rather_than", "char_start": 30326, "char_end": 30337, "match_text": "rather than"}
+{"item_id": "item_2579", "corpus": "arxiv_v1", "doc_id": "2602.18446_v1", "pattern_id": "rather_than", "char_start": 15473, "char_end": 15484, "match_text": "rather than"}
+{"item_id": "item_2337", "corpus": "arxiv2026", "doc_id": "2603.23114", "pattern_id": "rather_than", "char_start": 10761, "char_end": 10772, "match_text": "rather than"}
+{"item_id": "item_2421", "corpus": "arxiv2026", "doc_id": "2608.01708", "pattern_id": "rather_than", "char_start": 6964, "char_end": 6975, "match_text": "rather than"}
+{"item_id": "item_2230", "corpus": "acl2019", "doc_id": "D19-5610", "pattern_id": "rather_than", "char_start": 13413, "char_end": 13424, "match_text": "rather than"}
+{"item_id": "item_2645", "corpus": "arxiv_latest", "doc_id": "2606.05922_v3", "pattern_id": "rather_than", "char_start": 27482, "char_end": 27493, "match_text": "rather than"}
+{"item_id": "item_2557", "corpus": "arxiv_v1", "doc_id": "2601.02179_v1", "pattern_id": "rather_than", "char_start": 43554, "char_end": 43565, "match_text": "rather than"}
+{"item_id": "item_2632", "corpus": "arxiv_latest", "doc_id": "2601.14289_v2", "pattern_id": "rather_than", "char_start": 17156, "char_end": 17167, "match_text": "rather than"}
+{"item_id": "item_2280", "corpus": "acl2019", "doc_id": "P19-1575", "pattern_id": "rather_than", "char_start": 17123, "char_end": 17134, "match_text": "rather than"}
+{"item_id": "item_2586", "corpus": "arxiv_v1", "doc_id": "2608.27505_v1", "pattern_id": "rather_than", "char_start": 41827, "char_end": 41838, "match_text": "rather than"}
+{"item_id": "item_2320", "corpus": "arxiv2026", "doc_id": "2606.00294", "pattern_id": "rather_than", "char_start": 90847, "char_end": 90858, "match_text": "rather than"}
+{"item_id": "item_2673", "corpus": "arxiv_latest", "doc_id": "2605.13841_v3", "pattern_id": "rather_than", "char_start": 92834, "char_end": 92845, "match_text": "rather than"}
+{"item_id": "item_2425", "corpus": "arxiv2026", "doc_id": "2608.28930", "pattern_id": "rather_than", "char_start": 28555, "char_end": 28566, "match_text": "rather than"}
+{"item_id": "item_2445", "corpus": "arxiv2026", "doc_id": "2609.01195", "pattern_id": "rather_than", "char_start": 38183, "char_end": 38194, "match_text": "rather than"}
+{"item_id": "item_2538", "corpus": "arxiv_v1", "doc_id": "2605.12015_v1", "pattern_id": "rather_than", "char_start": 15222, "char_end": 15233, "match_text": "rather than"}
+{"item_id": "item_2303", "corpus": "arxiv2026", "doc_id": "2605.27311", "pattern_id": "rather_than", "char_start": 31184, "char_end": 31195, "match_text": "rather than"}
+{"item_id": "item_2302", "corpus": "arxiv2026", "doc_id": "2608.27510", "pattern_id": "rather_than", "char_start": 23483, "char_end": 23494, "match_text": "rather than"}
+{"item_id": "item_2444", "corpus": "arxiv2026", "doc_id": "2606.21557", "pattern_id": "rather_than", "char_start": 54254, "char_end": 54265, "match_text": "rather than"}
+{"item_id": "item_2267", "corpus": "acl2019", "doc_id": "W19-7806", "pattern_id": "rather_than", "char_start": 21398, "char_end": 21409, "match_text": "rather than"}
+{"item_id": "item_2407", "corpus": "arxiv2026", "doc_id": "2604.21327", "pattern_id": "rather_than", "char_start": 32400, "char_end": 32411, "match_text": "rather than"}
+{"item_id": "item_2402", "corpus": "arxiv2026", "doc_id": "2608.25061", "pattern_id": "rather_than", "char_start": 28973, "char_end": 28984, "match_text": "rather than"}
+{"item_id": "item_2355", "corpus": "arxiv2026", "doc_id": "2604.20983", "pattern_id": "rather_than", "char_start": 45729, "char_end": 45740, "match_text": "rather than"}
+{"item_id": "item_2496", "corpus": "arxiv2026", "doc_id": "2606.31213", "pattern_id": "rather_than", "char_start": 31782, "char_end": 31793, "match_text": "rather than"}
+{"item_id": "item_2361", "corpus": "arxiv2026", "doc_id": "2605.28123", "pattern_id": "rather_than", "char_start": 1154, "char_end": 1165, "match_text": "rather than"}
+{"item_id": "item_2658", "corpus": "arxiv_latest", "doc_id": "2605.07409_v2", "pattern_id": "rather_than", "char_start": 50868, "char_end": 50879, "match_text": "rather than"}
+{"item_id": "item_2502", "corpus": "arxiv2026", "doc_id": "2609.05149", "pattern_id": "rather_than", "char_start": 19576, "char_end": 19587, "match_text": "rather than"}
+{"item_id": "item_2431", "corpus": "arxiv2026", "doc_id": "2609.01573", "pattern_id": "rather_than", "char_start": 31082, "char_end": 31093, "match_text": "rather than"}
+{"item_id": "item_2611", "corpus": "arxiv_v1", "doc_id": "2605.27311_v1", "pattern_id": "rather_than", "char_start": 29162, "char_end": 29173, "match_text": "rather than"}
+{"item_id": "item_2509", "corpus": "arxiv2026", "doc_id": "2609.04841", "pattern_id": "rather_than", "char_start": 36079, "char_end": 36090, "match_text": "rather than"}
+{"item_id": "item_2319", "corpus": "arxiv2026", "doc_id": "2604.17569", "pattern_id": "rather_than", "char_start": 7586, "char_end": 7597, "match_text": "rather than"}
+{"item_id": "item_2662", "corpus": "arxiv_latest", "doc_id": "2601.08654_v3", "pattern_id": "rather_than", "char_start": 30576, "char_end": 30587, "match_text": "Rather than"}
+{"item_id": "item_2247", "corpus": "acl2019", "doc_id": "W19-6125", "pattern_id": "rather_than", "char_start": 25420, "char_end": 25431, "match_text": "rather than"}
+{"item_id": "item_2677", "corpus": "arxiv_latest", "doc_id": "2606.19706_v2", "pattern_id": "rather_than", "char_start": 64327, "char_end": 64338, "match_text": "rather than"}
+{"item_id": "item_2199", "corpus": "acl2019", "doc_id": "W19-6623", "pattern_id": "rather_than", "char_start": 7210, "char_end": 7221, "match_text": "rather than"}
+{"item_id": "item_2519", "corpus": "arxiv2026", "doc_id": "2606.10400", "pattern_id": "rather_than", "char_start": 8626, "char_end": 8637, "match_text": "rather than"}
+{"item_id": "item_2358", "corpus": "arxiv2026", "doc_id": "2603.21362", "pattern_id": "rather_than", "char_start": 20287, "char_end": 20298, "match_text": "rather than"}
+{"item_id": "item_2581", "corpus": "arxiv_v1", "doc_id": "2608.21832_v1", "pattern_id": "rather_than", "char_start": 57467, "char_end": 57478, "match_text": "rather than"}
+{"item_id": "item_2531", "corpus": "arxiv_v1", "doc_id": "2608.00991_v1", "pattern_id": "rather_than", "char_start": 6869, "char_end": 6880, "match_text": "rather than"}
+{"item_id": "item_2652", "corpus": "arxiv_latest", "doc_id": "2605.27878_v2", "pattern_id": "rather_than", "char_start": 11306, "char_end": 11317, "match_text": "rather than"}
+{"item_id": "item_2426", "corpus": "arxiv2026", "doc_id": "2608.25655", "pattern_id": "rather_than", "char_start": 4395, "char_end": 4406, "match_text": "rather than"}
+{"item_id": "item_2270", "corpus": "acl2019", "doc_id": "W19-3318", "pattern_id": "rather_than", "char_start": 20793, "char_end": 20804, "match_text": "rather than"}
+{"item_id": "item_2277", "corpus": "acl2019", "doc_id": "N19-1244", "pattern_id": "rather_than", "char_start": 7610, "char_end": 7621, "match_text": "rather than"}
+{"item_id": "item_2220", "corpus": "acl2019", "doc_id": "P19-1289", "pattern_id": "rather_than", "char_start": 11902, "char_end": 11913, "match_text": "rather than"}
+{"item_id": "item_2405", "corpus": "arxiv2026", "doc_id": "2604.20789", "pattern_id": "rather_than", "char_start": 52207, "char_end": 52218, "match_text": "rather than"}
+{"item_id": "item_2335", "corpus": "arxiv2026", "doc_id": "2603.11698", "pattern_id": "rather_than", "char_start": 6804, "char_end": 6815, "match_text": "rather than"}
+{"item_id": "item_2613", "corpus": "arxiv_v1", "doc_id": "2605.15011_v1", "pattern_id": "rather_than", "char_start": 4443, "char_end": 4454, "match_text": "rather than"}
+{"item_id": "item_2231", "corpus": "acl2019", "doc_id": "J19-2004", "pattern_id": "rather_than", "char_start": 104741, "char_end": 104752, "match_text": "rather than"}
+{"item_id": "item_2245", "corpus": "acl2019", "doc_id": "W19-1004", "pattern_id": "rather_than", "char_start": 3130, "char_end": 3141, "match_text": "rather than"}
+{"item_id": "item_2206", "corpus": "acl2019", "doc_id": "P19-1534", "pattern_id": "rather_than", "char_start": 9131, "char_end": 9142, "match_text": "rather than"}
+{"item_id": "item_2219", "corpus": "acl2019", "doc_id": "D19-1504", "pattern_id": "rather_than", "char_start": 30639, "char_end": 30650, "match_text": "rather than"}
+{"item_id": "item_2229", "corpus": "acl2019", "doc_id": "W19-3301", "pattern_id": "rather_than", "char_start": 35615, "char_end": 35626, "match_text": "rather than"}
+{"item_id": "item_2665", "corpus": "arxiv_latest", "doc_id": "2604.05090_v2", "pattern_id": "rather_than", "char_start": 39823, "char_end": 39834, "match_text": "rather than"}
+{"item_id": "item_2241", "corpus": "acl2019", "doc_id": "2019.clicit-1.72", "pattern_id": "rather_than", "char_start": 6819, "char_end": 6830, "match_text": "rather than"}
+{"item_id": "item_2485", "corpus": "arxiv2026", "doc_id": "2609.05149", "pattern_id": "rather_than", "char_start": 38392, "char_end": 38403, "match_text": "rather than"}
+{"item_id": "item_2359", "corpus": "arxiv2026", "doc_id": "2605.20798", "pattern_id": "rather_than", "char_start": 15859, "char_end": 15870, "match_text": "rather than"}
+{"item_id": "item_2383", "corpus": "arxiv2026", "doc_id": "2609.04773", "pattern_id": "rather_than", "char_start": 43561, "char_end": 43572, "match_text": "rather than"}
+{"item_id": "item_2503", "corpus": "arxiv2026", "doc_id": "2604.19047", "pattern_id": "rather_than", "char_start": 13862, "char_end": 13873, "match_text": "rather than"}
+{"item_id": "item_2429", "corpus": "arxiv2026", "doc_id": "2609.07183", "pattern_id": "rather_than", "char_start": 28194, "char_end": 28205, "match_text": "rather than"}
+{"item_id": "item_2333", "corpus": "arxiv2026", "doc_id": "2608.30614", "pattern_id": "rather_than", "char_start": 33884, "char_end": 33895, "match_text": "rather than"}
+{"item_id": "item_2549", "corpus": "arxiv_v1", "doc_id": "2601.07312_v1", "pattern_id": "rather_than", "char_start": 113195, "char_end": 113206, "match_text": "rather than"}
+{"item_id": "item_2395", "corpus": "arxiv2026", "doc_id": "2601.14289", "pattern_id": "rather_than", "char_start": 42994, "char_end": 43005, "match_text": "rather than"}
+{"item_id": "item_2621", "corpus": "arxiv_latest", "doc_id": "2608.22266_v2", "pattern_id": "rather_than", "char_start": 45889, "char_end": 45900, "match_text": "rather than"}
+{"item_id": "item_2558", "corpus": "arxiv_v1", "doc_id": "2603.29093_v1", "pattern_id": "rather_than", "char_start": 18839, "char_end": 18850, "match_text": "rather than"}
+{"item_id": "item_2301", "corpus": "arxiv2026", "doc_id": "2606.05054", "pattern_id": "rather_than", "char_start": 8424, "char_end": 8435, "match_text": "rather than"}
+{"item_id": "item_2193", "corpus": "acl2019", "doc_id": "P19-1572", "pattern_id": "rather_than", "char_start": 6125, "char_end": 6136, "match_text": "rather than"}
+{"item_id": "item_2213", "corpus": "acl2019", "doc_id": "N19-1025", "pattern_id": "rather_than", "char_start": 22650, "char_end": 22661, "match_text": "rather than"}
+{"item_id": "item_2530", "corpus": "arxiv_v1", "doc_id": "2608.01942_v1", "pattern_id": "rather_than", "char_start": 17424, "char_end": 17435, "match_text": "rather than"}
+{"item_id": "item_2441", "corpus": "arxiv2026", "doc_id": "2605.17101", "pattern_id": "rather_than", "char_start": 21059, "char_end": 21070, "match_text": "rather than"}
+{"item_id": "item_2522", "corpus": "arxiv2026", "doc_id": "2609.03619", "pattern_id": "rather_than", "char_start": 17264, "char_end": 17275, "match_text": "Rather than"}
+{"item_id": "item_2604", "corpus": "arxiv_v1", "doc_id": "2608.23390_v1", "pattern_id": "rather_than", "char_start": 99157, "char_end": 99168, "match_text": "rather than"}
+{"item_id": "item_2456", "corpus": "arxiv2026", "doc_id": "2605.13277", "pattern_id": "rather_than", "char_start": 12918, "char_end": 12929, "match_text": "rather than"}
+{"item_id": "item_2513", "corpus": "arxiv2026", "doc_id": "2601.07208", "pattern_id": "rather_than", "char_start": 20787, "char_end": 20798, "match_text": "rather than"}
+{"item_id": "item_2284", "corpus": "acl2019", "doc_id": "N19-1163", "pattern_id": "rather_than", "char_start": 9957, "char_end": 9968, "match_text": "Rather than"}
+{"item_id": "item_2292", "corpus": "arxiv2026", "doc_id": "2609.01422", "pattern_id": "rather_than", "char_start": 26507, "char_end": 26518, "match_text": "rather than"}
+{"item_id": "item_2470", "corpus": "arxiv2026", "doc_id": "2604.12377", "pattern_id": "rather_than", "char_start": 25481, "char_end": 25492, "match_text": "rather than"}
+{"item_id": "item_2253", "corpus": "acl2019", "doc_id": "W19-1424", "pattern_id": "rather_than", "char_start": 13147, "char_end": 13158, "match_text": "rather than"}
+{"item_id": "item_2364", "corpus": "arxiv2026", "doc_id": "2609.01971", "pattern_id": "rather_than", "char_start": 33981, "char_end": 33992, "match_text": "rather than"}
+{"item_id": "item_2411", "corpus": "arxiv2026", "doc_id": "2604.05461", "pattern_id": "rather_than", "char_start": 45511, "char_end": 45522, "match_text": "rather than"}
+{"item_id": "item_2680", "corpus": "arxiv_latest", "doc_id": "2609.03330_v2", "pattern_id": "rather_than", "char_start": 52845, "char_end": 52856, "match_text": "rather than"}
+{"item_id": "item_2356", "corpus": "arxiv2026", "doc_id": "2606.19719", "pattern_id": "rather_than", "char_start": 20787, "char_end": 20798, "match_text": "rather than"}
+{"item_id": "item_2466", "corpus": "arxiv2026", "doc_id": "2608.22916", "pattern_id": "rather_than", "char_start": 62406, "char_end": 62417, "match_text": "rather than"}
+{"item_id": "item_2622", "corpus": "arxiv_latest", "doc_id": "2601.13503_v2", "pattern_id": "rather_than", "char_start": 85480, "char_end": 85491, "match_text": "rather than"}
+{"item_id": "item_2656", "corpus": "arxiv_latest", "doc_id": "2604.23351_v3", "pattern_id": "rather_than", "char_start": 17434, "char_end": 17445, "match_text": "rather than"}
+{"item_id": "item_2312", "corpus": "arxiv2026", "doc_id": "2608.30319", "pattern_id": "rather_than", "char_start": 62962, "char_end": 62973, "match_text": "rather than"}
+{"item_id": "item_2415", "corpus": "arxiv2026", "doc_id": "2608.30748", "pattern_id": "rather_than", "char_start": 64160, "char_end": 64171, "match_text": "rather than"}
+{"item_id": "item_2384", "corpus": "arxiv2026", "doc_id": "2609.03580", "pattern_id": "rather_than", "char_start": 39226, "char_end": 39237, "match_text": "Rather than"}
+{"item_id": "item_2211", "corpus": "acl2019", "doc_id": "N19-1357", "pattern_id": "rather_than", "char_start": 5158, "char_end": 5169, "match_text": "rather than"}
+{"item_id": "item_2422", "corpus": "arxiv2026", "doc_id": "2606.22349", "pattern_id": "rather_than", "char_start": 24951, "char_end": 24962, "match_text": "rather than"}
+{"item_id": "item_2550", "corpus": "arxiv_v1", "doc_id": "2608.07261_v1", "pattern_id": "rather_than", "char_start": 21764, "char_end": 21775, "match_text": "rather than"}
+{"item_id": "item_2589", "corpus": "arxiv_v1", "doc_id": "2606.13610_v1", "pattern_id": "rather_than", "char_start": 77352, "char_end": 77363, "match_text": "rather than"}
+{"item_id": "item_2400", "corpus": "arxiv2026", "doc_id": "2601.09487", "pattern_id": "rather_than", "char_start": 66663, "char_end": 66674, "match_text": "rather than"}
+{"item_id": "item_2432", "corpus": "arxiv2026", "doc_id": "2608.30686", "pattern_id": "rather_than", "char_start": 59354, "char_end": 59365, "match_text": "rather than"}
+{"item_id": "item_2205", "corpus": "acl2019", "doc_id": "W19-5502", "pattern_id": "rather_than", "char_start": 3973, "char_end": 3984, "match_text": "rather than"}
+{"item_id": "item_2607", "corpus": "arxiv_v1", "doc_id": "2603.16654_v1", "pattern_id": "rather_than", "char_start": 13385, "char_end": 13396, "match_text": "rather than"}
+{"item_id": "item_2573", "corpus": "arxiv_v1", "doc_id": "2609.03261_v1", "pattern_id": "rather_than", "char_start": 9155, "char_end": 9166, "match_text": "rather than"}
+{"item_id": "item_2323", "corpus": "arxiv2026", "doc_id": "2601.16690", "pattern_id": "rather_than", "char_start": 44225, "char_end": 44236, "match_text": "rather than"}
+{"item_id": "item_2562", "corpus": "arxiv_v1", "doc_id": "2606.03603_v1", "pattern_id": "rather_than", "char_start": 41110, "char_end": 41121, "match_text": "rather than"}
+{"item_id": "item_2357", "corpus": "arxiv2026", "doc_id": "2605.05963", "pattern_id": "rather_than", "char_start": 62912, "char_end": 62923, "match_text": "Rather than"}
+{"item_id": "item_2464", "corpus": "arxiv2026", "doc_id": "2601.02970", "pattern_id": "rather_than", "char_start": 12574, "char_end": 12585, "match_text": "Rather than"}
+{"item_id": "item_2593", "corpus": "arxiv_v1", "doc_id": "2605.28791_v1", "pattern_id": "rather_than", "char_start": 27710, "char_end": 27721, "match_text": "rather than"}
+{"item_id": "item_2681", "corpus": "arxiv_latest", "doc_id": "2604.18005_v2", "pattern_id": "rather_than", "char_start": 43021, "char_end": 43032, "match_text": "rather than"}
+{"item_id": "item_2276", "corpus": "acl2019", "doc_id": "W19-3319", "pattern_id": "rather_than", "char_start": 36688, "char_end": 36699, "match_text": "rather than"}
+{"item_id": "item_2508", "corpus": "arxiv2026", "doc_id": "2605.28616", "pattern_id": "rather_than", "char_start": 10550, "char_end": 10561, "match_text": "rather than"}
+{"item_id": "item_2238", "corpus": "acl2019", "doc_id": "N19-1178", "pattern_id": "rather_than", "char_start": 27877, "char_end": 27888, "match_text": "rather than"}
+{"item_id": "item_2601", "corpus": "arxiv_v1", "doc_id": "2605.28112_v1", "pattern_id": "rather_than", "char_start": 31158, "char_end": 31169, "match_text": "rather than"}
+{"item_id": "item_2275", "corpus": "acl2019", "doc_id": "D19-1473", "pattern_id": "rather_than", "char_start": 6512, "char_end": 6523, "match_text": "rather than"}
+{"item_id": "item_2389", "corpus": "arxiv2026", "doc_id": "2609.09338", "pattern_id": "rather_than", "char_start": 11694, "char_end": 11705, "match_text": "rather than"}
+{"item_id": "item_2373", "corpus": "arxiv2026", "doc_id": "2608.31035", "pattern_id": "rather_than", "char_start": 15458, "char_end": 15469, "match_text": "rather than"}
+{"item_id": "item_2386", "corpus": "arxiv2026", "doc_id": "2606.14626", "pattern_id": "rather_than", "char_start": 29039, "char_end": 29050, "match_text": "rather than"}
+{"item_id": "item_2524", "corpus": "arxiv2026", "doc_id": "2601.14750", "pattern_id": "rather_than", "char_start": 26352, "char_end": 26363, "match_text": "rather than"}
+{"item_id": "item_2377", "corpus": "arxiv2026", "doc_id": "2606.03924", "pattern_id": "rather_than", "char_start": 79127, "char_end": 79138, "match_text": "rather than"}
+{"item_id": "item_2438", "corpus": "arxiv2026", "doc_id": "2601.20107", "pattern_id": "rather_than", "char_start": 51461, "char_end": 51472, "match_text": "rather than"}
+{"item_id": "item_2478", "corpus": "arxiv2026", "doc_id": "2609.02316", "pattern_id": "rather_than", "char_start": 18617, "char_end": 18628, "match_text": "rather than"}
+{"item_id": "item_2501", "corpus": "arxiv2026", "doc_id": "2609.11758", "pattern_id": "rather_than", "char_start": 44398, "char_end": 44409, "match_text": "rather than"}
+{"item_id": "item_2235", "corpus": "acl2019", "doc_id": "D19-1006", "pattern_id": "rather_than", "char_start": 16101, "char_end": 16112, "match_text": "rather than"}
+{"item_id": "item_2489", "corpus": "arxiv2026", "doc_id": "2604.18005", "pattern_id": "rather_than", "char_start": 4389, "char_end": 4400, "match_text": "rather than"}
+{"item_id": "item_2306", "corpus": "arxiv2026", "doc_id": "2605.17101", "pattern_id": "rather_than", "char_start": 18672, "char_end": 18683, "match_text": "rather than"}
+{"item_id": "item_2646", "corpus": "arxiv_latest", "doc_id": "2606.03695_v2", "pattern_id": "rather_than", "char_start": 23623, "char_end": 23634, "match_text": "rather than"}
+{"item_id": "item_2372", "corpus": "arxiv2026", "doc_id": "2606.31980", "pattern_id": "rather_than", "char_start": 7823, "char_end": 7834, "match_text": "rather than"}
+{"item_id": "item_2350", "corpus": "arxiv2026", "doc_id": "2609.07153", "pattern_id": "rather_than", "char_start": 1689, "char_end": 1700, "match_text": "rather than"}
+{"item_id": "item_2647", "corpus": "arxiv_latest", "doc_id": "2603.14265_v2", "pattern_id": "rather_than", "char_start": 24661, "char_end": 24672, "match_text": "rather than"}
+{"item_id": "item_2674", "corpus": "arxiv_latest", "doc_id": "2608.24492_v2", "pattern_id": "rather_than", "char_start": 8926, "char_end": 8937, "match_text": "rather than"}
+{"item_id": "item_2588", "corpus": "arxiv_v1", "doc_id": "2605.28700_v1", "pattern_id": "rather_than", "char_start": 16280, "char_end": 16291, "match_text": "rather than"}
+{"item_id": "item_2259", "corpus": "acl2019", "doc_id": "D19-1083", "pattern_id": "rather_than", "char_start": 29215, "char_end": 29226, "match_text": "rather than"}
+{"item_id": "item_2336", "corpus": "arxiv2026", "doc_id": "2607.05113", "pattern_id": "rather_than", "char_start": 31237, "char_end": 31248, "match_text": "rather than"}
+{"item_id": "item_2661", "corpus": "arxiv_latest", "doc_id": "2601.03786_v2", "pattern_id": "rather_than", "char_start": 34812, "char_end": 34823, "match_text": "rather than"}
+{"item_id": "item_2427", "corpus": "arxiv2026", "doc_id": "2608.21832", "pattern_id": "rather_than", "char_start": 10472, "char_end": 10483, "match_text": "rather than"}
+{"item_id": "item_2631", "corpus": "arxiv_latest", "doc_id": "2606.17698_v3", "pattern_id": "rather_than", "char_start": 38468, "char_end": 38479, "match_text": "rather than"}
+{"item_id": "item_2291", "corpus": "arxiv2026", "doc_id": "2606.00566", "pattern_id": "rather_than", "char_start": 18666, "char_end": 18677, "match_text": "rather than"}
+{"item_id": "item_2234", "corpus": "acl2019", "doc_id": "P19-1641", "pattern_id": "rather_than", "char_start": 10141, "char_end": 10152, "match_text": "rather than"}
+{"item_id": "item_2210", "corpus": "acl2019", "doc_id": "W19-0501", "pattern_id": "rather_than", "char_start": 13247, "char_end": 13258, "match_text": "rather than"}
+{"item_id": "item_2614", "corpus": "arxiv_v1", "doc_id": "2606.03189_v1", "pattern_id": "rather_than", "char_start": 34009, "char_end": 34020, "match_text": "rather than"}
+{"item_id": "item_2639", "corpus": "arxiv_latest", "doc_id": "2601.10085_v2", "pattern_id": "rather_than", "char_start": 9585, "char_end": 9596, "match_text": "rather than"}
+{"item_id": "item_2447", "corpus": "arxiv2026", "doc_id": "2608.26506", "pattern_id": "rather_than", "char_start": 6339, "char_end": 6350, "match_text": "rather than"}
+{"item_id": "item_2683", "corpus": "arxiv_latest", "doc_id": "2601.15236_v3", "pattern_id": "rather_than", "char_start": 71999, "char_end": 72010, "match_text": "rather than"}
+{"item_id": "item_2417", "corpus": "arxiv2026", "doc_id": "2604.20917", "pattern_id": "rather_than", "char_start": 1063, "char_end": 1074, "match_text": "rather than"}
+{"item_id": "item_2527", "corpus": "arxiv_v1", "doc_id": "2604.13071_v1", "pattern_id": "rather_than", "char_start": 34940, "char_end": 34951, "match_text": "rather than"}
+{"item_id": "item_2487", "corpus": "arxiv2026", "doc_id": "2602.07639", "pattern_id": "rather_than", "char_start": 5625, "char_end": 5636, "match_text": "rather than"}
+{"item_id": "item_2221", "corpus": "acl2019", "doc_id": "W19-8643", "pattern_id": "rather_than", "char_start": 30053, "char_end": 30064, "match_text": "rather than"}
+{"item_id": "item_2430", "corpus": "arxiv2026", "doc_id": "2609.05707", "pattern_id": "rather_than", "char_start": 55916, "char_end": 55927, "match_text": "rather than"}
+{"item_id": "item_2294", "corpus": "arxiv2026", "doc_id": "2603.04592", "pattern_id": "rather_than", "char_start": 34565, "char_end": 34576, "match_text": "rather than"}
+{"item_id": "item_2248", "corpus": "acl2019", "doc_id": "N19-1409", "pattern_id": "rather_than", "char_start": 6348, "char_end": 6359, "match_text": "rather than"}
+{"item_id": "item_2663", "corpus": "arxiv_latest", "doc_id": "2609.01081_v2", "pattern_id": "rather_than", "char_start": 55292, "char_end": 55303, "match_text": "rather than"}
+{"item_id": "item_2650", "corpus": "arxiv_latest", "doc_id": "2604.06156_v2", "pattern_id": "rather_than", "char_start": 31576, "char_end": 31587, "match_text": "rather than"}
+{"item_id": "item_2684", "corpus": "arxiv_latest", "doc_id": "2605.26275_v2", "pattern_id": "rather_than", "char_start": 64347, "char_end": 64358, "match_text": "rather than"}
+{"item_id": "item_2520", "corpus": "arxiv2026", "doc_id": "2607.05969", "pattern_id": "rather_than", "char_start": 30896, "char_end": 30907, "match_text": "rather than"}
+{"item_id": "item_2507", "corpus": "arxiv2026", "doc_id": "2601.12075", "pattern_id": "rather_than", "char_start": 4572, "char_end": 4583, "match_text": "rather than"}
+{"item_id": "item_2203", "corpus": "acl2019", "doc_id": "2019.icon-1.1", "pattern_id": "rather_than", "char_start": 4080, "char_end": 4091, "match_text": "rather than"}
+{"item_id": "item_2511", "corpus": "arxiv2026", "doc_id": "2604.17769", "pattern_id": "rather_than", "char_start": 28118, "char_end": 28129, "match_text": "rather than"}
+{"item_id": "item_2597", "corpus": "arxiv_v1", "doc_id": "2606.17698_v1", "pattern_id": "rather_than", "char_start": 11797, "char_end": 11808, "match_text": "rather than"}
+{"item_id": "item_2642", "corpus": "arxiv_latest", "doc_id": "2605.12015_v3", "pattern_id": "rather_than", "char_start": 112994, "char_end": 113005, "match_text": "rather than"}
+{"item_id": "item_2454", "corpus": "arxiv2026", "doc_id": "2605.30107", "pattern_id": "rather_than", "char_start": 16112, "char_end": 16123, "match_text": "rather than"}
+{"item_id": "item_2228", "corpus": "acl2019", "doc_id": "D19-6303", "pattern_id": "rather_than", "char_start": 18803, "char_end": 18814, "match_text": "rather than"}
+{"item_id": "item_2616", "corpus": "arxiv_latest", "doc_id": "2601.02989_v2", "pattern_id": "rather_than", "char_start": 31574, "char_end": 31585, "match_text": "rather than"}
+{"item_id": "item_2666", "corpus": "arxiv_latest", "doc_id": "2604.05318_v2", "pattern_id": "rather_than", "char_start": 36609, "char_end": 36620, "match_text": "rather than"}
+{"item_id": "item_2225", "corpus": "acl2019", "doc_id": "W19-4314", "pattern_id": "rather_than", "char_start": 10898, "char_end": 10909, "match_text": "Rather than"}
+{"item_id": "item_2265", "corpus": "acl2019", "doc_id": "R19-1028", "pattern_id": "rather_than", "char_start": 15802, "char_end": 15813, "match_text": "rather than"}
+{"item_id": "item_2627", "corpus": "arxiv_latest", "doc_id": "2602.18446_v2", "pattern_id": "rather_than", "char_start": 60015, "char_end": 60026, "match_text": "rather than"}
+{"item_id": "item_2318", "corpus": "arxiv2026", "doc_id": "2605.20798", "pattern_id": "rather_than", "char_start": 51589, "char_end": 51600, "match_text": "rather than"}
+{"item_id": "item_2341", "corpus": "arxiv2026", "doc_id": "2609.03432", "pattern_id": "rather_than", "char_start": 25614, "char_end": 25625, "match_text": "rather than"}
+{"item_id": "item_2254", "corpus": "acl2019", "doc_id": "Q19-1041", "pattern_id": "rather_than", "char_start": 40649, "char_end": 40660, "match_text": "rather than"}
+{"item_id": "item_2624", "corpus": "arxiv_latest", "doc_id": "2605.09043_v2", "pattern_id": "rather_than", "char_start": 27266, "char_end": 27277, "match_text": "rather than"}
+{"item_id": "item_2567", "corpus": "arxiv_v1", "doc_id": "2608.24977_v1", "pattern_id": "rather_than", "char_start": 40232, "char_end": 40243, "match_text": "Rather than"}
+{"item_id": "item_2216", "corpus": "acl2019", "doc_id": "W19-8643", "pattern_id": "rather_than", "char_start": 18772, "char_end": 18783, "match_text": "rather than"}
+{"item_id": "item_2290", "corpus": "arxiv2026", "doc_id": "2609.03215", "pattern_id": "rather_than", "char_start": 29750, "char_end": 29761, "match_text": "rather than"}
+{"item_id": "item_2545", "corpus": "arxiv_v1", "doc_id": "2609.00065_v1", "pattern_id": "rather_than", "char_start": 6201, "char_end": 6212, "match_text": "rather than"}
+{"item_id": "item_2201", "corpus": "acl2019", "doc_id": "P19-1353", "pattern_id": "rather_than", "char_start": 23632, "char_end": 23643, "match_text": "Rather than"}
+{"item_id": "item_2483", "corpus": "arxiv2026", "doc_id": "2604.26148", "pattern_id": "rather_than", "char_start": 16181, "char_end": 16192, "match_text": "rather than"}
+{"item_id": "item_2580", "corpus": "arxiv_v1", "doc_id": "2605.29668_v1", "pattern_id": "rather_than", "char_start": 53905, "char_end": 53916, "match_text": "rather than"}
+{"item_id": "item_2434", "corpus": "arxiv2026", "doc_id": "2605.24614", "pattern_id": "rather_than", "char_start": 20427, "char_end": 20438, "match_text": "rather than"}
+{"item_id": "item_2348", "corpus": "arxiv2026", "doc_id": "2608.27380", "pattern_id": "rather_than", "char_start": 35107, "char_end": 35118, "match_text": "rather than"}
+{"item_id": "item_2649", "corpus": "arxiv_latest", "doc_id": "2606.04095_v2", "pattern_id": "rather_than", "char_start": 6649, "char_end": 6660, "match_text": "rather than"}
+{"item_id": "item_2670", "corpus": "arxiv_latest", "doc_id": "2608.21832_v2", "pattern_id": "rather_than", "char_start": 64253, "char_end": 64264, "match_text": "rather than"}
+{"item_id": "item_2403", "corpus": "arxiv2026", "doc_id": "2608.21409", "pattern_id": "rather_than", "char_start": 32357, "char_end": 32368, "match_text": "rather than"}
+{"item_id": "item_2393", "corpus": "arxiv2026", "doc_id": "2608.11847", "pattern_id": "rather_than", "char_start": 38175, "char_end": 38186, "match_text": "rather than"}
+{"item_id": "item_2561", "corpus": "arxiv_v1", "doc_id": "2604.11427_v1", "pattern_id": "rather_than", "char_start": 64010, "char_end": 64021, "match_text": "rather than"}
+{"item_id": "item_2543", "corpus": "arxiv_v1", "doc_id": "2601.11908_v1", "pattern_id": "rather_than", "char_start": 39678, "char_end": 39689, "match_text": "rather than"}
+{"item_id": "item_2600", "corpus": "arxiv_v1", "doc_id": "2604.04842_v1", "pattern_id": "rather_than", "char_start": 21354, "char_end": 21365, "match_text": "rather than"}
+{"item_id": "item_2480", "corpus": "arxiv2026", "doc_id": "2608.27658", "pattern_id": "rather_than", "char_start": 22226, "char_end": 22237, "match_text": "rather than"}
+{"item_id": "item_2189", "corpus": "acl2019", "doc_id": "P19-1334", "pattern_id": "rather_than", "char_start": 13873, "char_end": 13884, "match_text": "rather than"}
+{"item_id": "item_2387", "corpus": "arxiv2026", "doc_id": "2606.22349", "pattern_id": "rather_than", "char_start": 58729, "char_end": 58740, "match_text": "rather than"}
+{"item_id": "item_2370", "corpus": "arxiv2026", "doc_id": "2606.10307", "pattern_id": "rather_than", "char_start": 2652, "char_end": 2663, "match_text": "rather than"}
+{"item_id": "item_2375", "corpus": "arxiv2026", "doc_id": "2603.16091", "pattern_id": "rather_than", "char_start": 19671, "char_end": 19682, "match_text": "rather than"}
+{"item_id": "item_2282", "corpus": "acl2019", "doc_id": "Q19-1031", "pattern_id": "rather_than", "char_start": 16294, "char_end": 16305, "match_text": "rather than"}
+{"item_id": "item_2640", "corpus": "arxiv_latest", "doc_id": "2601.05752_v3", "pattern_id": "rather_than", "char_start": 33812, "char_end": 33823, "match_text": "rather than"}
+{"item_id": "item_2554", "corpus": "arxiv_v1", "doc_id": "2601.09624_v1", "pattern_id": "rather_than", "char_start": 31009, "char_end": 31020, "match_text": "rather than"}
+{"item_id": "item_2204", "corpus": "acl2019", "doc_id": "S19-1018", "pattern_id": "rather_than", "char_start": 3171, "char_end": 3182, "match_text": "rather than"}
+{"item_id": "item_2571", "corpus": "arxiv_v1", "doc_id": "2607.25270_v1", "pattern_id": "rather_than", "char_start": 38220, "char_end": 38231, "match_text": "rather than"}
+{"item_id": "item_2202", "corpus": "acl2019", "doc_id": "R19-1080", "pattern_id": "rather_than", "char_start": 2213, "char_end": 2224, "match_text": "Rather than"}
+{"item_id": "item_2626", "corpus": "arxiv_latest", "doc_id": "2601.09696_v2", "pattern_id": "rather_than", "char_start": 87705, "char_end": 87716, "match_text": "rather than"}
+{"item_id": "item_2232", "corpus": "acl2019", "doc_id": "P19-1358", "pattern_id": "rather_than", "char_start": 3088, "char_end": 3099, "match_text": "rather than"}
+{"item_id": "item_2546", "corpus": "arxiv_v1", "doc_id": "2604.16593_v1", "pattern_id": "rather_than", "char_start": 23992, "char_end": 24003, "match_text": "rather than"}
+{"item_id": "item_2556", "corpus": "arxiv_v1", "doc_id": "2608.23095_v1", "pattern_id": "rather_than", "char_start": 27216, "char_end": 27227, "match_text": "rather than"}
+{"item_id": "item_2414", "corpus": "arxiv2026", "doc_id": "2609.09569", "pattern_id": "rather_than", "char_start": 18959, "char_end": 18970, "match_text": "rather than"}
+{"item_id": "item_2575", "corpus": "arxiv_v1", "doc_id": "2605.25731_v1", "pattern_id": "rather_than", "char_start": 28051, "char_end": 28062, "match_text": "rather than"}
+{"item_id": "item_2582", "corpus": "arxiv_v1", "doc_id": "2603.16654_v1", "pattern_id": "rather_than", "char_start": 40059, "char_end": 40070, "match_text": "rather than"}
+{"item_id": "item_2667", "corpus": "arxiv_latest", "doc_id": "2606.03695_v2", "pattern_id": "rather_than", "char_start": 61899, "char_end": 61910, "match_text": "rather than"}
+{"item_id": "item_2390", "corpus": "arxiv2026", "doc_id": "2609.04720", "pattern_id": "rather_than", "char_start": 2647, "char_end": 2658, "match_text": "rather than"}
+{"item_id": "item_2468", "corpus": "arxiv2026", "doc_id": "2603.02082", "pattern_id": "rather_than", "char_start": 30333, "char_end": 30344, "match_text": "rather than"}
+{"item_id": "item_2227", "corpus": "acl2019", "doc_id": "D19-1419", "pattern_id": "rather_than", "char_start": 25912, "char_end": 25923, "match_text": "Rather than"}
+{"item_id": "item_2594", "corpus": "arxiv_v1", "doc_id": "2604.16593_v1", "pattern_id": "rather_than", "char_start": 11868, "char_end": 11879, "match_text": "Rather than"}
+{"item_id": "item_2325", "corpus": "arxiv2026", "doc_id": "2604.19071", "pattern_id": "rather_than", "char_start": 103936, "char_end": 103947, "match_text": "rather than"}
+{"item_id": "item_2388", "corpus": "arxiv2026", "doc_id": "2605.05025", "pattern_id": "rather_than", "char_start": 6411, "char_end": 6422, "match_text": "rather than"}
+{"item_id": "item_2428", "corpus": "arxiv2026", "doc_id": "2608.13706", "pattern_id": "rather_than", "char_start": 34876, "char_end": 34887, "match_text": "rather than"}
+{"item_id": "item_2455", "corpus": "arxiv2026", "doc_id": "2604.17393", "pattern_id": "rather_than", "char_start": 31935, "char_end": 31946, "match_text": "rather than"}
+{"item_id": "item_2423", "corpus": "arxiv2026", "doc_id": "2604.17968", "pattern_id": "rather_than", "char_start": 46481, "char_end": 46492, "match_text": "rather than"}
+{"item_id": "item_2419", "corpus": "arxiv2026", "doc_id": "2605.22641", "pattern_id": "rather_than", "char_start": 21556, "char_end": 21567, "match_text": "rather than"}
+{"item_id": "item_2498", "corpus": "arxiv2026", "doc_id": "2606.16151", "pattern_id": "rather_than", "char_start": 44542, "char_end": 44553, "match_text": "rather than"}
+{"item_id": "item_2394", "corpus": "arxiv2026", "doc_id": "2608.24306", "pattern_id": "rather_than", "char_start": 35869, "char_end": 35880, "match_text": "rather than"}
+{"item_id": "item_2242", "corpus": "acl2019", "doc_id": "K19-1008", "pattern_id": "rather_than", "char_start": 3819, "char_end": 3830, "match_text": "rather than"}
+{"item_id": "item_2261", "corpus": "acl2019", "doc_id": "P19-1651", "pattern_id": "rather_than", "char_start": 9246, "char_end": 9257, "match_text": "rather than"}
+{"item_id": "item_2623", "corpus": "arxiv_latest", "doc_id": "2603.15421_v2", "pattern_id": "rather_than", "char_start": 33022, "char_end": 33033, "match_text": "rather than"}
+{"item_id": "item_2311", "corpus": "arxiv2026", "doc_id": "2605.01386", "pattern_id": "rather_than", "char_start": 31409, "char_end": 31420, "match_text": "rather than"}
+{"item_id": "item_2412", "corpus": "arxiv2026", "doc_id": "2608.30662", "pattern_id": "rather_than", "char_start": 3119, "char_end": 3130, "match_text": "rather than"}
+{"item_id": "item_2256", "corpus": "acl2019", "doc_id": "W19-5916", "pattern_id": "rather_than", "char_start": 15733, "char_end": 15744, "match_text": "rather than"}
+{"item_id": "item_2367", "corpus": "arxiv2026", "doc_id": "2606.32029", "pattern_id": "rather_than", "char_start": 31776, "char_end": 31787, "match_text": "rather than"}
+{"item_id": "item_2442", "corpus": "arxiv2026", "doc_id": "2605.26645", "pattern_id": "rather_than", "char_start": 33300, "char_end": 33311, "match_text": "rather than"}
+{"item_id": "item_2264", "corpus": "acl2019", "doc_id": "W19-4006", "pattern_id": "rather_than", "char_start": 34450, "char_end": 34461, "match_text": "rather than"}
+{"item_id": "item_2322", "corpus": "arxiv2026", "doc_id": "2608.22704", "pattern_id": "rather_than", "char_start": 33872, "char_end": 33883, "match_text": "rather than"}
+{"item_id": "item_2258", "corpus": "acl2019", "doc_id": "D19-1504", "pattern_id": "rather_than", "char_start": 38789, "char_end": 38800, "match_text": "rather than"}
+{"item_id": "item_2297", "corpus": "arxiv2026", "doc_id": "2605.19357", "pattern_id": "rather_than", "char_start": 22245, "char_end": 22256, "match_text": "rather than"}
+{"item_id": "item_2592", "corpus": "arxiv_v1", "doc_id": "2608.02087_v1", "pattern_id": "rather_than", "char_start": 2982, "char_end": 2993, "match_text": "rather than"}
+{"item_id": "item_2654", "corpus": "arxiv_latest", "doc_id": "2606.16845_v3", "pattern_id": "rather_than", "char_start": 10254, "char_end": 10265, "match_text": "rather than"}
+{"item_id": "item_2239", "corpus": "acl2019", "doc_id": "D19-5552", "pattern_id": "rather_than", "char_start": 28604, "char_end": 28615, "match_text": "rather than"}
+{"item_id": "item_2514", "corpus": "arxiv2026", "doc_id": "2605.24247", "pattern_id": "rather_than", "char_start": 28157, "char_end": 28168, "match_text": "rather than"}
+{"item_id": "item_2396", "corpus": "arxiv2026", "doc_id": "2605.29319", "pattern_id": "rather_than", "char_start": 41236, "char_end": 41247, "match_text": "rather than"}
+{"item_id": "item_2366", "corpus": "arxiv2026", "doc_id": "2601.02956", "pattern_id": "rather_than", "char_start": 32416, "char_end": 32427, "match_text": "rather than"}
+{"item_id": "item_2688", "corpus": "acl2019", "doc_id": "W19-6626", "pattern_id": "rather_than", "char_start": 18220, "char_end": 18231, "match_text": "rather than"}

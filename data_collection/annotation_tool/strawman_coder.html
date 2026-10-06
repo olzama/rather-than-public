@@ -1,0 +1,454 @@
+<title>Straw Man Coding</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f2f4f0;
+    --surface: #ffffff;
+    --surface-2: #eaeee6;
+    --ink: #1b201c;
+    --ink-secondary: #545e56;
+    --ink-muted: #8a9089;
+    --border: #dbe0d7;
+    --accent: #2f6f62;
+    --accent-ink: #ffffff;
+    --accent-wash: #e4efec;
+    --y-wash: #f6e7c8;
+    --y-ink: #7a5410;
+    --straw: #ab4f2d;
+    --straw-wash: #f5e9e2;
+    --real: #2f7a4f;
+    --real-wash: #e4f1e8;
+    --unsure: #6d726d;
+    --unsure-wash: #eaebe9;
+    --shadow: 0 1px 2px rgba(27, 32, 28, 0.06), 0 8px 24px -12px rgba(27, 32, 28, 0.18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #141715;
+      --surface: #1b201d;
+      --surface-2: #242a25;
+      --ink: #edf1ec;
+      --ink-secondary: #b4bcb5;
+      --ink-muted: #7c847c;
+      --border: #313832;
+      --accent: #56a893;
+      --accent-ink: #0c1210;
+      --accent-wash: #1f2d29;
+      --y-wash: #3a2f18;
+      --y-ink: #e8c275;
+      --straw: #d98a63;
+      --straw-wash: #2e2119;
+      --real: #5cb37d;
+      --real-wash: #1c2a20;
+      --unsure: #93998f;
+      --unsure-wash: #23261f;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #141715;
+    --surface: #1b201d;
+    --surface-2: #242a25;
+    --ink: #edf1ec;
+    --ink-secondary: #b4bcb5;
+    --ink-muted: #7c847c;
+    --border: #313832;
+    --accent: #56a893;
+    --accent-ink: #0c1210;
+    --accent-wash: #1f2d29;
+    --y-wash: #3a2f18;
+    --y-ink: #e8c275;
+    --straw: #d98a63;
+    --straw-wash: #2e2119;
+    --real: #5cb37d;
+    --real-wash: #1c2a20;
+    --unsure: #93998f;
+    --unsure-wash: #23261f;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding: 0 20px;
+    padding-block: 28px 64px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+
+  .masthead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .masthead h1 { font-family: "Source Serif 4", Georgia, serif; font-size: 22px; font-weight: 600; margin: 0; }
+  .who { font-size: 13px; color: var(--ink-muted); }
+  .who button { font: inherit; color: var(--ink-muted); background: none; border: none; text-decoration: underline; cursor: pointer; padding: 0; }
+
+  .sets { display: inline-flex; background: var(--surface-2); border-radius: 9px; padding: 3px; gap: 3px; }
+  .sets button { font: inherit; font-size: 13px; font-weight: 600; border: none; background: none; color: var(--ink-secondary); padding: 7px 14px; border-radius: 7px; cursor: pointer; }
+  .sets button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+  .set-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .progress-label { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px; color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+
+  details.definition { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; }
+  details.definition summary { cursor: pointer; padding: 12px 16px; font-size: 13px; font-weight: 600; color: var(--ink-secondary); }
+  .def-body { padding: 0 16px 14px; font-size: 13.5px; line-height: 1.55; color: var(--ink-secondary); max-width: 65ch; }
+  .def-body p { margin: 0 0 8px; }
+  .def-body ul { margin: 0 0 8px; padding-left: 20px; }
+  .def-body b { color: var(--ink); }
+
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); padding: 28px 28px 24px; display: flex; flex-direction: column; gap: 12px; }
+  .context { font-family: "Source Serif 4", Georgia, serif; font-size: 15px; line-height: 1.5; color: var(--ink-muted); }
+  .sentence { font-family: "Source Serif 4", Georgia, serif; font-size: 20px; line-height: 1.6; text-wrap: pretty; }
+  .sentence .rt { font-style: italic; color: var(--accent); background: var(--accent-wash); border-radius: 4px; padding: 0.05em 0.15em; }
+  .sentence .y { background: var(--y-wash); color: var(--y-ink); border-radius: 4px; padding: 0.05em 0.15em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+  .legend { font-size: 12px; color: var(--ink-muted); display: flex; gap: 14px; flex-wrap: wrap; }
+  .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+  .legend .l-rt::before { background: var(--accent-wash); border: 1px solid var(--accent); }
+  .legend .l-y::before { background: var(--y-wash); border: 1px solid var(--y-ink); }
+
+  .question { font-size: 14px; font-weight: 600; color: var(--ink-secondary); margin: 0; }
+  .choices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  @media (max-width: 520px) { .choices { grid-template-columns: 1fr; } }
+  .choice { font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; border-radius: 10px; padding: 13px 10px; border: 1.5px solid var(--border); background: var(--surface); color: var(--ink-secondary); }
+  .choice:focus-visible, .sets button:focus-visible, .nav button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .choice kbd { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--ink-muted); margin-left: 6px; }
+  .choice.straw.sel { background: var(--straw-wash); border-color: var(--straw); color: var(--straw); }
+  .choice.real.sel { background: var(--real-wash); border-color: var(--real); color: var(--real); }
+  .choice.unsure.sel { background: var(--unsure-wash); border-color: var(--unsure); color: var(--unsure); }
+
+  .note-row { display: flex; flex-direction: column; gap: 6px; }
+  .note-row label { font-size: 12px; color: var(--ink-muted); }
+  .note-row input { font: inherit; font-size: 14px; padding: 9px 11px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); width: 100%; }
+  .note-row input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  .nav { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+  .nav button { font: inherit; font-size: 13.5px; font-weight: 600; color: var(--ink-secondary); background: none; border: none; cursor: pointer; padding: 6px 4px; }
+  .nav button:disabled { opacity: 0.4; cursor: default; }
+  .save-note { font-size: 12px; color: var(--ink-muted); }
+  .meta { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11.5px; color: var(--ink-muted); }
+
+  .gate { min-height: 60vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 16px; }
+  .gate h1 { font-family: "Source Serif 4", Georgia, serif; font-size: 28px; margin: 0; }
+  .gate p { color: var(--ink-secondary); max-width: 46ch; line-height: 1.55; margin: 0; font-size: 15px; }
+  .gate input { font: inherit; font-size: 16px; padding: 12px 14px; border-radius: 9px; border: 1.5px solid var(--border); background: var(--surface); color: var(--ink); width: 260px; max-width: 100%; text-align: center; }
+  .gate button { font: inherit; font-size: 15px; font-weight: 700; padding: 12px 26px; border-radius: 9px; border: none; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+  .gate button:disabled { opacity: 0.45; cursor: default; }
+
+  .done { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 28px; text-align: center; }
+  .done h2 { font-family: "Source Serif 4", Georgia, serif; font-size: 22px; margin: 0 0 8px; }
+  .done p { color: var(--ink-secondary); margin: 0; }
+  .tally { display: flex; justify-content: center; gap: 24px; margin-top: 16px; flex-wrap: wrap; }
+  .tally div { display: flex; flex-direction: column; gap: 2px; }
+  .tally b { font-family: "IBM Plex Mono", monospace; font-size: 22px; font-variant-numeric: tabular-nums; }
+  .tally span { font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-muted); }
+  .sheet-warning { background: var(--straw-wash); color: var(--straw); border: 1px solid var(--straw); border-radius: 10px; padding: 12px 16px; font-size: 14px; line-height: 1.5; }
+  .choice:disabled { opacity: 0.45; cursor: progress; }
+  @media (prefers-reduced-motion: no-preference) { .choice { transition: border-color 0.12s ease, background 0.12s ease; } }
+  [hidden] { display: none !important; }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<div class="wrap">
+  <div id="gate" class="gate">
+    <h1>Straw Man Coding</h1>
+    <p>Each sentence contains one use of &ldquo;rather than&rdquo;. The alternative it rejects is highlighted. Decide whether that rejected alternative is a straw man.</p>
+    <input id="name-input" type="text" placeholder="Your name" autocomplete="off">
+    <button id="start-btn" disabled>Begin</button>
+  </div>
+
+  <div id="app" hidden>
+    <div class="masthead">
+      <h1>Straw Man Coding</h1>
+      <div class="who">coding as <strong id="who-name"></strong> &middot; <button id="switch-btn">switch</button></div>
+    </div>
+
+    <div class="set-row">
+      <span class="progress-label" id="progress"></span>
+    </div>
+
+    <details class="definition" id="definition" open>
+      <summary>Definition (draft)</summary>
+      <div class="def-body">
+        <p><b>Straw man:</b> the rejected alternative is something no competent author in the field would seriously adopt or defend, so rejecting it tells the reader nothing. Typical forms:</p>
+        <ul>
+          <li><b>Absolute or overclaiming:</b> &ldquo;guaranteeing correct output on every input&rdquo;, &ldquo;proving the method works for all languages&rdquo;</li>
+          <li><b>An error, flaw or cheat:</b> &ldquo;tuning hyperparameters on the test set&rdquo;, &ldquo;reporting only the best of many runs&rdquo;</li>
+          <li><b>A naive simplification nobody currently uses:</b> &ldquo;picking answers at random&rdquo;, &ldquo;ignoring the input altogether&rdquo;</li>
+        </ul>
+        <p><b>Not a straw man:</b> a real option that someone plausibly uses or that a reader might assume, such as an existing method, a common default, or a design choice (&ldquo;fine-tuning all parameters&rdquo;, &ldquo;greedy decoding&rdquo;, &ldquo;a rule-based baseline&rdquo;).</p>
+        <p>Judge the highlighted alternative in its sentence. Whether the use annoys you does not matter here. Add a note when the call is hard; notes help refine this definition.</p>
+      </div>
+    </details>
+
+    <div class="sheet-warning" id="sheet-warning" role="alert" hidden>Some codes could not reach the server yet. They are kept in this browser and will be sent automatically; keep going, or reload later.</div>
+
+    <div id="item-view">
+      <div class="card">
+        <div class="context" id="ctx-before"></div>
+        <div class="sentence" id="sentence"></div>
+        <div class="context" id="ctx-after"></div>
+        <div class="legend"><span class="l-rt">rather than</span><span class="l-y">rejected alternative</span></div>
+        <p class="question">Is the highlighted alternative a straw man?</p>
+        <div class="choices">
+          <button class="choice straw" data-code="strawman">Straw man<kbd>1</kbd></button>
+          <button class="choice real" data-code="not_strawman">Not a straw man<kbd>2</kbd></button>
+          <button class="choice unsure" data-code="unsure">Unsure<kbd>3</kbd></button>
+        </div>
+        <div class="note-row">
+          <label for="note-input">Note (optional)</label>
+          <input id="note-input" type="text" autocomplete="off" placeholder="Why was this hard to call?">
+        </div>
+      </div>
+      <div class="nav">
+        <button id="prev-btn">&larr; previous</button>
+        <span class="save-note" id="save-note"></span>
+        <button id="next-btn">next &rarr;</button>
+      </div>
+      <div class="meta" id="meta"></div>
+    </div>
+
+    <div id="done" class="done" hidden>
+      <h2 id="done-title">Set complete</h2>
+      <p id="done-sub"></p>
+      <div class="tally" id="tally"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const SETS = SETS_PLACEHOLDER;
+SHEET_PLACEHOLDER
+
+  // One shuffled pool of all items; each item keeps its origin set ("dev" or
+  // "test") so codes are stored and analyzed per set.
+  var state = { name: null, order: [], idx: 0, codes: {}, notes: {}, history: [] };
+  var $ = function (id) { return document.getElementById(id); };
+  var dbP = null;
+  function getDb() {
+    if (!dbP) dbP = (window.claude && window.claude.use) ? window.claude.use("db") : Promise.resolve(null);
+    return dbP;
+  }
+  function slug(s) {
+    return (s || "").trim().toLowerCase().replace(/[^a-z0-9_\-.~:@+]+/g, "-").replace(/^-+|-+$/g, "") || "anon";
+  }
+  function seedFromString(str) {
+    var h = 1779033703 ^ str.length;
+    for (var i = 0; i < str.length; i++) { h = Math.imul(h ^ str.charCodeAt(i), 3432918353); h = (h << 13) | (h >>> 19); }
+    return function () {
+      h = Math.imul(h ^ (h >>> 16), 2246822507); h = Math.imul(h ^ (h >>> 13), 3266489909); h ^= h >>> 16;
+      return (h >>> 0) / 4294967296;
+    };
+  }
+  function orderFor(items, seed) {
+    return items.map(function (it) { return { it: it, k: seedFromString(seed + "|" + it.item_id)() }; })
+      .sort(function (a, b) { return a.k - b.k; }).map(function (x) { return x.it; });
+  }
+  function key(set, id) { return set + "|" + id; }
+  function ikey(it) { return key(it.origin, it.item_id); }
+  function esc(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+  function markup(it) {
+    var s = it.sentence, marks = [];
+    if (it.rt_start != null) marks.push([it.rt_start, it.rt_end, "rt"]);
+    if (it.y_start != null) marks.push([it.y_start, it.y_end, "y"]);
+    marks.sort(function (a, b) { return a[0] - b[0]; });
+    var out = "", pos = 0;
+    marks.forEach(function (m) {
+      if (m[0] < pos) return;
+      out += esc(s.slice(pos, m[0])) + '<span class="' + m[2] + '">' + esc(s.slice(m[0], m[1])) + "</span>";
+      pos = m[1];
+    });
+    return out + esc(s.slice(pos));
+  }
+
+  function items() { return state.order; }
+  function answered() {
+    return state.order.filter(function (it) { return state.codes[ikey(it)]; }).length;
+  }
+
+  function render() {
+    var list = items(), n = answered();
+    $("progress").textContent = n + " / " + list.length + " coded";
+    if (n >= list.length) { showDone(); return; }
+    $("done").hidden = true; $("item-view").hidden = false;
+    var it = list[state.idx];
+    $("ctx-before").textContent = it.context_before || ""; $("ctx-before").hidden = !it.context_before;
+    $("ctx-after").textContent = it.context_after || ""; $("ctx-after").hidden = !it.context_after;
+    $("sentence").innerHTML = markup(it);
+    var code = state.codes[ikey(it)];
+    document.querySelectorAll(".choice").forEach(function (b) { b.classList.toggle("sel", b.dataset.code === code); });
+    $("note-input").value = state.notes[ikey(it)] || "";
+    $("prev-btn").disabled = state.history.length === 0 && state.idx === 0;
+    $("next-btn").disabled = state.idx >= list.length - 1;
+    $("meta").textContent = it.item_id;
+    $("save-note").textContent = "";
+  }
+
+  function showDone() {
+    $("item-view").hidden = true; $("done").hidden = false;
+    var c = { strawman: 0, not_strawman: 0, unsure: 0 };
+    items().forEach(function (it) { var v = state.codes[ikey(it)]; if (v) c[v]++; });
+    $("done-title").textContent = "All items coded";
+    $("done-sub").textContent = "All " + items().length + " items coded. You can go back to earlier items with ← previous.";
+    $("tally").innerHTML = "";
+    [["strawman", "Straw man"], ["not_strawman", "Not a straw man"], ["unsure", "Unsure"]].forEach(function (p) {
+      var d = document.createElement("div");
+      var b = document.createElement("b"); b.textContent = c[p[0]];
+      var s = document.createElement("span"); s.textContent = p[1];
+      d.appendChild(b); d.appendChild(s); $("tally").appendChild(d);
+    });
+  }
+
+  // Google Sheet backend (SHEET_URL set, e.g. on GitHub Pages). Codes are
+  // stored under "sm:<set>:<item_id>" and notes under "smnote:<set>:<item_id>",
+  // so they never collide with annotation labels in the same sheet. Unsent
+  // rows are queued in the browser and resent on the next save or load.
+  function pendingKey() { return "sm_pending_" + slug(state.name); }
+  function readPending() { try { return JSON.parse(localStorage.getItem(pendingKey()) || "[]"); } catch (e) { return []; } }
+  function writePending(q) { try { localStorage.setItem(pendingKey(), JSON.stringify(q)); } catch (e) {} }
+  function flushPending() {
+    var q = readPending();
+    if (!q.length) return Promise.resolve();
+    return fetch(SHEET_URL, {
+      method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify({ token: SHEET_TOKEN, action: "import", rows: q })
+    }).then(function (r) { return r.json(); }).then(function (j) {
+      if (!j || !j.ok) throw new Error("save failed");
+      writePending([]);
+    });
+  }
+  function sheetQueue(set, itemId, code, note) {
+    var q = readPending(), ts = Date.now();
+    q.push({ annotator: state.name, item_id: "sm:" + set + ":" + itemId, label: code, ts: ts, set: "strawman-" + set });
+    if (note) q.push({ annotator: state.name, item_id: "smnote:" + set + ":" + itemId, label: note, ts: ts, set: "strawman-" + set });
+    writePending(q);
+    return flushPending().then(function () {
+      $("save-note").textContent = "saved"; $("sheet-warning").hidden = true;
+    }, function () {
+      $("save-note").textContent = "queued, will retry"; $("sheet-warning").hidden = false;
+    });
+  }
+  function setLoading(on) {
+    state.loading = on;
+    document.querySelectorAll(".choice").forEach(function (b) { b.disabled = on; });
+    if (on) $("save-note").textContent = "loading your saved codes…";
+  }
+
+  function save(code) {
+    if (state.loading) return;
+    var it = items()[state.idx];
+    var k = ikey(it);
+    var note = $("note-input").value.trim();
+    state.codes[k] = code; state.notes[k] = note;
+    $("save-note").textContent = "saving…";
+    if (SHEET_URL) sheetQueue(it.origin, it.item_id, code, note);
+    else getDb().then(function (db) {
+      if (!db) { $("save-note").textContent = "not saved: no database in this view"; return; }
+      return db.doc("strawman/" + slug(state.name) + "__" + it.origin + "__" + it.item_id).set({
+        annotator: state.name, set: it.origin, item_id: it.item_id, code: code, note: note, ts: Date.now()
+      }).then(function () { $("save-note").textContent = "saved"; });
+    }).catch(function () { $("save-note").textContent = "save failed, try again"; });
+    setTimeout(function () {
+      var list = items(), i = state.idx;
+      for (var step = 1; step <= list.length; step++) {
+        var cand = (i + step) % list.length;
+        if (!state.codes[ikey(list[cand])]) { state.history.push(i); state.idx = cand; break; }
+      }
+      render();
+    }, 200);
+  }
+
+  function saveNoteOnly() {
+    var it = items()[state.idx], k = ikey(it);
+    var note = $("note-input").value.trim();
+    if (!state.codes[k] || note === (state.notes[k] || "")) return;
+    state.notes[k] = note;
+    if (SHEET_URL) { sheetQueue(it.origin, it.item_id, state.codes[k], note); return; }
+    getDb().then(function (db) {
+      if (db) return db.doc("strawman/" + slug(state.name) + "__" + it.origin + "__" + it.item_id).update({ note: note, ts: Date.now() });
+    }).catch(function () {});
+  }
+
+  function firstOpen() {
+    var list = state.order;
+    for (var i = 0; i < list.length; i++) if (!state.codes[ikey(list[i])]) return i;
+    return 0;
+  }
+
+  function begin(name) {
+    state.name = name;
+    try { localStorage.setItem("sm_coder_name", name); } catch (e) {}
+    $("who-name").textContent = name;
+    var all = [];
+    ["dev", "test"].forEach(function (s) {
+      SETS[s].forEach(function (it) { var c = {}; for (var f in it) c[f] = it[f]; c.origin = s; all.push(c); });
+    });
+    state.order = orderFor(all, name);
+    $("gate").hidden = true; $("app").hidden = false;
+    render();
+    if (SHEET_URL) {
+      setLoading(true);
+      fetch(SHEET_URL + "?token=" + encodeURIComponent(SHEET_TOKEN) + "&annotator=" + encodeURIComponent(name))
+        .then(function (r) { return r.json(); })
+        .then(function (j) {
+          if (!j || !j.answers) throw new Error("load failed");
+          Object.keys(j.answers).forEach(function (id) {
+            var m = /^(sm|smnote):(dev|test):(.+)$/.exec(id);
+            if (!m) return;
+            if (m[1] === "sm") state.codes[key(m[2], m[3])] = j.answers[id];
+            else state.notes[key(m[2], m[3])] = j.answers[id];
+          });
+          return flushPending().then(function () { $("sheet-warning").hidden = true; },
+                                     function () { $("sheet-warning").hidden = false; });
+        })
+        .catch(function () { $("sheet-warning").hidden = false; })
+        .then(function () {
+          setLoading(false);
+          state.idx = firstOpen();
+          render();
+        });
+      return;
+    }
+    getDb().then(function (db) {
+      if (!db) return;
+      return db.collection("strawman").where("annotator", "==", name).limit(1000).get().then(function (snap) {
+        snap.docs.forEach(function (d) {
+          var v = d.data();
+          if (v && v.set && v.item_id && v.code) { state.codes[key(v.set, v.item_id)] = v.code; state.notes[key(v.set, v.item_id)] = v.note || ""; }
+        });
+        state.idx = firstOpen();
+        render();
+      });
+    }).catch(function () {});
+  }
+
+  $("name-input").addEventListener("input", function () { $("start-btn").disabled = !this.value.trim(); });
+  $("name-input").addEventListener("keydown", function (e) { if (e.key === "Enter" && this.value.trim()) begin(this.value.trim()); });
+  $("start-btn").addEventListener("click", function () { begin($("name-input").value.trim()); });
+  $("switch-btn").addEventListener("click", function () { try { localStorage.removeItem("sm_coder_name"); } catch (e) {} location.reload(); });
+  document.querySelectorAll(".choice").forEach(function (b) { b.addEventListener("click", function () { save(b.dataset.code); }); });
+  $("note-input").addEventListener("blur", saveNoteOnly);
+  $("prev-btn").addEventListener("click", function () {
+    saveNoteOnly();
+    // this visit's path first; after a reload, step back through the order
+    if (state.history.length) state.idx = state.history.pop();
+    else if (state.idx > 0) state.idx--;
+    render();
+  });
+  $("next-btn").addEventListener("click", function () {
+    saveNoteOnly();
+    if (state.idx < items().length - 1) { state.history.push(state.idx); state.idx++; render(); }
+  });
+  document.addEventListener("keydown", function (e) {
+    if ($("app").hidden || state.loading || document.activeElement === $("note-input")) return;
+    if (e.key === "1") save("strawman"); else if (e.key === "2") save("not_strawman"); else if (e.key === "3") save("unsure");
+  });
+
+  var saved = null;
+  try { saved = localStorage.getItem("sm_coder_name"); } catch (e) {}
+  if (saved) begin(saved);
+})();
+</script>

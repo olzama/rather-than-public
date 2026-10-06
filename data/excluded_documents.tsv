@@ -1,0 +1,160 @@
+corpus	doc_id	reason	english_share	words	other_language
+acl2019	2019.clicit-1.1	non_english	0.48	1891	it
+acl2019	2019.clicit-1.2	no_text	0.00	128	
+acl2019	2019.clicit-1.3	no_text	0.00	99	
+acl2019	2019.clicit-1.57	non_english	0.17	3453	it
+acl2019	2019.clicit-1.8	non_english	0.03	2542	it
+acl2019	2019.ijclclp-1.1	non_english	0.00	1715	cjk
+acl2019	2019.ijclclp-1.3	non_english	0.00	1718	cjk
+acl2019	2019.ijclclp-2.1	non_english	0.00	2332	cjk
+acl2019	2019.ijclclp-2.2	non_english	0.00	2982	cjk
+acl2019	2019.ijclclp-2.3	non_english	0.00	1854	cjk
+acl2019	2019.ijclclp-2.4	non_english	0.00	1122	cjk
+acl2019	2019.ijclclp-2.5	non_english	0.00	2022	cjk
+acl2019	2019.jeptalnrecital-court.1	non_english	0.13	3250	fr
+acl2019	2019.jeptalnrecital-court.10	non_english	0.16	3902	fr
+acl2019	2019.jeptalnrecital-court.11	non_english	0.25	4122	fr
+acl2019	2019.jeptalnrecital-court.12	non_english	0.20	3830	fr
+acl2019	2019.jeptalnrecital-court.13	non_english	0.17	3485	fr
+acl2019	2019.jeptalnrecital-court.14	non_english	0.09	3286	fr
+acl2019	2019.jeptalnrecital-court.15	non_english	0.24	3551	fr
+acl2019	2019.jeptalnrecital-court.17	non_english	0.23	3406	fr
+acl2019	2019.jeptalnrecital-court.18	non_english	0.19	3332	fr
+acl2019	2019.jeptalnrecital-court.19	non_english	0.13	3734	fr
+acl2019	2019.jeptalnrecital-court.2	non_english	0.19	3248	fr
+acl2019	2019.jeptalnrecital-court.20	non_english	0.09	3689	fr
+acl2019	2019.jeptalnrecital-court.22	non_english	0.25	3476	fr
+acl2019	2019.jeptalnrecital-court.23	non_english	0.11	4356	fr
+acl2019	2019.jeptalnrecital-court.24	non_english	0.22	3569	fr
+acl2019	2019.jeptalnrecital-court.25	non_english	0.13	3407	fr
+acl2019	2019.jeptalnrecital-court.26	non_english	0.20	3923	fr
+acl2019	2019.jeptalnrecital-court.27	non_english	0.10	3319	fr
+acl2019	2019.jeptalnrecital-court.28	non_english	0.18	3569	fr
+acl2019	2019.jeptalnrecital-court.29	non_english	0.18	4222	fr
+acl2019	2019.jeptalnrecital-court.3	non_english	0.18	3614	fr
+acl2019	2019.jeptalnrecital-court.30	non_english	0.22	4120	fr
+acl2019	2019.jeptalnrecital-court.31	non_english	0.18	3823	fr
+acl2019	2019.jeptalnrecital-court.4	non_english	0.22	3726	fr
+acl2019	2019.jeptalnrecital-court.5	non_english	0.04	2892	fr
+acl2019	2019.jeptalnrecital-court.6	non_english	0.25	4023	fr
+acl2019	2019.jeptalnrecital-court.7	non_english	0.19	3128	fr
+acl2019	2019.jeptalnrecital-court.8	non_english	0.27	3501	fr
+acl2019	2019.jeptalnrecital-court.9	non_english	0.17	4229	fr
+acl2019	2019.jeptalnrecital-deft.1	non_english	0.02	4395	fr
+acl2019	2019.jeptalnrecital-deft.2	non_english	0.03	3787	fr
+acl2019	2019.jeptalnrecital-deft.3	non_english	0.14	1612	fr
+acl2019	2019.jeptalnrecital-deft.4	non_english	0.13	5148	fr
+acl2019	2019.jeptalnrecital-deft.5	non_english	0.04	3067	fr
+acl2019	2019.jeptalnrecital-deft.6	non_english	0.14	2873	fr
+acl2019	2019.jeptalnrecital-deft.7	non_english	0.03	5052	fr
+acl2019	2019.jeptalnrecital-deft.8	non_english	0.21	2831	fr
+acl2019	2019.jeptalnrecital-deft.9	non_english	0.11	2501	fr
+acl2019	2019.jeptalnrecital-demo.1	non_english	0.16	1837	fr
+acl2019	2019.jeptalnrecital-demo.2	non_english	0.19	1277	fr
+acl2019	2019.jeptalnrecital-demo.3	non_english	0.37	1511	fr
+acl2019	2019.jeptalnrecital-demo.4	non_english	0.21	633	fr
+acl2019	2019.jeptalnrecital-demo.5	non_english	0.20	2211	fr
+acl2019	2019.jeptalnrecital-demo.6	non_english	0.06	2449	fr
+acl2019	2019.jeptalnrecital-long.1	non_english	0.11	5571	fr
+acl2019	2019.jeptalnrecital-long.10	non_english	0.14	6714	fr
+acl2019	2019.jeptalnrecital-long.2	non_english	0.18	4144	fr
+acl2019	2019.jeptalnrecital-long.3	non_english	0.21	6179	fr
+acl2019	2019.jeptalnrecital-long.4	non_english	0.13	6383	fr
+acl2019	2019.jeptalnrecital-long.5	non_english	0.13	5821	fr
+acl2019	2019.jeptalnrecital-long.6	non_english	0.16	5554	fr
+acl2019	2019.jeptalnrecital-long.7	non_english	0.11	5755	fr
+acl2019	2019.jeptalnrecital-long.8	non_english	0.17	5398	fr
+acl2019	2019.jeptalnrecital-long.9	non_english	0.21	5852	fr
+acl2019	2019.jeptalnrecital-recital.1	non_english	0.13	5779	fr
+acl2019	2019.jeptalnrecital-recital.10	non_english	0.11	6087	fr
+acl2019	2019.jeptalnrecital-recital.11	non_english	0.00	4349	fr
+acl2019	2019.jeptalnrecital-recital.2	non_english	0.17	6086	fr
+acl2019	2019.jeptalnrecital-recital.4	non_english	0.02	5684	fr
+acl2019	2019.jeptalnrecital-recital.5	non_english	0.32	4729	fr
+acl2019	2019.jeptalnrecital-recital.6	non_english	0.15	7314	fr
+acl2019	2019.jeptalnrecital-recital.7	non_english	0.38	8776	fr
+acl2019	2019.jeptalnrecital-recital.8	non_english	0.08	6409	fr
+acl2019	2019.jeptalnrecital-recital.9	non_english	0.15	6328	fr
+acl2019	2019.jeptalnrecital-tia.2	non_english	0.18	4350	fr
+acl2019	2019.jeptalnrecital-tia.4	non_english	0.03	4655	fr
+acl2019	2019.rocling-1.11	non_english	0.00	1168	cjk
+acl2019	2019.rocling-1.13	non_english	0.00	1617	cjk
+acl2019	2019.rocling-1.14	non_english	0.00	1120	cjk
+acl2019	2019.rocling-1.15	non_english	0.00	1690	cjk
+acl2019	2019.rocling-1.16	non_english	0.00	1392	cjk
+acl2019	2019.rocling-1.18	non_english	0.00	663	cjk
+acl2019	2019.rocling-1.2	non_english	0.00	1163	cjk
+acl2019	2019.rocling-1.20	non_english	0.00	1155	cjk
+acl2019	2019.rocling-1.21	non_english	0.00	1357	cjk
+acl2019	2019.rocling-1.23	non_english	0.00	685	cjk
+acl2019	2019.rocling-1.24	non_english	0.00	1226	cjk
+acl2019	2019.rocling-1.25	non_english	0.00	998	cjk
+acl2019	2019.rocling-1.26	non_english	0.00	1697	cjk
+acl2019	2019.rocling-1.27	non_english	0.00	1956	cjk
+acl2019	2019.rocling-1.29	non_english	0.00	1399	cjk
+acl2019	2019.rocling-1.31	non_english	0.00	960	cjk
+acl2019	2019.rocling-1.32	non_english	0.00	1665	cjk
+acl2019	2019.rocling-1.33	non_english	0.00	1129	cjk
+acl2019	2019.rocling-1.34	non_english	0.00	1264	cjk
+acl2019	2019.rocling-1.36	non_english	0.00	1300	cjk
+acl2019	2019.rocling-1.38	non_english	0.00	1300	cjk
+acl2019	2019.rocling-1.39	no_text	0.00	101	
+acl2019	2019.rocling-1.4	non_english	0.00	1300	cjk
+acl2019	2019.rocling-1.40	non_english	0.00	1193	cjk
+acl2019	2019.rocling-1.5	non_english	0.00	1244	cjk
+acl2019	2019.rocling-1.6	non_english	0.00	1749	cjk
+acl2019	2019.rocling-1.7	non_english	0.00	1536	cjk
+acl2019	2019.rocling-1.8	non_english	0.00	1378	cjk
+acl2019	2019.tal-1.1	non_english	0.08	9711	fr
+acl2019	2019.tal-2.2	non_english	0.00	8649	fr
+acl2019	2019.tal-2.3	non_english	0.06	8505	fr
+acl2019	2019.tal-2.4	non_english	0.12	9644	fr
+acl2019	2019.tal-3.1	non_english	0.12	2501	fr
+acl2019	2019.tal-3.2	non_english	0.23	7889	fr
+acl2019	2019.tal-3.3	non_english	0.00	9184	fr
+acl2019	2019.tal-3.5	non_english	0.07	8229	fr
+acl2019	N19-1095	non_english	0.00	5317	de
+acl2019	P19-1082	non_english	0.14	1429	nl
+acl2019	W19-4104	no_text	0.00	24	
+acl2019	W19-5101	no_text	0.00	43	
+acl2019	W19-7702	no_text	0.00	188	
+arxiv2026	2601.14698	no_text	0.00	62	
+arxiv2026	2602.02824	no_text	0.00	28	
+arxiv2026	2602.09691	no_text	0.00	110	
+arxiv2026	2602.13237	no_text	0.00	59	
+arxiv2026	2602.18217	no_text	0.00	0	
+arxiv2026	2603.26236	no_text	0.00	102	
+arxiv2026	2604.18786	no_text	0.00	165	
+arxiv2026	2604.19984	no_text	0.00	187	
+arxiv2026	2604.21380	no_text	0.00	148	
+arxiv2026	2605.01474	no_text	0.00	0	
+arxiv2026	2605.04313	no_text	0.00	42	
+arxiv2026	2605.24267	no_text	0.00	73	
+arxiv2026	2606.03096	no_text	0.00	28	
+arxiv2026	2606.05748	no_text	0.00	73	
+arxiv2026	2606.07936	no_text	0.00	99	
+arxiv2026	2606.19347	no_text	0.00	26	
+arxiv2026	2606.26040	no_text	0.00	122	
+arxiv2026	2609.00689	no_text	0.00	80	
+arxiv2026	2609.01147	no_text	0.00	0	
+arxiv2026	2609.01352	no_text	0.00	0	
+arxiv_versions	2601.06953_v1	no_text	0.00	104	
+arxiv_versions	2601.12910_v1	no_text	0.00	56	
+arxiv_versions	2601.14698_v1	no_text	0.00	62	
+arxiv_versions	2601.14698_v2	no_text	0.00	62	
+arxiv_versions	2602.00758_v1	no_text	0.00	60	
+arxiv_versions	2602.02824_v3	no_text	0.00	28	
+arxiv_versions	2602.09691_v2	no_text	0.00	110	
+arxiv_versions	2602.18217_v2	no_text	0.00	0	
+arxiv_versions	2603.26236_v1	no_text	0.00	48	
+arxiv_versions	2603.26236_v2	no_text	0.00	102	
+arxiv_versions	2604.13318_v1	no_text	0.00	51	
+arxiv_versions	2604.19984_v1	no_text	0.00	172	
+arxiv_versions	2604.19984_v2	no_text	0.00	187	
+arxiv_versions	2604.21380_v1	no_text	0.00	148	
+arxiv_versions	2604.21380_v2	no_text	0.00	148	
+arxiv_versions	2606.03096_v1	no_text	0.00	28	
+arxiv_versions	2606.03096_v2	no_text	0.00	28	
+arxiv_versions	2606.07936_v1	no_text	0.00	99	
+arxiv_versions	2606.07936_v2	no_text	0.00	99	
+arxiv_versions	2606.26040_v2	no_text	0.00	122	

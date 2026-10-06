@@ -1,0 +1,424 @@
+{"item_id": "item_1217", "replacement": "with several attention heads"}
+{"item_id": "item_1228", "replacement": "and previous dialogue context"}
+{"item_id": "item_1237", "replacement": "and exploiting language-specific surface lexical patterns"}
+{"item_id": "item_1247", "replacement": "and some frequent bigrams"}
+{"item_id": "item_1254", "replacement": ", building on the reading comprehension tradition of earlier extractive question answering benchmarks"}
+{"item_id": "item_1263", "replacement": "with 256 hidden units each"}
+{"item_id": "item_1271", "replacement": "as well as syntactic ones"}
+{"item_id": "item_1278", "replacement": "and the positional encodings of tokens added at each layer"}
+{"item_id": "item_1284", "replacement": "and emotional state"}
+{"item_id": "item_1728", "replacement": "on language tasks"}
+{"item_id": "item_1734", "replacement": "with an emphasis on discharge summaries"}
+{"item_id": "item_1740", "replacement": "and savoring its fine details"}
+{"item_id": "item_1746", "replacement": "and drawing on vivid personal lived experience"}
+{"item_id": "item_1752", "replacement": "and a learned scaling factor"}
+{"item_id": "item_1759", "replacement": "by data and tokenization"}
+{"item_id": "item_1765", "replacement": "and strongly dataset-dependent"}
+{"item_id": "item_1771", "replacement": "and amplify its own stylistic biases"}
+{"item_id": "item_1777", "replacement": "and malformed tool calls"}
+{"item_id": "item_1783", "replacement": "and overfitting to dataset-specific annotation biases [redacted]"}
+{"item_id": "item_1792", "replacement": "and including notable recent shared tasks"}
+{"item_id": "item_1799", "replacement": "and compact"}
+{"item_id": "item_1806", "replacement": "and other superficial stylistic cues"}
+{"item_id": "item_1812", "replacement": "and to refine candidate diagnoses"}
+{"item_id": "item_1818", "replacement": "and highly uninformative"}
+{"item_id": "item_1825", "replacement": "and on surface-level token frequency patterns observed earlier"}
+{"item_id": "item_1831", "replacement": "and likely memorized verbatim"}
+{"item_id": "item_1837", "replacement": "and ablations across several scales"}
+{"item_id": "item_1843", "replacement": "and to their context windows"}
+{"item_id": "item_1850", "replacement": "and in high-stakes claims"}
+{"item_id": "item_1856", "replacement": "and reported"}
+{"item_id": "item_1863", "replacement": "and modestly raising neutral content"}
+{"item_id": "item_1869", "replacement": ", which span both lexical and semantic evaluation dimensions"}
+{"item_id": "item_1877", "replacement": "and complements"}
+{"item_id": "item_1883", "replacement": "and some format errors too"}
+{"item_id": "item_1890", "replacement": "and persisting across later stages"}
+{"item_id": "item_1897", "replacement": "and realistic multilingual user requests"}
+{"item_id": "item_1903", "replacement": "and partially flip sign near output"}
+{"item_id": "item_1909", "replacement": "and eventually Step 5 (red)"}
+{"item_id": "item_1915", "replacement": "and capturing complementary quality aspects"}
+{"item_id": "item_1921", "replacement": "and varying degrees of sensitivity to specific construction types"}
+{"item_id": "item_1928", "replacement": "and exposing template-specific blind spots"}
+{"item_id": "item_1935", "replacement": "and to analyze coordination dynamics among many simulated autonomous reviewer agents"}
+{"item_id": "item_1941", "replacement": "Given their broad applicability"}
+{"item_id": "item_1947", "replacement": "and key sections"}
+{"item_id": "item_1956", "replacement": ", drawn from 125 candidates"}
+{"item_id": "item_1968", "replacement": "and their shared domain labels"}
+{"item_id": "item_1983", "replacement": "and overall atmosphere"}
+{"item_id": "item_1995", "replacement": ", such as general persuasion strategies in typical bargaining dialogues (e.g., offering a discount to close the deal"}
+{"item_id": "item_2003", "replacement": "and then fine-tune on development data"}
+{"item_id": "item_2011", "replacement": "and their surrounding context words"}
+{"item_id": "item_2022", "replacement": "systematic and layer-dependent"}
+{"item_id": "item_2028", "replacement": "and simple answer-frequency heuristics"}
+{"item_id": "item_2034", "replacement": "and for producing fluent idiomatic target-language text"}
+{"item_id": "item_2040", "replacement": "and keeps two others"}
+{"item_id": "item_2046", "replacement": "and how strongly it argues for that stance"}
+{"item_id": "item_2052", "replacement": "and its sensitivity to small trait score deviations"}
+{"item_id": "item_2058", "replacement": "and sentence-level preference signals"}
+{"item_id": "item_2065", "replacement": "and sparse autoencoder latent features"}
+{"item_id": "item_2071", "replacement": "and shallow stylistic imitation effects"}
+{"item_id": "item_2077", "replacement": "Given the enormous size of the combinatorial space of word alignments"}
+{"item_id": "item_2083", "replacement": "and as an auxiliary prediction target"}
+{"item_id": "item_2089", "replacement": "and adapted to each partially masked input state"}
+{"item_id": "item_2095", "replacement": "and a useful diagnostic of remaining retrieval headroom"}
+{"item_id": "item_2101", "replacement": "and the resulting inference latency overhead"}
+{"item_id": "item_2107", "replacement": "and the adaptive horizon selection at each step"}
+{"item_id": "item_2113", "replacement": "and holds across both easy and hard problems"}
+{"item_id": "item_2119", "replacement": "and a stable calibration reference point"}
+{"item_id": "item_2125", "replacement": "and covers dozens of films"}
+{"item_id": "item_2131", "replacement": "and from independent literary magazines"}
+{"item_id": "item_2138", "replacement": "and demonstrates increasingly coherent multi-step logic across successive training iterations"}
+{"item_id": "item_2144", "replacement": "Given the scale of our corpus"}
+{"item_id": "item_1218", "replacement": "using a small set of operations"}
+{"item_id": "item_1229", "replacement": "and broader topical association"}
+{"item_id": "item_1238", "replacement": "on unseen words"}
+{"item_id": "item_1248", "replacement": "especially on long noisy news articles"}
+{"item_id": "item_1258", "replacement": ", alongside the existing CRF"}
+{"item_id": "item_1265", "replacement": "especially in noisy online debates"}
+{"item_id": "item_1272", "replacement": ", for example by combining labelled corpora from clinical notes, biomedical abstracts, news articles and other related sources"}
+{"item_id": "item_1279", "replacement": "across several language pairs"}
+{"item_id": "item_1722", "replacement": "with concrete practical suggestions for next steps"}
+{"item_id": "item_1729", "replacement": "and shows how those questions relate to local rhetorical relations between adjacent discourse units"}
+{"item_id": "item_1735", "replacement": "across all runs"}
+{"item_id": "item_1741", "replacement": "in prime-target sentence pairs"}
+{"item_id": "item_1747", "replacement": "Given the variety of observed user behaviours"}
+{"item_id": "item_1754", "replacement": "to inform human judgment"}
+{"item_id": "item_1760", "replacement": "and appear in varied forms throughout long documents"}
+{"item_id": "item_1766", "replacement": "and precise spatial grounding"}
+{"item_id": "item_1772", "replacement": "and from regional accents"}
+{"item_id": "item_1778", "replacement": "and fairly coarse"}
+{"item_id": "item_1784", "replacement": "and as sources of synthetic data"}
+{"item_id": "item_1793", "replacement": "For safety and reproducibility reasons"}
+{"item_id": "item_1801", "replacement": "and can reproduce it consistently across many prompts and held-out evaluation settings"}
+{"item_id": "item_1807", "replacement": "and for overall clinical usefulness"}
+{"item_id": "item_1813", "replacement": "and consistent across several models"}
+{"item_id": "item_1819", "replacement": "and aligns visual cues with the audio track"}
+{"item_id": "item_1826", "replacement": "in each results table"}
+{"item_id": "item_1832", "replacement": "and each reason is supported by explicit worked numerical derivations"}
+{"item_id": "item_1838", "replacement": "and as a remarkably stable gating mechanism"}
+{"item_id": "item_1844", "replacement": "and long-range narrative coherence overall"}
+{"item_id": "item_1851", "replacement": "and stratified by domain and difficulty tier"}
+{"item_id": "item_1858", "replacement": "and the correctness of individual API calls"}
+{"item_id": "item_1864", "replacement": "and on frequent lexical patterns in prompts"}
+{"item_id": "item_1871", "replacement": "on current agent systems"}
+{"item_id": "item_1878", "replacement": "in each results table"}
+{"item_id": "item_1884", "replacement": "and apply to all contributions above"}
+{"item_id": "item_1892", "replacement": "together with matched per-problem bootstrap confidence intervals"}
+{"item_id": "item_1898", "replacement": "and how it interacts with intermediate language outputs"}
+{"item_id": "item_1904", "replacement": "under a strictly limited query budget per model"}
+{"item_id": "item_1910", "replacement": "and for ignoring the plausible alternatives"}
+{"item_id": "item_1916", "replacement": "and its surface style"}
+{"item_id": "item_1922", "replacement": "to expose specific strengths and weaknesses across domains"}
+{"item_id": "item_1929", "replacement": ", and even enhance"}
+{"item_id": "item_1936", "replacement": "so that the resulting measures generalize across corpora and time periods"}
+{"item_id": "item_1942", "replacement": "and for fluent token generation"}
+{"item_id": "item_1948", "replacement": "and fairly shallow in scope"}
+{"item_id": "item_1957", "replacement": "and topical association"}
+{"item_id": "item_1971", "replacement": "and to pick up fruit"}
+{"item_id": "item_1984", "replacement": "and to maintain close working relationships with the team over time"}
+{"item_id": "item_1996", "replacement": "and highly repetitive structural templates"}
+{"item_id": "item_2004", "replacement": "and used that value as the expression's frequency"}
+{"item_id": "item_2012", "replacement": "and sentence-level syntactic"}
+{"item_id": "item_2023", "replacement": "and settles toward stable patterns late in training"}
+{"item_id": "item_2029", "replacement": "and on aggregate accuracy over broad popular public benchmark leaderboards"}
+{"item_id": "item_2035", "replacement": "and hold under different prompts, seeds, and decoding settings"}
+{"item_id": "item_2041", "replacement": "and frequently overlook the higher-level event structure of longer multi-sentence stories"}
+{"item_id": "item_2047", "replacement": "and form distinct peaks"}
+{"item_id": "item_2053", "replacement": "and highly context-dependent"}
+{"item_id": "item_2059", "replacement": "and of several other correlated typological features"}
+{"item_id": "item_2066", "replacement": "and passing the most relevant excerpts to the model for judgment"}
+{"item_id": "item_2072", "replacement": "and flags clear outliers"}
+{"item_id": "item_2078", "replacement": "Following established best practices in clinical knowledge graph construction"}
+{"item_id": "item_2084", "replacement": "and keeps useful templates available across tasks"}
+{"item_id": "item_2090", "replacement": "and optimizes prompts offline in batches"}
+{"item_id": "item_2096", "replacement": "and then refined further"}
+{"item_id": "item_2102", "replacement": "Building on recent advances in test-time adaptation methods"}
+{"item_id": "item_2108", "replacement": "To support flexible deployment across many domains"}
+{"item_id": "item_2114", "replacement": "and other lightweight inference-time adjustments"}
+{"item_id": "item_2120", "replacement": "and from independent interpretation"}
+{"item_id": "item_2126", "replacement": "and other statistical properties of the underlying multilingual document collection [redacted]"}
+{"item_id": "item_2132", "replacement": "and expert clinical agreement"}
+{"item_id": "item_2139", "replacement": "and designed diagnostic test items"}
+{"item_id": "item_2145", "replacement": "and calibrated answer likelihood"}
+{"item_id": "item_1221", "replacement": "including news articles, blogs, and forum posts"}
+{"item_id": "item_1230", "replacement": "and related polyhedral sets"}
+{"item_id": "item_1240", "replacement": "given the extensive prior work on probing representations"}
+{"item_id": "item_1249", "replacement": "as the dialogue makes clear"}
+{"item_id": "item_1259", "replacement": "in all generated output sentences"}
+{"item_id": "item_1266", "replacement": "on Linux servers"}
+{"item_id": "item_1273", "replacement": "at every training step"}
+{"item_id": "item_1280", "replacement": "and other simple surface-level lexical matching heuristics"}
+{"item_id": "item_1723", "replacement": "with explicit scoring thresholds and clearly specified keyword checks"}
+{"item_id": "item_1730", "replacement": "spanning many layers and including several previously unnoticed mid-layer heads"}
+{"item_id": "item_1736", "replacement": "and holds across many tasks"}
+{"item_id": "item_1742", "replacement": "as described in our evaluation protocol for every single query"}
+{"item_id": "item_1748", "replacement": "and their regional variants"}
+{"item_id": "item_1755", "replacement": "and from the additional intermediate planning steps"}
+{"item_id": "item_1761", "replacement": "across several benchmark families and numerous model scales"}
+{"item_id": "item_1767", "replacement": "Following common practice"}
+{"item_id": "item_1773", "replacement": "alongside detailed documentation and scripts"}
+{"item_id": "item_1779", "replacement": "with 350 challenging question pairs across several knowledge domains"}
+{"item_id": "item_1785", "replacement": "Given the growing body of evidence from psycholinguistic studies on incremental human sentence processing"}
+{"item_id": "item_1794", "replacement": "and consistent across several datasets"}
+{"item_id": "item_1802", "replacement": "and the main data flows"}
+{"item_id": "item_1808", "replacement": "into a few key points"}
+{"item_id": "item_1814", "replacement": "under realistic input noise"}
+{"item_id": "item_1820", "replacement": "within a per-claim compute budget"}
+{"item_id": "item_1827", "replacement": "and sometimes refined using fixed profile descriptions or exemplar dialogues"}
+{"item_id": "item_1833", "replacement": "here in full for transparency"}
+{"item_id": "item_1839", "replacement": "and select E when relevant evidence is absent"}
+{"item_id": "item_1845", "replacement": "and is reported alongside the observed accuracy of predictions"}
+{"item_id": "item_1852", "replacement": "and analyze its effect on overall narrative coherence"}
+{"item_id": "item_1859", "replacement": "with careful attention"}
+{"item_id": "item_1865", "replacement": "and already accessible to many researchers"}
+{"item_id": "item_1872", "replacement": "validated against human judgments of response empathy quality"}
+{"item_id": "item_1879", "replacement": "while also measuring how efficiently it asks follow-up questions"}
+{"item_id": "item_1885", "replacement": "and marks objects visually (numbered tags)"}
+{"item_id": "item_1893", "replacement": "together with the drafting model's own rationale"}
+{"item_id": "item_1899", "replacement": "and per-benchmark error patterns"}
+{"item_id": "item_1905", "replacement": "especially on long stories containing many competing minor events"}
+{"item_id": "item_1911", "replacement": "visible within each task cluster"}
+{"item_id": "item_1917", "replacement": "when rules are ambiguous"}
+{"item_id": "item_1924", "replacement": "and more candidate documents"}
+{"item_id": "item_1930", "replacement": "and persists across seeds"}
+{"item_id": "item_1937", "replacement": "and their typical parameters"}
+{"item_id": "item_1943", "replacement": "and shared control-flow node patterns"}
+{"item_id": "item_1949", "replacement": "when measured over large corpora of naturally running text"}
+{"item_id": "item_1960", "replacement": "reflecting shared perceptual and functional properties"}
+{"item_id": "item_1972", "replacement": "with learned character substitution probabilities"}
+{"item_id": "item_1987", "replacement": ", given the limited size and uneven coverage of both available wordnet resources"}
+{"item_id": "item_1997", "replacement": "Following the standard formulation of dependency parsing algorithms"}
+{"item_id": "item_2005", "replacement": "that arises from how respondents were first recruited for the original online survey"}
+{"item_id": "item_2016", "replacement": "with richer lexical variety"}
+{"item_id": "item_2024", "replacement": "such as salient regions and keyframes"}
+{"item_id": "item_2030", "replacement": "and varies by model size"}
+{"item_id": "item_2036", "replacement": "throughout training and across successive gradient updates"}
+{"item_id": "item_2042", "replacement": "including semantic content and discourse-level quality of the generated outputs"}
+{"item_id": "item_2048", "replacement": "across a diverse range of tasks and input distributions"}
+{"item_id": "item_2054", "replacement": "and mostly exploratory"}
+{"item_id": "item_2060", "replacement": "and the coherence of reasoning chains"}
+{"item_id": "item_2067", "replacement": "and consistent with our main hypothesis"}
+{"item_id": "item_2073", "replacement": "and direct single-fact recall accuracy"}
+{"item_id": "item_2079", "replacement": "and modest hyperparameter adjustment"}
+{"item_id": "item_2085", "replacement": "and standard triage scales"}
+{"item_id": "item_2091", "replacement": "that blends all value dimensions"}
+{"item_id": "item_2097", "replacement": "to preserve join paths"}
+{"item_id": "item_2103", "replacement": "for quick answers to everyday questions"}
+{"item_id": "item_2109", "replacement": "using an external search engine shortly after annotation"}
+{"item_id": "item_2115", "replacement": "in the parameter space"}
+{"item_id": "item_2121", "replacement": "as in RLHF"}
+{"item_id": "item_2127", "replacement": "and expresses mixed feelings that evolve naturally across the conversation"}
+{"item_id": "item_2134", "replacement": "and as a tool for improving scoring consistency across repeated runs"}
+{"item_id": "item_2140", "replacement": "with four fixed answer options"}
+{"item_id": "item_2146", "replacement": "and aggregates both predictions afterwards"}
+{"item_id": "item_1225", "replacement": "together with typed predicates and function symbols from the ontology"}
+{"item_id": "item_1231", "replacement": "over entire parse trees"}
+{"item_id": "item_1241", "replacement": "and thereby explicitly encoding label dependencies between related structured prediction tasks"}
+{"item_id": "item_1250", "replacement": ", with weighted precision and recall scores"}
+{"item_id": "item_1260", "replacement": "word by word"}
+{"item_id": "item_1267", "replacement": "As in many earlier frame-"}
+{"item_id": "item_1274", "replacement": "alongside several extra careful regularization and tuning tricks"}
+{"item_id": "item_1281", "replacement": "such as safe high-frequency short replies"}
+{"item_id": "item_1724", "replacement": "at inference time"}
+{"item_id": "item_1731", "replacement": "together with its supporting verification notes"}
+{"item_id": "item_1737", "replacement": "and cites its content in the action"}
+{"item_id": "item_1743", "replacement": "from different unseen sources in novel ways [redacted]"}
+{"item_id": "item_1749", "replacement": "and rank candidate actors by how often they co-occur with the queried event type"}
+{"item_id": "item_1756", "replacement": "of deployed language models"}
+{"item_id": "item_1762", "replacement": "and often yielding more interpretable solutions"}
+{"item_id": "item_1768", "replacement": "in zero-shot forecasting settings"}
+{"item_id": "item_1774", "replacement": "as well as by sampling temperature and prompt format"}
+{"item_id": "item_1780", "replacement": "that composes two learned behaviors reliably"}
+{"item_id": "item_1788", "replacement": "and mutually informative"}
+{"item_id": "item_1795", "replacement": "and further propagate"}
+{"item_id": "item_1803", "replacement": "and fixed strategic priors absorbed from pretraining data"}
+{"item_id": "item_1809", "replacement": "in the appendix"}
+{"item_id": "item_1815", "replacement": "and its dialogue planning policy"}
+{"item_id": "item_1821", "replacement": "of broader anthology-level editorial selection practices"}
+{"item_id": "item_1828", "replacement": "and reflects genuinely plausible perspectives held by different human annotators"}
+{"item_id": "item_1834", "replacement": "and edits existing entity records as new observations arrive"}
+{"item_id": "item_1840", "replacement": "from the nearby kitchen shelf"}
+{"item_id": "item_1846", "replacement": "and shared jailbreak mechanism family ([redacted])"}
+{"item_id": "item_1853", "replacement": "that complement the human judgment ratings"}
+{"item_id": "item_1860", "replacement": "and shared mechanism family labels"}
+{"item_id": "item_1866", "replacement": "with calibrated per-cell confidence scores"}
+{"item_id": "item_1873", "replacement": "and its curated contents"}
+{"item_id": "item_1880", "replacement": "and transparent design choices"}
+{"item_id": "item_1886", "replacement": "from the novels' public editions"}
+{"item_id": "item_1894", "replacement": "within each character's story arc"}
+{"item_id": "item_1900", "replacement": "while handling many different reference speakers"}
+{"item_id": "item_1906", "replacement": "and concretely specify the key technical steps involved"}
+{"item_id": "item_1912", "replacement": "and harmful information content"}
+{"item_id": "item_1918", "replacement": "and thereby improving downstream accuracy across many different reasoning tasks"}
+{"item_id": "item_1925", "replacement": "in the model's parameters"}
+{"item_id": "item_1931", "replacement": "across all expert directions"}
+{"item_id": "item_1938", "replacement": "for all of our experiments"}
+{"item_id": "item_1944", "replacement": "and targeted memory retrieval"}
+{"item_id": "item_1951", "replacement": "and to ensure higher fluency across diverse generation tasks"}
+{"item_id": "item_1964", "replacement": "together with the corresponding gold utterance-level dialogue act labels"}
+{"item_id": "item_1973", "replacement": "and hence more reliable argument features"}
+{"item_id": "item_1989", "replacement": "Given the high cost of expert annotation of such data"}
+{"item_id": "item_1998", "replacement": "and highly natural-sounding target-language"}
+{"item_id": "item_2006", "replacement": "from a large unlabeled pool of candidates"}
+{"item_id": "item_2017", "replacement": "per discussion thread"}
+{"item_id": "item_2025", "replacement": "before quantizing the weights"}
+{"item_id": "item_2031", "replacement": "of each depicted example case"}
+{"item_id": "item_2037", "replacement": "and the source modality's measured historical reliability profile"}
+{"item_id": "item_2043", "replacement": "under tight budgets"}
+{"item_id": "item_2049", "replacement": "across many diverse detection settings"}
+{"item_id": "item_2055", "replacement": "and aligned with all the relevant evidence spans"}
+{"item_id": "item_2061", "replacement": "while still endorsing the overall methodology"}
+{"item_id": "item_2068", "replacement": "from earlier land registries"}
+{"item_id": "item_2074", "replacement": "and across challenge types"}
+{"item_id": "item_2080", "replacement": "in long narrative documents and multi-turn dialogue histories"}
+{"item_id": "item_2086", "replacement": "with each option appearing at similar overall frequency"}
+{"item_id": "item_2092", "replacement": "by the authors"}
+{"item_id": "item_2098", "replacement": "of carefully curated synthetic multi-session dialogues"}
+{"item_id": "item_2104", "replacement": "and further propagate"}
+{"item_id": "item_2110", "replacement": "with LoRA adapters"}
+{"item_id": "item_2116", "replacement": "using a lightweight sliding window mechanism"}
+{"item_id": "item_2122", "replacement": "Given the wide diversity of procurement practices across our participating expert reviewers"}
+{"item_id": "item_2128", "replacement": "and the ontology's closed-world constraints on answers"}
+{"item_id": "item_2135", "replacement": "and preserves its original scoring criteria"}
+{"item_id": "item_2141", "replacement": "and strongly layer-dependent"}
+{"item_id": "item_2147", "replacement": "and by the number of retrieval steps it involves"}
+{"item_id": "item_1226", "replacement": "and that it relates to other concepts within a much broader cognitive frame of reference"}
+{"item_id": "item_1233", "replacement": ", and often larger"}
+{"item_id": "item_1244", "replacement": "and nearby sentence boundaries"}
+{"item_id": "item_1251", "replacement": "Building on earlier SIGMORPHON shared tasks in inflection"}
+{"item_id": "item_1261", "replacement": "and highly contextual"}
+{"item_id": "item_1268", "replacement": "and offering flexible span offsets"}
+{"item_id": "item_1275", "replacement": "and a product of institutions, law, and long-standing everyday practice"}
+{"item_id": "item_1282", "replacement": "and the training data size"}
+{"item_id": "item_1725", "replacement": "and optimizes helpfulness alongside harmlessness during preference training"}
+{"item_id": "item_1732", "replacement": "and compressing lengthy retrieved passages considerably"}
+{"item_id": "item_1738", "replacement": "and tracking them across long multi-turn tutoring dialogues"}
+{"item_id": "item_1744", "replacement": "and formatting artifacts"}
+{"item_id": "item_1750", "replacement": "and their distinct national and regional stereotypes"}
+{"item_id": "item_1757", "replacement": ", and similar arithmetic utilities that are widely used for symbolic text processing"}
+{"item_id": "item_1763", "replacement": "and some additional strong baselines"}
+{"item_id": "item_1769", "replacement": "and a reasonable practical design choice"}
+{"item_id": "item_1775", "replacement": "and a manually curated evaluation set"}
+{"item_id": "item_1781", "replacement": "and across-prompt variation"}
+{"item_id": "item_1789", "replacement": "and as a snapshot of current curated, domain-specific knowledge"}
+{"item_id": "item_1797", "replacement": "and restrained emotional understatement"}
+{"item_id": "item_1804", "replacement": "and a compact routing signal"}
+{"item_id": "item_1810", "replacement": "and a useful diagnostic of reasoning consistency"}
+{"item_id": "item_1816", "replacement": "and also help answer retrospective questions"}
+{"item_id": "item_1822", "replacement": "and somewhat more structured"}
+{"item_id": "item_1829", "replacement": "and validated against external data"}
+{"item_id": "item_1835", "replacement": "and the corresponding proportions of emoji in each bin"}
+{"item_id": "item_1841", "replacement": "and across several demographic groups"}
+{"item_id": "item_1847", "replacement": "and a clearly family-specific scaling signature"}
+{"item_id": "item_1854", "replacement": "and retains enough recoverable signal for downstream robustness evaluation tasks"}
+{"item_id": "item_1861", "replacement": "and all its downstream consequences"}
+{"item_id": "item_1867", "replacement": "and consistent annotator expertise"}
+{"item_id": "item_1875", "replacement": "and by underlying attack intent"}
+{"item_id": "item_1881", "replacement": "and logged for later auditing"}
+{"item_id": "item_1887", "replacement": "and an unresolved clinical question"}
+{"item_id": "item_1895", "replacement": "and discussed in the accompanying appendix"}
+{"item_id": "item_1901", "replacement": "and a simple one-step execution-feedback retry loop"}
+{"item_id": "item_1907", "replacement": "and subsequent human validation"}
+{"item_id": "item_1913", "replacement": "and final review by a designated senior project annotator"}
+{"item_id": "item_1919", "replacement": "and cross-lingual tokenization effects"}
+{"item_id": "item_1926", "replacement": "and shallow lexical frequency cues"}
+{"item_id": "item_1932", "replacement": "and stable judge agreement"}
+{"item_id": "item_1939", "replacement": "and discrete energy levels"}
+{"item_id": "item_1945", "replacement": "and reference it in the supplementary appendix"}
+{"item_id": "item_1954", "replacement": "and morphophonological alternations"}
+{"item_id": "item_1965", "replacement": "and drifting across topics"}
+{"item_id": "item_1977", "replacement": "and other regional dialect terms"}
+{"item_id": "item_1992", "replacement": "and computationally efficient projection matrix"}
+{"item_id": "item_2000", "replacement": "and global document context"}
+{"item_id": "item_2008", "replacement": "and the rhetorical relations linking their component spans"}
+{"item_id": "item_2019", "replacement": "and often imperfect"}
+{"item_id": "item_2026", "replacement": "and highly unstable strategic adaptation"}
+{"item_id": "item_2032", "replacement": "and several other related secondary sources"}
+{"item_id": "item_2038", "replacement": "and treats them as informative signals about cultural context"}
+{"item_id": "item_2044", "replacement": "Building on multilingual representation learning and contrastive alignment objectives in recent cross-lingual embedding work"}
+{"item_id": "item_2050", "replacement": "and balanced multilingual data curation"}
+{"item_id": "item_2056", "replacement": "and a useful working approximation"}
+{"item_id": "item_2062", "replacement": "and generalizes across diverse toxicity benchmarks"}
+{"item_id": "item_2069", "replacement": "and compact structured summaries"}
+{"item_id": "item_2075", "replacement": "and carefully scoped inference claims"}
+{"item_id": "item_2081", "replacement": "and adopting the same labeling conventions used by the original dataset creators"}
+{"item_id": "item_2087", "replacement": "and decodes them into point tokens"}
+{"item_id": "item_2093", "replacement": "and complementary acoustic evidence for decoding"}
+{"item_id": "item_2099", "replacement": "and adaptive step-level token budgets"}
+{"item_id": "item_2105", "replacement": "and fine-grained cross-modal alignment quality"}
+{"item_id": "item_2111", "replacement": "and graded success signals"}
+{"item_id": "item_2117", "replacement": "and to the controlled training data and evaluation protocol"}
+{"item_id": "item_2123", "replacement": "and measuring detection accuracy across several model families and diverse benchmark task types"}
+{"item_id": "item_2129", "replacement": "and asking about user needs"}
+{"item_id": "item_2136", "replacement": "Building on prior work in representation-level machine unlearning"}
+{"item_id": "item_2142", "replacement": "and associated metadata tags"}
+{"item_id": "item_1227", "replacement": "in most known cases"}
+{"item_id": "item_1235", "replacement": "and on evaluating them with human judges"}
+{"item_id": "item_1245", "replacement": "like writing style"}
+{"item_id": "item_1252", "replacement": "including museum curators and historians"}
+{"item_id": "item_1262", "replacement": "and their syntactic heads"}
+{"item_id": "item_1270", "replacement": "with several annotated usage variants"}
+{"item_id": "item_1277", "replacement": "with shared parameters across all of the tweet bins"}
+{"item_id": "item_1283", "replacement": "and similar forms"}
+{"item_id": "item_1726", "replacement": "and hints at the most likely fix"}
+{"item_id": "item_1733", "replacement": "Given the need for richer supervision in low-resource and domain-specific tagging tasks across many different datasets"}
+{"item_id": "item_1739", "replacement": "and their interaction across many model layers"}
+{"item_id": "item_1745", "replacement": "essential for accuracy"}
+{"item_id": "item_1751", "replacement": "and their downstream effects on later dialogue responses"}
+{"item_id": "item_1758", "replacement": "while supporting fast retrieval-time reranking"}
+{"item_id": "item_1764", "replacement": "that help researchers probe model behavior closely"}
+{"item_id": "item_1770", "replacement": "and complementing the structured vital-sign measurements"}
+{"item_id": "item_1776", "replacement": "and broad conceptual coverage"}
+{"item_id": "item_1782", "replacement": "and about their typical annotation practices"}
+{"item_id": "item_1790", "replacement": "across benign and borderline prompts"}
+{"item_id": "item_1798", "replacement": "that help verify consistency of generation"}
+{"item_id": "item_1805", "replacement": "and its filtering threshold settings"}
+{"item_id": "item_1811", "replacement": "and often pair them with text-based LLM reasoning"}
+{"item_id": "item_1817", "replacement": "and the recording setup used throughout evaluation"}
+{"item_id": "item_1823", "replacement": "and use binary correctness rewards"}
+{"item_id": "item_1830", "replacement": "including many conflicts between figures and narrative text"}
+{"item_id": "item_1836", "replacement": "and a coherent grasp of payoffs"}
+{"item_id": "item_1842", "replacement": "in tabular form with raw counts"}
+{"item_id": "item_1849", "replacement": "and the tool's response format"}
+{"item_id": "item_1855", "replacement": "and as approximate guides to component value"}
+{"item_id": "item_1862", "replacement": "in full"}
+{"item_id": "item_1868", "replacement": "with the extended prompt and updated instructions"}
+{"item_id": "item_1876", "replacement": "which is also the quantity most relevant for downstream policy decisions here"}
+{"item_id": "item_1882", "replacement": "for the causal claim"}
+{"item_id": "item_1888", "replacement": "and fragments of sensation"}
+{"item_id": "item_1896", "replacement": "and learned retrieval policies"}
+{"item_id": "item_1902", "replacement": "and performs consistently across several open-weight model engines"}
+{"item_id": "item_1908", "replacement": "with learned positional bias"}
+{"item_id": "item_1914", "replacement": "and capturing shared multilingual structure"}
+{"item_id": "item_1920", "replacement": "per the expert review"}
+{"item_id": "item_1927", "replacement": "and reporting results for several segmenters jointly"}
+{"item_id": "item_1934", "replacement": "across all evaluated models and agent scaffolds"}
+{"item_id": "item_1940", "replacement": "and its domain term coverage"}
+{"item_id": "item_1946", "replacement": "and null-space projected updates"}
+{"item_id": "item_1955", "replacement": "and standardized ASCII-compatible"}
+{"item_id": "item_1966", "replacement": "and to guide beam search decoding"}
+{"item_id": "item_1978", "replacement": "and applies them during model training"}
+{"item_id": "item_1994", "replacement": ", given the diversity of inferences that imagery can support in step-by-step instructional texts like recipes"}
+{"item_id": "item_2002", "replacement": "and describing observed objects accurately"}
+{"item_id": "item_2009", "replacement": "multi-document and query-focused"}
+{"item_id": "item_2020", "replacement": "and automatic confidence scores"}
+{"item_id": "item_2027", "replacement": "with separate learned decision thresholds"}
+{"item_id": "item_2033", "replacement": "that preserves the original order of events"}
+{"item_id": "item_2039", "replacement": "Given the growing interest in causal evidence"}
+{"item_id": "item_2045", "replacement": "and flag any invalid answer candidates"}
+{"item_id": "item_2051", "replacement": "and for corpus filtering"}
+{"item_id": "item_2057", "replacement": "with explicit role annotations"}
+{"item_id": "item_2063", "replacement": "and manually verified lexical templates"}
+{"item_id": "item_2070", "replacement": "of a larger named concept"}
+{"item_id": "item_2076", "replacement": "and are consistent across all models tested in every reported evaluation setting"}
+{"item_id": "item_2082", "replacement": "and related cognitive accounts"}
+{"item_id": "item_2088", "replacement": "with top-k set to five"}
+{"item_id": "item_2094", "replacement": "that depends on task and corpus characteristics"}
+{"item_id": "item_2100", "replacement": "Given the limits of single-pass prediction for complex reasoning"}
+{"item_id": "item_2106", "replacement": "and accelerating literature review"}
+{"item_id": "item_2112", "replacement": "that captures the average affective meaning of each dialogue turn"}
+{"item_id": "item_2118", "replacement": "and jointly informative about each individual student"}
+{"item_id": "item_2124", "replacement": "and in the retrieved memory store"}
+{"item_id": "item_2130", "replacement": "including trust, disclosure, and compliance"}
+{"item_id": "item_2137", "replacement": "with default settings and custom training procedures"}
+{"item_id": "item_2143", "replacement": "and as a lightweight guide for beam-style action search"}

@@ -1,0 +1,740 @@
+<title>Rather Than Judgments</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f2f4f0;
+    --surface: #ffffff;
+    --surface-2: #eaeee6;
+    --ink: #1b201c;
+    --ink-secondary: #545e56;
+    --ink-muted: #8a9089;
+    --border: #dbe0d7;
+    --accent: #2f6f62;
+    --accent-ink: #ffffff;
+    --accent-wash: #e4efec;
+    --good: #2f7a4f;
+    --good-wash: #e4f1e8;
+    --bad: #ab4f2d;
+    --bad-wash: #f5e9e2;
+    --unsure: #9c7717;
+    --unsure-wash: #f2ebd9;
+    --garbled: #6d726d;
+    --garbled-wash: #eaebe9;
+    --shadow: 0 1px 2px rgba(27, 32, 28, 0.06), 0 8px 24px -12px rgba(27, 32, 28, 0.18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #141715;
+      --surface: #1b201d;
+      --surface-2: #242a25;
+      --ink: #edf1ec;
+      --ink-secondary: #b4bcb5;
+      --ink-muted: #7c847c;
+      --border: #313832;
+      --accent: #56a893;
+      --accent-ink: #0c1210;
+      --accent-wash: #1f2d29;
+      --good: #5cb37d;
+      --good-wash: #1c2a20;
+      --bad: #d98a63;
+      --bad-wash: #2e2119;
+      --unsure: #d3b256;
+      --unsure-wash: #2c2717;
+      --garbled: #93998f;
+      --garbled-wash: #23261f;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #141715;
+    --surface: #1b201d;
+    --surface-2: #242a25;
+    --ink: #edf1ec;
+    --ink-secondary: #b4bcb5;
+    --ink-muted: #7c847c;
+    --border: #313832;
+    --accent: #56a893;
+    --accent-ink: #0c1210;
+    --accent-wash: #1f2d29;
+    --good: #5cb37d;
+    --good-wash: #1c2a20;
+    --bad: #d98a63;
+    --bad-wash: #2e2119;
+    --unsure: #d3b256;
+    --unsure-wash: #2c2717;
+    --garbled: #93998f;
+    --garbled-wash: #23261f;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding: 0 20px;
+    padding-block: 32px 64px;
+  }
+  .wrap { max-width: 700px; margin: 0 auto; }
+
+  .masthead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+  .masthead h1 { font-family: "Source Serif 4", Georgia, serif; font-size: 22px; font-weight: 600; margin: 0; letter-spacing: 0.01em; }
+  .masthead .who { font-size: 13px; color: var(--ink-muted); }
+  .masthead .who button { font: inherit; color: var(--ink-muted); background: none; border: none; text-decoration: underline; cursor: pointer; padding: 0; }
+  .subhead { font-size: 14px; color: var(--ink-secondary); margin: 0 0 20px; }
+
+  .progress-row { display: flex; align-items: center; gap: 10px; margin-bottom: 24px; }
+  .progress-track { flex: 1; height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; }
+  .progress-fill { height: 100%; background: var(--accent); border-radius: 3px; transition: width 0.3s ease; }
+  .progress-label { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px; color: var(--ink-muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+  details.guideline { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 24px; }
+  details.guideline summary { cursor: pointer; padding: 12px 16px; font-size: 13px; font-weight: 600; color: var(--ink-secondary); list-style: none; display: flex; align-items: center; gap: 8px; }
+  details.guideline summary::-webkit-details-marker { display: none; }
+  details.guideline summary::before { content: "\25B8"; color: var(--ink-muted); transition: transform 0.15s ease; }
+  details.guideline[open] summary::before { transform: rotate(90deg); }
+  .guideline-body { padding: 0 16px 16px; font-size: 13.5px; color: var(--ink-secondary); line-height: 1.55; }
+  .guideline-body .row { display: grid; grid-template-columns: 96px 1fr; gap: 4px 12px; margin: 10px 0; }
+  .guideline-body .row b { color: var(--ink); }
+  .guideline-body .tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; padding: 2px 8px; border-radius: 5px; }
+  .tag.legitimate { background: var(--good-wash); color: var(--good); }
+  .tag.annoying { background: var(--bad-wash); color: var(--bad); }
+  .tag.unsure { background: var(--unsure-wash); color: var(--unsure); }
+  .tag.garbled { background: var(--garbled-wash); color: var(--garbled); }
+
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); padding: 36px 32px; min-height: 168px; display: flex; flex-direction: column; gap: 14px; }
+  .sentence { font-family: "Source Serif 4", Georgia, serif; font-size: 21px; line-height: 1.6; color: var(--ink); text-wrap: balance; }
+  .sentence mark { background: var(--accent-wash); color: var(--accent); padding: 0.05em 0.15em; border-radius: 4px; font-style: italic; }
+  .sentence .other-occ { color: var(--ink-muted); text-decoration: underline dotted; text-decoration-color: var(--ink-muted); }
+  .context-sentence { font-family: "Source Serif 4", Georgia, serif; font-size: 15px; line-height: 1.5; color: var(--ink-muted); }
+
+  .item-meta { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11.5px; color: var(--ink-muted); margin: 10px 2px 0; }
+
+  .choices { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 20px; }
+  @media (max-width: 560px) { .choices { grid-template-columns: repeat(2, 1fr); } }
+  .choice-btn {
+    font: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
+    border-radius: 10px; padding: 14px 10px; border: 1.5px solid var(--border);
+    background: var(--surface); color: var(--ink-secondary);
+    transition: transform 0.08s ease, border-color 0.12s ease, background 0.12s ease;
+    text-align: center;
+  }
+  .choice-btn:hover { transform: translateY(-1px); }
+  .choice-btn:disabled { opacity: 0.45; cursor: progress; transform: none; }
+  .choice-btn:active { transform: translateY(0); }
+  .choice-btn.legitimate.selected { background: var(--good-wash); border-color: var(--good); color: var(--good); }
+  .choice-btn.annoying.selected { background: var(--bad-wash); border-color: var(--bad); color: var(--bad); }
+  .choice-btn.unsure.selected { background: var(--unsure-wash); border-color: var(--unsure); color: var(--unsure); }
+  .choice-btn.garbled.selected { background: var(--garbled-wash); border-color: var(--garbled); color: var(--garbled); }
+
+  .nav-row { display: flex; justify-content: space-between; align-items: center; margin-top: 22px; }
+  .nav-btn { font: inherit; font-size: 13.5px; font-weight: 600; color: var(--ink-secondary); background: none; border: none; cursor: pointer; padding: 6px 4px; display: flex; align-items: center; gap: 6px; }
+  .nav-btn:disabled { color: var(--ink-muted); opacity: 0.4; cursor: default; }
+  .nav-btn:hover:not(:disabled) { color: var(--accent); }
+  .save-note { font-size: 12px; color: var(--ink-muted); }
+
+  /* gate */
+  .gate { min-height: 70vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 18px; }
+  .gate h1 { font-family: "Source Serif 4", Georgia, serif; font-size: 28px; margin: 0; }
+  .gate p { color: var(--ink-secondary); max-width: 440px; line-height: 1.55; margin: 0; font-size: 15px; }
+  .gate input { font: inherit; font-size: 16px; padding: 12px 14px; border-radius: 9px; border: 1.5px solid var(--border); background: var(--surface); color: var(--ink); width: 260px; text-align: center; }
+  .gate input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .gate button.primary { font: inherit; font-size: 15px; font-weight: 700; padding: 12px 26px; border-radius: 9px; border: none; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+  .gate button.primary:disabled { opacity: 0.45; cursor: default; }
+
+  /* done */
+  .done { text-align: center; padding: 40px 10px; }
+  .done h2 { font-family: "Source Serif 4", Georgia, serif; font-size: 24px; margin: 0 0 10px; }
+  .done p { color: var(--ink-secondary); font-size: 14.5px; margin: 0 0 20px; }
+  .tally { display: flex; justify-content: center; gap: 22px; flex-wrap: wrap; }
+  .tally-item { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+  .tally-n { font-family: "IBM Plex Mono", monospace; font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .tally-label { font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-muted); }
+
+  .save-warning { background: var(--bad-wash); color: var(--bad); border: 1px solid var(--bad); border-radius: 10px; padding: 12px 16px; font-size: 14px; line-height: 1.5; margin-bottom: 18px; display: flex; flex-direction: column; gap: 10px; }
+  .save-warning p { margin: 0; }
+  .save-warning button { align-self: flex-start; font: inherit; font-size: 13.5px; font-weight: 600; padding: 8px 14px; border-radius: 8px; border: 1.5px solid var(--bad); background: var(--surface); color: var(--bad); cursor: pointer; }
+  .save-warning textarea { width: 100%; min-height: 90px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11.5px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); padding: 8px; }
+  [hidden] { display: none !important; }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<div class="wrap">
+
+  <div id="gate" class="gate">
+    <h1>Rather Than Judgments</h1>
+    <p>You'll read short excerpts from NLP papers, each containing one use of &ldquo;rather than.&rdquo; For each, judge if the sentence annoys you. No source information is shown &mdash; papers are mixed and unlabeled.</p>
+    <input id="name-input" type="text" placeholder="Your name" autocomplete="off" />
+    <button id="start-btn" class="primary" disabled>Begin</button>
+  </div>
+
+  <div id="app" hidden>
+    <div class="masthead">
+      <h1>Rather Than Judgments</h1>
+      <div class="who">annotating as <strong id="who-name"></strong> &middot; <button id="switch-btn">switch</button> &middot; <button id="download-btn">download my answers</button></div>
+    </div>
+
+    <div class="save-warning" id="save-warning" role="alert" hidden>
+      <p id="save-warning-text"></p>
+      <button id="copy-answers-btn" type="button">Copy my answers</button>
+      <textarea id="answers-export" readonly hidden aria-label="Your answers"></textarea>
+    </div>
+
+    <div class="progress-row">
+      <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+      <div class="progress-label" id="progress-label">0 / 0</div>
+    </div>
+
+    <details class="guideline">
+      <summary>Guideline</summary>
+      <div class="guideline-body">
+        <div class="row"><span class="tag legitimate">legitimate</span><span>This use does not annoy you: a legit use.</span></div>
+        <div class="row"><span class="tag annoying">annoying</span><span>This use annoys you. Go with your reaction; no need to work out why.</span></div>
+        <div class="row"><span class="tag unsure">unsure</span><span>Genuinely ambiguous, or depends on context you don't have.</span></div>
+        <div class="row"><span class="tag garbled">garbled</span><span>The extracted text is too broken to read (PDF column-merge, table text mixed in) &mdash; not a judgment about the antithesis.</span></div>
+        <p><b>Dimmer text</b> above/below the main sentence is surrounding context from the source paper &mdash; read it if you need it, but judge only the sentence in the middle.</p>
+        <p><b>[redacted]</b> stands for a formula, table/figure reference, or citation the extraction pipeline removed (it wasn't part of the "rather than" construction itself) &mdash; not a judgment call, and not the same as "garbled."</p>
+      </div>
+    </details>
+
+    <div class="card">
+      <div class="context-sentence" id="context-before"></div>
+      <div class="sentence" id="sentence-el"></div>
+      <div class="context-sentence" id="context-after"></div>
+    </div>
+    <div class="item-meta" id="item-meta"></div>
+
+    <div class="choices">
+      <button class="choice-btn legitimate" data-label="legitimate">Legitimate</button>
+      <button class="choice-btn annoying" data-label="annoying">Annoying</button>
+      <button class="choice-btn unsure" data-label="unsure">Unsure</button>
+      <button class="choice-btn garbled" data-label="garbled">Garbled</button>
+    </div>
+
+    <div class="nav-row">
+      <button class="nav-btn" id="prev-btn">&larr; previous</button>
+      <span class="save-note" id="save-note"></span>
+      <button class="nav-btn" id="next-btn">next &rarr;</button>
+    </div>
+  </div>
+
+  <div id="done" class="done" hidden>
+    <h2>All done &mdash; thank you</h2>
+    <p id="done-sub"></p>
+    <div class="tally" id="tally"></div>
+  </div>
+
+</div>
+
+<script>
+ITEMS_PLACEHOLDER
+REVISION_PLACEHOLDER
+SHEET_PLACEHOLDER
+  // "#revision" in the link opens the revision set (instances removed or kept
+  // between arXiv versions) in place of the main pool.
+  var REVISION_MODE = location.hash === "#revision" && REVISION_ITEMS.length > 0;
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  var dbP = null;
+  // Answers are always kept in this browser as well, so annotators whose
+  // view has no shared database (e.g. outside the owner's account) lose
+  // nothing on closing the tab and can send their answers by copying them.
+  var saveFailing = false;
+  var localOk = true;
+  function localKey() { return "rt_answers_" + slug(state.name); }
+  function readLocal() {
+    try { return JSON.parse(localStorage.getItem(localKey()) || "{}"); } catch (e) { return {}; }
+  }
+  function saveLocal(itemId, label) {
+    try {
+      var m = readLocal();
+      m[itemId] = { label: label, ts: Date.now() };
+      localStorage.setItem(localKey(), JSON.stringify(m));
+      return true;
+    } catch (e) { localOk = false; return false; }
+  }
+  function showSaveWarning() {
+    saveFailing = !localOk;
+    document.getElementById("save-warning-text").textContent = localOk
+      ? "This page cannot save to the shared database from your account. Your answers are kept in this browser, so you can close the tab and continue later in the same browser. When you finish or stop, press \u201cCopy my answers\u201d and send the text to the person who gave you this link."
+      : "Your answers are not being saved. Before closing this tab, press \u201cCopy my answers\u201d and send the text to the person who gave you this link.";
+    document.getElementById("save-warning").hidden = false;
+  }
+  // Google Sheet backend (used when SHEET_URL is set, e.g. on GitHub Pages).
+  // A save that fails is queued in this browser and resent on the next save
+  // or page load, so a dropped connection loses nothing.
+  function pendingKey() { return "rt_pending_" + slug(state.name); }
+  function readPending() {
+    try { return JSON.parse(localStorage.getItem(pendingKey()) || "[]"); } catch (e) { return []; }
+  }
+  function writePending(q) { try { localStorage.setItem(pendingKey(), JSON.stringify(q)); } catch (e) {} }
+  function sheetPost(rows) {
+    return fetch(SHEET_URL, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify({ token: SHEET_TOKEN, action: "import", rows: rows })
+    }).then(function (r) { return r.json(); }).then(function (j) {
+      if (!j || !j.ok) throw new Error((j && j.error) || "save failed");
+      return j;
+    });
+  }
+  function flushPending() {
+    var q = readPending();
+    if (!q.length) return Promise.resolve();
+    // drop only the rows sent: answers given while the request was in
+    // flight stay queued
+    return sheetPost(q).then(function () {
+      var sent = {};
+      q.forEach(function (r) { sent[r.item_id + "@" + r.ts] = true; });
+      writePending(readPending().filter(function (r) { return !sent[r.item_id + "@" + r.ts]; }));
+    });
+  }
+  // Failed saves usually succeed on a retry within seconds, so the warning
+  // appears only if saving is still failing after WARN_DELAY_MS.
+  var WARN_DELAY_MS = 30000, RETRY_MS = 5000;
+  var warnTimer = null, retryTimer = null;
+  function warnLater(show) {
+    if (!warnTimer) warnTimer = setTimeout(function () { warnTimer = null; show(); }, WARN_DELAY_MS);
+  }
+  function hideSaveWarning() {
+    clearTimeout(warnTimer); warnTimer = null;
+    clearTimeout(retryTimer); retryTimer = null;
+    saveFailing = false;
+    document.getElementById("save-warning").hidden = true;
+  }
+  function showSheetWarning() {
+    document.getElementById("save-warning-text").textContent =
+      "The last answers could not reach the server. They are kept in this browser and will be sent automatically; keep going, or reload later.";
+    document.getElementById("save-warning").hidden = false;
+  }
+  // Retry queued answers in the background until they go through.
+  function sheetFailed() {
+    warnLater(showSheetWarning);
+    clearTimeout(retryTimer);
+    retryTimer = setTimeout(function () {
+      retryTimer = null;
+      flushPending().then(function () {
+        if (saveNote.textContent === "queued, will retry") saveNote.textContent = "saved";
+        hideSaveWarning();
+      }, sheetFailed);
+    }, RETRY_MS);
+  }
+
+  function exportAnswers() {
+    var local = readLocal(), rows = [];
+    Object.keys(state.answers).forEach(function (id) {
+      rows.push({ item_id: id, label: state.answers[id], ts: (local[id] && local[id].ts) || null });
+    });
+    return JSON.stringify({ annotator: state.name, answers: rows });
+  }
+
+  function getDb() {
+    if (!dbP) {
+      dbP = (window.claude && window.claude.use) ? window.claude.use("db") : Promise.resolve(null);
+    }
+    return dbP;
+  }
+
+  function slug(s) {
+    return (s || "").trim().toLowerCase().replace(/[^a-z0-9_\-.~:@+]+/g, "-").replace(/^-+|-+$/g, "") || "anon";
+  }
+
+  // seeded shuffle so each annotator sees a stable-but-different order
+  function seedFromString(str) {
+    var h = 1779033703 ^ str.length;
+    for (var i = 0; i < str.length; i++) {
+      h = Math.imul(h ^ str.charCodeAt(i), 3432918353);
+      h = (h << 13) | (h >>> 19);
+    }
+    return function () {
+      h = Math.imul(h ^ (h >>> 16), 2246822507);
+      h = Math.imul(h ^ (h >>> 13), 3266489909);
+      h ^= h >>> 16;
+      return (h >>> 0) / 4294967296;
+    };
+  }
+  // Each item's position depends only on (annotator, item_id), so adding
+  // or removing items never reorders the ones already in the pool.
+  function seededOrder(arr, seedStr) {
+    var keyed = arr.map(function (it) {
+      return { it: it, k: seedFromString(seedStr + "|" + it.item_id)() };
+    });
+    keyed.sort(function (a, b) { return a.k - b.k; });
+    return keyed.map(function (x) { return x.it; });
+  }
+
+  // Hidden repeats, per annotator: REPEAT_N items drawn from the first
+  // REPEAT_WINDOW of this annotator's order are shown again at random
+  // positions in the second half, to measure drift between early and late
+  // judgments. A copy keeps the original's text and displayed id, and is
+  // saved under "rep__<item_id>" so both labels are kept.
+  var REPEAT_N = 40, REPEAT_WINDOW = 100;
+  function withRepeats(order, seedStr) {
+    if (order.length < 2 * REPEAT_WINDOW) return order;
+    var rnd = seedFromString(seedStr + "|repeats");
+    var idx = [];
+    for (var i = 0; i < REPEAT_WINDOW; i++) idx.push(i);
+    for (var i = idx.length - 1; i > 0; i--) {
+      var j = Math.floor(rnd() * (i + 1));
+      var tmp = idx[i]; idx[i] = idx[j]; idx[j] = tmp;
+    }
+    var out = order.slice();
+    var half = Math.floor(order.length / 2);
+    idx.slice(0, REPEAT_N).forEach(function (k) {
+      var orig = order[k], copy = {};
+      for (var key in orig) copy[key] = orig[key];
+      copy.item_id = "rep__" + orig.item_id;
+      copy.display_id = orig.item_id;
+      var pos = half + Math.floor(rnd() * (out.length - half + 1));
+      out.splice(pos, 0, copy);
+    });
+    return out;
+  }
+
+  // Items carry an optional "batch" (default 1). Each batch is ordered and
+  // given hidden repeats on its own, and batches follow one another, so
+  // adding a batch leaves the order and repeats of earlier batches unchanged.
+  // Annotators whose batch-1 repeats were the fixed copies in repeats.jsonl
+  // (labeled before per-annotator repeats existed) get no page repeats in batch 1.
+  var FIXED_REPEATS_BATCH1 = ["olga"];
+
+  function batchedOrder(items, name) {
+    var groups = {};
+    items.forEach(function (it) {
+      var b = it.batch || 1;
+      (groups[b] = groups[b] || []).push(it);
+    });
+    var out = [];
+    Object.keys(groups).map(Number).sort(function (x, y) { return x - y; }).forEach(function (b) {
+      var seed = b === 1 ? name : name + "|batch" + b;
+      var ordered = seededOrder(groups[b], seed);
+      var fixed = b === 1 && FIXED_REPEATS_BATCH1.indexOf(name.trim().toLowerCase()) !== -1;
+      out = out.concat(fixed ? ordered : withRepeats(ordered, seed));
+    });
+    return out;
+  }
+
+  function escapeHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+  // A sentence can contain more than one "rather than" -- each is a
+  // separate item with its own local_start/local_end. Mark THIS item's
+  // occurrence strongly; any other occurrence of the phrase in the same
+  // sentence (a different item elsewhere in the set) is de-emphasized so
+  // it's clear which one to judge, without hiding that another exists.
+  function escAndMuteOthers(s) {
+    var esc = escapeHtml(s);
+    return esc.replace(/rather than/gi, function (m) { return '<span class="other-occ">' + m + "</span>"; });
+  }
+  function highlight(sentence, localStart, localEnd) {
+    var before = sentence.slice(0, localStart);
+    var match = sentence.slice(localStart, localEnd);
+    var after = sentence.slice(localEnd);
+    return escAndMuteOthers(before) + "<mark>" + escapeHtml(match) + "</mark>" + escAndMuteOthers(after);
+  }
+
+  var state = {
+    name: null,
+    order: [],       // array of items in this annotator's order
+    answers: {},      // item_id -> label
+    idx: 0,
+    history: []       // indices shown earlier this session, for "previous"
+  };
+
+  var gateEl = document.getElementById("gate");
+  var appEl = document.getElementById("app");
+  var doneEl = document.getElementById("done");
+  var nameInput = document.getElementById("name-input");
+  var startBtn = document.getElementById("start-btn");
+  var whoName = document.getElementById("who-name");
+  var switchBtn = document.getElementById("switch-btn");
+  var downloadBtn = document.getElementById("download-btn");
+  var progressFill = document.getElementById("progress-fill");
+  var progressLabel = document.getElementById("progress-label");
+  var sentenceEl = document.getElementById("sentence-el");
+  var contextBeforeEl = document.getElementById("context-before");
+  var contextAfterEl = document.getElementById("context-after");
+  var itemMeta = document.getElementById("item-meta");
+  var prevBtn = document.getElementById("prev-btn");
+  var nextBtn = document.getElementById("next-btn");
+  var saveNote = document.getElementById("save-note");
+  var choiceBtns = Array.prototype.slice.call(document.querySelectorAll(".choice-btn"));
+
+  nameInput.addEventListener("input", function () {
+    startBtn.disabled = nameInput.value.trim().length === 0;
+  });
+  nameInput.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" && !startBtn.disabled) beginAs(nameInput.value.trim());
+  });
+  startBtn.addEventListener("click", function () { beginAs(nameInput.value.trim()); });
+  switchBtn.addEventListener("click", function () {
+    try { localStorage.removeItem("rt_annotator_name"); } catch (e) {}
+    location.reload();
+  });
+
+  function csvField(s) {
+    s = String(s == null ? "" : s);
+    if (/[",\n]/.test(s)) s = '"' + s.replace(/"/g, '""') + '"';
+    return s;
+  }
+  function buildCsv() {
+    var lines = ["item_id,label,sentence"];
+    state.order.forEach(function (it) {
+      var label = state.answers[it.item_id];
+      if (!label) return;
+      lines.push([csvField(it.item_id), csvField(label), csvField(it.sentence)].join(","));
+    });
+    return lines.join("\n");
+  }
+  // Outside claude.ai (e.g. GitHub Pages) the browser's own download is used.
+  function browserDownload(filename, data) {
+    var url = URL.createObjectURL(new Blob([data], { type: "text/csv;charset=utf-8" }));
+    var a = document.createElement("a");
+    a.href = url; a.download = filename;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+  }
+  downloadBtn.addEventListener("click", function () {
+    var n = poolAnsweredCount();
+    if (n === 0) {
+      alert("No answers yet to download.");
+      return;
+    }
+    var safeName = (state.name || "anon").replace(/[^a-zA-Z0-9_-]+/g, "-");
+    var filename = "rather_than_" + safeName + "_" + n + "answers.csv";
+    if (!window.claude || !window.claude.use) {
+      browserDownload(filename, buildCsv());
+      return;
+    }
+    window.claude.use("downloads").then(function (downloads) {
+      if (!downloads) { browserDownload(filename, buildCsv()); return; }
+      return downloads.save({ filename: filename, data: buildCsv() });
+    }).catch(function (e) {
+      if (e && e.code === "declined") return;
+      alert("Download failed: " + (e && e.message ? e.message : "unknown error"));
+    });
+  });
+
+  function beginAs(name) {
+    state.name = name;
+    try { localStorage.setItem("rt_annotator_name", name); } catch (e) {}
+    whoName.textContent = name;
+    state.order = REVISION_MODE ? seededOrder(REVISION_ITEMS, name) : batchedOrder(ITEMS, name);
+    if (REVISION_MODE) document.querySelector("#app .masthead h1").textContent = "Rather Than Judgments: revision set";
+    gateEl.hidden = true;
+    appEl.hidden = false;
+    loadExisting();
+  }
+
+  function jumpToFirstOpen() {
+    var firstUnanswered = state.order.findIndex(function (it) { return !state.answers[it.item_id]; });
+    state.idx = firstUnanswered === -1 ? 0 : firstUnanswered;
+  }
+
+  function loadExisting() {
+    var local = readLocal();
+    Object.keys(local).forEach(function (id) { if (local[id] && local[id].label) state.answers[id] = local[id].label; });
+    if (SHEET_URL) {
+      // show the first open item right away; the sheet can take a few seconds to answer
+      jumpToFirstOpen();
+      renderCurrent();
+      // no labeling until saved answers are in, so items answered on another
+      // device are not shown (and re-answered) as new
+      state.loading = true;
+      choiceBtns.forEach(function (btn) { btn.disabled = true; });
+      saveNote.textContent = "loading your saved answers…";
+      fetch(SHEET_URL + "?token=" + encodeURIComponent(SHEET_TOKEN) + "&annotator=" + encodeURIComponent(state.name))
+        .then(function (r) { return r.json(); })
+        .then(function (j) {
+          if (!j || !j.answers) throw new Error("load failed");
+          Object.keys(j.answers).forEach(function (id) { state.answers[id] = j.answers[id]; });
+          return flushPending().then(hideSaveWarning, sheetFailed);
+        })
+        .catch(sheetFailed)
+        .then(function () {
+          state.loading = false;
+          choiceBtns.forEach(function (btn) { btn.disabled = false; });
+          // move on only if the item on screen turned out to be answered already
+          if (state.answers[currentItem().item_id]) jumpToFirstOpen();
+          renderCurrent();
+        });
+      return;
+    }
+    getDb().then(function (db) {
+      if (!db) { showSaveWarning(); jumpToFirstOpen(); renderCurrent(); return; }
+      db.collection("annotations").where("annotator", "==", state.name).limit(1000).get()
+        .then(function (snap) {
+          snap.docs.forEach(function (d) {
+            var data = d.data();
+            if (data && data.item_id && data.label) state.answers[data.item_id] = data.label;
+          });
+          // jump to first unanswered item, if any
+          var firstUnanswered = state.order.findIndex(function (it) { return !state.answers[it.item_id]; });
+          state.idx = firstUnanswered === -1 ? 0 : firstUnanswered;
+          renderCurrent();
+        })
+        .catch(function () { showSaveWarning(); jumpToFirstOpen(); renderCurrent(); });
+    });
+  }
+
+  function currentItem() { return state.order[state.idx]; }
+
+  // Count only answers to items still in the current pool -- state.answers
+  // can carry stale entries for item_ids that were retired (e.g. redrawn
+  // "garbled" items), and those must not inflate progress or trigger an
+  // early "all done".
+  function poolAnsweredCount() {
+    var n = 0;
+    for (var i = 0; i < state.order.length; i++) {
+      if (state.answers[state.order[i].item_id]) n++;
+    }
+    return n;
+  }
+
+  function renderCurrent() {
+    var total = state.order.length;
+    var answeredCount = poolAnsweredCount();
+
+    if (answeredCount >= total) { showDone(); return; }
+
+    var it = currentItem();
+    sentenceEl.innerHTML = highlight(it.sentence, it.local_start, it.local_end);
+    contextBeforeEl.textContent = it.context_before || "";
+    contextBeforeEl.hidden = !it.context_before;
+    contextAfterEl.textContent = it.context_after || "";
+    contextAfterEl.hidden = !it.context_after;
+    var otherCount = (it.sentence.match(/rather than/gi) || []).length - 1;
+    itemMeta.textContent = (it.display_id || it.item_id) + (otherCount > 0 ? "  ·  judge only the highlighted occurrence (this sentence has another)" : "");
+
+    var label = state.answers[it.item_id];
+    choiceBtns.forEach(function (btn) {
+      btn.classList.toggle("selected", btn.dataset.label === label);
+    });
+
+    progressFill.style.width = Math.round((100 * answeredCount) / total) + "%";
+    progressLabel.textContent = answeredCount + " / " + total;
+
+    prevBtn.disabled = state.history.length === 0 && state.idx === 0;
+    nextBtn.disabled = state.idx >= total - 1;
+    saveNote.textContent = "";
+  }
+
+  function saveLabel(label) {
+    if (state.loading) return;
+    var it = currentItem();
+    state.answers[it.item_id] = label;
+    choiceBtns.forEach(function (btn) {
+      btn.classList.toggle("selected", btn.dataset.label === label);
+    });
+    saveNote.textContent = "saving…";
+    saveLocal(it.item_id, label);
+
+    if (SHEET_URL) {
+      var row = { annotator: state.name, item_id: it.item_id, label: label, ts: Date.now(),
+                  set: REVISION_MODE ? "revision" : "main" };
+      var q = readPending(); q.push(row); writePending(q);
+      flushPending().then(function () {
+        saveNote.textContent = "saved";
+        hideSaveWarning();
+      }, function () {
+        saveNote.textContent = "queued, will retry";
+        sheetFailed();
+      });
+    } else getDb().then(function (db) {
+      if (!db) { showSaveWarning(); saveNote.textContent = localOk ? "saved in this browser only" : "not saved"; return; }
+      var docId = slug(state.name) + "__" + it.item_id;
+      db.collection("annotations").doc(docId).set({
+        item_id: it.item_id, annotator: state.name, label: label, ts: Date.now()
+      }).then(function () {
+        saveNote.textContent = "saved";
+        hideSaveWarning();
+        var total = state.order.length;
+        var answeredCount = poolAnsweredCount();
+        progressFill.style.width = Math.round((100 * answeredCount) / total) + "%";
+        progressLabel.textContent = answeredCount + " / " + total;
+      }).catch(function () {
+        saveNote.textContent = "save failed — try again";
+        warnLater(showSaveWarning);
+      });
+    });
+
+    // auto-advance after a brief beat, to the next unanswered (or next overall),
+    // unless saving is failing: then stay so the annotator sees the warning
+    setTimeout(function () {
+      if (saveFailing) return;
+      var total = state.order.length;
+      if (poolAnsweredCount() >= total) { showDone(); return; }
+      var next = state.idx;
+      for (var i = 1; i <= total; i++) {
+        var cand = (state.idx + i) % total;
+        if (!state.answers[state.order[cand].item_id]) { next = cand; break; }
+      }
+      if (next !== state.idx) state.history.push(state.idx);
+      state.idx = next;
+      renderCurrent();
+    }, 220);
+  }
+
+  choiceBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () { saveLabel(btn.dataset.label); });
+  });
+  prevBtn.addEventListener("click", function () {
+    // this visit's path first; after a reload, step back through the order
+    if (state.history.length) state.idx = state.history.pop();
+    else if (state.idx > 0) state.idx--;
+    renderCurrent();
+  });
+  nextBtn.addEventListener("click", function () {
+    if (state.idx < state.order.length - 1) { state.history.push(state.idx); state.idx++; renderCurrent(); }
+  });
+  document.getElementById("copy-answers-btn").addEventListener("click", function () {
+    var text = exportAnswers(), box = document.getElementById("answers-export"), btn = this;
+    box.value = text; box.hidden = false;
+    var done = function () { btn.textContent = "Copied"; };
+    var fallback = function () { box.focus(); box.select(); btn.textContent = "Select the text below and copy it"; };
+    try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+  });
+  document.addEventListener("keydown", function (e) {
+    if (appEl.hidden) return;
+    if (e.key === "1") saveLabel("legitimate");
+    else if (e.key === "2") saveLabel("annoying");
+    else if (e.key === "3") saveLabel("unsure");
+    else if (e.key === "4") saveLabel("garbled");
+  });
+
+  function showDone() {
+    appEl.hidden = true;
+    doneEl.hidden = false;
+    var counts = { legitimate: 0, annoying: 0, unsure: 0, garbled: 0 };
+    state.order.forEach(function (it) {
+      var label = state.answers[it.item_id];
+      if (label) counts[label]++;
+    });
+    document.getElementById("done-sub").textContent = state.name + ", you judged all " + state.order.length + " items. Thank you.";
+    var tallyEl = document.getElementById("tally");
+    tallyEl.innerHTML = "";
+    ["legitimate", "annoying", "unsure", "garbled"].forEach(function (k) {
+      var div = document.createElement("div");
+      div.className = "tally-item";
+      div.innerHTML = '<span class="tally-n">' + counts[k] + '</span><span class="tally-label">' + k + '</span>';
+      tallyEl.appendChild(div);
+    });
+  }
+
+  // resume a remembered name
+  try {
+    var saved = localStorage.getItem("rt_annotator_name");
+    if (saved) {
+      nameInput.value = saved;
+      startBtn.disabled = false;
+    }
+  } catch (e) {}
+})();
+</script>

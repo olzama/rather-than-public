@@ -1,0 +1,5 @@
+Each passage is a few sentences from a research paper. Judge whether a person wrote it or an LLM generated it. Just go with your hunch: don't think long about each one, and don't look anything up. If you have no idea, still choose something by a hunch.
+
+No single word or phrase settles the question. Expressions such as "rather than", "not only ... but also" or "it is worth noting" are ordinary English and common in human writing too.
+
+Some passages read roughly because they were extracted automatically from PDF or LaTeX files; that says nothing about who wrote them. Your answers are saved as you go, so you can stop and continue later.

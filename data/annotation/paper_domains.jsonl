@@ -1,0 +1,481 @@
+{"doc_id": "2601.02179", "domain": "core_nlp", "field": "LLM confidence estimation and calibration", "model": "gpt-6-sol"}
+{"doc_id": "2601.02902", "domain": "core_nlp", "field": "LLM logical reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2601.02956", "domain": "core_nlp", "field": "multilingual retrieval-augmented generation", "model": "gpt-6-sol"}
+{"doc_id": "2601.02970", "domain": "core_nlp", "field": "efficient LLM reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2601.02989", "domain": "core_nlp", "field": "LLM mechanistic interpretability and reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2601.03087", "domain": "core_nlp", "field": "LLM fairness auditing", "model": "gpt-6-sol"}
+{"doc_id": "2601.03248", "domain": "core_nlp", "field": "LLM spatio-temporal reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2601.03542", "domain": "core_nlp", "field": "LLM reasoning mechanisms", "model": "gpt-6-sol"}
+{"doc_id": "2601.03786", "domain": "core_nlp", "field": "language model interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2601.03851", "domain": "core_nlp", "field": "table question answering", "model": "gpt-6-sol"}
+{"doc_id": "2601.04029", "domain": "core_nlp", "field": "audio-language model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.04126", "domain": "core_nlp", "field": "GUI agent training environments", "model": "gpt-6-sol"}
+{"doc_id": "2601.04377", "domain": "core_nlp", "field": "discourse-aware retrieval-augmented generation", "model": "gpt-6-sol"}
+{"doc_id": "2601.04424", "domain": "core_nlp", "field": "long-context LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.04778", "domain": "core_nlp", "field": "video-language model hallucination mitigation", "model": "gpt-6-sol"}
+{"doc_id": "2601.04885", "domain": "core_nlp", "field": "culturally aware LLM alignment", "model": "gpt-6-sol"}
+{"doc_id": "2601.05062", "domain": "core_nlp", "field": "LLM controllability and steering", "model": "gpt-6-sol"}
+{"doc_id": "2601.05201", "domain": "core_nlp", "field": "vision-language model hallucination", "model": "gpt-6-sol"}
+{"doc_id": "2601.05300", "domain": "core_nlp", "field": "LLM reasoning and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.05752", "domain": "core_nlp", "field": "LLM safety evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.05905", "domain": "core_nlp", "field": "LLM truthfulness evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.05930", "domain": "core_nlp", "field": "LLM agents for machine learning", "model": "gpt-6-sol"}
+{"doc_id": "2601.06347", "domain": "core_nlp", "field": "multilingual named entity recognition", "model": "gpt-6-sol"}
+{"doc_id": "2601.06633", "domain": "applied_domain", "field": "computer science education", "model": "gpt-6-sol"}
+{"doc_id": "2601.07208", "domain": "core_nlp", "field": "LLM alignment and reward optimization", "model": "gpt-6-sol"}
+{"doc_id": "2601.07312", "domain": "applied_domain", "field": "mental health counseling simulation", "model": "gpt-6-sol"}
+{"doc_id": "2601.07375", "domain": "core_nlp", "field": "navigation instruction evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.07698", "domain": "core_nlp", "field": "emotional support model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.07794", "domain": "core_nlp", "field": "LLM compositional reasoning evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.07986", "domain": "core_nlp", "field": "multicultural vision-language model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.08097", "domain": "core_nlp", "field": "LLM reward modeling", "model": "gpt-6-sol"}
+{"doc_id": "2601.08146", "domain": "core_nlp", "field": "low-resource multilingual NLP", "model": "gpt-6-sol"}
+{"doc_id": "2601.08626", "domain": "core_nlp", "field": "LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.08654", "domain": "core_nlp", "field": "LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.08955", "domain": "core_nlp", "field": "agent planning with world models", "model": "gpt-6-sol"}
+{"doc_id": "2601.09487", "domain": "core_nlp", "field": "slide generation evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.09624", "domain": "core_nlp", "field": "machine unlearning evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.09696", "domain": "applied_domain", "field": "healthcare communication NLP", "model": "gpt-6-sol"}
+{"doc_id": "2601.10085", "domain": "applied_domain", "field": "mental health dialogue generation", "model": "gpt-6-sol"}
+{"doc_id": "2601.10702", "domain": "core_nlp", "field": "agent memory and coreference resolution", "model": "gpt-6-sol"}
+{"doc_id": "2601.10918", "domain": "core_nlp", "field": "neural finite-state transducer induction", "model": "gpt-6-sol"}
+{"doc_id": "2601.11042", "domain": "core_nlp", "field": "LLM knowledge editing", "model": "gpt-6-sol"}
+{"doc_id": "2601.11047", "domain": "core_nlp", "field": "knowledge graph-augmented LLM reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2601.11908", "domain": "core_nlp", "field": "long-context LLM reasoning and planning", "model": "gpt-6-sol"}
+{"doc_id": "2601.12061", "domain": "core_nlp", "field": "dialogue annotation evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.12075", "domain": "core_nlp", "field": "LLM behavior and mechanistic interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2601.12263", "domain": "core_nlp", "field": "adversarial attacks on vision-language retrieval", "model": "gpt-6-sol"}
+{"doc_id": "2601.12868", "domain": "core_nlp", "field": "LLM bias and mechanistic interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2601.12979", "domain": "core_nlp", "field": "diffusion language model evaluation for agents", "model": "gpt-6-sol"}
+{"doc_id": "2601.12983", "domain": "core_nlp", "field": "multimodal LLM robustness and safety", "model": "gpt-6-sol"}
+{"doc_id": "2601.13099", "domain": "core_nlp", "field": "dialectal Arabic machine translation", "model": "gpt-6-sol"}
+{"doc_id": "2601.13111", "domain": "core_nlp", "field": "text-to-SQL table retrieval", "model": "gpt-6-sol"}
+{"doc_id": "2601.13262", "domain": "applied_domain", "field": "multilingual medical NLP", "model": "gpt-6-sol"}
+{"doc_id": "2601.13503", "domain": "applied_domain", "field": "psychiatric clinical NLP", "model": "gpt-6-sol"}
+{"doc_id": "2601.14007", "domain": "core_nlp", "field": "LLM interpretability and alignment", "model": "gpt-6-sol"}
+{"doc_id": "2601.14152", "domain": "core_nlp", "field": "LLM prompt-order sensitivity", "model": "gpt-6-sol"}
+{"doc_id": "2601.14289", "domain": "core_nlp", "field": "LLM evaluation benchmark", "model": "gpt-6-sol"}
+{"doc_id": "2601.14750", "domain": "core_nlp", "field": "LLM reasoning methods", "model": "gpt-6-sol"}
+{"doc_id": "2601.14758", "domain": "core_nlp", "field": "diffusion language model mechanisms", "model": "gpt-6-sol"}
+{"doc_id": "2601.15224", "domain": "core_nlp", "field": "vision-language model reasoning and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.15236", "domain": "core_nlp", "field": "locale-aware LLM pretraining and question answering", "model": "gpt-6-sol"}
+{"doc_id": "2601.15755", "domain": "core_nlp", "field": "LLM alignment evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.16690", "domain": "core_nlp", "field": "VLM agent memory evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.17036", "domain": "core_nlp", "field": "LLM-generated text detection", "model": "gpt-6-sol"}
+{"doc_id": "2601.18006", "domain": "core_nlp", "field": "machine translation evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.18552", "domain": "core_nlp", "field": "LLM safety evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2601.20107", "domain": "core_nlp", "field": "visual document retrieval", "model": "gpt-6-sol"}
+{"doc_id": "2601.20209", "domain": "core_nlp", "field": "LLM agent exploration and learning", "model": "gpt-6-sol"}
+{"doc_id": "2601.22139", "domain": "core_nlp", "field": "interactive LLM reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2602.02824", "domain": "core_nlp", "field": "LLM unlearning and alignment", "model": "gpt-6-sol"}
+{"doc_id": "2602.03412", "domain": "core_nlp", "field": "LLM agent training", "model": "gpt-6-sol"}
+{"doc_id": "2602.04853", "domain": "core_nlp", "field": "LLM reliability and abstention", "model": "gpt-6-sol"}
+{"doc_id": "2602.06268", "domain": "applied_domain", "field": "clinical LLM safety", "model": "gpt-6-sol"}
+{"doc_id": "2602.06533", "domain": "core_nlp", "field": "LLM logical reasoning evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2602.07639", "domain": "core_nlp", "field": "LLM activation steering", "model": "gpt-6-sol"}
+{"doc_id": "2602.08979", "domain": "core_nlp", "field": "audio chaptering and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2602.09642", "domain": "core_nlp", "field": "table question answering", "model": "gpt-6-sol"}
+{"doc_id": "2602.11162", "domain": "core_nlp", "field": "LLM interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2602.18446", "domain": "core_nlp", "field": "LLM-generated report evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2602.20743", "domain": "core_nlp", "field": "text anonymization and prompt optimization", "model": "gpt-6-sol"}
+{"doc_id": "2602.21054", "domain": "core_nlp", "field": "vision-language model self-evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.00029", "domain": "core_nlp", "field": "LLM interpretability and activation steering", "model": "gpt-6-sol"}
+{"doc_id": "2603.00696", "domain": "applied_domain", "field": "autonomous driving", "model": "gpt-6-sol"}
+{"doc_id": "2603.02082", "domain": "linguistics", "field": "language acquisition", "model": "gpt-6-sol"}
+{"doc_id": "2603.02482", "domain": "core_nlp", "field": "multimodal LLM safety evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.02873", "domain": "core_nlp", "field": "LLM-friendly document representation", "model": "gpt-6-sol"}
+{"doc_id": "2603.03297", "domain": "core_nlp", "field": "test-time LLM adaptation", "model": "gpt-6-sol"}
+{"doc_id": "2603.03677", "domain": "applied_domain", "field": "psychiatric clinical decision support", "model": "gpt-6-sol"}
+{"doc_id": "2603.04592", "domain": "core_nlp", "field": "streaming LLMs", "model": "gpt-6-sol"}
+{"doc_id": "2603.11698", "domain": "core_nlp", "field": "text-to-video generation evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.11863", "domain": "core_nlp", "field": "LLM creativity evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.12165", "domain": "core_nlp", "field": "synthetic data selection for code generation models", "model": "gpt-6-sol"}
+{"doc_id": "2603.14265", "domain": "applied_domain", "field": "medical NLP privacy benchmarking", "model": "gpt-6-sol"}
+{"doc_id": "2603.14968", "domain": "core_nlp", "field": "LLM watermark detection", "model": "gpt-6-sol"}
+{"doc_id": "2603.14975", "domain": "core_nlp", "field": "AI agent safety", "model": "gpt-6-sol"}
+{"doc_id": "2603.15421", "domain": "core_nlp", "field": "language model agent memory", "model": "gpt-6-sol"}
+{"doc_id": "2603.15949", "domain": "core_nlp", "field": "LLM sociopragmatic and cultural evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.16091", "domain": "core_nlp", "field": "retrieval-augmented factual question answering", "model": "gpt-6-sol"}
+{"doc_id": "2603.16105", "domain": "core_nlp", "field": "LLM compression and calibration data curation", "model": "gpt-6-sol"}
+{"doc_id": "2603.16138", "domain": "core_nlp", "field": "generative search evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.16622", "domain": "core_nlp", "field": "language model pretraining and data mixture design", "model": "gpt-6-sol"}
+{"doc_id": "2603.16654", "domain": "core_nlp", "field": "LLM reasoning evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.16783", "domain": "core_nlp", "field": "spoken dialogue systems", "model": "gpt-6-sol"}
+{"doc_id": "2603.17070", "domain": "core_nlp", "field": "cross-lingual LLM knowledge transfer", "model": "gpt-6-sol"}
+{"doc_id": "2603.19044", "domain": "core_nlp", "field": "LLM scientific ideation and reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2603.19167", "domain": "core_nlp", "field": "LLM strategic reasoning evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.20562", "domain": "core_nlp", "field": "factuality evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.20884", "domain": "core_nlp", "field": "research agents and novelty assessment", "model": "gpt-6-sol"}
+{"doc_id": "2603.21350", "domain": "core_nlp", "field": "LLM reasoning evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.21362", "domain": "core_nlp", "field": "LLM agent evaluation and reward learning", "model": "gpt-6-sol"}
+{"doc_id": "2603.22341", "domain": "core_nlp", "field": "LLM agent safety and red-teaming", "model": "gpt-6-sol"}
+{"doc_id": "2603.22608", "domain": "core_nlp", "field": "LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2603.23114", "domain": "core_nlp", "field": "LLM safety and moral judgment", "model": "gpt-6-sol"}
+{"doc_id": "2603.25269", "domain": "core_nlp", "field": "hate speech detection and dataset annotation", "model": "gpt-6-sol"}
+{"doc_id": "2603.27518", "domain": "core_nlp", "field": "LLM safety and mechanistic interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2603.29093", "domain": "core_nlp", "field": "autonomous agent learning and memory", "model": "gpt-6-sol"}
+{"doc_id": "2604.01113", "domain": "applied_domain", "field": "clinical NLP", "model": "gpt-6-sol"}
+{"doc_id": "2604.02194", "domain": "core_nlp", "field": "retrieval-augmented language model robustness", "model": "gpt-6-sol"}
+{"doc_id": "2604.03592", "domain": "core_nlp", "field": "multilingual MoE adaptation", "model": "gpt-6-sol"}
+{"doc_id": "2604.04815", "domain": "core_nlp", "field": "LLM evaluation and fact-checking benchmarks", "model": "gpt-6-sol"}
+{"doc_id": "2604.04842", "domain": "applied_domain", "field": "mental health LLM safety", "model": "gpt-6-sol"}
+{"doc_id": "2604.05090", "domain": "core_nlp", "field": "multilingual language model interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2604.05158", "domain": "core_nlp", "field": "zero-shot named entity recognition", "model": "gpt-6-sol"}
+{"doc_id": "2604.05318", "domain": "core_nlp", "field": "dialectal robustness and fairness evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.05461", "domain": "core_nlp", "field": "stance detection and adversarial text rewriting", "model": "gpt-6-sol"}
+{"doc_id": "2604.05546", "domain": "core_nlp", "field": "vision-language model inference efficiency", "model": "gpt-6-sol"}
+{"doc_id": "2604.05655", "domain": "core_nlp", "field": "LLM reasoning representations", "model": "gpt-6-sol"}
+{"doc_id": "2604.05818", "domain": "core_nlp", "field": "multimodal retrieval-augmented visual question answering", "model": "gpt-6-sol"}
+{"doc_id": "2604.05876", "domain": "core_nlp", "field": "mechanistic knowledge editing for LLMs", "model": "gpt-6-sol"}
+{"doc_id": "2604.05995", "domain": "core_nlp", "field": "LLM knowledge editing evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.06156", "domain": "core_nlp", "field": "multimodal embedding methods", "model": "gpt-6-sol"}
+{"doc_id": "2604.06746", "domain": "core_nlp", "field": "efficient long-context LLM inference", "model": "gpt-6-sol"}
+{"doc_id": "2604.06784", "domain": "core_nlp", "field": "multi-party dialogue generation", "model": "gpt-6-sol"}
+{"doc_id": "2604.07562", "domain": "core_nlp", "field": "unsupervised text clustering", "model": "gpt-6-sol"}
+{"doc_id": "2604.08118", "domain": "core_nlp", "field": "LLM quantization and compression", "model": "gpt-6-sol"}
+{"doc_id": "2604.09265", "domain": "core_nlp", "field": "dialogue safety and alignment", "model": "gpt-6-sol"}
+{"doc_id": "2604.09624", "domain": "core_nlp", "field": "language model calibration", "model": "gpt-6-sol"}
+{"doc_id": "2604.10079", "domain": "core_nlp", "field": "LLM fine-tuning and learning dynamics", "model": "gpt-6-sol"}
+{"doc_id": "2604.10159", "domain": "core_nlp", "field": "conversational tabular question answering", "model": "gpt-6-sol"}
+{"doc_id": "2604.10452", "domain": "applied_domain", "field": "computational olfaction", "model": "gpt-6-sol"}
+{"doc_id": "2604.10520", "domain": "core_nlp", "field": "code summarization evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.10923", "domain": "core_nlp", "field": "self-evolving LLM agents", "model": "gpt-6-sol"}
+{"doc_id": "2604.11121", "domain": "applied_domain", "field": "political polarization detection", "model": "gpt-6-sol"}
+{"doc_id": "2604.11133", "domain": "applied_domain", "field": "clinical NLP", "model": "gpt-6-sol"}
+{"doc_id": "2604.11424", "domain": "core_nlp", "field": "expressive speech generation", "model": "gpt-6-sol"}
+{"doc_id": "2604.11427", "domain": "core_nlp", "field": "dialogue strategy induction", "model": "gpt-6-sol"}
+{"doc_id": "2604.11543", "domain": "core_nlp", "field": "LLM evaluation for academic paper novelty assessment", "model": "gpt-6-sol"}
+{"doc_id": "2604.11662", "domain": "core_nlp", "field": "OOD uncertainty evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.11749", "domain": "applied_domain", "field": "computational conceptual history", "model": "gpt-6-sol"}
+{"doc_id": "2604.12377", "domain": "core_nlp", "field": "Korean language model representations", "model": "gpt-6-sol"}
+{"doc_id": "2604.12559", "domain": "core_nlp", "field": "language model editing", "model": "gpt-6-sol"}
+{"doc_id": "2604.12776", "domain": "core_nlp", "field": "LLM multi-agent narrative generation", "model": "gpt-6-sol"}
+{"doc_id": "2604.13071", "domain": "applied_domain", "field": "Earth observation and Earth sciences", "model": "gpt-6-sol"}
+{"doc_id": "2604.13592", "domain": "core_nlp", "field": "LLM reasoning optimization", "model": "gpt-6-sol"}
+{"doc_id": "2604.13946", "domain": "core_nlp", "field": "LLM agents for code generation", "model": "gpt-6-sol"}
+{"doc_id": "2604.14572", "domain": "core_nlp", "field": "agentic RAG and corpus navigation", "model": "gpt-6-sol"}
+{"doc_id": "2604.14602", "domain": "core_nlp", "field": "language model detoxification", "model": "gpt-6-sol"}
+{"doc_id": "2604.14651", "domain": "applied_domain", "field": "clinical risk prediction", "model": "gpt-6-sol"}
+{"doc_id": "2604.14970", "domain": "core_nlp", "field": "explainable multilingual hate speech detection", "model": "gpt-6-sol"}
+{"doc_id": "2604.15140", "domain": "core_nlp", "field": "LLM answering behavior and discourse strategies", "model": "gpt-6-sol"}
+{"doc_id": "2604.15866", "domain": "core_nlp", "field": "zero-shot named entity recognition", "model": "gpt-6-sol"}
+{"doc_id": "2604.16593", "domain": "core_nlp", "field": "semantic reasoning benchmark", "model": "gpt-6-sol"}
+{"doc_id": "2604.16845", "domain": "core_nlp", "field": "LLM safety training", "model": "gpt-6-sol"}
+{"doc_id": "2604.16909", "domain": "core_nlp", "field": "LLM hallucination evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.17022", "domain": "core_nlp", "field": "subjective annotation schema evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.17393", "domain": "core_nlp", "field": "machine translation evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.17569", "domain": "applied_domain", "field": "automated essay scoring in education", "model": "gpt-6-sol"}
+{"doc_id": "2604.17648", "domain": "core_nlp", "field": "discussion thread summarization", "model": "gpt-6-sol"}
+{"doc_id": "2604.17769", "domain": "core_nlp", "field": "LLM safety and adversarial data generation", "model": "gpt-6-sol"}
+{"doc_id": "2604.17771", "domain": "core_nlp", "field": "NL2SQL benchmark contamination evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.17968", "domain": "core_nlp", "field": "LLM annotation and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.18005", "domain": "core_nlp", "field": "multi-agent LLM systems", "model": "gpt-6-sol"}
+{"doc_id": "2604.18164", "domain": "core_nlp", "field": "multimodal LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.18169", "domain": "core_nlp", "field": "LLM evaluation for literary translation", "model": "gpt-6-sol"}
+{"doc_id": "2604.18293", "domain": "linguistics", "field": "psycholinguistics", "model": "gpt-6-sol"}
+{"doc_id": "2604.18360", "domain": "core_nlp", "field": "multimodal audio-text retrieval", "model": "gpt-6-sol"}
+{"doc_id": "2604.18423", "domain": "core_nlp", "field": "Indian-language NLP resources", "model": "gpt-6-sol"}
+{"doc_id": "2604.18563", "domain": "linguistics", "field": "psycholinguistics and human sentence processing", "model": "gpt-6-sol"}
+{"doc_id": "2604.18759", "domain": "core_nlp", "field": "class imbalance adaptation methods", "model": "gpt-6-sol"}
+{"doc_id": "2604.19005", "domain": "core_nlp", "field": "automated fact verification", "model": "gpt-6-sol"}
+{"doc_id": "2604.19047", "domain": "core_nlp", "field": "RAG retrieval evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.19071", "domain": "core_nlp", "field": "LLM writing evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.20443", "domain": "core_nlp", "field": "LLM theory-of-mind evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.20789", "domain": "core_nlp", "field": "cognitively inspired language modeling", "model": "gpt-6-sol"}
+{"doc_id": "2604.20917", "domain": "core_nlp", "field": "LLM evaluation of program execution reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2604.20983", "domain": "applied_domain", "field": "plant pathology diagnosis", "model": "gpt-6-sol"}
+{"doc_id": "2604.21235", "domain": "applied_domain", "field": "clinical NLP", "model": "gpt-6-sol"}
+{"doc_id": "2604.21327", "domain": "core_nlp", "field": "test-time reinforcement learning for LLM reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2604.21725", "domain": "core_nlp", "field": "LLM agent learning and memory retrieval", "model": "gpt-6-sol"}
+{"doc_id": "2604.22166", "domain": "core_nlp", "field": "mechanistic interpretability of syntax in language models", "model": "gpt-6-sol"}
+{"doc_id": "2604.22209", "domain": "core_nlp", "field": "text-conditioned audio generation", "model": "gpt-6-sol"}
+{"doc_id": "2604.22282", "domain": "core_nlp", "field": "knowledge graph question answering and retrieval-augmented generation", "model": "gpt-6-sol"}
+{"doc_id": "2604.22520", "domain": "core_nlp", "field": "machine translation routing", "model": "gpt-6-sol"}
+{"doc_id": "2604.23351", "domain": "core_nlp", "field": "chain-of-thought reasoning and hidden-state analysis", "model": "gpt-6-sol"}
+{"doc_id": "2604.24374", "domain": "core_nlp", "field": "sentence embedding methods", "model": "gpt-6-sol"}
+{"doc_id": "2604.24444", "domain": "core_nlp", "field": "human\u2013LLM writing and style evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2604.24645", "domain": "applied_domain", "field": "meteorology benchmark for LLMs", "model": "gpt-6-sol"}
+{"doc_id": "2604.26148", "domain": "core_nlp", "field": "VLM evaluation for UI understanding", "model": "gpt-6-sol"}
+{"doc_id": "2605.00607", "domain": "core_nlp", "field": "language model interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2605.01386", "domain": "core_nlp", "field": "LLM agent memory and retrieval", "model": "gpt-6-sol"}
+{"doc_id": "2605.03299", "domain": "core_nlp", "field": "cross-lingual topic modeling", "model": "gpt-6-sol"}
+{"doc_id": "2605.03858", "domain": "core_nlp", "field": "LLM judge evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.04500", "domain": "core_nlp", "field": "low-resource multilingual NLP", "model": "gpt-6-sol"}
+{"doc_id": "2605.05025", "domain": "core_nlp", "field": "LLM hallucination detection", "model": "gpt-6-sol"}
+{"doc_id": "2605.05090", "domain": "core_nlp", "field": "language model behavior auditing", "model": "gpt-6-sol"}
+{"doc_id": "2605.05818", "domain": "core_nlp", "field": "RAG security evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.05963", "domain": "applied_domain", "field": "clinical treatment planning", "model": "gpt-6-sol"}
+{"doc_id": "2605.07409", "domain": "applied_domain", "field": "computational social science measurement", "model": "gpt-6-sol"}
+{"doc_id": "2605.07990", "domain": "core_nlp", "field": "LLM tool-use interpretability and steering", "model": "gpt-6-sol"}
+{"doc_id": "2605.09043", "domain": "linguistics", "field": "computational pragmatics", "model": "gpt-6-sol"}
+{"doc_id": "2605.10171", "domain": "core_nlp", "field": "contradiction detection in peer reviews", "model": "gpt-6-sol"}
+{"doc_id": "2605.10714", "domain": "core_nlp", "field": "low-resource multilingual NLP", "model": "gpt-6-sol"}
+{"doc_id": "2605.12015", "domain": "core_nlp", "field": "LLM agent safety evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.13277", "domain": "core_nlp", "field": "multimodal retrieval-augmented generation", "model": "gpt-6-sol"}
+{"doc_id": "2605.13841", "domain": "core_nlp", "field": "voice agent evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.14057", "domain": "applied_domain", "field": "legal conversational agents", "model": "gpt-6-sol"}
+{"doc_id": "2605.14366", "domain": "core_nlp", "field": "low-resource multilingual NLP", "model": "gpt-6-sol"}
+{"doc_id": "2605.14712", "domain": "applied_domain", "field": "robot manipulation", "model": "gpt-6-sol"}
+{"doc_id": "2605.15011", "domain": "applied_domain", "field": "scientific discovery and technological roadmapping", "model": "gpt-6-sol"}
+{"doc_id": "2605.15589", "domain": "applied_domain", "field": "mental health NLP evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.17101", "domain": "applied_domain", "field": "medical question answering", "model": "gpt-6-sol"}
+{"doc_id": "2605.17873", "domain": "core_nlp", "field": "LLM agent training", "model": "gpt-6-sol"}
+{"doc_id": "2605.18352", "domain": "linguistics", "field": "presupposition and pragmatics", "model": "gpt-6-sol"}
+{"doc_id": "2605.19357", "domain": "core_nlp", "field": "LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.20529", "domain": "linguistics", "field": "language acquisition and syntax", "model": "gpt-6-sol"}
+{"doc_id": "2605.20729", "domain": "core_nlp", "field": "conversational retrieval evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.20798", "domain": "core_nlp", "field": "Transformer architecture evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.22641", "domain": "core_nlp", "field": "value detection and model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.23039", "domain": "linguistics", "field": "construction grammar and language acquisition", "model": "gpt-6-sol"}
+{"doc_id": "2605.24247", "domain": "core_nlp", "field": "AI safety evaluation and content moderation labeling", "model": "gpt-6-sol"}
+{"doc_id": "2605.24614", "domain": "core_nlp", "field": "LLM unlearning evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.25731", "domain": "applied_domain", "field": "automated essay scoring in education", "model": "gpt-6-sol"}
+{"doc_id": "2605.26275", "domain": "core_nlp", "field": "agentic prompt optimization", "model": "gpt-6-sol"}
+{"doc_id": "2605.26362", "domain": "core_nlp", "field": "LLM hallucination and mechanistic interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2605.26645", "domain": "core_nlp", "field": "LLM-based knowledge graph question answering", "model": "gpt-6-sol"}
+{"doc_id": "2605.26678", "domain": "core_nlp", "field": "long-context LLM efficiency", "model": "gpt-6-sol"}
+{"doc_id": "2605.26958", "domain": "core_nlp", "field": "reinforcement learning for long-form generation", "model": "gpt-6-sol"}
+{"doc_id": "2605.27311", "domain": "core_nlp", "field": "vision-language model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.27878", "domain": "core_nlp", "field": "LLM post-training and creative writing", "model": "gpt-6-sol"}
+{"doc_id": "2605.28006", "domain": "core_nlp", "field": "LLM reasoning interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2605.28112", "domain": "core_nlp", "field": "federated RAG security", "model": "gpt-6-sol"}
+{"doc_id": "2605.28120", "domain": "applied_domain", "field": "legal NLP", "model": "gpt-6-sol"}
+{"doc_id": "2605.28123", "domain": "core_nlp", "field": "vision-language model hallucination mitigation", "model": "gpt-6-sol"}
+{"doc_id": "2605.28183", "domain": "applied_domain", "field": "legal reasoning in German law", "model": "gpt-6-sol"}
+{"doc_id": "2605.28346", "domain": "core_nlp", "field": "vision-language model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.28500", "domain": "core_nlp", "field": "uncertainty quantification for LLM code generation", "model": "gpt-6-sol"}
+{"doc_id": "2605.28543", "domain": "core_nlp", "field": "LLM mechanistic interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2605.28616", "domain": "linguistics", "field": "language acquisition and cognitive modeling", "model": "gpt-6-sol"}
+{"doc_id": "2605.28700", "domain": "core_nlp", "field": "LLM reasoning evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.28791", "domain": "core_nlp", "field": "LLM reasoning and self-distillation", "model": "gpt-6-sol"}
+{"doc_id": "2605.28802", "domain": "core_nlp", "field": "annotator-specific modeling and human label variation", "model": "gpt-6-sol"}
+{"doc_id": "2605.29224", "domain": "core_nlp", "field": "LLM agent safety and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.29319", "domain": "core_nlp", "field": "efficient model routing for table reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2605.29475", "domain": "core_nlp", "field": "human\u2013AI collaborative scientific hypothesis generation", "model": "gpt-6-sol"}
+{"doc_id": "2605.29668", "domain": "core_nlp", "field": "self-improving LLM agents", "model": "gpt-6-sol"}
+{"doc_id": "2605.30051", "domain": "applied_domain", "field": "educational NLP", "model": "gpt-6-sol"}
+{"doc_id": "2605.30107", "domain": "core_nlp", "field": "multilingual spoken dialogue datasets and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.30790", "domain": "core_nlp", "field": "retrieval-augmented generation", "model": "gpt-6-sol"}
+{"doc_id": "2605.30912", "domain": "core_nlp", "field": "multimodal model training", "model": "gpt-6-sol"}
+{"doc_id": "2605.30947", "domain": "applied_domain", "field": "computational humanities scholarship", "model": "gpt-6-sol"}
+{"doc_id": "2605.31105", "domain": "core_nlp", "field": "LLM inference efficiency", "model": "gpt-6-sol"}
+{"doc_id": "2605.31328", "domain": "core_nlp", "field": "LLM alignment and reinforcement learning", "model": "gpt-6-sol"}
+{"doc_id": "2605.31351", "domain": "core_nlp", "field": "VLM-as-a-judge evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2605.31556", "domain": "core_nlp", "field": "VLM bias and interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2606.00294", "domain": "applied_domain", "field": "media framing analysis", "model": "gpt-6-sol"}
+{"doc_id": "2606.00566", "domain": "core_nlp", "field": "LLM agent safety and prompt injection evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.00660", "domain": "core_nlp", "field": "agentic search and test-time verification", "model": "gpt-6-sol"}
+{"doc_id": "2606.01060", "domain": "core_nlp", "field": "LLM alignment and representation analysis", "model": "gpt-6-sol"}
+{"doc_id": "2606.01600", "domain": "applied_domain", "field": "robotics and video world models", "model": "gpt-6-sol"}
+{"doc_id": "2606.02252", "domain": "core_nlp", "field": "LLM model merging", "model": "gpt-6-sol"}
+{"doc_id": "2606.02502", "domain": "core_nlp", "field": "multimodal continual instruction tuning", "model": "gpt-6-sol"}
+{"doc_id": "2606.02907", "domain": "core_nlp", "field": "LLM mechanistic interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2606.03189", "domain": "core_nlp", "field": "LLM evaluation and personalized judging", "model": "gpt-6-sol"}
+{"doc_id": "2606.03695", "domain": "core_nlp", "field": "model editing and knowledge erasure", "model": "gpt-6-sol"}
+{"doc_id": "2606.03782", "domain": "core_nlp", "field": "low-resource machine translation", "model": "gpt-6-sol"}
+{"doc_id": "2606.03924", "domain": "core_nlp", "field": "knowledge editing in language models", "model": "gpt-6-sol"}
+{"doc_id": "2606.03965", "domain": "core_nlp", "field": "LLM reasoning efficiency and control", "model": "gpt-6-sol"}
+{"doc_id": "2606.03968", "domain": "core_nlp", "field": "rubric-based reinforcement learning for LLMs", "model": "gpt-6-sol"}
+{"doc_id": "2606.04095", "domain": "core_nlp", "field": "LLM training for long-form creative writing", "model": "gpt-6-sol"}
+{"doc_id": "2606.04483", "domain": "core_nlp", "field": "LLM safety and jailbreaks", "model": "gpt-6-sol"}
+{"doc_id": "2606.05054", "domain": "core_nlp", "field": "LLM reasoning and answer selection", "model": "gpt-6-sol"}
+{"doc_id": "2606.05122", "domain": "core_nlp", "field": "LLM self-evaluation and calibration", "model": "gpt-6-sol"}
+{"doc_id": "2606.05553", "domain": "core_nlp", "field": "role-playing agent evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.05616", "domain": "applied_domain", "field": "medical LLM safety", "model": "gpt-6-sol"}
+{"doc_id": "2606.05743", "domain": "core_nlp", "field": "LLM safety and jailbreak defense", "model": "gpt-6-sol"}
+{"doc_id": "2606.05922", "domain": "core_nlp", "field": "LLM agent optimization", "model": "gpt-6-sol"}
+{"doc_id": "2606.06037", "domain": "core_nlp", "field": "audio language model safety evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.06715", "domain": "core_nlp", "field": "LLM annotation fidelity", "model": "gpt-6-sol"}
+{"doc_id": "2606.07520", "domain": "core_nlp", "field": "LLM alignment and reward modeling", "model": "gpt-6-sol"}
+{"doc_id": "2606.08501", "domain": "core_nlp", "field": "diffusion LLM reasoning and reinforcement learning", "model": "gpt-6-sol"}
+{"doc_id": "2606.09389", "domain": "applied_domain", "field": "legal NLP", "model": "gpt-6-sol"}
+{"doc_id": "2606.09435", "domain": "core_nlp", "field": "multilingual dictionary digitization and OCR evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.10307", "domain": "core_nlp", "field": "multi-agent LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.10400", "domain": "core_nlp", "field": "vision-language model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.10537", "domain": "core_nlp", "field": "efficient long-context diffusion language model inference", "model": "gpt-6-sol"}
+{"doc_id": "2606.11762", "domain": "core_nlp", "field": "LLM creativity evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.12854", "domain": "applied_domain", "field": "biomedical claim verification", "model": "gpt-6-sol"}
+{"doc_id": "2606.13610", "domain": "core_nlp", "field": "LLM recommender robustness and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.14580", "domain": "applied_domain", "field": "persuasion and communication research", "model": "gpt-6-sol"}
+{"doc_id": "2606.14626", "domain": "core_nlp", "field": "cultural localization in LLM-generated stories", "model": "gpt-6-sol"}
+{"doc_id": "2606.16151", "domain": "core_nlp", "field": "LLM reasoning evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.16206", "domain": "applied_domain", "field": "educational LLM tutoring evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.16845", "domain": "core_nlp", "field": "irony detection methods", "model": "gpt-6-sol"}
+{"doc_id": "2606.17016", "domain": "core_nlp", "field": "LLM agent context management", "model": "gpt-6-sol"}
+{"doc_id": "2606.17698", "domain": "core_nlp", "field": "LLM agent evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.19264", "domain": "core_nlp", "field": "LLM probabilistic inference", "model": "gpt-6-sol"}
+{"doc_id": "2606.19706", "domain": "core_nlp", "field": "multimodal event understanding benchmark", "model": "gpt-6-sol"}
+{"doc_id": "2606.19719", "domain": "core_nlp", "field": "semantic caching evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.21557", "domain": "applied_domain", "field": "educational dialogue analysis", "model": "gpt-6-sol"}
+{"doc_id": "2606.21704", "domain": "core_nlp", "field": "chain-of-thought distillation and compression", "model": "gpt-6-sol"}
+{"doc_id": "2606.22349", "domain": "applied_domain", "field": "educational technology and LLM tutoring", "model": "gpt-6-sol"}
+{"doc_id": "2606.22511", "domain": "core_nlp", "field": "LLM decoding methods", "model": "gpt-6-sol"}
+{"doc_id": "2606.22565", "domain": "core_nlp", "field": "multimodal chain-of-thought evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.23181", "domain": "core_nlp", "field": "adaptive reasoning budgets for LLMs", "model": "gpt-6-sol"}
+{"doc_id": "2606.24889", "domain": "core_nlp", "field": "ASR error correction", "model": "gpt-6-sol"}
+{"doc_id": "2606.25656", "domain": "core_nlp", "field": "RAG evaluation and context optimization", "model": "gpt-6-sol"}
+{"doc_id": "2606.27499", "domain": "core_nlp", "field": "multimodal agent memory evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.28715", "domain": "core_nlp", "field": "multilingual agent evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.29920", "domain": "core_nlp", "field": "LLM-as-a-judge evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.31213", "domain": "core_nlp", "field": "LLM moral reasoning evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.31980", "domain": "core_nlp", "field": "computer-use agent evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2606.32029", "domain": "core_nlp", "field": "LLM evaluation and error reduction", "model": "gpt-6-sol"}
+{"doc_id": "2607.00890", "domain": "core_nlp", "field": "multilingual LLM pre-training data", "model": "gpt-6-sol"}
+{"doc_id": "2607.05113", "domain": "core_nlp", "field": "LLM evaluation and user perceptions", "model": "gpt-6-sol"}
+{"doc_id": "2607.05969", "domain": "core_nlp", "field": "LLM latent memory and long-context modeling", "model": "gpt-6-sol"}
+{"doc_id": "2607.07895", "domain": "core_nlp", "field": "LLM bias and safety datasets", "model": "gpt-6-sol"}
+{"doc_id": "2607.09600", "domain": "core_nlp", "field": "LLM agent orchestration", "model": "gpt-6-sol"}
+{"doc_id": "2607.12383", "domain": "applied_domain", "field": "cancer misinformation in online health communities", "model": "gpt-6-sol"}
+{"doc_id": "2607.14252", "domain": "core_nlp", "field": "embodied AI agent memory and planning", "model": "gpt-6-sol"}
+{"doc_id": "2607.23545", "domain": "core_nlp", "field": "multilingual LLM safety evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2607.23991", "domain": "core_nlp", "field": "LLM decoding and prompt following", "model": "gpt-6-sol"}
+{"doc_id": "2607.24772", "domain": "applied_domain", "field": "remote sensing agents", "model": "gpt-6-sol"}
+{"doc_id": "2607.25270", "domain": "core_nlp", "field": "LLM activation steering", "model": "gpt-6-sol"}
+{"doc_id": "2607.28648", "domain": "applied_domain", "field": "mental health NLP", "model": "gpt-6-sol"}
+{"doc_id": "2608.00991", "domain": "core_nlp", "field": "LLM evaluation and benchmarking", "model": "gpt-6-sol"}
+{"doc_id": "2608.01708", "domain": "core_nlp", "field": "personalized dialogue agent memory", "model": "gpt-6-sol"}
+{"doc_id": "2608.01942", "domain": "core_nlp", "field": "text-to-video model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.02087", "domain": "core_nlp", "field": "LLM reinforcement learning and exploration", "model": "gpt-6-sol"}
+{"doc_id": "2608.02609", "domain": "core_nlp", "field": "low-resource machine translation", "model": "gpt-6-sol"}
+{"doc_id": "2608.03446", "domain": "core_nlp", "field": "multilingual LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.05169", "domain": "core_nlp", "field": "long-form story generation", "model": "gpt-6-sol"}
+{"doc_id": "2608.06171", "domain": "core_nlp", "field": "web agent evaluation and routing", "model": "gpt-6-sol"}
+{"doc_id": "2608.07261", "domain": "core_nlp", "field": "LLM reasoning and generalization", "model": "gpt-6-sol"}
+{"doc_id": "2608.11847", "domain": "core_nlp", "field": "vision-language model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.12750", "domain": "applied_domain", "field": "mental health client simulation", "model": "gpt-6-sol"}
+{"doc_id": "2608.13706", "domain": "applied_domain", "field": "financial question answering", "model": "gpt-6-sol"}
+{"doc_id": "2608.15129", "domain": "core_nlp", "field": "language model word order biases", "model": "gpt-6-sol"}
+{"doc_id": "2608.17223", "domain": "applied_domain", "field": "financial NLP", "model": "gpt-6-sol"}
+{"doc_id": "2608.18084", "domain": "core_nlp", "field": "LLM-guided theorem proving", "model": "gpt-6-sol"}
+{"doc_id": "2608.20350", "domain": "core_nlp", "field": "LLM agent architecture", "model": "gpt-6-sol"}
+{"doc_id": "2608.20777", "domain": "core_nlp", "field": "multi-agent scientific critique", "model": "gpt-6-sol"}
+{"doc_id": "2608.20804", "domain": "core_nlp", "field": "temporal knowledge graph extrapolation", "model": "gpt-6-sol"}
+{"doc_id": "2608.20839", "domain": "core_nlp", "field": "diffusion language model watermarking", "model": "gpt-6-sol"}
+{"doc_id": "2608.20920", "domain": "core_nlp", "field": "LLM agents and memory for forecasting", "model": "gpt-6-sol"}
+{"doc_id": "2608.21409", "domain": "applied_domain", "field": "legal NLP", "model": "gpt-6-sol"}
+{"doc_id": "2608.21750", "domain": "core_nlp", "field": "retrieval-augmented generation", "model": "gpt-6-sol"}
+{"doc_id": "2608.21832", "domain": "core_nlp", "field": "vision-language GUI grounding evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.21946", "domain": "core_nlp", "field": "agentic reinforcement learning", "model": "gpt-6-sol"}
+{"doc_id": "2608.21969", "domain": "core_nlp", "field": "reinforcement learning for conversational agents", "model": "gpt-6-sol"}
+{"doc_id": "2608.22132", "domain": "applied_domain", "field": "biomedical question answering", "model": "gpt-6-sol"}
+{"doc_id": "2608.22266", "domain": "core_nlp", "field": "proactive conversational agents", "model": "gpt-6-sol"}
+{"doc_id": "2608.22479", "domain": "core_nlp", "field": "retrieval-augmented reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2608.22557", "domain": "core_nlp", "field": "LLM unlearning", "model": "gpt-6-sol"}
+{"doc_id": "2608.22559", "domain": "core_nlp", "field": "LLM response evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.22704", "domain": "core_nlp", "field": "speech LLM efficiency", "model": "gpt-6-sol"}
+{"doc_id": "2608.22872", "domain": "core_nlp", "field": "speech-based RAG robustness", "model": "gpt-6-sol"}
+{"doc_id": "2608.22916", "domain": "core_nlp", "field": "vision-language model interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2608.23095", "domain": "applied_domain", "field": "media bias analysis", "model": "gpt-6-sol"}
+{"doc_id": "2608.23390", "domain": "core_nlp", "field": "cross-lingual claim alignment and text generation", "model": "gpt-6-sol"}
+{"doc_id": "2608.23391", "domain": "core_nlp", "field": "cross-domain data-to-text generation", "model": "gpt-6-sol"}
+{"doc_id": "2608.23474", "domain": "core_nlp", "field": "vision-language model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.23627", "domain": "applied_domain", "field": "emergency medicine clinical NLP", "model": "gpt-6-sol"}
+{"doc_id": "2608.23719", "domain": "core_nlp", "field": "LLM alignment and synthetic data", "model": "gpt-6-sol"}
+{"doc_id": "2608.24306", "domain": "core_nlp", "field": "agentic deep research evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.24492", "domain": "core_nlp", "field": "LLM hallucination detection", "model": "gpt-6-sol"}
+{"doc_id": "2608.24977", "domain": "core_nlp", "field": "RAG robustness and security", "model": "gpt-6-sol"}
+{"doc_id": "2608.25061", "domain": "core_nlp", "field": "LLM code generation evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.25089", "domain": "core_nlp", "field": "crosslingual language model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.25655", "domain": "core_nlp", "field": "conversational memory evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.26118", "domain": "core_nlp", "field": "long-form factuality evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.26506", "domain": "core_nlp", "field": "LLM safety and jailbreaks", "model": "gpt-6-sol"}
+{"doc_id": "2608.26587", "domain": "applied_domain", "field": "clinical NLP", "model": "gpt-6-sol"}
+{"doc_id": "2608.26689", "domain": "applied_domain", "field": "mental health counseling", "model": "gpt-6-sol"}
+{"doc_id": "2608.26950", "domain": "core_nlp", "field": "LLM agent evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.27380", "domain": "core_nlp", "field": "AI-generated text detection", "model": "gpt-6-sol"}
+{"doc_id": "2608.27505", "domain": "core_nlp", "field": "LLM alignment and reinforcement learning", "model": "gpt-6-sol"}
+{"doc_id": "2608.27510", "domain": "core_nlp", "field": "mechanistic interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2608.27658", "domain": "core_nlp", "field": "multilingual low-resource NLP methods", "model": "gpt-6-sol"}
+{"doc_id": "2608.27855", "domain": "core_nlp", "field": "LLM-generated text detection and stylometry", "model": "gpt-6-sol"}
+{"doc_id": "2608.28009", "domain": "core_nlp", "field": "adversarial AI-generated text detection", "model": "gpt-6-sol"}
+{"doc_id": "2608.28405", "domain": "core_nlp", "field": "culturally grounded LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.28930", "domain": "core_nlp", "field": "LLM hallucination detection", "model": "gpt-6-sol"}
+{"doc_id": "2608.29109", "domain": "core_nlp", "field": "LLM evaluation and refusal behavior", "model": "gpt-6-sol"}
+{"doc_id": "2608.29209", "domain": "core_nlp", "field": "cultural alignment evaluation of multimodal AI", "model": "gpt-6-sol"}
+{"doc_id": "2608.29239", "domain": "core_nlp", "field": "low-resource automatic speech recognition", "model": "gpt-6-sol"}
+{"doc_id": "2608.29278", "domain": "core_nlp", "field": "multimodal LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.29483", "domain": "core_nlp", "field": "VLM agent evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.29588", "domain": "core_nlp", "field": "LLM graph reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2608.29616", "domain": "applied_domain", "field": "legal NLP", "model": "gpt-6-sol"}
+{"doc_id": "2608.29847", "domain": "core_nlp", "field": "text-to-image bias evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.29884", "domain": "applied_domain", "field": "legal opinion summarization", "model": "gpt-6-sol"}
+{"doc_id": "2608.29995", "domain": "applied_domain", "field": "clinical mental health NLP", "model": "gpt-6-sol"}
+{"doc_id": "2608.30319", "domain": "core_nlp", "field": "LLM safety and inference-time alignment", "model": "gpt-6-sol"}
+{"doc_id": "2608.30541", "domain": "core_nlp", "field": "multilingual pixel language model adaptation", "model": "gpt-6-sol"}
+{"doc_id": "2608.30614", "domain": "core_nlp", "field": "automated taxonomy construction and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.30662", "domain": "core_nlp", "field": "mechanistic interpretability of LLMs", "model": "gpt-6-sol"}
+{"doc_id": "2608.30686", "domain": "core_nlp", "field": "coding agent security and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.30716", "domain": "core_nlp", "field": "multimodal social reasoning benchmark", "model": "gpt-6-sol"}
+{"doc_id": "2608.30738", "domain": "core_nlp", "field": "voice assistant fallback handling", "model": "gpt-6-sol"}
+{"doc_id": "2608.30748", "domain": "core_nlp", "field": "LLM safety evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2608.30856", "domain": "core_nlp", "field": "LLM refusal evaluation and safety", "model": "gpt-6-sol"}
+{"doc_id": "2608.31035", "domain": "core_nlp", "field": "speech generation and reward alignment", "model": "gpt-6-sol"}
+{"doc_id": "2609.00051", "domain": "core_nlp", "field": "LLM safety and mechanistic interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2609.00237", "domain": "core_nlp", "field": "multi-agent LLM orchestration", "model": "gpt-6-sol"}
+{"doc_id": "2609.00242", "domain": "applied_domain", "field": "autonomous driving affordance prediction", "model": "gpt-6-sol"}
+{"doc_id": "2609.00470", "domain": "core_nlp", "field": "RAG security and knowledge-poisoning defense", "model": "gpt-6-sol"}
+{"doc_id": "2609.00550", "domain": "core_nlp", "field": "multimodal LLM robustness", "model": "gpt-6-sol"}
+{"doc_id": "2609.00565", "domain": "core_nlp", "field": "LLM cultural alignment and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.00760", "domain": "core_nlp", "field": "LLM refusal mechanisms", "model": "gpt-6-sol"}
+{"doc_id": "2609.00823", "domain": "core_nlp", "field": "LLM agent behavior and control", "model": "gpt-6-sol"}
+{"doc_id": "2609.00834", "domain": "core_nlp", "field": "text-to-SQL methods", "model": "gpt-6-sol"}
+{"doc_id": "2609.00844", "domain": "core_nlp", "field": "retrieval-augmented question answering", "model": "gpt-6-sol"}
+{"doc_id": "2609.00921", "domain": "core_nlp", "field": "personalized LLM evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.01004", "domain": "core_nlp", "field": "efficient multimodal LLM inference", "model": "gpt-6-sol"}
+{"doc_id": "2609.01081", "domain": "core_nlp", "field": "LLM interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2609.01103", "domain": "core_nlp", "field": "vision-language model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.01111", "domain": "applied_domain", "field": "clinical NLP and EHR reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2609.01195", "domain": "core_nlp", "field": "cost-aware LLM entity matching", "model": "gpt-6-sol"}
+{"doc_id": "2609.01279", "domain": "core_nlp", "field": "LLM interpretability and emotion probing", "model": "gpt-6-sol"}
+{"doc_id": "2609.01316", "domain": "core_nlp", "field": "multimodal document retrieval", "model": "gpt-6-sol"}
+{"doc_id": "2609.01356", "domain": "core_nlp", "field": "multilingual LLM interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2609.01386", "domain": "core_nlp", "field": "tokenization and language model training", "model": "gpt-6-sol"}
+{"doc_id": "2609.01422", "domain": "core_nlp", "field": "LLM post-training methods", "model": "gpt-6-sol"}
+{"doc_id": "2609.01573", "domain": "core_nlp", "field": "LLM post-training budget allocation", "model": "gpt-6-sol"}
+{"doc_id": "2609.01971", "domain": "applied_domain", "field": "neuroscience analysis", "model": "gpt-6-sol"}
+{"doc_id": "2609.02089", "domain": "core_nlp", "field": "LLM activation steering", "model": "gpt-6-sol"}
+{"doc_id": "2609.02131", "domain": "applied_domain", "field": "social-media sentiment analysis", "model": "gpt-6-sol"}
+{"doc_id": "2609.02133", "domain": "core_nlp", "field": "empathetic response generation", "model": "gpt-6-sol"}
+{"doc_id": "2609.02316", "domain": "core_nlp", "field": "LLM safety and defense evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.02772", "domain": "core_nlp", "field": "low-resource authorship style transfer", "model": "gpt-6-sol"}
+{"doc_id": "2609.02947", "domain": "applied_domain", "field": "educational cognitive diagnosis", "model": "gpt-6-sol"}
+{"doc_id": "2609.03215", "domain": "applied_domain", "field": "educational NLP", "model": "gpt-6-sol"}
+{"doc_id": "2609.03261", "domain": "applied_domain", "field": "medical multimodal AI evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.03293", "domain": "core_nlp", "field": "personalized assistant safety evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.03330", "domain": "applied_domain", "field": "computational social science", "model": "gpt-6-sol"}
+{"doc_id": "2609.03366", "domain": "applied_domain", "field": "clinical NLP", "model": "gpt-6-sol"}
+{"doc_id": "2609.03432", "domain": "core_nlp", "field": "LLM-based evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.03580", "domain": "core_nlp", "field": "hallucination detection benchmark", "model": "gpt-6-sol"}
+{"doc_id": "2609.03597", "domain": "applied_domain", "field": "legal document understanding", "model": "gpt-6-sol"}
+{"doc_id": "2609.03619", "domain": "core_nlp", "field": "multi-agent LLM reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2609.04061", "domain": "core_nlp", "field": "code-editing model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.04197", "domain": "core_nlp", "field": "prompt optimization", "model": "gpt-6-sol"}
+{"doc_id": "2609.04452", "domain": "core_nlp", "field": "multilingual spoken dialogue fact-checking benchmark", "model": "gpt-6-sol"}
+{"doc_id": "2609.04484", "domain": "core_nlp", "field": "structural priming in language models", "model": "gpt-6-sol"}
+{"doc_id": "2609.04714", "domain": "core_nlp", "field": "LLM safety tuning and false refusals", "model": "gpt-6-sol"}
+{"doc_id": "2609.04720", "domain": "core_nlp", "field": "vision-language model evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.04773", "domain": "core_nlp", "field": "tool-using agent safety", "model": "gpt-6-sol"}
+{"doc_id": "2609.04841", "domain": "applied_domain", "field": "media bias detection", "model": "gpt-6-sol"}
+{"doc_id": "2609.05149", "domain": "core_nlp", "field": "vision-language model interpretability", "model": "gpt-6-sol"}
+{"doc_id": "2609.05637", "domain": "core_nlp", "field": "RAG query rewriting and retrieval", "model": "gpt-6-sol"}
+{"doc_id": "2609.05707", "domain": "core_nlp", "field": "LLM inference optimization", "model": "gpt-6-sol"}
+{"doc_id": "2609.05993", "domain": "core_nlp", "field": "LLM personalization and cultural alignment", "model": "gpt-6-sol"}
+{"doc_id": "2609.06065", "domain": "core_nlp", "field": "retrieval-augmented multi-hop question answering", "model": "gpt-6-sol"}
+{"doc_id": "2609.06147", "domain": "core_nlp", "field": "document-grounded LLM benchmark evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.06438", "domain": "core_nlp", "field": "LLM prompting for data visualization", "model": "gpt-6-sol"}
+{"doc_id": "2609.06880", "domain": "core_nlp", "field": "vision-language model evaluation and spatial reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2609.07153", "domain": "core_nlp", "field": "LLM linguistic evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.07183", "domain": "core_nlp", "field": "RLVR data selection for mathematical reasoning", "model": "gpt-6-sol"}
+{"doc_id": "2609.07307", "domain": "core_nlp", "field": "taxonomy induction", "model": "gpt-6-sol"}
+{"doc_id": "2609.07662", "domain": "core_nlp", "field": "LLM behavior and evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.07823", "domain": "applied_domain", "field": "fire and smoke understanding for disaster response", "model": "gpt-6-sol"}
+{"doc_id": "2609.08029", "domain": "core_nlp", "field": "multimodal VLM evaluation for Bangla memes", "model": "gpt-6-sol"}
+{"doc_id": "2609.09338", "domain": "core_nlp", "field": "LLM inference and speculative decoding", "model": "gpt-6-sol"}
+{"doc_id": "2609.09569", "domain": "core_nlp", "field": "temporal expression normalization for retrieval", "model": "gpt-6-sol"}
+{"doc_id": "2609.09835", "domain": "core_nlp", "field": "LLM personalization", "model": "gpt-6-sol"}
+{"doc_id": "2609.09964", "domain": "core_nlp", "field": "low-resource dialectal NLP benchmarks", "model": "gpt-6-sol"}
+{"doc_id": "2609.10142", "domain": "core_nlp", "field": "LLM safety and adversarial fine-tuning", "model": "gpt-6-sol"}
+{"doc_id": "2609.10745", "domain": "core_nlp", "field": "multilingual multimodal entity linking", "model": "gpt-6-sol"}
+{"doc_id": "2609.10810", "domain": "core_nlp", "field": "grammatical error correction", "model": "gpt-6-sol"}
+{"doc_id": "2609.10901", "domain": "core_nlp", "field": "search agent evaluation", "model": "gpt-6-sol"}
+{"doc_id": "2609.11758", "domain": "core_nlp", "field": "RAG safety evaluation", "model": "gpt-6-sol"}
