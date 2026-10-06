@@ -1,0 +1,125 @@
+# Claude via the Claude Code CLI (subscription login). Sampling settings cannot be set.
+input_jsonl: data/acl2019/sections.jsonl
+# doc_ids listed here (language_filter.py output) are never generated.
+excluded_documents: data/excluded_documents.tsv
+# every paper ever drawn for generation (batch, corpus, doc_id); new batches are appended
+used_papers: paper_pipeline/used_papers.tsv
+# --num-papers N draws N papers at random from these, split evenly (--sources to choose).
+# input_jsonl above is used only when passed explicitly as --input-jsonl.
+sources:
+  acl2019: data/acl2019/sections.jsonl.gz
+  arxiv2026: data/arxiv2026/sections.jsonl.gz
+
+# Shared across generation and revision so the main model is loaded once and
+# reused. Review can override this with its own model_name below.
+model:
+  # OpenAI models (names starting with "gpt-", "o1", "o3", "o4") are called via the
+  # OpenAI API. Anything else is loaded locally through `transformers`, e.g.:
+  #name: "Qwen/Qwen2.5-14B-Instruct"
+  #name: "meta-llama/Llama-3.3-70B-Instruct"
+  #name: "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+  #name: "gpt-4o"
+  name: "claude-haiku-4-5-20251001"
+  device: "auto"
+  dtype: "float16"
+  is_chat_model: true
+
+quantization:
+  # Only used for local (non-OpenAI) models.
+  mode: "none"
+  #mode: "4bit"
+  #mode: "8bit"
+
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_compute_dtype: "bfloat16"
+
+  llm_int8_enable_fp32_cpu_offload: false
+  llm_int8_has_fp16_weight: false
+  llm_int8_threshold: 6.0
+  offload_folder: "offload"
+  # max_memory:
+  #   cuda: "46GiB"
+  #   cpu: "128GiB"
+
+generation:
+  chat:
+    system_prompt: >
+      You are an NLP researcher writing a paper for submission to an ACL
+      (Association for Computational Linguistics) conference. Write in clear,
+      formal academic prose consistent with published NLP research papers.
+
+  decoding:
+    temperature: 0.8
+    top_p: 0.92
+    top_k: 0
+    repetition_penalty: 1.0
+    # Generous headroom above paper.target_pages * paper.words_per_page so the
+    # model isn't cut off mid-paper.
+    max_new_tokens: 16384
+    max_completion_tokens: 16384
+    do_sample: true
+    num_return_sequences: 1
+    num_beams: 1
+
+  paper:
+    target_pages: 8
+    words_per_page: 800
+    sections:
+      - "Abstract"
+      - "1 Introduction"
+      - "2 Related Work"
+      - "3 Method"
+      - "4 Experimental Setup"
+      - "5 Results"
+      - "6 Analysis"
+      - "7 Conclusion"
+      - "Limitations"
+
+evaluation:
+  model_name: gpt-4o
+  chat:
+    system_prompt: >
+      You are an NLP reviewer evaluating a paper for submission to an ACL
+      (Association for Computational Linguistics) conference, focused on the
+      soundness of its methodology and suggesting concrete improvements to it.
+
+  decoding:
+    temperature: 0.8
+    top_p: 0.92
+    top_k: 50
+    repetition_penalty: 1.05
+    # Same headroom as generation -- revision rewrites the whole paper.
+    max_new_tokens: 9000
+    do_sample: true
+    num_return_sequences: 1
+    num_beams: 1
+
+  sections:
+    - "Summary"
+    - "Strengths"
+    - "Weaknesses"
+    - "Suggestions for Improvement"
+    - "Questions for the Authors"
+    - "Overall Assessment"
+
+revision:
+  chat:
+    system_prompt: >
+      You are an NLP researcher revising your own paper in response to peer
+      review, before resubmission to an ACL (Association for Computational
+      Linguistics) conference. Write in the same clear, formal academic prose
+      as the original paper.
+
+  decoding:
+    temperature: 0.8
+    top_p: 0.92
+    top_k: 0
+    repetition_penalty: 1.0
+    # Generous headroom above paper.target_pages * paper.words_per_page so the
+    # model isn't cut off mid-paper.
+    max_new_tokens: 16384
+    max_completion_tokens: 16384
+    do_sample: true
+    num_return_sequences: 1
+    num_beams: 1

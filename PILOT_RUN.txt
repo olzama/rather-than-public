@@ -1,0 +1,63 @@
+OPEN-MODEL AND CLAUDE PILOTS
+============================
+
+What this is. The pipeline of GENERATION_RUN.txt (a model writes an ACL-style paper from the title and abstract of a
+real paper, gpt-4o reviews it, the same model revises it), run on 20 of batch 2's source papers (10 ACL 2019,
+10 arXiv 2026; data/generated/pilot_ids.tsv) with the three post-training stages of Tulu 3 8B
+(allenai/Llama-3.1-Tulu-3-8B-SFT, -DPO and the final model; local GPUs, float16) and with Claude Haiku 4.5, Sonnet 4.5,
+Sonnet 5.5 and Opus 5.5. The purpose is to see whether the construction is specific to OpenAI models and, with the Tulu
+stages, at which stage of post-training it appears. The prompts and sampling (temperature 0.8, top-p 0.92, 16,384 output
+tokens) are those of the gpt-4o config, except that the open models switch off top-k and the repetition penalty (the OpenAI
+API ignores them). The Claude models are called through the Claude Code CLI (`claude -p`, subscription login, no API key);
+temperature and top-p cannot be set, and the CLI adds a few lines of context (date, environment) to every request.
+
+1. Claude support
+-----------------
+paper_pipeline/claude_backend.patch adds the Claude CLI backend to paper_pipeline/src (and a model.chat_template_kwargs option,
+for chat templates that need extra arguments, such as Qwen's switch for thinking; no config here uses it). It is a patch, not edited files; apply it once, from the repository root:
+
+    git apply paper_pipeline/claude_backend.patch
+
+The backend checks which model actually answered: the CLI silently substitutes a model it does not have, so a run fails if
+the answering model differs from the requested one.
+
+2. Generating
+-------------
+One config per model is in paper_pipeline/config/ (tulu3-8b.yaml, tulu3-8b-dpo.yaml, tulu3-8b-sft.yaml, claude-*.yaml).
+From the repository root, with OPENAI_API_KEY set (gpt-4o reviews every paper):
+
+    PYTHONPATH=paper_pipeline/src python3 -m paper_pipeline.main \
+        --config paper_pipeline/config/claude-opus-5-5.yaml --ids-file data/generated/pilot_ids.tsv
+
+The Tulu configs also need a GPU and the model weights (for example HF_HOME pointing to a download folder). Outputs go to a
+folder named after the model, in the current directory, with generated_papers/, evaluated_papers/ and revised_papers/.
+Claude runs use plan usage, not API money, and a run is resumable by passing only the papers without a revised paper.
+
+3. The papers written in the pilots
+-----------------------------------
+data/generated/pilot.zip holds the 420 papers (7 models x 20 papers x first draft, review, revised paper), laid out like
+the GPT batches (pilot/<model>/{generated,evaluated,revised}_papers/<id>.md). The GPT papers of the same 20 sources are in
+data/generated/gpt_papers/batch2.zip.
+
+    cd data/generated && unzip pilot.zip && unzip gpt_papers/batch2.zip -d gpt_papers && cd ../../counting
+
+4. Rates (the "Other models" table of the paper)
+------------------------------------------------
+    python3 pilot_table.py ../data/generated/pilot ../data/generated/gpt_papers/batch2 \
+        --ids-file ../data/generated/pilot_ids.tsv --acl-dir ../data/acl2019/text_body --arxiv-dir ../data/arxiv2026/text_body \
+        --models allenai_Llama-3.1-Tulu-3-8B-SFT allenai_Llama-3.1-Tulu-3-8B-DPO allenai_Llama-3.1-Tulu-3-8B \
+                 claude-haiku-4-5-20251001 claude-sonnet-4-5 claude-sonnet-5-5 claude-opus-5-5 gpt-4o gpt-5.6-sol gpt-6-sol
+
+The original arXiv papers are not in this repository (README: Data), so the row of the originals needs text_body rebuilt
+as described there. The paired tests against the originals are those of generation_rates.py, run on the same folders.
+
+5. Evaluative stance (the "Stance in the pilot models" table)
+-------------------------------------------------------------
+data/stance_pilot/ holds items_public.jsonl (every "rather than" use in the 20 source papers, in the originals and in the
+models' first drafts and revised papers), xy_alternatives.jsonl (X and Y of each use, from data_collection/extract_xy.py)
+and stance__gpt-6-sol.jsonl (the ratings, from data_collection/stance_llm.py). To rebuild the items, run
+data_collection/extract_antithesis_instances.py on each model's folders and pass the instance files to
+data_collection/build_stance_pilot_items.py (its docstring has the arguments); to rate them with OPENAI_API_KEY set,
+run extract_xy.py and then stance_llm.py on the folder. The table and the estimated API cost:
+
+    python3 counting/stance_pilot_summary.py data/stance_pilot

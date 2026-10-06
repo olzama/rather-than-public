@@ -1,0 +1,21 @@
+# 20 source papers of the open-model and Claude pilots: random.Random(1).sample of batch 2's ACL 2019 ids (10), then of its arXiv 2026 ids (10), in registry order. Reproduces the pilot's GPT rows exactly.
+acl2019	W19-3305
+acl2019	D19-1651
+acl2019	K19-2007
+acl2019	W19-5917
+acl2019	P19-1257
+acl2019	P19-1343
+acl2019	R19-1077
+acl2019	Q19-1025
+acl2019	N19-2001
+acl2019	N19-1165
+arxiv2026	2606.16845
+arxiv2026	2608.23830
+arxiv2026	2601.18302
+arxiv2026	2606.03437
+arxiv2026	2604.15847
+arxiv2026	2608.30987
+arxiv2026	2609.07687
+arxiv2026	2608.30683
+arxiv2026	2606.22565
+arxiv2026	2606.16151
